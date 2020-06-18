@@ -1,0 +1,238 @@
+@import 'base.less';
+
+#projectsListContainer {
+	margin: 50px;
+	transition: 0.8s all;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	// opacity: 0;
+	// pointer-events: none;
+
+	&.visible {
+		opacity: 1;
+		pointer-events: all;
+	}
+
+	form {
+		.inputWithCancel {
+			display: inline-block;
+
+			input {
+				@media (prefers-color-scheme: dark) {
+					background: rgba(255, 255, 255, 0.1);
+					color: rgba(255, 255, 255, 1);
+				}
+				
+				background: rgba(0, 0, 0, 0.04);
+				color: rgba(0, 0, 0, 0.8);
+				font-size: @font-size-medium;
+				border: none;
+				border-radius: 8px;
+				width: 300px;
+				padding: 0 15px;
+				outline: none;
+				transition: 0.2s all;
+				height: 40px;
+		
+				// &:focus, &:hover  {
+				// 	background: rgba(0, 0, 0, 0.08);
+				// }
+		
+				&::placeholder {
+					@media (prefers-color-scheme: dark) {
+						color: rgba(255, 255, 255, 0.3);
+					}
+
+					color: rgba(0, 0, 0, 0.3);
+				}
+			}
+	
+			.cancel {
+				@media (prefers-color-scheme: dark) {
+					filter: invert(1);
+				}
+				
+				background-image: url('../images/cancel.svg');
+				background-repeat: no-repeat;
+				background-size: 15px;
+				background-position: 50%;
+				width: 40px;
+				height: 40px;
+				position: relative;
+				float: right;
+				margin-left: -40px;
+				opacity: 0;
+				pointer-events: none;
+				transition: 0.2s all;
+
+				&.visible {
+					opacity: 0.3;
+					pointer-events: all;
+				}
+
+				&:hover {
+					cursor: pointer;
+					opacity: 0.5;
+				}
+
+				&:active {
+					opacity: 0.7;
+				}
+			}
+		}
+	}
+
+	#projectsListZeroSearchResults {
+		margin-top: 20px;
+		display: none;
+
+		@media (prefers-color-scheme: dark) {
+			color: rgba(255, 255, 255, 0.4);
+		}
+
+		color: rgba(0, 0, 0, 0.4);
+
+		&.visible {
+			display: inline-block;
+		}
+	}
+
+	ul#projectsList {
+		list-style-type: none;
+		padding-inline-start: 0;
+		margin-top: 57px;
+
+		h3 {
+			@media (prefers-color-scheme: dark) {
+				color: rgba(255, 255, 255, 0.3);
+			}
+
+			color: rgba(0, 0, 0, 0.3);
+			font-size: @font-size-medium;
+			margin-top: 50px;
+			font-weight: normal;
+		}
+
+		li {
+			font-size: @font-size-medium;
+			line-height: @font-size-medium * 1.5;
+			margin-bottom: 5px;
+			text-decoration: none;
+
+			a {
+				text-decoration: none;
+
+				.name {
+					@media (prefers-color-scheme: dark) {
+						color: rgba(255, 255, 255, 0.9);
+					}
+
+					color: rgba(0, 0, 0, 0.8);
+					transition: 0.2s all;
+				}
+
+				&:hover {
+					.name {
+						@media (prefers-color-scheme: dark) {
+							color: rgba(255, 255, 255, 1);
+						}
+	
+						color: rgba(0, 0, 0, 1);
+						text-decoration: underline;
+					}
+				}
+
+				.shortDescription {
+					@media (prefers-color-scheme: dark) {
+						color: rgba(255, 255, 255, 0.4);
+					}
+
+					padding-left: 5px;
+					color: rgba(0, 0, 0, 0.4);
+				}
+			}
+		}
+	}
+}
+
+@media @mobile {
+	#projectsListContainer {
+		width: calc(~"100% - 100px");
+
+		form {
+			height: 45px;
+
+			.inputWithCancel {
+				width: calc(~"100% - 30px");
+
+				input#searchKeyword {
+					width: 100%;
+					font-size: @font-size-medium;
+					height: 45px;
+				}
+
+				.cancel {
+					margin-right: -25px;
+					margin-top: -45px;
+					height: 45px;
+					background-size: 18px;
+				}
+			}
+		}
+
+		ul#projectsList {
+			margin-bottom: 50px;
+			
+			h3 {
+				font-size: 20px;
+				margin-bottom: 30px;
+			}
+
+			li {
+				font-size: @font-size-medium * 1.2;
+				line-height: 26px;
+				padding: 15px 20px;
+				margin: -15px -15px 15px -20px;
+				border-radius: 8px;
+
+				&:hover {
+					@media (prefers-color-scheme: dark) {
+						background: rgba(255, 255, 255, 0);
+					}
+					
+					background: rgba(0, 0, 0, 0);
+
+					a {
+						.name {
+							text-decoration: none;
+						}
+					}
+				}
+                
+                &:active  {
+                    @media (prefers-color-scheme: dark) {
+						background: rgba(255, 255, 255, 0.1);
+                    }
+    
+					background: rgba(0, 0, 0, 0.06);
+                }
+
+				a {
+					.shortDescription {
+						font-size: @font-size-medium;
+						line-height: @font-size-medium * 1.5;
+						display: block;
+						margin-top: 5px;
+						padding-left: 0!important;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media @desktop {
+
+}

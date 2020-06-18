@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^(.*)$ site/controllers/routeProjectUrl.php?url=$1 [L]
+RewriteRule ^$ site/views/ [L]
+
+Options -Indexes

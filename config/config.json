@@ -1,0 +1,24 @@
+{
+    "links": {
+        "defaultIconsForType": {
+            "github": "code",
+            "portfolio": "color_lens",
+            "mobile": "smartphone",
+            "mobile_ios": "phone_iphone",
+            "mobile_android": "phone_android",
+            "desktop": "laptop",
+            "live_site": "offline_bolt",
+            "link": "link"
+        },
+        "defaultLabelsForType": {
+            "github": "View on Github",
+            "portfolio": "View in Portfolio",
+            "mobile": "View on Mobile",
+            "mobile_ios": "View on Mobile",
+            "mobile_android": "View on Mobile",
+            "desktop": "View on Desktop",
+            "live_site": "Visit Live Site",
+            "link": "Open Link"
+        }
+    }
+}
