@@ -8,3 +8,5 @@
 * Contains project metadata, text content, and media
 * Separate git repo that is ignored by the parent site/ git repo
 * Should only be pushed to leomancini.net
+
+### To push changes to GitHub & leomancini.net, run ./push from top level directory
