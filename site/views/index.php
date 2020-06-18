@@ -12,7 +12,7 @@
 		<div id='projectsListContainer'>
 			<form>
 				<div class='inputWithCancel' id='search'>
-					<input type='text' id='searchKeyword' placeholder='TEST Search by name, year, or tags...' autocomplete='off'>
+					<input type='text' id='searchKeyword' placeholder='Search by name, year, or tags...' autocomplete='off'>
 					<div class='cancel'></div>
 				</div>
 			</form>
