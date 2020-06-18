@@ -1,9 +1,9 @@
-#### site/ is the viewer code
-* This git repo ignores the /projects folder
+#### site/
+* Site viewer code (searchable list, projects page, etc)
+* Git repo ignores the /projects folder
+* Should be pushed to leomancini.net and GitHub 
 
-#### projects/ contains the content of project data and media
-* This is a separate git repo that is ignored by the parent site/ git repo
-
-_Both git repos must be pushed to leomancini.net to update viewer code and content_
-
-_Only site/ is pushed to GitHub_
+#### projects/
+* Contains project metadata, text content, and media
+* Separate git repo that is ignored by the parent site/ git repo
+* Should only be pushed to leomancini.net
