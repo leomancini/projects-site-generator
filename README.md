@@ -1,5 +1,6 @@
 #### site/
 * Site viewer code (searchable list, projects page, etc)
+* Serves from /projects
 * Git repo ignores the /projects folder
 * Should be pushed to leomancini.net and GitHub 
 
