@@ -1,5 +1,12 @@
+echo Commit message?
+read COMMIT_MESSAGE
+
+git add .
+git commit -m "$COMMIT_MESSAGE"
 git push github
 git push leomancini.net
 cd projects
+git add .
+git commit -m "$COMMIT_MESSAGE"
 git push leomancini.net
 cd ../
