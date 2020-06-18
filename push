@@ -3,10 +3,10 @@ read COMMIT_MESSAGE
 
 git add .
 git commit -m "$COMMIT_MESSAGE"
-git push github
-git push leomancini.net
+git push github # Push site/ viewer code to GitHub
+git push leomancini.net # Push site/ viewer code to leomancini.net
 cd projects
 git add .
 git commit -m "$COMMIT_MESSAGE"
-git push leomancini.net
+git push leomancini.net # Push projects/ content to leomancini.net
 cd ../
