@@ -89,6 +89,19 @@
                     margin-right: 2px;
                     color: @black;
                 }
+
+                &.code {
+                    @media (prefers-color-scheme: dark) {
+                        background: rgba(255, 255, 255, 0.25);
+                    }
+                    
+                    background: rgba(0, 0, 0, 0.08);
+                    padding: 3px 6px;
+                    border-radius: 4px;
+                    font-family: Monaco;
+                    font-size: 13px;
+                    margin: 0 2px;
+                }
             }
 
             a {
