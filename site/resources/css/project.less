@@ -62,6 +62,12 @@
                 color: rgba(255, 255, 255, 0.75);
             }
 
+            @media @mobile {          
+                @media (prefers-color-scheme: dark) {
+                    color: rgba(255, 255, 255, 0.6);
+                }
+            }
+
             color: rgba(0, 0, 0, 0.6);
             font-size: @font-size-medium;
             line-height: @font-size-medium * 1.5;
@@ -107,6 +113,12 @@
             a {
                 @media (prefers-color-scheme: dark) {
                     color: rgba(255, 255, 255, 0.75);
+                }
+                
+                @media @mobile {          
+                    @media (prefers-color-scheme: dark) {
+                        color: rgba(255, 255, 255, 0.6);
+                    }
                 }
 
                 transition: all 0.2s;
