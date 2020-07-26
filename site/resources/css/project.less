@@ -100,6 +100,12 @@
                     @media (prefers-color-scheme: dark) {
                         background: rgba(255, 255, 255, 0.25);
                     }
+
+                    @media @mobile {
+                        @media (prefers-color-scheme: dark) {
+                            background: rgba(255, 255, 255, 0.15);
+                        }
+                    }
                     
                     background: rgba(0, 0, 0, 0.08);
                     padding: 3px 6px;
@@ -301,6 +307,10 @@
 
             &:hover {
                 text-decoration: none;
+            }
+
+            &:active {
+                text-decoration: underline;
             }
         }
 
