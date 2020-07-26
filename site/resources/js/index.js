@@ -22,6 +22,12 @@ function refreshProjectsList(params) {
 
         yearsIndex = [];
 
+        $('ul#projectsList li').on('touchstart', function() {
+            $(this).addClass('touchdown');
+        }).on('touchend', function(){
+            $(this).removeClass('touchdown');
+        });
+        
         setTimeout(function() {
             $('#projectsListContainer').addClass('visible');
         }, 200);

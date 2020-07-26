@@ -7,7 +7,7 @@
 	top: 0;
 	left: 0;
 	z-index: 1;
-	
+
 	&.visible {
 		opacity: 1;
 		pointer-events: all;
@@ -200,7 +200,7 @@
 				font-size: @font-size-medium * 1.2;
 				line-height: 26px;
 				padding: 15px 20px;
-				margin: -15px -15px 15px -20px;
+				margin: -15px -20px 15px -20px;
 				border-radius: 8px;
 
 				&:hover {
@@ -217,7 +217,7 @@
 					}
 				}
                 
-                &:active  {
+                &.touchdown  {
                     @media (prefers-color-scheme: dark) {
 						background: rgba(255, 255, 255, 0.1);
                     }
