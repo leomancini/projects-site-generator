@@ -32,6 +32,12 @@ html {
 		background: @darker-gray;
 	}
 
+	@media @mobile {
+		@media (prefers-color-scheme: dark) {
+			background: @black;
+		}
+	}
+
 	margin: 0;
 	background: @white;
 }

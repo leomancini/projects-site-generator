@@ -10,6 +10,10 @@
 	// opacity: 0;
 	// pointer-events: none;
 
+	@media @mobile {
+		margin: 30px;
+	}
+
 	&.visible {
 		opacity: 1;
 		pointer-events: all;
@@ -159,7 +163,7 @@
 
 @media @mobile {
 	#projectsListContainer {
-		width: calc(~"100% - 100px");
+		width: calc(~"100% - 60px");
 
 		form {
 			height: 45px;
