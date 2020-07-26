@@ -40,7 +40,6 @@
 <html>
 	<head>
 		<title>Leo Mancini &ndash; <?php echo $projectManifest['name']; ?></title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 		<link rel='stylesheet/less' href='site/resources/css/project.less?hash=<?php echo rand(0, 9999); ?>'>
 		<script src='site/resources/js/lib/less.js'></script>
 		<script src='site/resources/js/lib/jquery.js'></script>
