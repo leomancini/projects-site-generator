@@ -11,7 +11,7 @@
             "link": "link"
         },
         "defaultLabelsForType": {
-            "github": "View on Github",
+            "github": "View Source",
             "portfolio": "View in Portfolio",
             "mobile": "View on Mobile",
             "mobile_ios": "View on Mobile",
