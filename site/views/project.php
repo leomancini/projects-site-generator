@@ -49,7 +49,11 @@
 	</head>
 	<body ontouchstart=''>
 		<div id='projectInfoContainer'>
-            <?php if ($_SERVER['SERVER_NAME'] === 'leomancini.net' && strpos($_SERVER['HTTP_REFERER'], 'https://leomancini.net') !== false) { ?>
+            <?php
+                // If the previous page is the project index after a search has been run,
+                // use Javascript to go back in order to maintain search results
+                if ($_SERVER['SERVER_NAME'] === 'leomancini.net' && strpos($_SERVER['HTTP_REFERER'], 'https://leomancini.net/#') !== false) {
+            ?>
                 <a id='back' onclick='window.history.back();'>← &nbsp;back to projects list</a>
             <?php } else { ?>
                 <a id='back' href='./'>← &nbsp;back to projects list</a>
