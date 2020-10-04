@@ -49,7 +49,11 @@
 	</head>
 	<body ontouchstart=''>
 		<div id='projectInfoContainer'>
-            <a id='back' href='./'>← &nbsp;back to projects list</a>
+            <?php if ($_SERVER['SERVER_NAME'] === 'leomancini.net' && strpos($_SERVER['HTTP_REFERER'], 'https://leomancini.net') !== false) { ?>
+                <a id='back' onclick='window.history.back();'>← &nbsp;back to projects list</a>
+            <?php } else { ?>
+                <a id='back' href='./'>← &nbsp;back to projects list</a>
+            <?php } ?>
             <h1><?php echo $projectManifest['name']; ?></h1>
 
             <div id='descriptions'>
