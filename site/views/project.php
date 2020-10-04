@@ -3,8 +3,16 @@
     include('../controllers/getProject.php');
 
     $config = loadConfig();
-    
-    $projectDirectoryId = $_GET['directoryId'];
+
+    // If the previous page is the project index after a search has been run
+    if (strpos($_GET['directoryId'], '(') !== false) {
+        $urlComponents = explode('(', $_GET['directoryId']);
+        $projectDirectoryId = $urlComponents[0];
+        $searchTerm = explode(')', $urlComponents[1])[0];
+    } else {
+        $projectDirectoryId = $_GET['directoryId'];
+    }
+            
     $projectManifest = getProjectManifest($projectDirectoryId);
     $projectFiles = getProjectFiles($projectDirectoryId);
 
@@ -49,15 +57,7 @@
 	</head>
 	<body ontouchstart=''>
 		<div id='projectInfoContainer'>
-            <?php
-                // If the previous page is the project index after a search has been run,
-                // use Javascript to go back in order to maintain search results
-                if ($_SERVER['SERVER_NAME'] === 'leomancini.net' && strpos($_SERVER['HTTP_REFERER'], 'https://leomancini.net/#') !== false) {
-            ?>
-                <a id='back' onclick='window.history.back();'>← &nbsp;back to projects list</a>
-            <?php } else { ?>
-                <a id='back' href='./'>← &nbsp;back to projects list</a>
-            <?php } ?>
+            <a id='back' href='./<?php if(isset($searchTerm)) { echo '#'.$searchTerm; } ?>'>← &nbsp;back to projects list</a>
             <h1><?php echo $projectManifest['name']; ?></h1>
 
             <div id='descriptions'>

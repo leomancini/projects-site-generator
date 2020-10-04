@@ -5,7 +5,7 @@ function refreshProjectsList(params) {
         listItemsCount = 0;
 
         $.each(projectsList.projects, function(key, projectInfo) {
-            projectListItem = renderProjectListItem(projectInfo);
+            projectListItem = renderProjectListItem(projectInfo, params);
             $('#projectsList').append(projectListItem);
             listItemsCount++;
         });
@@ -28,7 +28,7 @@ function refreshProjectsList(params) {
     });
 }
 
-function renderProjectListItem(projectInfo) {
+function renderProjectListItem(projectInfo, params) {
     projectListItem = '';
 
     if(!yearsIndex.includes(projectInfo.manifest.startDate.timestamp.components.yearNumber)) {
@@ -45,7 +45,7 @@ function renderProjectListItem(projectInfo) {
     }
 
     projectListItem += `<li>
-        <a href='${projectInfo.directory.id}'>
+        <a href='${projectInfo.directory.id}${params.search ? '('+params.search+')' : ''}'>
             <span class='name'>${projectInfo.manifest.name}</span>
             ${projectListItemShortDescriptionHtml}
             </a>
