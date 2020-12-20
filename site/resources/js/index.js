@@ -82,20 +82,29 @@ $(document).ready(function() {
         $('#searchKeyword').parent('.inputWithCancel').children('.cancel').addClass('visible');
     }
 
-    $('#searchKeyword').on('keyup', function() {
-        keyword = $(this).val();
+    $('#searchKeyword').on('keyup', function(e) {
+        keyword = $(this).val().replaceAll('#', '');
 
-        if (keyword === '') {
-			clearLocationHash();
-            
-            $(this).parent('.inputWithCancel').children('.cancel').removeClass('visible');
-        } else {
-            location.hash = keyword;
+        const keysToIgnore = [
+            'Shift',
+            'Meta',
+            'Control',
+            'Alt'
+        ];
 
-            $(this).parent('.inputWithCancel').children('.cancel').addClass('visible');
-        } 
+        if (!keysToIgnore.includes(e.key)) {
+            if (keyword === '') {
+                clearLocationHash();
+                
+                $(this).parent('.inputWithCancel').children('.cancel').removeClass('visible');
+            } else {
+                location.hash = keyword;
+    
+                $(this).parent('.inputWithCancel').children('.cancel').addClass('visible');
+            } 
         
-        refreshProjectsList({ 'search': keyword });
+            refreshProjectsList({ 'search': keyword });
+        }
     });
 
     $('.inputWithCancel .cancel').click(function() {
