@@ -20,5 +20,6 @@
             "live_site": "Visit Live Site",
             "link": "Open Link"
         }
-    }
+    },
+    "debug": false
 }
