@@ -7,7 +7,7 @@
             "mobile_ios": "phone_iphone",
             "mobile_android": "phone_android",
             "desktop": "laptop",
-            "live_site": "offline_bolt",
+            "live_site": "bolt",
             "link": "link"
         },
         "defaultLabelsForType": {
