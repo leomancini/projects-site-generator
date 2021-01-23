@@ -120,6 +120,8 @@
                                     echo "<img src='projects/$projectDirectoryId/screenshots/$screenshotFileName' class='$imageClassesString'>";
                                 } else if(strpos(strtolower($screenshotFileName), '.mov') || strpos(strtolower($screenshotFileName), '.mp4')) {
                                     echo "<video class='$imageClassesString' loop autoplay muted playsinline><source src='projects/$projectDirectoryId/screenshots/$screenshotFileName'></video>";
+                                } else if(strpos(strtolower($screenshotFileName), '.mp3')) {
+                                    echo "<audio class='$imageClassesString' controls><source src='projects/$projectDirectoryId/screenshots/$screenshotFileName' type='audio/mpeg'></audio>";
                                 } else {
                                     echo 'UNSUPPORTED_FILE_TYPE';
                                 }

@@ -274,10 +274,11 @@
     #screenshots {
         margin-top: 50px;
 
-        img, video {
+        img, video, audio {
             vertical-align: top;
             margin-right: 50px;
             margin-bottom: 50px;
+            outline: none;
 
             &::selection {
                 background: transparent;
@@ -291,6 +292,11 @@
                 margin-left: -108px;
                 margin-top: -70px;
             }
+        }
+
+        audio {
+            min-width: 300px;
+            width: 50%;
         }
     }
 }
@@ -376,7 +382,7 @@
         }
         
         #screenshots {
-            img, video {
+            img, video, audio {
                 width: 100%;
             }
         }
