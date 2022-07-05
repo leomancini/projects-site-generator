@@ -45,7 +45,7 @@ function renderProjectListItem(projectInfo, params) {
     }
 
     projectListItem += `<li>
-        <a href='${projectInfo.directory.id}${params.search ? '('+params.search+')' : ''}'>
+        <a href='${projectInfo.directory.id}'>
             <span class='name'>${projectInfo.manifest.name}</span>
             ${projectListItemShortDescriptionHtml}
             </a>

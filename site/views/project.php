@@ -4,15 +4,7 @@
 
     $config = loadConfig();
 
-    // If the previous page is the project index after a search has been run
-    if (strpos($_GET['directoryId'], '(') !== false) {
-        $urlComponents = explode('(', $_GET['directoryId']);
-        $projectDirectoryId = $urlComponents[0];
-        $searchTerm = explode(')', $urlComponents[1])[0];
-    } else {
-        $projectDirectoryId = $_GET['directoryId'];
-    }
-            
+    $projectDirectoryId = $_GET['directoryId'];            
     $projectManifest = getProjectManifest($projectDirectoryId);
     $projectFiles = getProjectFiles($projectDirectoryId);
 
@@ -64,7 +56,11 @@
     </head>
 	<body ontouchstart=''>
 		<div id='projectInfoContainer'>
-            <a id='back' href='./<?php if(isset($searchTerm)) { echo '#'.$searchTerm; } ?>'>← &nbsp;back to projects list</a>
+            <?php if ($_SERVER['HTTP_REFERER'] === 'http://localhost/projects-site-generator/' || $_SERVER['HTTP_REFERER'] === 'https://leomancini.net/') { ?>
+            <a id='back' href='' onclick='window.history.go(-1);return false;'>← &nbsp;back</a>
+            <?php } else { ?>
+            <a id='back' href='./'>← &nbsp;back to projects list</a>
+            <?php } ?>
             <h1><?php echo $projectManifest['name']; ?></h1>
             <div id='descriptions'>
                 <?php if($projectManifest['shortDescription']) { ?>
