@@ -8,7 +8,10 @@
             "mobile_android": "phone_android",
             "desktop": "laptop",
             "live_site": "bolt",
-            "link": "link"
+            "link": "link",
+            "video": "play_arrow",
+            "article": "description",
+            "patent": "account_balance"
         },
         "defaultLabelsForType": {
             "github": "View Source",
@@ -18,7 +21,8 @@
             "mobile_android": "View on Mobile",
             "desktop": "View on Desktop",
             "live_site": "Visit Live Site",
-            "link": "Open Link"
+            "link": "Open Link",
+            "patent": "View Patent"
         }
     },
     "debug": false

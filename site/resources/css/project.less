@@ -115,6 +115,25 @@
                     margin: 0 2px;
                     white-space: nowrap;
                 }
+
+                &.smallcaps {
+                    @media (prefers-color-scheme: dark) {
+                        color: rgba(255, 255, 255, 0.4);
+                    }
+
+                    @media @mobile {
+                        @media (prefers-color-scheme: dark) {
+                            color: rgba(255, 255, 255, 0.3);
+                        }
+                    }
+
+                    color: rgba(0, 0, 0, 0.3);
+                    font-size: 13px;
+                    letter-spacing: 1px;
+                    font-weight: 600;
+                    margin-bottom: 8px;
+                    display: inline-block;
+                }
             }
 
             a {
