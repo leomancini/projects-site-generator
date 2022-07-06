@@ -56,7 +56,7 @@
     </head>
 	<body ontouchstart=''>
 		<div id='projectInfoContainer'>
-            <?php echo $_SERVER['HTTP_REFERER']; if ($_SERVER['HTTP_REFERER'] === 'http://localhost/projects-site-generator/' || $_SERVER['HTTP_REFERER'] === 'https://leomancini.net/') { ?>
+            <?php if ($_SERVER['HTTP_REFERER'] === 'http://localhost/projects-site-generator/' || $_SERVER['HTTP_REFERER'] === 'https://leomancini.net/' || $_SERVER['HTTP_REFERER'] === 'https://www.leomancini.net/') { ?>
             <a id='back' href='' onclick='window.history.go(-1);return false;'>← &nbsp;back</a>
             <?php } else { ?>
             <a id='back' href='./'>← &nbsp;back to projects list</a>
