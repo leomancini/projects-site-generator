@@ -105,6 +105,16 @@ $(document).ready(function() {
             'Enter',
             '#'
         ];
+        
+        if (!keysToIgnore.includes(e.key)) {
+            if (keyword === '' || keyword === '#') {
+                $(this).parent('.inputWithCancel').children('.cancel').removeClass('visible');
+
+            } else {
+                $(this).parent('.inputWithCancel').children('.cancel').addClass('visible');
+            }
+        }
+
         clearTimeout(debounce);
 
         debounce = setTimeout(function(){
