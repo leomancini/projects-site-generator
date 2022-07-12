@@ -46,4 +46,23 @@
             return false;
         }
     }
+
+    function getProjectTags($projectManifest) {
+        $tags = $projectManifest['tags'];
+        $links = $projectManifest['links'];
+
+        if(count($links) > 0) {
+            foreach($links as $link) {
+                if (strpos($link['url'], 'github.com')) {
+                    array_push($tags, 'github');
+                }
+
+                if (strpos(strtolower(getLabelForLink($link)), 'live site')) {
+                    array_push($tags, 'live-site');
+                }
+            }
+        }
+
+        return $tags;
+    }
 ?>

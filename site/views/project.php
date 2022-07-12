@@ -7,6 +7,7 @@
     $projectDirectoryId = $_GET['directoryId'];            
     $projectManifest = getProjectManifest($projectDirectoryId);
     $projectFiles = getProjectFiles($projectDirectoryId);
+    $tags = getProjectTags($projectManifest);
 
     function getIconForLink($link) {
         global $config;
@@ -86,9 +87,9 @@
                 <?php } ?>
             </div>
             <div id='tags'>
-                <?php if(count($projectManifest['tags']) > 0) { ?>
-                    <?php foreach($projectManifest['tags'] as $tag) { ?>
-                        <a href='./#<?php echo $tag; ?>' class='tag'>#<?php echo $tag; ?></a>
+                <?php if(count($tags) > 0) { ?>
+                    <?php foreach($tags as $tag) { ?>
+                        <a href='./##<?php echo $tag; ?>' class='tag'>#<?php echo $tag; ?></a>
                     <?php } ?>
                 <?php } ?>
             </div>
