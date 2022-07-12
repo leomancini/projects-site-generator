@@ -8,34 +8,6 @@
     $projectManifest = getProjectManifest($projectDirectoryId);
     $projectFiles = getProjectFiles($projectDirectoryId);
     $tags = getProjectTags($projectManifest);
-
-    function getIconForLink($link) {
-        global $config;
-
-        $iconCode = '';
-
-        if ($link['icon'] == 'DEFAULT_FOR_TYPE') {
-            $iconCode = $config['links']['defaultIconsForType'][$link['type']];
-        } else {
-            $iconCode = $link['icon'];
-        }
-
-        return $iconCode;
-    }
-
-    function getLabelForLink($link) {
-        global $config;
-
-        $labelCode = '';
-
-        if ($link['label'] == 'DEFAULT_FOR_TYPE') {
-            $labelCode = $config['links']['defaultLabelsForType'][$link['type']];
-        } else {
-            $labelCode = $link['label'];
-        }
-
-        return $labelCode;
-    }
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -75,13 +47,15 @@
                 <?php } ?>
             </div>
             <div id='credits'>
-                <?php if(count($projectManifest['credits']) > 0) { ?>
-                    <label>Credits:</label>
-                    <?php foreach($projectManifest['credits'] as $credit) { ?>
-                        <?php if($credit['link']) { ?>
-                            <a href='<?php echo $credit['link']; ?>' target='_blank' rel='noopener' class='credit'><?php echo $credit['name']; if($credit['type']) { echo " (".$credit['type'].")"; } ?></a>
-                        <?php } else { ?>
-                            <span class='credit'><?php echo $credit['name']; if($credit['type']) { echo " (".$credit['type'].")"; } ?></span>
+                <?php if(array_key_exists('credits', $projectManifest)) { ?>
+                    <?php if(count($projectManifest['credits']) > 0) { ?>
+                        <label>Credits:</label>
+                        <?php foreach($projectManifest['credits'] as $credit) { ?>
+                            <?php if($credit['link']) { ?>
+                                <a href='<?php echo $credit['link']; ?>' target='_blank' rel='noopener' class='credit'><?php echo $credit['name']; if($credit['type']) { echo " (".$credit['type'].")"; } ?></a>
+                            <?php } else { ?>
+                                <span class='credit'><?php echo $credit['name']; if($credit['type']) { echo " (".$credit['type'].")"; } ?></span>
+                            <?php } ?>
                         <?php } ?>
                     <?php } ?>
                 <?php } ?>
@@ -94,11 +68,13 @@
                 <?php } ?>
             </div>
             <div id='links'>
-                <?php if(count($projectManifest['links']) > 0) { ?>
-                    <?php foreach($projectManifest['links'] as $link) { ?><a href='<?php echo $link['url']; ?>' target='_blank' rel='noopener' class='link'>
-                            <span class='icon'><i class="material-icons"><?php echo getIconForLink($link); ?></i></span>
-                            <span class='label'><?php echo getLabelForLink($link); ?></span>
-                        </a><?php } ?>
+                <?php if(array_key_exists('links', $projectManifest)) { ?>
+                    <?php if(count($projectManifest['links']) > 0) { ?>
+                        <?php foreach($projectManifest['links'] as $link) { ?><a href='<?php echo $link['url']; ?>' target='_blank' rel='noopener' class='link'>
+                                <span class='icon'><i class="material-icons"><?php echo getIconForLink($link); ?></i></span>
+                                <span class='label'><?php echo getLabelForLink($link); ?></span>
+                            </a><?php } ?>
+                    <?php } ?>
                 <?php } ?>
             </div>
             <div id='screenshots'>

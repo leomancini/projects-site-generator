@@ -27,6 +27,38 @@
         return $projectFiles;
     }
 
+    function getIconForLink($link) {
+        global $config;
+
+        $iconCode = '';
+
+        if ($config) {
+            if ($link['icon'] == 'DEFAULT_FOR_TYPE') {
+                $iconCode = $config['links']['defaultIconsForType'][$link['type']];
+            } else {
+                $iconCode = $link['icon'];
+            }
+        }
+
+        return $iconCode;
+    }
+
+    function getLabelForLink($link) {
+        global $config;
+
+        $labelCode = '';
+
+        if ($config) {
+            if ($link['label'] === 'DEFAULT_FOR_TYPE') {
+                $labelCode = $config['links']['defaultLabelsForType'][$link['type']];
+            } else {
+                $labelCode = $link['label'];
+            }
+        }
+
+        return $labelCode;
+    }
+
     function formatForDisplay($inputText) {
         $outputText = nl2br($inputText);
         $outputText = preg_replace('~\[(.*?)="(.*?)"\]~', '<span class="customFormatting $1">$2</span>', $outputText);
@@ -48,18 +80,38 @@
     }
 
     function getProjectTags($projectManifest) {
-        $tags = $projectManifest['tags'];
-        $links = $projectManifest['links'];
+        $tags = [];
+        if (array_key_exists('tags', $projectManifest)) {
+            $tags = $projectManifest['tags'];
+
+            // Hide any manually-added 'github' tags
+            $tags = array_filter($tags, function ($tag) {
+                return $tag !== 'github';
+            });
+        }
+
+        $links = [];
+        if (array_key_exists('links', $projectManifest)) {
+            $links = $projectManifest['links'];
+        }
 
         if(count($links) > 0) {
             foreach($links as $link) {
+                // If github link exists, automatically add 'github' tag
                 if (strpos($link['url'], 'github.com')) {
                     array_push($tags, 'github');
                 }
 
-                if (strpos(strtolower(getLabelForLink($link)), 'live site')) {
+                // If live site link exists, automatically add 'live-site' tag
+                if (strpos(strtolower(getLabelForLink($link)), 'live')) {
                     array_push($tags, 'live-site');
                 }
+            }
+        }
+
+        if(count($tags) > 0) {
+            foreach($tags as $tagKey => $tagValue) {
+                $tags[$tagKey] = str_replace(' ', '-', strtolower($tagValue));
             }
         }
 
