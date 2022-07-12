@@ -73,7 +73,7 @@ $(document).ready(function() {
     if (location.hash === '') {
         refreshProjectsList(params);
     } else {
-        urlKeyword = decodeURIComponent(location.hash.replace('#', ''));
+        urlKeyword = location.hash;
 
         $('#searchKeyword').val(urlKeyword);
 
@@ -82,23 +82,34 @@ $(document).ready(function() {
         $('#searchKeyword').parent('.inputWithCancel').children('.cancel').addClass('visible');
     }
 
+    $("form").submit(function(e){
+        e.preventDefault();
+    });
+
     $('#searchKeyword').on('keyup', function(e) {
-        keyword = $(this).val().replaceAll('#', '');
+        keyword = $(this).val();
+
+        e.preventDefault();
 
         const keysToIgnore = [
             'Shift',
             'Meta',
             'Control',
-            'Alt'
+            'Alt',
+            'Enter'
         ];
 
         if (!keysToIgnore.includes(e.key)) {
-            if (keyword === '') {
+            if (keyword === '' || keyword === '#') {
                 clearLocationHash();
                 
                 $(this).parent('.inputWithCancel').children('.cancel').removeClass('visible');
             } else {
-                location.hash = keyword;
+                if (keyword.charAt(0) === '#') {
+                    location.hash = `#${keyword.replaceAll('#', '')}`;
+                } else {
+                    location.hash = keyword;
+                }
     
                 $(this).parent('.inputWithCancel').children('.cancel').addClass('visible');
             } 

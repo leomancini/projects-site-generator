@@ -83,13 +83,14 @@
     function searchProjectsList($projectsList) {
         if(isset($_GET['search']) && $_GET['search'] !== '') {
             $projectsList['projects'] = array_filter($projectsList['projects'], function ($projectInfo) {
-
                 $searchQuery = strtolower($_GET['search']);
-                // $searchQueryComponents = explode(' ', $searchQuery);
-
                 $searchMatch = false;
-                
-                // foreach($searchQueryComponents as $searchQueryComponent) {
+
+                if (strpos($searchQuery, '#') !== false) {
+                    if (strpos(strtolower(join(' ', $projectInfo['manifest']['tags'])), str_replace('#', '', $searchQuery)) !== false) {
+                        $searchMatch = true;
+                    }
+                } else {
                     if(
                         strpos(strtolower($projectInfo['directory']['id']), $searchQuery) !== false ||
                         strpos(strtolower($projectInfo['manifest']['name']), $searchQuery) !== false ||
@@ -104,7 +105,7 @@
                     ) {
                         $searchMatch = true;
                     }
-                // }
+                }
                 
                 return $searchMatch;
             });
@@ -116,7 +117,7 @@
 
             $projectsList['metadata']['search'] = $searchMetadata;
         }
-        
+
         return $projectsList;
     }
 
