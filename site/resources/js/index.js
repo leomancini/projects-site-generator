@@ -73,7 +73,11 @@ $(document).ready(function() {
     if (location.hash === '') {
         refreshProjectsList(params);
     } else {
-        urlKeyword = location.hash;
+        if (location.hash.charAt(0) === '#' && location.hash.charAt(1) === '#') {
+            urlKeyword = location.hash.replaceAll('##', '#');
+        } else {
+            urlKeyword = location.hash.replaceAll('#', '');
+        }
 
         $('#searchKeyword').val(urlKeyword);
 
@@ -106,7 +110,7 @@ $(document).ready(function() {
                 $(this).parent('.inputWithCancel').children('.cancel').removeClass('visible');
             } else {
                 if (keyword.charAt(0) === '#') {
-                    location.hash = `#${keyword.replaceAll('#', '')}`;
+                    location.hash = `##${keyword.replaceAll('#', '')}`;
                 } else {
                     location.hash = keyword;
                 }
