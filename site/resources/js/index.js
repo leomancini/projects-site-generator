@@ -79,6 +79,8 @@ $(document).ready(function() {
             urlKeyword = location.hash.replaceAll('#', '');
         }
 
+        urlKeyword = decodeURI(urlKeyword);
+
         $('#searchKeyword').val(urlKeyword);
 
         refreshProjectsList({ 'search': urlKeyword });
