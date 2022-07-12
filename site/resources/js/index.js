@@ -90,6 +90,8 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
+    var debounce = null;
+
     $('#searchKeyword').on('keyup', function(e) {
         keyword = $(this).val();
 
@@ -100,26 +102,32 @@ $(document).ready(function() {
             'Meta',
             'Control',
             'Alt',
-            'Enter'
+            'Enter',
+            '#'
         ];
+        clearTimeout(debounce);
 
-        if (!keysToIgnore.includes(e.key)) {
-            if (keyword === '' || keyword === '#') {
-                clearLocationHash();
-                
-                $(this).parent('.inputWithCancel').children('.cancel').removeClass('visible');
-            } else {
-                if (keyword.charAt(0) === '#') {
-                    location.hash = `##${keyword.replaceAll('#', '')}`;
+        debounce = setTimeout(function(){
+            if (!keysToIgnore.includes(e.key)) {
+                if (keyword === '' || keyword === '#') {
+                    clearLocationHash();
+                    
+                    $(this).parent('.inputWithCancel').children('.cancel').removeClass('visible');
+
+                    refreshProjectsList({ 'search': '' });
                 } else {
-                    location.hash = keyword;
-                }
-    
-                $(this).parent('.inputWithCancel').children('.cancel').addClass('visible');
-            } 
+                    if (keyword.charAt(0) === '#') {
+                        location.hash = `##${keyword.replaceAll('#', '')}`;
+                    } else {
+                        location.hash = keyword;
+                    }
         
-            refreshProjectsList({ 'search': keyword });
-        }
+                    $(this).parent('.inputWithCancel').children('.cancel').addClass('visible');
+
+                    refreshProjectsList({ 'search': keyword });
+                }
+            }
+        }, 200);
     });
 
     $('.inputWithCancel .cancel').click(function() {
