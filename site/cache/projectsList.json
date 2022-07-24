@@ -707,6 +707,29 @@
         },
         {
             "directory": {
+                "id": "brushed-metal-desktop-pictures"
+            },
+            "manifest": {
+                "name": "Brushed Metal Desktop Pictures",
+                "shortDescription": "Stylized versions of built-in Mac OS X desktop pictures",
+                "startDate": {
+                    "string": "October 2004",
+                    "timestamp": {
+                        "raw": 1096588800,
+                        "formatted": "October 2004",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2004",
+                            "yearNumber": 2004
+                        }
+                    }
+                },
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "bus-countdown-clock"
             },
             "manifest": {
@@ -5590,6 +5613,29 @@
                     "drawing",
                     "painting"
                 ]
+            }
+        },
+        {
+            "directory": {
+                "id": "pattern-desktop-pictures"
+            },
+            "manifest": {
+                "name": "Pattern Desktop Pictures",
+                "shortDescription": "Explorations using built-in Photoshop filters and graphics",
+                "startDate": {
+                    "string": "March 2004",
+                    "timestamp": {
+                        "raw": 1078099200,
+                        "formatted": "March 2004",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2004",
+                            "yearNumber": 2004
+                        }
+                    }
+                },
+                "tags": []
             }
         },
         {
