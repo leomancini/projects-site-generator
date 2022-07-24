@@ -5457,37 +5457,6 @@
         },
         {
             "directory": {
-                "id": "optical-data-transfer copy"
-            },
-            "manifest": {
-                "name": "Optical Data Transfer",
-                "shortDescription": "Experiment to send messages between two devices",
-                "startDate": {
-                    "string": "July 2022",
-                    "timestamp": {
-                        "raw": 1656633600,
-                        "formatted": "July 2022",
-                        "components": {
-                            "monthFormatted": "July",
-                            "monthNumber": 7,
-                            "yearFormatted": "2022",
-                            "yearNumber": 2022
-                        }
-                    }
-                },
-                "links": [
-                    {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/optical-data-transfer"
-                    }
-                ],
-                "tags": []
-            }
-        },
-        {
-            "directory": {
                 "id": "origami-studio-material-components"
             },
             "manifest": {
