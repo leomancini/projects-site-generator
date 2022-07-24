@@ -5,7 +5,7 @@ echo '\n# Updating cache...'
 curl http://localhost/projects-site-generator/site/controllers/updateCache.php &> /dev/null
 echo '\n# Cache updated!'
 
-echo '\n# Comitting site code changes...'
+echo '\n# Committing site code changes...'
 git add .
 git commit -m "$COMMIT_MESSAGE"
 
@@ -18,7 +18,7 @@ git push leomancini.net # Push site/ viewer code to leomancini.net
 cd projects
 git add .
 
-echo '\n# Comitting project list changes...'
+echo '\n# Committing project list changes...'
 git commit -m "$COMMIT_MESSAGE"
 
 echo '\n# Pushing project list changes to leomancini.net...'
@@ -26,3 +26,4 @@ git push leomancini.net # Push projects/ content to leomancini.net
 cd ../
 
 echo '\n### Done! ###'
+echo '\n'
