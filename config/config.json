@@ -25,5 +25,6 @@
             "patent": "View Patent"
         }
     },
-    "debug": false
+    "debug": false,
+    "cacheFile": "/cache/projectsList.json"
 }

@@ -135,8 +135,23 @@
         return $projectsList;
     }
 
-    $projectsList = getProjectsList();
-    $projectsListWithManifests = getProjectsListWithManifests($projectsList);
+    if ($_SERVER['SERVER_NAME'] !== 'localhost') {
+        $cacheFile = '..'.$config['cacheFile'];
+        if (file_exists($cacheFile)) {
+            $cacheFileHandler = fopen($cacheFile, 'r') or die('Unable to open file!');
+            $cacheData = json_decode(fread($cacheFileHandler, filesize($cacheFile)), true);
+            fclose($cacheFileHandler);
+
+            $projectsListWithManifests = $cacheData;
+        } else {   
+            $projectsList = getProjectsList();
+            $projectsListWithManifests = getProjectsListWithManifests($projectsList);
+        }
+    } else {
+        $projectsList = getProjectsList();
+        $projectsListWithManifests = getProjectsListWithManifests($projectsList);
+    }
+
     $projectsListSorted = sortProjectsList($projectsListWithManifests);
     $projectsListSearched = searchProjectsList($projectsListSorted);
 

@@ -1,12 +1,28 @@
 echo Commit message?
 read COMMIT_MESSAGE
 
+echo 'Updating cache...\n'
+curl http://localhost/projects-site-generator/site/controllers/updateCache.php &> /dev/null
+echo 'Cache updated!\n'
+
+echo 'Comitting site code changes...\n'
 git add .
 git commit -m "$COMMIT_MESSAGE"
+
+echo 'Pushing site code to GitHub repository...\n'
 git push github # Push site/ viewer code to GitHub
+
+echo 'Pushing site code to leomancini.net...\n'
 git push leomancini.net # Push site/ viewer code to leomancini.net
+
 cd projects
 git add .
+
+echo 'Comitting project list changes...\n'
 git commit -m "$COMMIT_MESSAGE"
+
+echo 'Pushing project list changes to leomancini.net...\n'
 git push leomancini.net # Push projects/ content to leomancini.net
 cd ../
+
+echo '\nDone!'
