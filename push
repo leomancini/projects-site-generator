@@ -22,7 +22,7 @@ echo '\n# Committing project list changes...'
 git commit -m "$COMMIT_MESSAGE"
 
 echo '\n# Pushing project list changes to leomancini.net...'
-git push leo@208.97.141.254:/home/leo/domains/leomancini.net/site.git # Push projects/ content to leomancini.net
+git push leo@208.97.141.254:/home/leo/domains/leomancini.net/projects.git # Push projects/ content to leomancini.net
 cd ../
 
 echo '\n### Done! ###'
