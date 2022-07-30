@@ -29,7 +29,13 @@
     </head>
 	<body ontouchstart=''>
 		<div id='projectInfoContainer'>
-            <?php if ($_SERVER['HTTP_REFERER'] === 'http://localhost/projects-site-generator/' || $_SERVER['HTTP_REFERER'] === 'https://leomancini.net/' || $_SERVER['HTTP_REFERER'] === 'https://www.leomancini.net/') { ?>
+            <?php if (
+                $_SERVER['HTTP_REFERER'] === 'http://localhost/projects-site-generator/' ||
+                $_SERVER['HTTP_REFERER'] === 'https://leomancini.net/' ||
+                $_SERVER['HTTP_REFERER'] === 'https://www.leomancini.net/' ||
+                $_SERVER['HTTP_REFERER'] === 'https://projects.leo.gd/' ||
+                $_SERVER['HTTP_REFERER'] === 'https://www.projects.leo.gd/'
+            ) { ?>
             <a id='back' onclick='goBackToProjectsList();'>← &nbsp;back</a>
             <?php } else { ?>
             <a id='back' href='./'>← &nbsp;back to projects list</a>

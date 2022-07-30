@@ -13,8 +13,7 @@ echo '\n# Pushing site code to GitHub repository...'
 git push git@github.com:leomancini/projects-site-generator.git # Push site/ viewer code to GitHub
 
 echo '\n# Pushing site code to leomancini.net...'
-git push leo@208.97.141.254:/home/leo/domains/leomancini.net/site.git # Push site/ viewer code to 
-leomancini.net
+git push leo@208.97.141.254:/home/leo/domains/leomancini.net/site.git # Push site/ viewer code to leomancini.net
 
 cd projects
 git add .
@@ -23,8 +22,7 @@ echo '\n# Committing project list changes...'
 git commit -m "$COMMIT_MESSAGE"
 
 echo '\n# Pushing project list changes to leomancini.net...'
-git push leo@208.97.141.254:/home/leo/domains/leomancini.net/site.git # Push projects/ content to 
-leomancini.net
+git push leo@208.97.141.254:/home/leo/domains/leomancini.net/site.git # Push projects/ content to leomancini.net
 cd ../
 
 echo '\n### Done! ###'
