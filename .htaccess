@@ -1,6 +1,14 @@
 Options +FollowSymLinks
 RewriteEngine On
 
+RewriteCond %{HTTP_HOST} ^leomancini\.net [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.leomancini.net/$1 [R,L]
+
+RewriteCond %{HTTP_HOST} ^projects\.leo\.gd [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://projects.leo.gd/$1 [R,L]
+
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
