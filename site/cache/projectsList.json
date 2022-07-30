@@ -8478,37 +8478,6 @@
         },
         {
             "directory": {
-                "id": "weather-theme-key-api copy"
-            },
-            "manifest": {
-                "name": "Weather Theme Key API",
-                "shortDescription": "Microservice to provide styling key based on weather and time of day",
-                "startDate": {
-                    "string": "July 20, 2022",
-                    "timestamp": {
-                        "raw": 1658275200,
-                        "formatted": "July 2022",
-                        "components": {
-                            "monthFormatted": "July",
-                            "monthNumber": 7,
-                            "yearFormatted": "2022",
-                            "yearNumber": 2022
-                        }
-                    }
-                },
-                "links": [
-                    {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/weather-theme-key-api"
-                    }
-                ],
-                "tags": []
-            }
-        },
-        {
-            "directory": {
                 "id": "what-the-hood"
             },
             "manifest": {
