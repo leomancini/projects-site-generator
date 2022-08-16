@@ -346,6 +346,39 @@
         },
         {
             "directory": {
+                "id": "area-map-tile-downloader"
+            },
+            "manifest": {
+                "name": "Area Map Tile Downloader",
+                "shortDescription": "Script to calculate and save tiles of an area for a certain zoom level",
+                "startDate": {
+                    "string": "May 2, 2022",
+                    "timestamp": {
+                        "raw": 1651449600,
+                        "formatted": "May 2022",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/download-map-tiles-for-area"
+                    }
+                ],
+                "tags": [
+                    "map"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "art-of-laura-mancini-shop"
             },
             "manifest": {
@@ -5154,6 +5187,46 @@
                     "voice",
                     "php",
                     "github"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "nearby-land"
+            },
+            "manifest": {
+                "name": "Nearby Land",
+                "shortDescription": "Find nearby places in a retro app interface (collab with Zach Temkin)",
+                "startDate": {
+                    "string": "July 2022",
+                    "timestamp": {
+                        "raw": 1656633600,
+                        "formatted": "July 2022",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/coffee.nearby.land\/"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "idea, design, and engineering"
+                    }
+                ],
+                "tags": [
+                    "map"
                 ]
             }
         },
