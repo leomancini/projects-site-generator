@@ -8634,18 +8634,36 @@
                 "id": "weather-theme-key-api"
             },
             "manifest": {
+                "name": "Weather Theme Key API",
+                "shortDescription": "Microservice to provide styling key based on weather and time of day",
                 "startDate": {
+                    "string": "July 20, 2022",
                     "timestamp": {
-                        "raw": false,
-                        "formatted": "January 1970",
+                        "raw": 1658275200,
+                        "formatted": "July 2022",
                         "components": {
-                            "monthFormatted": "January",
-                            "monthNumber": 1,
-                            "yearFormatted": "1970",
-                            "yearNumber": 1970
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
                         }
                     }
-                }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/weather-theme-key-api"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "Visit Live Endpoint",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/labs.noshado.ws\/weather-theme-key\/?location=11101"
+                    }
+                ],
+                "tags": []
             }
         },
         {
