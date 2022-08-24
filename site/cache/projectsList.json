@@ -1482,6 +1482,117 @@
         },
         {
             "directory": {
+                "id": "covid-risk-level-api"
+            },
+            "manifest": {
+                "name": "Covid Community Level for Location API",
+                "shortDescription": "Microservice to provide CDC community level for specified location",
+                "startDate": {
+                    "string": "August 21, 2022",
+                    "timestamp": {
+                        "raw": 1661040000,
+                        "formatted": "August 2022",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/covid-risk-level-api"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "Visit Live Endpoint",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/labs.noshado.ws\/covid-county-risk-api\/?location=40.7468563,-73.9570921"
+                    }
+                ],
+                "tags": [
+                    "covid"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "covid-risk-level-ios-widget"
+            },
+            "manifest": {
+                "name": "Covid Community Level for Current Location iOS Widget",
+                "shortDescription": "On home screen, show CDC's community level for current location",
+                "startDate": {
+                    "string": "August 23, 2022",
+                    "timestamp": {
+                        "raw": 1661212800,
+                        "formatted": "August 2022",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/covid-risk-level-ios-widget"
+                    }
+                ],
+                "tags": [
+                    "covid"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "covid-risk-level-web-app"
+            },
+            "manifest": {
+                "name": "Covid Community Level for Current Location Web App",
+                "shortDescription": "In a browser, show CDC's community level for current location",
+                "startDate": {
+                    "string": "August 22, 2022",
+                    "timestamp": {
+                        "raw": 1661126400,
+                        "formatted": "August 2022",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/covid-risk-level-web-app"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/labs.noshado.ws\/covid-county-risk\/"
+                    }
+                ],
+                "tags": [
+                    "covid"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "crave-the-rave"
             },
             "manifest": {
