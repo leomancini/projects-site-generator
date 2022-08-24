@@ -4732,6 +4732,37 @@
         },
         {
             "directory": {
+                "id": "lambda-url-proxy"
+            },
+            "manifest": {
+                "name": "Lambda URL Proxy",
+                "shortDescription": "Creates a custom URL for an AWS Lambda function",
+                "startDate": {
+                    "string": "July 15, 2022",
+                    "timestamp": {
+                        "raw": 1657843200,
+                        "formatted": "July 2022",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/lambda-url-proxy\/blob\/main\/proxy.php"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "language-learning-game"
             },
             "manifest": {
