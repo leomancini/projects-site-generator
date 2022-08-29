@@ -1187,6 +1187,32 @@
                         }
                     }
                 },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "View Live Example",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/places.leo.gd\/v2\/frontend\/experiments\/category-stats.html#567d7b1d38fa9c91825e5c7a"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/place-lists\/tree\/master\/v2\/frontend\/experiments"
+                    },
+                    {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/leomancini\/status\/1280342884558880768"
+                    },
+                    {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/leomancini\/status\/1281310747486613504"
+                    }
+                ],
                 "tags": [
                     "javascript",
                     "d3",
@@ -6652,6 +6678,12 @@
                         "url": "https:\/\/github.com\/leomancini\/prop-65-detector"
                     },
                     {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/leomancini\/status\/1291570691603456006"
+                    },
+                    {
                         "type": "chrome",
                         "label": "View in Chrome Web Store",
                         "icon": "extension",
@@ -6686,6 +6718,14 @@
                         }
                     }
                 },
+                "links": [
+                    {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/leomancini\/status\/1283800436340711426"
+                    }
+                ],
                 "tags": [
                     "drawing"
                 ]
@@ -8046,14 +8086,6 @@
                         }
                     }
                 },
-                "links": [
-                    {
-                        "type": "portfolio",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/leo.gd\/portfolio2012\/portfolio\/svattendance"
-                    }
-                ],
                 "tags": [
                     "portfolio2012",
                     "sva",
@@ -8778,6 +8810,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/what-the-hood"
+                    },
+                    {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/leomancini\/status\/1279825218333106177"
                     }
                 ],
                 "tags": [
