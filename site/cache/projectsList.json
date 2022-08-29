@@ -5726,7 +5726,7 @@
                 "name": "Open Dream Branding",
                 "shortDescription": "Visual identity for company exploring tech for economic empowerment",
                 "startDate": {
-                    "string": "September 2017",
+                    "string": "September 1, 2017",
                     "timestamp": {
                         "raw": 1504224000,
                         "formatted": "September 2017",
@@ -8630,9 +8630,9 @@
                 "name": "Childcare Co-Op Assistant",
                 "shortDescription": "Service to help parents swap babysitting hours reduce child care costs",
                 "startDate": {
-                    "string": "September 2017",
+                    "string": "September 2, 2017",
                     "timestamp": {
-                        "raw": 1504224000,
+                        "raw": 1504310400,
                         "formatted": "September 2017",
                         "components": {
                             "monthFormatted": "September",
