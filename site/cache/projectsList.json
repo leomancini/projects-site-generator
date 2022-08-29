@@ -1512,6 +1512,12 @@
                         "label": "Visit Live Endpoint",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/labs.noshado.ws\/covid-county-risk-api\/?location=40.7468563,-73.9570921"
+                    },
+                    {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/leomancini\/status\/1564241739749228544"
                     }
                 ],
                 "tags": [
@@ -1545,6 +1551,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/covid-risk-level-ios-widget"
+                    },
+                    {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/leomancini\/status\/1564241739749228544"
                     }
                 ],
                 "tags": [
@@ -1584,6 +1596,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/labs.noshado.ws\/covid-county-risk\/"
+                    },
+                    {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/leomancini\/status\/1564241739749228544"
                     }
                 ],
                 "tags": [
@@ -5672,6 +5690,37 @@
                     }
                 ],
                 "tags": []
+            }
+        },
+        {
+            "directory": {
+                "id": "open-dream-branding"
+            },
+            "manifest": {
+                "name": "Open Dream Branding",
+                "shortDescription": "Visual identity for company exploring tech for economic empowerment",
+                "startDate": {
+                    "string": "September 2017",
+                    "timestamp": {
+                        "raw": 1504224000,
+                        "formatted": "September 2017",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2017",
+                            "yearNumber": 2017
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "type": "co-founder",
+                        "name": "Josh Miller"
+                    }
+                ],
+                "tags": [
+                    "open dream"
+                ]
             }
         },
         {

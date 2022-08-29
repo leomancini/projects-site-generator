@@ -11,7 +11,8 @@
             "link": "link",
             "video": "play_arrow",
             "article": "description",
-            "patent": "account_balance"
+            "patent": "account_balance",
+            "twitter": "article"
         },
         "defaultLabelsForType": {
             "github": "View Source",
@@ -22,7 +23,8 @@
             "desktop": "View on Desktop",
             "live_site": "Visit Live Site",
             "link": "Open Link",
-            "patent": "View Patent"
+            "patent": "View Patent",
+            "twitter": "View on Twitter"
         }
     },
     "debug": false,
