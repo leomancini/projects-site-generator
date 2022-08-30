@@ -8071,7 +8071,7 @@
                 "id": "sva-attendance-app"
             },
             "manifest": {
-                "name": "SVA Attendance App",
+                "name": "School of Visual Arts Attendance App",
                 "shortDescription": "For teachers to track attendance by scanning student ID cards",
                 "startDate": {
                     "string": "December 2011",
@@ -8086,6 +8086,12 @@
                         }
                     }
                 },
+                "credits": [
+                    {
+                        "type": "stock icons",
+                        "name": "McDo DESIGN \/ Susumu Yoshida"
+                    }
+                ],
                 "tags": [
                     "portfolio2012",
                     "sva",
@@ -8098,7 +8104,7 @@
                 "id": "sva-schedule-redesign"
             },
             "manifest": {
-                "name": "SVA Schedule Redesign",
+                "name": "School of Visual Arts Schedule Redesign",
                 "shortDescription": "Updated format for showing weekly class schedule",
                 "startDate": {
                     "string": "August 2011",
