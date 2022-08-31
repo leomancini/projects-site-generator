@@ -126,6 +126,37 @@
         },
         {
             "directory": {
+                "id": "TEMPLATE copy 3"
+            },
+            "manifest": {
+                "name": "NAME",
+                "shortDescription": "SHORT_DESCRIPTION",
+                "startDate": {
+                    "string": "MONTH_YEAR",
+                    "timestamp": {
+                        "raw": false,
+                        "formatted": "January 1970",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "1970",
+                            "yearNumber": 1970
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": ""
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "air-quality-sms-alerts"
             },
             "manifest": {
@@ -405,10 +436,43 @@
         },
         {
             "directory": {
+                "id": "art-of-laura-mancini-0"
+            },
+            "manifest": {
+                "name": "The Art of Laura Mancini Website 0.5",
+                "shortDescription": "Online gallery of art by Laura Mancini",
+                "startDate": {
+                    "string": "May 2007",
+                    "timestamp": {
+                        "raw": 1177977600,
+                        "formatted": "May 2007",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Laura Mancini",
+                        "type": "artist",
+                        "link": "https:\/\/artoflauramancini.com"
+                    }
+                ],
+                "tags": [
+                    "mom",
+                    "mancininet"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "art-of-laura-mancini-1"
             },
             "manifest": {
-                "name": "The Art of Laura Mancini \u2013 Website 1.0 (Gallery)",
+                "name": "The Art of Laura Mancini Website 1.0 (Gallery)",
                 "shortDescription": "Online gallery of art by Laura Mancini",
                 "startDate": {
                     "string": "April 2010",
@@ -440,7 +504,7 @@
                 "id": "art-of-laura-mancini-2"
             },
             "manifest": {
-                "name": "The Art of Laura Mancini \u2013 Website 2.0 (Gallery)",
+                "name": "The Art of Laura Mancini Website 2.0 (Gallery)",
                 "shortDescription": "Online gallery of art by Laura Mancini",
                 "startDate": {
                     "string": "April 2010",
@@ -472,7 +536,7 @@
                 "id": "art-of-laura-mancini-3"
             },
             "manifest": {
-                "name": "The Art of Laura Mancini \u2013 Website 3.0 (Shop and Gallery)",
+                "name": "The Art of Laura Mancini Website 3.0 (Shop and Gallery)",
                 "shortDescription": "Online gallery and shop of art by Laura Mancini with content management system",
                 "startDate": {
                     "string": "November 2017",
@@ -2358,6 +2422,40 @@
                 },
                 "tags": [
                     "our lady of hope"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "evan-mancini-website-v1"
+            },
+            "manifest": {
+                "name": "Evan Mancini Logo and Website v1",
+                "shortDescription": "Visual identity and personal website",
+                "startDate": {
+                    "string": "May 2007",
+                    "timestamp": {
+                        "raw": 1177977600,
+                        "formatted": "May 2007",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/noshado.ws\/archive\/evan-mancini-net\/"
+                    }
+                ],
+                "tags": [
+                    "evan",
+                    "mancininet"
                 ]
             }
         },
@@ -4692,6 +4790,32 @@
         },
         {
             "directory": {
+                "id": "john-mancini-website-template"
+            },
+            "manifest": {
+                "name": "John Mancini Website Template",
+                "shortDescription": "Concept for personal blog and website",
+                "startDate": {
+                    "string": "May 2007",
+                    "timestamp": {
+                        "raw": 1177977600,
+                        "formatted": "May 2007",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "dad",
+                    "mancininet"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "john-mancini-work-samples"
             },
             "manifest": {
@@ -6016,7 +6140,7 @@
                 "id": "paint-your-heart"
             },
             "manifest": {
-                "name": "Founders Day Cover 2009 \u2013 Paint Your Heart",
+                "name": "Founders Day Cover 2009 (Paint Your Heart)",
                 "shortDescription": "Design for event to mark beginning of school year",
                 "startDate": {
                     "string": "September 2009",
