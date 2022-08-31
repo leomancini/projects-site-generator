@@ -483,6 +483,38 @@
         },
         {
             "directory": {
+                "id": "ask-the-mac-experts"
+            },
+            "manifest": {
+                "name": "Ask The Mac Experts Podcast Branding & Intro\/Outro Music",
+                "shortDescription": "Album artwork and audio production for podcast",
+                "startDate": {
+                    "string": "June 2007",
+                    "timestamp": {
+                        "raw": 1180656000,
+                        "formatted": "June 2007",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Chad Ohman",
+                        "link": "https:\/\/chadohman.ca",
+                        "type": "audio design and production"
+                    }
+                ],
+                "tags": [
+                    "pixelstorms"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "assorted-desktop-pictures"
             },
             "manifest": {
@@ -731,6 +763,31 @@
                     "portfolio2012",
                     "job",
                     "internship"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "blastr-tv"
+            },
+            "manifest": {
+                "name": "Blastr.tv Podcast Branding",
+                "shortDescription": "Album artwork and visual identity for podcast",
+                "startDate": {
+                    "string": "September 2007",
+                    "timestamp": {
+                        "raw": 1188604800,
+                        "formatted": "September 2007",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "pixelstorms"
                 ]
             }
         },
@@ -1056,6 +1113,31 @@
                     "portfolio2012",
                     "thhs",
                     "townsend harris high school"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "charlotte-county-soccer"
+            },
+            "manifest": {
+                "name": "Charlotte County Soccer Website",
+                "shortDescription": "Layout and identity for local soccer team page",
+                "startDate": {
+                    "string": "May 2008",
+                    "timestamp": {
+                        "raw": 1209600000,
+                        "formatted": "May 2008",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2008",
+                            "yearNumber": 2008
+                        }
+                    }
+                },
+                "tags": [
+                    "pixelstorms"
                 ]
             }
         },
@@ -6398,6 +6480,46 @@
                 ],
                 "tags": [
                     "map"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "pixelstorms"
+            },
+            "manifest": {
+                "name": "Pixelstorms",
+                "shortDescription": "Web design and engineering studio (collab with Chad Ohman)",
+                "startDate": {
+                    "string": "June 2007",
+                    "timestamp": {
+                        "raw": 1180656000,
+                        "formatted": "June 2007",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/pixelstorms"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Chad Ohman",
+                        "link": "https:\/\/chadohman.ca",
+                        "type": "co-founder, engineering"
+                    }
+                ],
+                "tags": [
+                    "pixelstorms"
                 ]
             }
         },
