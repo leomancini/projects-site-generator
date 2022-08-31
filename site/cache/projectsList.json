@@ -379,10 +379,74 @@
         },
         {
             "directory": {
-                "id": "art-of-laura-mancini-shop"
+                "id": "art-of-laura-mancini-1"
             },
             "manifest": {
-                "name": "The Art of Laura Mancini (Shop and Gallery)",
+                "name": "The Art of Laura Mancini \u2013 Website 1.0 (Gallery)",
+                "shortDescription": "Online gallery of art by Laura Mancini",
+                "startDate": {
+                    "string": "April 2010",
+                    "timestamp": {
+                        "raw": 1270080000,
+                        "formatted": "April 2010",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2010",
+                            "yearNumber": 2010
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Laura Mancini",
+                        "type": "artist",
+                        "link": "https:\/\/artoflauramancini.com"
+                    }
+                ],
+                "tags": [
+                    "mom"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "art-of-laura-mancini-2"
+            },
+            "manifest": {
+                "name": "The Art of Laura Mancini \u2013 Website 2.0 (Gallery)",
+                "shortDescription": "Online gallery of art by Laura Mancini",
+                "startDate": {
+                    "string": "April 2010",
+                    "timestamp": {
+                        "raw": 1270080000,
+                        "formatted": "April 2010",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2010",
+                            "yearNumber": 2010
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Laura Mancini",
+                        "type": "artist",
+                        "link": "https:\/\/artoflauramancini.com"
+                    }
+                ],
+                "tags": [
+                    "mom"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "art-of-laura-mancini-3"
+            },
+            "manifest": {
+                "name": "The Art of Laura Mancini \u2013 Website 3.0 (Shop and Gallery)",
                 "shortDescription": "Online gallery and shop of art by Laura Mancini with content management system",
                 "startDate": {
                     "string": "November 2017",
@@ -410,38 +474,6 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/artoflauramancini.com"
-                    }
-                ],
-                "tags": [
-                    "mom"
-                ]
-            }
-        },
-        {
-            "directory": {
-                "id": "art-of-lauramancini-gallery"
-            },
-            "manifest": {
-                "name": "The Art of Laura Mancini (Gallery Only)",
-                "shortDescription": "Online gallery of art by Laura Mancini",
-                "startDate": {
-                    "string": "April 2010",
-                    "timestamp": {
-                        "raw": 1270080000,
-                        "formatted": "April 2010",
-                        "components": {
-                            "monthFormatted": "April",
-                            "monthNumber": 4,
-                            "yearFormatted": "2010",
-                            "yearNumber": 2010
-                        }
-                    }
-                },
-                "credits": [
-                    {
-                        "name": "Laura Mancini",
-                        "type": "artist",
-                        "link": "https:\/\/artoflauramancini.com"
                     }
                 ],
                 "tags": [
