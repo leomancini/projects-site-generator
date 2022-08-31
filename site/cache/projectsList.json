@@ -9017,6 +9017,37 @@
         },
         {
             "directory": {
+                "id": "web-developer-icon-set"
+            },
+            "manifest": {
+                "name": "Web Developer Icon Set",
+                "shortDescription": "Royalty-free set of icons for web development",
+                "startDate": {
+                    "string": "August 2007",
+                    "timestamp": {
+                        "raw": 1185926400,
+                        "formatted": "August 2007",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/web-developer-icon-set\/downloads\/Leo_Mancini_Web_Developer_Icons.zip"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "what-the-hood"
             },
             "manifest": {

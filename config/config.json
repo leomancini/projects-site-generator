@@ -12,7 +12,8 @@
             "video": "play_arrow",
             "article": "description",
             "patent": "account_balance",
-            "twitter": "article"
+            "twitter": "article",
+            "download": "download"
         },
         "defaultLabelsForType": {
             "github": "View Source",
@@ -24,7 +25,8 @@
             "live_site": "Visit Live Site",
             "link": "Open Link",
             "patent": "View Patent",
-            "twitter": "View on Twitter"
+            "twitter": "View on Twitter",
+            "download": "Download"
         }
     },
     "debug": false,
