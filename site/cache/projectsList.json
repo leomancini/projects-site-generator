@@ -2427,10 +2427,10 @@
         },
         {
             "directory": {
-                "id": "evan-mancini-website-v1"
+                "id": "evan-mancini-website-1"
             },
             "manifest": {
-                "name": "Evan Mancini Logo and Website v1",
+                "name": "Evan Mancini Logo and Website 1.0",
                 "shortDescription": "Visual identity and personal website",
                 "startDate": {
                     "string": "May 2007",
