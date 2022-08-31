@@ -5692,6 +5692,31 @@
         },
         {
             "directory": {
+                "id": "obama-newsday-cover-design"
+            },
+            "manifest": {
+                "name": "Obama Newsday Cover Design",
+                "shortDescription": "Concept for front page of New York newspaper after 2008 election",
+                "startDate": {
+                    "string": "January 2008",
+                    "timestamp": {
+                        "raw": 1199145600,
+                        "formatted": "January 2008",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2008",
+                            "yearNumber": 2008
+                        }
+                    }
+                },
+                "tags": [
+                    "dad"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "object-studies"
             },
             "manifest": {
@@ -6793,6 +6818,32 @@
                 ],
                 "tags": [
                     "github"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "rainbow-chocolate-bar-prototype"
+            },
+            "manifest": {
+                "name": "Rainbow Chocolate Bar Prototype",
+                "shortDescription": "Packaging design experiments for chocolate concept",
+                "startDate": {
+                    "string": "February 2008",
+                    "timestamp": {
+                        "raw": 1201824000,
+                        "formatted": "February 2008",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2008",
+                            "yearNumber": 2008
+                        }
+                    }
+                },
+                "tags": [
+                    "sva",
+                    "school of visual arts"
                 ]
             }
         },
