@@ -39,6 +39,32 @@
         },
         {
             "directory": {
+                "id": "2021-biden-harris-inauguration-audio-compilation"
+            },
+            "manifest": {
+                "name": "2021 Biden-Harris Inauguration Audio Compilation",
+                "shortDescription": "Track combining samples from inauguration speech and music",
+                "startDate": {
+                    "string": "January 2021",
+                    "timestamp": {
+                        "raw": 1609459200,
+                        "formatted": "January 2021",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2021",
+                            "yearNumber": 2021
+                        }
+                    }
+                },
+                "tags": [
+                    "music",
+                    "audio"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "2d-black-and-white-experiments"
             },
             "manifest": {
