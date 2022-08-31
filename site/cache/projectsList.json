@@ -126,37 +126,6 @@
         },
         {
             "directory": {
-                "id": "TEMPLATE copy 3"
-            },
-            "manifest": {
-                "name": "NAME",
-                "shortDescription": "SHORT_DESCRIPTION",
-                "startDate": {
-                    "string": "MONTH_YEAR",
-                    "timestamp": {
-                        "raw": false,
-                        "formatted": "January 1970",
-                        "components": {
-                            "monthFormatted": "January",
-                            "monthNumber": 1,
-                            "yearFormatted": "1970",
-                            "yearNumber": 1970
-                        }
-                    }
-                },
-                "links": [
-                    {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": ""
-                    }
-                ],
-                "tags": []
-            }
-        },
-        {
-            "directory": {
                 "id": "air-quality-sms-alerts"
             },
             "manifest": {
@@ -5328,6 +5297,29 @@
                         "link": "https:\/\/www.youtube.com\/watch?v=HBfgQvM7wtE"
                     }
                 ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
+                "id": "mac-os-x-leopard-prototype"
+            },
+            "manifest": {
+                "name": "Mac OS X Leopard Prototype",
+                "shortDescription": "Simulated user flows using system interface elements",
+                "startDate": {
+                    "string": "June 2006",
+                    "timestamp": {
+                        "raw": 1149120000,
+                        "formatted": "June 2006",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2006",
+                            "yearNumber": 2006
+                        }
+                    }
+                },
                 "tags": []
             }
         },
