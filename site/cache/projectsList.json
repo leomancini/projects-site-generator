@@ -126,6 +126,31 @@
         },
         {
             "directory": {
+                "id": "agent-macintosh-forum"
+            },
+            "manifest": {
+                "name": "Agent Macintosh Forum Design",
+                "shortDescription": "Layout and visual design for online discussion website",
+                "startDate": {
+                    "string": "October 2007",
+                    "timestamp": {
+                        "raw": 1191196800,
+                        "formatted": "October 2007",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "air-quality-sms-alerts"
             },
             "manifest": {
@@ -278,6 +303,31 @@
                     "sva",
                     "school of visual arts",
                     "video"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "anonymous-mac"
+            },
+            "manifest": {
+                "name": "Anonymous Mac Website",
+                "shortDescription": "Layout and visual design for blog",
+                "startDate": {
+                    "string": "June 2007",
+                    "timestamp": {
+                        "raw": 1180656000,
+                        "formatted": "June 2007",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
                 ]
             }
         },
@@ -634,6 +684,31 @@
         },
         {
             "directory": {
+                "id": "attorney-miller"
+            },
+            "manifest": {
+                "name": "Attorney Miller Website",
+                "shortDescription": "Layout and visual design for law firm",
+                "startDate": {
+                    "string": "August 2006",
+                    "timestamp": {
+                        "raw": 1154390400,
+                        "formatted": "August 2006",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2006",
+                            "yearNumber": 2006
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "authorized-cors-proxy"
             },
             "manifest": {
@@ -729,6 +804,31 @@
                     }
                 ],
                 "tags": []
+            }
+        },
+        {
+            "directory": {
+                "id": "banana-software"
+            },
+            "manifest": {
+                "name": "Banana Software Website",
+                "shortDescription": "Layout and visual design for software company",
+                "startDate": {
+                    "string": "August 2008",
+                    "timestamp": {
+                        "raw": 1217548800,
+                        "formatted": "August 2008",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2008",
+                            "yearNumber": 2008
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
             }
         },
         {
@@ -1172,6 +1272,31 @@
                     "portfolio2012",
                     "thhs",
                     "townsend harris high school"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "chad-ohman-blog"
+            },
+            "manifest": {
+                "name": "Chad Ohman Website",
+                "shortDescription": "Layout and visual design for blog",
+                "startDate": {
+                    "string": "January 2007",
+                    "timestamp": {
+                        "raw": 1167609600,
+                        "formatted": "January 2007",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
                 ]
             }
         },
@@ -1840,6 +1965,31 @@
                     "portfolio2012",
                     "thhs",
                     "townsend harris high school"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "crystal-media"
+            },
+            "manifest": {
+                "name": "Crystal Media Website",
+                "shortDescription": "Layout and visual design for organization",
+                "startDate": {
+                    "string": "February 2007",
+                    "timestamp": {
+                        "raw": 1170288000,
+                        "formatted": "February 2007",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
                 ]
             }
         },
@@ -4184,6 +4334,31 @@
         },
         {
             "directory": {
+                "id": "iappblog"
+            },
+            "manifest": {
+                "name": "iAppBlog Website",
+                "shortDescription": "Layout and visual design for blog",
+                "startDate": {
+                    "string": "March 2007",
+                    "timestamp": {
+                        "raw": 1172707200,
+                        "formatted": "March 2007",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "imac-g4-icons-with-desktop-pictures"
             },
             "manifest": {
@@ -6487,6 +6662,31 @@
         },
         {
             "directory": {
+                "id": "photo-fine"
+            },
+            "manifest": {
+                "name": "PhotoFine Website",
+                "shortDescription": "Layout and visual design for app",
+                "startDate": {
+                    "string": "January 2007",
+                    "timestamp": {
+                        "raw": 1167609600,
+                        "formatted": "January 2007",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "photo-heatmap"
             },
             "manifest": {
@@ -6900,6 +7100,31 @@
                 ],
                 "tags": [
                     "portfolio"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "project-creative"
+            },
+            "manifest": {
+                "name": "Project Creative Website",
+                "shortDescription": "Layout and visual design for project placeholder",
+                "startDate": {
+                    "string": "August 2007",
+                    "timestamp": {
+                        "raw": 1185926400,
+                        "formatted": "August 2007",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
                 ]
             }
         },
@@ -8055,6 +8280,31 @@
         },
         {
             "directory": {
+                "id": "stomp-app-icon"
+            },
+            "manifest": {
+                "name": "Stomp App Icon",
+                "shortDescription": "Icon design for Mac OS app",
+                "startDate": {
+                    "string": "November 2007",
+                    "timestamp": {
+                        "raw": 1193875200,
+                        "formatted": "November 2007",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "student-enrollment-advisory-council"
             },
             "manifest": {
@@ -8380,6 +8630,56 @@
         },
         {
             "directory": {
+                "id": "super-tech-live"
+            },
+            "manifest": {
+                "name": "SuperTechLive Website",
+                "shortDescription": "Layout and visual design for podcast",
+                "startDate": {
+                    "string": "January 2007",
+                    "timestamp": {
+                        "raw": 1167609600,
+                        "formatted": "January 2007",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "surephire"
+            },
+            "manifest": {
+                "name": "Surephire Website",
+                "shortDescription": "Layout and visual design for organization",
+                "startDate": {
+                    "string": "August 2008",
+                    "timestamp": {
+                        "raw": 1217548800,
+                        "formatted": "August 2008",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2008",
+                            "yearNumber": 2008
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "sva-2012-portfolio-app"
             },
             "manifest": {
@@ -8541,6 +8841,31 @@
         },
         {
             "directory": {
+                "id": "ted-winder-blog"
+            },
+            "manifest": {
+                "name": "Ted Winder Website",
+                "shortDescription": "Layout and visual design for blog",
+                "startDate": {
+                    "string": "February 2007",
+                    "timestamp": {
+                        "raw": 1170288000,
+                        "formatted": "February 2007",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "telegraphic-code-experiments"
             },
             "manifest": {
@@ -8691,6 +9016,56 @@
                 ],
                 "tags": [
                     "portfolio2012"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "the-pickled-cherry"
+            },
+            "manifest": {
+                "name": "The Pickled Cherry Website",
+                "shortDescription": "Layout and visual design for organization",
+                "startDate": {
+                    "string": "August 2007",
+                    "timestamp": {
+                        "raw": 1185926400,
+                        "formatted": "August 2007",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "the-tech-kid-website"
+            },
+            "manifest": {
+                "name": "theTechKid Website",
+                "shortDescription": "Layout and visual design for blog",
+                "startDate": {
+                    "string": "May 2007",
+                    "timestamp": {
+                        "raw": 1177977600,
+                        "formatted": "May 2007",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
                 ]
             }
         },
@@ -9096,6 +9471,37 @@
         },
         {
             "directory": {
+                "id": "way-to-wifi"
+            },
+            "manifest": {
+                "name": "WayToWifi Logo and Website",
+                "shortDescription": "Brand and visual identity for company",
+                "startDate": {
+                    "string": "May 2008",
+                    "timestamp": {
+                        "raw": 1209600000,
+                        "formatted": "May 2008",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2008",
+                            "yearNumber": 2008
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "type": "stock icons",
+                        "name": "McDo DESIGN \/ Susumu Yoshida"
+                    }
+                ],
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "weather-theme-key-api"
             },
             "manifest": {
@@ -9211,6 +9617,31 @@
         },
         {
             "directory": {
+                "id": "win-x"
+            },
+            "manifest": {
+                "name": "WinX Website",
+                "shortDescription": "Layout and visual design for blog",
+                "startDate": {
+                    "string": "March 2007",
+                    "timestamp": {
+                        "raw": 1172707200,
+                        "formatted": "March 2007",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "winter-concert-2010"
             },
             "manifest": {
@@ -9267,6 +9698,31 @@
                 "tags": [
                     "code for america",
                     "job"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "youre-at"
+            },
+            "manifest": {
+                "name": "\"You're @\" Logo and Website",
+                "shortDescription": "Brand and visual identity for product",
+                "startDate": {
+                    "string": "April 2008",
+                    "timestamp": {
+                        "raw": 1207008000,
+                        "formatted": "April 2008",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2008",
+                            "yearNumber": 2008
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
                 ]
             }
         }
