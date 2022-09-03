@@ -8010,30 +8010,24 @@
                 "id": "sheep-systems-website-banner"
             },
             "manifest": {
-                "name": "NAME",
-                "shortDescription": "SHORT_DESCRIPTION",
+                "name": "Sheep Systems Website Banner",
+                "shortDescription": "Design and illustrations for company branding",
                 "startDate": {
-                    "string": "MONTH_YEAR",
+                    "string": "May 2007",
                     "timestamp": {
-                        "raw": false,
-                        "formatted": "January 1970",
+                        "raw": 1177977600,
+                        "formatted": "May 2007",
                         "components": {
-                            "monthFormatted": "January",
-                            "monthNumber": 1,
-                            "yearFormatted": "1970",
-                            "yearNumber": 1970
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
                         }
                     }
                 },
-                "links": [
-                    {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": ""
-                    }
-                ],
-                "tags": []
+                "tags": [
+                    "high school freelance"
+                ]
             }
         },
         {
