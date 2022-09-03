@@ -6,7 +6,7 @@
     }
 
     function stringContains($haystack, $needle) {
-        if (strpos($haystack, $needle) !== false) {
+        if (stringContains($haystack, $needle)) {
             return true;
         } else {
             return false;

@@ -8007,6 +8007,37 @@
         },
         {
             "directory": {
+                "id": "sheep-systems-website-banner"
+            },
+            "manifest": {
+                "name": "NAME",
+                "shortDescription": "SHORT_DESCRIPTION",
+                "startDate": {
+                    "string": "MONTH_YEAR",
+                    "timestamp": {
+                        "raw": false,
+                        "formatted": "January 1970",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "1970",
+                            "yearNumber": 1970
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": ""
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "simple-to-do-list-app"
             },
             "manifest": {
