@@ -109,8 +109,15 @@
                                     $file = __DIR__ . "/../../projects/$projectDirectoryId/screenshots/$screenshotFileName";
                                     $fileContents = file_get_contents($file);
                                     $fileContentsFormatted = str_replace("\n", "<br>", $fileContents);
+                                    $fileContentsFormatted = str_replace("<?php", "<&quest;php", $fileContentsFormatted);
+                                    $fileContentsFormatted = str_replace("  ", "&nbsp;&nbsp;", $fileContentsFormatted);
 
-                                    echo "<div class='text'>";
+                                    $fileNameWithoutExtension = explode(".", $screenshotFileName)[0];
+                                    $fileStyle = explode("__", $fileNameWithoutExtension)[1];
+
+                                    echo "<div class='text";
+                                    if ($fileStyle) { echo " ".$fileStyle; }
+                                    echo "'>";
                                     echo $fileContentsFormatted;
                                     echo "</div>";
                                 } else {

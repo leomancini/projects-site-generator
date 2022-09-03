@@ -8325,7 +8325,7 @@
                 "links": [
                     {
                         "type": "live_site",
-                        "label": "DEFAULT_FOR_TYPE",
+                        "label": "View Online",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/leomancinidesign.com\/storage\/codebox\/reference_guide.txt"
                     }
