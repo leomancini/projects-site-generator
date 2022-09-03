@@ -318,6 +318,24 @@
             min-width: 300px;
             width: 50%;
         }
+
+        .text {
+            @media (prefers-color-scheme: dark) {
+                border: 2px solid rgba(255, 255, 255, 0.15);
+                color: rgba(255, 255, 255, 1);
+            }
+
+            border: 2px solid rgba(0, 0, 0, 0.06);
+            color: rgba(0, 0, 0, 0.8);
+            max-width: 800px;
+            width: calc(100% - 32px);
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 32px;
+            outline: none;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
     }
 }
 
@@ -402,7 +420,7 @@
         }
         
         #screenshots {
-            img, video, audio {
+            img, video, audio, .text {
                 width: 100%;
                 margin-right: 0;
             }

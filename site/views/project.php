@@ -105,6 +105,14 @@
                                     }
                                 } else if(strpos(strtolower($screenshotFileName), '.mp3') || strpos(strtolower($screenshotFileName), '.m4a')) {
                                     echo "<audio class='$imageClassesString' controls><source src='projects/$projectDirectoryId/screenshots/$screenshotFileName' type='audio/mpeg'></audio>";
+                                } else if(strpos(strtolower($screenshotFileName), '.txt')) {
+                                    $file = __DIR__ . "/../../projects/$projectDirectoryId/screenshots/$screenshotFileName";
+                                    $fileContents = file_get_contents($file);
+                                    $fileContentsFormatted = str_replace("\n", "<br>", $fileContents);
+
+                                    echo "<div class='text'>";
+                                    echo $fileContentsFormatted;
+                                    echo "</div>";
                                 } else {
                                     echo 'UNSUPPORTED_FILE_TYPE';
                                 }
