@@ -98,12 +98,12 @@
         if(count($links) > 0) {
             foreach($links as $link) {
                 // If github link exists, automatically add 'github' tag
-                if (strpos($link['url'], 'github.com')) {
+                if (stringContains($link['url'], 'github.com')) {
                     array_push($tags, 'github');
                 }
 
                 // If live site link exists, automatically add 'live-site' tag
-                if (strpos(strtolower(getLabelForLink($link)), 'live')) {
+                if (stringContains($link['type'], 'live_site')) {
                     array_push($tags, 'live-site');
                 }
             }

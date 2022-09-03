@@ -4,4 +4,12 @@
         
         return json_decode($configFile, true);
     }
+
+    function stringContains($haystack, $needle) {
+        if (strpos($haystack, $needle) !== false) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 ?>

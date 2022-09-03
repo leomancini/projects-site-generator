@@ -89,23 +89,23 @@
                         foreach($projectFiles['screenshots'] as $screenshotFileName) {
                             $imageClasses = [];
 
-                            if(strpos($screenshotFileName, '@2x')) { array_push($imageClasses, 'retina'); }
-                            if(strpos($screenshotFileName, 'hasMacDesktopShadow')) { array_push($imageClasses, 'hasMacDesktopShadow'); }
+                            if(stringContains($screenshotFileName, '@2x')) { array_push($imageClasses, 'retina'); }
+                            if(stringContains($screenshotFileName, 'hasMacDesktopShadow')) { array_push($imageClasses, 'hasMacDesktopShadow'); }
 
                             $imageClassesString = implode(' ', $imageClasses);
 
                             if ($screenshotFileName !== 'hidden') {
-                                if(strpos(strtolower($screenshotFileName), '.png') || strpos(strtolower($screenshotFileName), '.jpg') || strpos(strtolower($screenshotFileName), '.gif')) {
+                                if(stringContains(strtolower($screenshotFileName), '.png') || stringContains(strtolower($screenshotFileName), '.jpg') || stringContains(strtolower($screenshotFileName), '.gif')) {
                                     echo "<img src='projects/$projectDirectoryId/screenshots/$screenshotFileName' class='$imageClassesString'>";
-                                } else if(strpos(strtolower($screenshotFileName), '.mov') || strpos(strtolower($screenshotFileName), '.mp4')) {
-                                    if (strpos(strtolower($screenshotFileName), '--play-audio')) {
+                                } else if(stringContains(strtolower($screenshotFileName), '.mov') || stringContains(strtolower($screenshotFileName), '.mp4')) {
+                                    if (stringContains(strtolower($screenshotFileName), '--play-audio')) {
                                         echo "<video class='$imageClassesString' playsinline controls><source src='projects/$projectDirectoryId/screenshots/$screenshotFileName'></video>";
                                     } else {
                                         echo "<video class='$imageClassesString' loop autoplay muted playsinline><source src='projects/$projectDirectoryId/screenshots/$screenshotFileName'></video>";
                                     }
-                                } else if(strpos(strtolower($screenshotFileName), '.mp3') || strpos(strtolower($screenshotFileName), '.m4a')) {
+                                } else if(stringContains(strtolower($screenshotFileName), '.mp3') || stringContains(strtolower($screenshotFileName), '.m4a')) {
                                     echo "<audio class='$imageClassesString' controls><source src='projects/$projectDirectoryId/screenshots/$screenshotFileName' type='audio/mpeg'></audio>";
-                                } else if(strpos(strtolower($screenshotFileName), '.txt')) {
+                                } else if(stringContains(strtolower($screenshotFileName), '.txt')) {
                                     $file = __DIR__ . "/../../projects/$projectDirectoryId/screenshots/$screenshotFileName";
                                     $fileContents = file_get_contents($file);
                                     $fileContentsFormatted = str_replace("\n", "<br>", $fileContents);
