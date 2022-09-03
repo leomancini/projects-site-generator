@@ -126,6 +126,29 @@
         },
         {
             "directory": {
+                "id": "access-code-for-website"
+            },
+            "manifest": {
+                "name": "Access Code for Website",
+                "shortDescription": "Visual design for inputting a code to access a website",
+                "startDate": {
+                    "string": "December 2006",
+                    "timestamp": {
+                        "raw": 1164931200,
+                        "formatted": "December 2006",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2006",
+                            "yearNumber": 2006
+                        }
+                    }
+                },
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "agent-macintosh-forum"
             },
             "manifest": {
@@ -2436,6 +2459,31 @@
                     "job",
                     "internship",
                     "nyc department of education"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "doula-logo"
+            },
+            "manifest": {
+                "name": "Doula Logo",
+                "shortDescription": "Visual identity for Laura Mancini",
+                "startDate": {
+                    "string": "January 2011",
+                    "timestamp": {
+                        "raw": 1293840000,
+                        "formatted": "January 2011",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2011",
+                            "yearNumber": 2011
+                        }
+                    }
+                },
+                "tags": [
+                    "mom"
                 ]
             }
         },
@@ -5166,6 +5214,31 @@
         },
         {
             "directory": {
+                "id": "kittens-are-fuzzy"
+            },
+            "manifest": {
+                "name": "Kittens Are Fuzzy Website",
+                "shortDescription": "Layout and visual design for organization",
+                "startDate": {
+                    "string": "January 2007",
+                    "timestamp": {
+                        "raw": 1167609600,
+                        "formatted": "January 2007",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "kupana-caregivers-program"
             },
             "manifest": {
@@ -5455,6 +5528,29 @@
         },
         {
             "directory": {
+                "id": "login-pages"
+            },
+            "manifest": {
+                "name": "Login Pages",
+                "shortDescription": "Generic views for signing into a web service",
+                "startDate": {
+                    "string": "March 2007",
+                    "timestamp": {
+                        "raw": 1172707200,
+                        "formatted": "March 2007",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "lyric-illustrations"
             },
             "manifest": {
@@ -5707,6 +5803,31 @@
                 "tags": [
                     "portfolio2012",
                     "freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "mrs-darcys-class"
+            },
+            "manifest": {
+                "name": "Mrs. Darcy's Class Website",
+                "shortDescription": "Layout and visual design for class website",
+                "startDate": {
+                    "string": "March 2007",
+                    "timestamp": {
+                        "raw": 1172707200,
+                        "formatted": "March 2007",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
                 ]
             }
         },
@@ -6831,6 +6952,29 @@
                 "tags": [
                     "map"
                 ]
+            }
+        },
+        {
+            "directory": {
+                "id": "pixel-metro-logo"
+            },
+            "manifest": {
+                "name": "Pixel Metro Logo",
+                "shortDescription": "Visual identity and logo for personal project",
+                "startDate": {
+                    "string": "July 2007",
+                    "timestamp": {
+                        "raw": 1183248000,
+                        "formatted": "July 2007",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": []
             }
         },
         {
@@ -8523,6 +8667,31 @@
         },
         {
             "directory": {
+                "id": "sunny-website-template"
+            },
+            "manifest": {
+                "name": "Generic Upbeat Company Website",
+                "shortDescription": "Template for a company website with sunny and airy theme",
+                "startDate": {
+                    "string": "January 2007",
+                    "timestamp": {
+                        "raw": 1167609600,
+                        "formatted": "January 2007",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "sunset-prediction-scheduler"
             },
             "manifest": {
@@ -9145,6 +9314,31 @@
         },
         {
             "directory": {
+                "id": "the-mac-bundle"
+            },
+            "manifest": {
+                "name": "The Mac Bundle Website",
+                "shortDescription": "Layout and visual design for promo website",
+                "startDate": {
+                    "string": "August 2007",
+                    "timestamp": {
+                        "raw": 1185926400,
+                        "formatted": "August 2007",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": [
+                    "high school freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "the-mac-pak-promo-video"
             },
             "manifest": {
@@ -9257,6 +9451,29 @@
                 "tags": [
                     "high school freelance"
                 ]
+            }
+        },
+        {
+            "directory": {
+                "id": "the-underground"
+            },
+            "manifest": {
+                "name": "The Underground Website",
+                "shortDescription": "Visual design and layout for website and forum",
+                "startDate": {
+                    "string": "February 2007",
+                    "timestamp": {
+                        "raw": 1170288000,
+                        "formatted": "February 2007",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "tags": []
             }
         },
         {
