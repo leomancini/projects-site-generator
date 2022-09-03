@@ -1730,6 +1730,14 @@
                         }
                     }
                 },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/leomancinidesign.com\/storage\/codebox\/Horloge\/clock3\/"
+                    }
+                ],
                 "tags": []
             }
         },
@@ -7105,6 +7113,37 @@
         },
         {
             "directory": {
+                "id": "progress-bar-generator"
+            },
+            "manifest": {
+                "name": "Progress Bar Generator",
+                "shortDescription": "Web tool to generate a progress bar using URL parameters",
+                "startDate": {
+                    "string": "August 2010",
+                    "timestamp": {
+                        "raw": 1280620800,
+                        "formatted": "August 2010",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2010",
+                            "yearNumber": 2010
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/leomancinidesign.com\/storage\/codebox\/progressbar\/?level=79&color=00e0f9&bgcolor=007b89"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "project-creative"
             },
             "manifest": {
@@ -7333,6 +7372,31 @@
                 "tags": [
                     "sva",
                     "school of visual arts"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "random-meal-generator"
+            },
+            "manifest": {
+                "name": "Random Meal Generator",
+                "shortDescription": "Web tool to pick what to make for dinner from custom list of meals",
+                "startDate": {
+                    "string": "August 2008",
+                    "timestamp": {
+                        "raw": 1217548800,
+                        "formatted": "August 2008",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2008",
+                            "yearNumber": 2008
+                        }
+                    }
+                },
+                "tags": [
+                    "menu"
                 ]
             }
         },
@@ -8240,6 +8304,45 @@
         },
         {
             "directory": {
+                "id": "sql-php-reference-guide"
+            },
+            "manifest": {
+                "name": "SQL and PHP Reference Guide",
+                "shortDescription": "Shortcuts for common commands and scripts",
+                "startDate": {
+                    "string": "December 2009",
+                    "timestamp": {
+                        "raw": 1259625600,
+                        "formatted": "December 2009",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2009",
+                            "yearNumber": 2009
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/leomancinidesign.com\/storage\/codebox\/reference_guide.txt"
+                    }
+                ],
+                "credits": [
+                    {
+                        "type": "source",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "name": "tizag tutorials",
+                        "link": "http:\/\/tizag.com\/"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "squish-software"
             },
             "manifest": {
@@ -8359,6 +8462,37 @@
                         }
                     }
                 },
+                "tags": []
+            }
+        },
+        {
+            "directory": {
+                "id": "sun-rays-desktop-generator"
+            },
+            "manifest": {
+                "name": "Sun Rays Desktop Generator",
+                "shortDescription": "Web tool to create variations of desktop picture with custom text",
+                "startDate": {
+                    "string": "May 2007",
+                    "timestamp": {
+                        "raw": 1177977600,
+                        "formatted": "May 2007",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/leomancinidesign.com\/storage\/codebox\/sunrays-desktopgenerator\/"
+                    }
+                ],
                 "tags": []
             }
         },
@@ -8922,6 +9056,37 @@
                         "name": "Evan Mancini",
                         "type": "content",
                         "link": "https:\/\/evanmancini.com"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
+                "id": "text-requirement-checker"
+            },
+            "manifest": {
+                "name": "Text Requirement Checker",
+                "shortDescription": "Web tool to check if text content meets certain requirements",
+                "startDate": {
+                    "string": "June 2007",
+                    "timestamp": {
+                        "raw": 1180656000,
+                        "formatted": "June 2007",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2007",
+                            "yearNumber": 2007
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/leomancinidesign.com\/storage\/codebox\/text-req-checker\/"
                     }
                 ],
                 "tags": []
