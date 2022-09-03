@@ -89,7 +89,7 @@
                 $searchQuery = strtolower($_GET['search']);
                 $searchMatch = false;
 
-                $tags = getProjectTags($projectInfo['manifest']);
+                $tags = getProjectTags($projectInfo['manifest'], null);
 
                 if (stringContains($searchQuery, '#')) {
                     if (stringContains(strtolower(join(' ', $tags)), str_replace('#', '', $searchQuery))) {

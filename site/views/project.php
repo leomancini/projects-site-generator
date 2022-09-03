@@ -7,7 +7,7 @@
     $projectDirectoryId = $_GET['directoryId'];            
     $projectManifest = getProjectManifest($projectDirectoryId);
     $projectFiles = getProjectFiles($projectDirectoryId);
-    $tags = getProjectTags($projectManifest);
+    $tags = getProjectTags($projectManifest, $projectFiles);
 ?>
 <!DOCTYPE HTML>
 <html>

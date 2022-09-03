@@ -79,14 +79,17 @@
         }
     }
 
-    function getProjectTags($projectManifest) {
+    function getProjectTags($projectManifest, $projectFiles) {
         $tags = [];
         if (array_key_exists('tags', $projectManifest)) {
             $tags = $projectManifest['tags'];
 
-            // Hide any manually-added 'github' tags
+            // Hide any manually-added tags that will be automatically added later
             $tags = array_filter($tags, function ($tag) {
-                return $tag !== 'github';
+                $tagsToRemove = ['github', 'audio', 'video'];
+                if (!in_array($tag, $tagsToRemove)) {
+                    return true;
+                }
             });
         }
 
@@ -106,6 +109,15 @@
                 if (stringContains($link['type'], 'live_site')) {
                     array_push($tags, 'live-site');
                 }
+            }
+        }
+
+        // If any video or audio files are attached to project, automatically add tags
+        foreach($projectFiles['screenshots'] as $screenshotFileName) {
+            if (stringContains($screenshotFileName, 'mov') || stringContains($screenshotFileName, 'mp4')) { 
+                array_push($tags, 'video');
+            } else if (stringContains($screenshotFileName, 'mp3') || stringContains($screenshotFileName, 'm4a')) { 
+                array_push($tags, 'audio');
             }
         }
 
