@@ -91,31 +91,31 @@
 
                 $tags = getProjectTags($projectInfo['manifest']);
 
-                if (strpos($searchQuery, '#') !== false) {
-                    if (strpos(strtolower(join(' ', $tags)), str_replace('#', '', $searchQuery)) !== false) {
+                if (stringContains($searchQuery, '#')) {
+                    if (stringContains(strtolower(join(' ', $tags)), str_replace('#', '', $searchQuery))) {
                         $searchMatch = true;
                     }
                 } else {
                     if(
-                        strpos(strtolower($projectInfo['directory']['id']), $searchQuery) !== false ||
-                        strpos(strtolower($projectInfo['manifest']['name']), $searchQuery) !== false ||
-                        strpos(strtolower($projectInfo['manifest']['shortDescription']), $searchQuery) !== false ||
-                        strpos(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['monthNumber']), $searchQuery) !== false ||
-                        strpos(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['monthFormatted']), $searchQuery) !== false ||
-                        strpos(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['yearNumber']), $searchQuery) !== false ||
-                        strpos(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['yearFormatted']), $searchQuery) !== false
+                        stringContains(strtolower($projectInfo['directory']['id']), $searchQuery) ||
+                        stringContains(strtolower($projectInfo['manifest']['name']), $searchQuery) ||
+                        stringContains(strtolower($projectInfo['manifest']['shortDescription']), $searchQuery) ||
+                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['monthNumber']), $searchQuery) ||
+                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['monthFormatted']), $searchQuery) ||
+                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['yearNumber']), $searchQuery) ||
+                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['yearFormatted']), $searchQuery)
                     ) {
                         $searchMatch = true;
                     }
 
                     if (array_key_exists('credits', $projectInfo['manifest'])) {
-                        if (strpos(strtolower(join(' ', call_user_func_array('array_merge', $projectInfo['manifest']['credits']))), $searchQuery) !== false) {
+                        if (stringContains(strtolower(join(' ', call_user_func_array('array_merge', $projectInfo['manifest']['credits']))), $searchQuery)) {
                             $searchMatch = true;
                         }
                     }
 
                     if (array_key_exists('links', $projectInfo['manifest'])) {
-                        if (strpos(strtolower(join(' ', call_user_func_array('array_merge', $projectInfo['manifest']['links']))), $searchQuery) !== false) {
+                        if (stringContains(strtolower(join(' ', call_user_func_array('array_merge', $projectInfo['manifest']['links']))), $searchQuery)) {
                             $searchMatch = true;
                         }
                     }
