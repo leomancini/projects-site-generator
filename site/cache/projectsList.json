@@ -5700,6 +5700,46 @@
         },
         {
             "directory": {
+                "id": "midday-tech"
+            },
+            "manifest": {
+                "name": "Midday Tech Web App",
+                "shortDescription": "Product experience for crowdsourcing rooftop solar panel projects",
+                "startDate": {
+                    "string": "March 2022",
+                    "timestamp": {
+                        "raw": 1646092800,
+                        "formatted": "March 2022",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Midday Tech, Inc.",
+                        "type": "client",
+                        "link": "https:\/\/middaytech.com\/"
+                    }
+                ],
+                "links": [
+                    {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/middaytech"
+                    }
+                ],
+                "tags": [
+                    "freelance"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "mini-abstract-test-paintings"
             },
             "manifest": {
@@ -9752,6 +9792,21 @@
                         }
                     }
                 },
+                "credits": [
+                    {
+                        "name": "Vault.io, Inc.",
+                        "type": "client",
+                        "link": "http:\/\/vault.io"
+                    }
+                ],
+                "links": [
+                    {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/vaultio"
+                    }
+                ],
                 "tags": [
                     "freelance"
                 ]
