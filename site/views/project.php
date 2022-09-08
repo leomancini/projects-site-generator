@@ -7,7 +7,7 @@
     $projectDirectoryId = $_GET['directoryId'];            
     $projectManifest = getProjectManifest($projectDirectoryId);
     $projectFiles = getProjectFiles($projectDirectoryId);
-    $tags = getProjectTags($projectManifest);
+    $tags = getProjectTags($projectManifest, $projectFiles);
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -113,7 +113,7 @@
                                     $fileContentsFormatted = str_replace("  ", "&nbsp;&nbsp;", $fileContentsFormatted);
 
                                     $fileNameWithoutExtension = explode(".", $screenshotFileName)[0];
-                                    $fileStyle = explode("__", $fileNameWithoutExtension)[1];
+                                    $fileStyle = explode("--", $fileNameWithoutExtension)[1];
 
                                     echo "<div class='text";
                                     if ($fileStyle) { echo " ".$fileStyle; }
