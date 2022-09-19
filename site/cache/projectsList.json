@@ -4487,6 +4487,30 @@
         },
         {
             "directory": {
+                "id": "imac-g4-sketches"
+            },
+            "manifest": {
+                "name": "iMac G4 Sketches",
+                "shortDescription": "Drawings of anthropomorphized computer family",
+                "startDate": {
+                    "string": "August 2003",
+                    "dateEstimated": true,
+                    "timestamp": {
+                        "raw": 1059696000,
+                        "formatted": "August 2003",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2003",
+                            "yearNumber": 2003
+                        }
+                    }
+                },
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "imac-g4-tribute-simulator"
             },
             "manifest": {
