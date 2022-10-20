@@ -7033,13 +7033,13 @@
                 "name": "Pixel City 2.0",
                 "shortDescription": "Concepts for an interactive web experience exploring a fictional city",
                 "startDate": {
-                    "string": "September 2022",
+                    "string": "August 1, 2022",
                     "timestamp": {
-                        "raw": 1661990400,
-                        "formatted": "September 2022",
+                        "raw": 1659312000,
+                        "formatted": "August 2022",
                         "components": {
-                            "monthFormatted": "September",
-                            "monthNumber": 9,
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
                             "yearFormatted": "2022",
                             "yearNumber": 2022
                         }
