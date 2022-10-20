@@ -7027,6 +7027,29 @@
         },
         {
             "directory": {
+                "id": "pixel-city-2"
+            },
+            "manifest": {
+                "name": "Pixel City 2.0",
+                "shortDescription": "Concepts for an interactive web experience exploring a fictional city",
+                "startDate": {
+                    "string": "September 2022",
+                    "timestamp": {
+                        "raw": 1661990400,
+                        "formatted": "September 2022",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "pixel-map-generator"
             },
             "manifest": {
@@ -8823,9 +8846,15 @@
                 "links": [
                     {
                         "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
+                        "label": "View Source 1.0",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/sunset-quality-predictor-automation\/blob\/main\/makeAndPublishPrediction.js"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Source 2.0",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/sunset-quality-predictor-automation-v2\/blob\/main\/run.js"
                     }
                 ],
                 "tags": [
