@@ -7390,6 +7390,37 @@
         },
         {
             "directory": {
+                "id": "process-card-transactions"
+            },
+            "manifest": {
+                "name": "Card Transaction Processor",
+                "shortDescription": "Parse activity from card and present custom actions",
+                "startDate": {
+                    "string": "October 2022",
+                    "timestamp": {
+                        "raw": 1664582400,
+                        "formatted": "October 2022",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/process-card-transactions"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "progress-bar-generator"
             },
             "manifest": {
