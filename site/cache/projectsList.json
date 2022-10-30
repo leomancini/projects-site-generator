@@ -7390,11 +7390,11 @@
         },
         {
             "directory": {
-                "id": "process-card-transactions"
+                "id": "process-card-transactions-api"
             },
             "manifest": {
-                "name": "Card Transaction Processor",
-                "shortDescription": "Parse activity from card and present custom actions",
+                "name": "Card Transaction Processor API",
+                "shortDescription": "Parse activity from credit\/debit card and generate action endpoints",
                 "startDate": {
                     "string": "October 2022",
                     "timestamp": {
@@ -7413,7 +7413,38 @@
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/process-card-transactions"
+                        "url": "https:\/\/github.com\/leomancini\/process-card-transactions-api"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
+                "id": "process-card-transactions-ios-app"
+            },
+            "manifest": {
+                "name": "Card Transaction Actions App",
+                "shortDescription": "View daily transactions and take actions",
+                "startDate": {
+                    "string": "November 2022",
+                    "timestamp": {
+                        "raw": 1667260800,
+                        "formatted": "November 2022",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/process-card-transactions-ios"
                     }
                 ],
                 "tags": []
