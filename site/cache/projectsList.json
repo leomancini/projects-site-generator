@@ -8831,6 +8831,37 @@
         },
         {
             "directory": {
+                "id": "sun-data-api"
+            },
+            "manifest": {
+                "name": "Sun Data API",
+                "shortDescription": "Provide sunset and sunrise data to applications",
+                "startDate": {
+                    "string": "May 13, 2022",
+                    "timestamp": {
+                        "raw": 1652400000,
+                        "formatted": "May 2022",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/sun-data-api\/blob\/main\/index.php"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "sun-rays-desktop-generator"
             },
             "manifest": {
