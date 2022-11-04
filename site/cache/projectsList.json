@@ -8837,9 +8837,9 @@
                 "name": "Sun Data API",
                 "shortDescription": "Provide sunset and sunrise data to applications",
                 "startDate": {
-                    "string": "May 13, 2022",
+                    "string": "May 12, 2022",
                     "timestamp": {
-                        "raw": 1652400000,
+                        "raw": 1652313600,
                         "formatted": "May 2022",
                         "components": {
                             "monthFormatted": "May",
