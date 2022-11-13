@@ -5568,6 +5568,51 @@
         },
         {
             "directory": {
+                "id": "live-skyline-building-renderings"
+            },
+            "manifest": {
+                "name": "Live Skyline Building Renderings",
+                "shortDescription": "Stylized graphics based on live images of buildings in the Manhattan skyline",
+                "startDate": {
+                    "string": "November 10, 2022",
+                    "timestamp": {
+                        "raw": 1668038400,
+                        "formatted": "November 2022",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/skyline-data-api\/blob\/main\/processing.js"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "Visit Live Endpoint",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/noshado.ws:3085\/skyline\/filter?building=UNBuilding&type=3"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View List of Buildings",
+                        "icon": "apartment",
+                        "url": "https:\/\/github.com\/leomancini\/skyline-data-api\/blob\/main\/initialize.js"
+                    }
+                ],
+                "tags": [
+                    "live-site"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "localchat"
             },
             "manifest": {
@@ -8450,6 +8495,55 @@
                 "tags": [
                     "our lady of hope"
                 ]
+            }
+        },
+        {
+            "directory": {
+                "id": "skyline-data-api"
+            },
+            "manifest": {
+                "name": "Skyline Data API",
+                "shortDescription": "Extract data from images of buildings in the Manhattan skyline",
+                "startDate": {
+                    "string": "November 12, 2022",
+                    "timestamp": {
+                        "raw": 1668211200,
+                        "formatted": "November 2022",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/skyline-data-api"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "Visit Hash Endpoint",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/noshado.ws:3085\/skyline\/hash?building=UNBuilding"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Live Source Image",
+                        "icon": "center_focus_weak",
+                        "url": "https:\/\/noshado.ws:3085\/skyline\/hash?building=UNBuilding&showHashImage=true"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Live Raw Image",
+                        "icon": "center_focus_weak",
+                        "url": "https:\/\/noshado.ws:3085\/skyline\/filter?building=UNBuilding"
+                    }
+                ],
+                "tags": []
             }
         },
         {
