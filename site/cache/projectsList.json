@@ -5604,6 +5604,12 @@
                         "label": "View List of Buildings",
                         "icon": "apartment",
                         "url": "https:\/\/github.com\/leomancini\/skyline-data-api\/blob\/main\/initialize.js"
+                    },
+                    {
+                        "type": "twitter",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/twitter.com\/leomancini\/status\/1587616448259756032"
                     }
                 ],
                 "tags": [
