@@ -26,6 +26,7 @@
         <?php if($projectFiles['screenshots'] && reset($projectFiles['screenshots'])) { ?>
             <meta property='og:image' content='https://leomancini.net/projects/<?php echo $projectDirectoryId; ?>/screenshots/<?php echo reset($projectFiles['screenshots']); ?>'>
         <?php } ?>
+        <meta name='format-detection' content='telephone=no'>
     </head>
 	<body ontouchstart=''>
 		<div id='projectInfoContainer'>
