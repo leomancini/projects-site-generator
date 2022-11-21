@@ -1997,12 +1997,6 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/labs.noshado.ws\/covid-county-risk\/"
-                    },
-                    {
-                        "type": "twitter_archive",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1564241739749228544,1564241742404132869,1564241744262225926"
                     }
                 ],
                 "tags": [
