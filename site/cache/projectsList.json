@@ -10039,7 +10039,7 @@
                 "id": "twitter-archive-viewer"
             },
             "manifest": {
-                "name": "Twitter Archive Viewer",
+                "name": "Archived Tweet Viewer",
                 "shortDescription": "Display individual tweets from downloaded archive",
                 "startDate": {
                     "string": "November 21, 2022",
