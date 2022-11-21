@@ -445,6 +445,49 @@
         },
         {
             "directory": {
+                "id": "archived-tweet-viewer"
+            },
+            "manifest": {
+                "name": "Archived Tweet Viewer",
+                "shortDescription": "Display individual tweets from downloaded archive",
+                "startDate": {
+                    "string": "November 21, 2022",
+                    "timestamp": {
+                        "raw": 1668988800,
+                        "formatted": "November 2022",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/twitter-archive-viewer"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Example (Single)",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1283800436340711426"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Example (Multiple)",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1564241739749228544,1564241742404132869,1564241744262225926"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "area-map-tile-downloader"
             },
             "manifest": {
@@ -10032,49 +10075,6 @@
                 "tags": [
                     "Quartz Composer"
                 ]
-            }
-        },
-        {
-            "directory": {
-                "id": "twitter-archive-viewer"
-            },
-            "manifest": {
-                "name": "Archived Tweet Viewer",
-                "shortDescription": "Display individual tweets from downloaded archive",
-                "startDate": {
-                    "string": "November 21, 2022",
-                    "timestamp": {
-                        "raw": 1668988800,
-                        "formatted": "November 2022",
-                        "components": {
-                            "monthFormatted": "November",
-                            "monthNumber": 11,
-                            "yearFormatted": "2022",
-                            "yearNumber": 2022
-                        }
-                    }
-                },
-                "links": [
-                    {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/twitter-archive-viewer"
-                    },
-                    {
-                        "type": "live_site",
-                        "label": "View Example (Single)",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1283800436340711426"
-                    },
-                    {
-                        "type": "live_site",
-                        "label": "View Example (Multiple)",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1564241739749228544,1564241742404132869,1564241744262225926"
-                    }
-                ],
-                "tags": []
             }
         },
         {
