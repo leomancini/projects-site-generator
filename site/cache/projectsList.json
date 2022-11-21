@@ -1522,16 +1522,16 @@
                         "url": "https:\/\/github.com\/leomancini\/place-lists\/tree\/master\/v2\/frontend\/experiments"
                     },
                     {
-                        "type": "twitter",
+                        "type": "twitter_archive",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/twitter.com\/leomancini\/status\/1280342884558880768"
+                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1280342884558880768"
                     },
                     {
-                        "type": "twitter",
+                        "type": "twitter_archive",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/twitter.com\/leomancini\/status\/1281310747486613504"
+                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1281310747486613504"
                     }
                 ],
                 "tags": [
@@ -1915,10 +1915,10 @@
                         "url": "https:\/\/labs.noshado.ws\/covid-county-risk-api\/?location=40.7468563,-73.9570921"
                     },
                     {
-                        "type": "twitter",
+                        "type": "twitter_archive",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/twitter.com\/leomancini\/status\/1564241739749228544"
+                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1564241739749228544"
                     }
                 ],
                 "tags": [
@@ -1954,10 +1954,10 @@
                         "url": "https:\/\/github.com\/leomancini\/covid-risk-level-ios-widget"
                     },
                     {
-                        "type": "twitter",
+                        "type": "twitter_archive",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/twitter.com\/leomancini\/status\/1564241739749228544"
+                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1564241739749228544"
                     }
                 ],
                 "tags": [
@@ -1999,10 +1999,10 @@
                         "url": "https:\/\/labs.noshado.ws\/covid-county-risk\/"
                     },
                     {
-                        "type": "twitter",
+                        "type": "twitter_archive",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/twitter.com\/leomancini\/status\/1564241739749228544"
+                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1564241739749228544"
                     }
                 ],
                 "tags": [
@@ -5606,10 +5606,10 @@
                         "url": "https:\/\/github.com\/leomancini\/skyline-data-api\/blob\/main\/initialize.js"
                     },
                     {
-                        "type": "twitter",
+                        "type": "twitter_archive",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/twitter.com\/leomancini\/status\/1587616448259756032"
+                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1587616448259756032"
                     }
                 ],
                 "tags": [
@@ -7653,10 +7653,10 @@
                         "url": "https:\/\/github.com\/leomancini\/prop-65-detector"
                     },
                     {
-                        "type": "twitter",
+                        "type": "twitter_archive",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/twitter.com\/leomancini\/status\/1291570691603456006"
+                        "url": "https:\/\/labs.noshado.ws\/twitter-archive\/#1291570691603456006"
                     },
                     {
                         "type": "chrome",
@@ -7695,10 +7695,10 @@
                 },
                 "links": [
                     {
-                        "type": "twitter",
+                        "type": "twitter_archive",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/twitter.com\/leomancini\/status\/1283800436340711426"
+                        "url": "https:\/\/labs.noshado.ws\/twitter-archive\/#1283800436340711426"
                     }
                 ],
                 "tags": [
@@ -10362,10 +10362,10 @@
                         "url": "https:\/\/github.com\/leomancini\/what-the-hood"
                     },
                     {
-                        "type": "twitter",
+                        "type": "twitter_archive",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/twitter.com\/leomancini\/status\/1279825218333106177"
+                        "url": "https:\/\/labs.noshado.ws\/twitter-archive\/#1279825218333106177"
                     }
                 ],
                 "tags": [

@@ -13,6 +13,7 @@
             "article": "description",
             "patent": "account_balance",
             "twitter": "article",
+            "twitter_archive": "article",
             "download": "download"
         },
         "defaultLabelsForType": {
@@ -26,6 +27,7 @@
             "link": "Open Link",
             "patent": "View Patent",
             "twitter": "View on Twitter",
+            "twitter_archive": "View in Twitter Archive",
             "download": "Download"
         }
     },
