@@ -1931,7 +1931,7 @@
                 "id": "covid-risk-level-ios-widget"
             },
             "manifest": {
-                "name": "Covid Community Level for Current Location iOS Widget",
+                "name": "Covid Community Level iOS Widget",
                 "shortDescription": "On home screen, show CDC's community level for current location",
                 "startDate": {
                     "string": "August 23, 2022",
@@ -1970,7 +1970,7 @@
                 "id": "covid-risk-level-web-app"
             },
             "manifest": {
-                "name": "Covid Community Level for Current Location Web App",
+                "name": "Covid Community Level Web App",
                 "shortDescription": "In a browser, show CDC's community level for current location",
                 "startDate": {
                     "string": "August 22, 2022",
