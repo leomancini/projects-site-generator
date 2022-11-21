@@ -127,6 +127,8 @@
             }
         }
 
+        $tags = array_unique($tags);
+        
         return $tags;
     }
 ?>
