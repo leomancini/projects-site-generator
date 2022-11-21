@@ -10042,6 +10042,43 @@
         },
         {
             "directory": {
+                "id": "twitter-archive-viewer"
+            },
+            "manifest": {
+                "name": "Twitter Archive Viewer",
+                "shortDescription": "Display individual tweets from downloaded archive",
+                "startDate": {
+                    "string": "November 21, 2022",
+                    "timestamp": {
+                        "raw": 1668988800,
+                        "formatted": "November 2022",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/twitter-archive-viewer"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Example",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1564241739749228544"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "universal-prekindergarten-bus-advertisement"
             },
             "manifest": {
