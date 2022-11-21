@@ -100,14 +100,17 @@
 
         if(count($links) > 0) {
             foreach($links as $link) {
-                // If github link exists, automatically add 'github' tag
+                // Automatically tags based on certain links
                 if (stringContains($link['url'], 'github.com')) {
                     array_push($tags, 'github');
                 }
 
-                // If live site link exists, automatically add 'live-site' tag
                 if (stringContains($link['type'], 'live_site')) {
                     array_push($tags, 'live-site');
+                }
+
+                if (stringContains($link['url'], 'noshado.ws/archive/tweets')) {
+                    array_push($tags, 'archived-tweet');
                 }
             }
         }
@@ -128,7 +131,7 @@
         }
 
         $tags = array_unique($tags);
-        
+
         return $tags;
     }
 ?>
