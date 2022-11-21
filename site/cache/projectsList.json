@@ -9098,6 +9098,12 @@
                         "label": "View on Instagram",
                         "icon": "visibility",
                         "url": "https:\/\/instagram.com\/nycsunsetbot\/"
+                    },
+                    {
+                        "type": "twitter_archive",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/noshado.ws\/archive\/tweets\/1572261667727089665"
                     }
                 ],
                 "tags": [
