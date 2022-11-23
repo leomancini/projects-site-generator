@@ -5925,6 +5925,37 @@
         },
         {
             "directory": {
+                "id": "mini-display-data-prototype"
+            },
+            "manifest": {
+                "name": "Mini Display Data Prototype",
+                "shortDescription": "Render parsed JSON data from an API on a small OLED display",
+                "startDate": {
+                    "string": "November 10, 2022",
+                    "timestamp": {
+                        "raw": 1668038400,
+                        "formatted": "November 2022",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/arduino-oled-display\/blob\/main\/display-parsed-json.ino"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "mom-business-card-series"
             },
             "manifest": {
