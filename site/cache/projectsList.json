@@ -7540,37 +7540,6 @@
         },
         {
             "directory": {
-                "id": "process-card-transactions-ios-app"
-            },
-            "manifest": {
-                "name": "Card Transaction Actions App",
-                "shortDescription": "View daily transactions and take actions",
-                "startDate": {
-                    "string": "November 2022",
-                    "timestamp": {
-                        "raw": 1667260800,
-                        "formatted": "November 2022",
-                        "components": {
-                            "monthFormatted": "November",
-                            "monthNumber": 11,
-                            "yearFormatted": "2022",
-                            "yearNumber": 2022
-                        }
-                    }
-                },
-                "links": [
-                    {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/process-card-transactions-ios"
-                    }
-                ],
-                "tags": []
-            }
-        },
-        {
-            "directory": {
                 "id": "progress-bar-generator"
             },
             "manifest": {
@@ -10182,6 +10151,68 @@
                 "tags": [
                     "freelance"
                 ]
+            }
+        },
+        {
+            "directory": {
+                "id": "view-card-transactions-ios-app"
+            },
+            "manifest": {
+                "name": "Card Transaction Actions iOS App",
+                "shortDescription": "On mobile, view daily transactions and take actions",
+                "startDate": {
+                    "string": "November 2022",
+                    "timestamp": {
+                        "raw": 1667260800,
+                        "formatted": "November 2022",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/process-card-transactions-ios"
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
+                "id": "view-card-transactions-web-app"
+            },
+            "manifest": {
+                "name": "Card Transaction Actions Web App",
+                "shortDescription": "On desktop, view daily transactions and take actions",
+                "startDate": {
+                    "string": "November 2022",
+                    "timestamp": {
+                        "raw": 1667260800,
+                        "formatted": "November 2022",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/view-card-transactions-web"
+                    }
+                ],
+                "tags": []
             }
         },
         {
