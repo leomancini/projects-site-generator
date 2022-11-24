@@ -3445,6 +3445,37 @@
         },
         {
             "directory": {
+                "id": "finger-paintings"
+            },
+            "manifest": {
+                "name": "Finger Paintings",
+                "shortDescription": "Playing with color on paper",
+                "startDate": {
+                    "string": "July 1995",
+                    "timestamp": {
+                        "raw": 804556800,
+                        "formatted": "July 1995",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "1995",
+                            "yearNumber": 1995
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": ""
+                    }
+                ],
+                "tags": []
+            }
+        },
+        {
+            "directory": {
                 "id": "flight-training-question-sorter"
             },
             "manifest": {
