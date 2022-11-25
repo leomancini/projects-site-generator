@@ -92,10 +92,8 @@
                 $searchQuery = strtolower($_GET['search']);
                 $searchMatch = false;
 
-                $tags = getProjectTags($projectInfo['manifest'], $projectInfo['files']);
-
                 if (stringContains($searchQuery, '#')) {
-                    if (stringContains(strtolower(join(' ', $tags)), str_replace('#', '', $searchQuery))) {
+                    if (stringContains(strtolower(join(' ', $projectInfo['manifest']['tags'])), str_replace('#', '', $searchQuery))) {
                         $searchMatch = true;
                     }
                 } else {
