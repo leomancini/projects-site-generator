@@ -14,7 +14,7 @@
         return $projects;
     }
     
-    function getProjectsListWithManifests($projects) {
+    function getProjectsListWithManifestsAndFiles($projects) {
         $projectsListWithManifests = [
             'metadata' => [],
             'projects' => []
@@ -22,6 +22,7 @@
 
         foreach($projects as $projectDirectory) {
             $projectManifest = getProjectManifest($projectDirectory);
+            $projectFiles = getProjectFiles($projectDirectory);
 
             $projectInfo = [
                 'directory' => [
@@ -41,6 +42,8 @@
                     'yearNumber' => (int) date('Y', $startDateTimestamp),
                 ]
             ];
+
+            $projectInfo['manifest']['tags'] = getProjectTags($projectManifest, $projectFiles);
 
             array_push($projectsListWithManifests['projects'], $projectInfo);
         }
@@ -89,7 +92,7 @@
                 $searchQuery = strtolower($_GET['search']);
                 $searchMatch = false;
 
-                $tags = getProjectTags($projectInfo['manifest'], null);
+                $tags = getProjectTags($projectInfo['manifest'], $projectInfo['files']);
 
                 if (stringContains($searchQuery, '#')) {
                     if (stringContains(strtolower(join(' ', $tags)), str_replace('#', '', $searchQuery))) {
@@ -145,11 +148,11 @@
             $projectsListWithManifests = $cacheData;
         } else {   
             $projectsList = getProjectsList();
-            $projectsListWithManifests = getProjectsListWithManifests($projectsList);
+            $projectsListWithManifests = getProjectsListWithManifestsAndFiles($projectsList);
         }
     } else {
         $projectsList = getProjectsList();
-        $projectsListWithManifests = getProjectsListWithManifests($projectsList);
+        $projectsListWithManifests = getProjectsListWithManifestsAndFiles($projectsList);
     }
 
     $projectsListSorted = sortProjectsList($projectsListWithManifests);

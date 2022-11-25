@@ -33,7 +33,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -118,7 +118,7 @@
                 },
                 "tags": [
                     "sva",
-                    "school of visual arts",
+                    "school-of-visual-arts",
                     "painting",
                     "sculpture"
                 ]
@@ -168,7 +168,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -277,7 +277,7 @@
                     }
                 },
                 "tags": [
-                    "art students league",
+                    "art-students-league",
                     "drawing"
                 ]
             }
@@ -324,7 +324,7 @@
                 ],
                 "tags": [
                     "sva",
-                    "school of visual arts",
+                    "school-of-visual-arts",
                     "video"
                 ]
             }
@@ -350,7 +350,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -377,7 +377,7 @@
                 "tags": [
                     "arduino",
                     "twilio",
-                    "home automation"
+                    "home-automation"
                 ]
             }
         },
@@ -483,7 +483,11 @@
                         "url": "https:\/\/noshado.ws\/archive\/tweets\/1564241739749228544,1564241742404132869,1564241744262225926"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "github",
+                    "live-site",
+                    "archived-tweet"
+                ]
             }
         },
         {
@@ -515,7 +519,8 @@
                     }
                 ],
                 "tags": [
-                    "map"
+                    "map",
+                    "github"
                 ]
             }
         },
@@ -652,7 +657,8 @@
                     }
                 ],
                 "tags": [
-                    "mom"
+                    "mom",
+                    "live-site"
                 ]
             }
         },
@@ -684,7 +690,8 @@
                     }
                 ],
                 "tags": [
-                    "pixelstorms"
+                    "pixelstorms",
+                    "audio"
                 ]
             }
         },
@@ -744,7 +751,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -769,7 +776,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -893,7 +900,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -919,7 +926,7 @@
                 },
                 "tags": [
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -1048,7 +1055,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -1179,7 +1186,8 @@
                 "tags": [
                     "game",
                     "sva",
-                    "school of visual arts"
+                    "school-of-visual-arts",
+                    "live-site"
                 ]
             }
         },
@@ -1214,7 +1222,8 @@
                 "tags": [
                     "camera",
                     "javascript",
-                    "github"
+                    "github",
+                    "video"
                 ]
             }
         },
@@ -1275,8 +1284,9 @@
                     }
                 },
                 "tags": [
-                    "code for america",
-                    "job"
+                    "code-for-america",
+                    "job",
+                    "video"
                 ]
             }
         },
@@ -1301,7 +1311,7 @@
                     }
                 },
                 "tags": [
-                    "code for america",
+                    "code-for-america",
                     "job"
                 ]
             }
@@ -1337,7 +1347,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -1362,7 +1372,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -1421,9 +1431,8 @@
                     "mandarin",
                     "chinese",
                     "\u4e2d\u6587",
-                    "language learning",
-                    "javascript",
-                    "github"
+                    "language-learning",
+                    "javascript"
                 ]
             }
         },
@@ -1581,7 +1590,10 @@
                     "javascript",
                     "d3",
                     "data",
-                    "stats"
+                    "stats",
+                    "live-site",
+                    "github",
+                    "archived-tweet"
                 ]
             }
         },
@@ -1617,7 +1629,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -1653,7 +1665,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -1689,7 +1701,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -1724,7 +1736,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -1748,7 +1760,9 @@
                         }
                     }
                 },
-                "tags": []
+                "tags": [
+                    "video"
+                ]
             }
         },
         {
@@ -1771,7 +1785,9 @@
                         }
                     }
                 },
-                "tags": []
+                "tags": [
+                    "video"
+                ]
             }
         },
         {
@@ -1850,7 +1866,9 @@
                         "url": "https:\/\/leomancinidesign.com\/storage\/codebox\/Horloge\/clock3\/"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "live-site"
+                ]
             }
         },
         {
@@ -1884,7 +1902,7 @@
                 "tags": [
                     "portfolio2012",
                     "sva",
-                    "school of visual arts"
+                    "school-of-visual-arts"
                 ]
             }
         },
@@ -1920,7 +1938,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -1965,7 +1983,10 @@
                     }
                 ],
                 "tags": [
-                    "covid"
+                    "covid",
+                    "github",
+                    "live-site",
+                    "archived-tweet"
                 ]
             }
         },
@@ -2004,7 +2025,9 @@
                     }
                 ],
                 "tags": [
-                    "covid"
+                    "covid",
+                    "github",
+                    "archived-tweet"
                 ]
             }
         },
@@ -2043,7 +2066,9 @@
                     }
                 ],
                 "tags": [
-                    "covid"
+                    "covid",
+                    "github",
+                    "live-site"
                 ]
             }
         },
@@ -2078,7 +2103,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -2103,7 +2128,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -2314,7 +2339,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -2339,8 +2364,8 @@
                     }
                 },
                 "tags": [
-                    "raspberry pi",
-                    "home automation"
+                    "raspberry-pi",
+                    "home-automation"
                 ]
             }
         },
@@ -2373,13 +2398,14 @@
                     }
                 ],
                 "tags": [
-                    "home automation",
-                    "google assistant",
+                    "home-automation",
+                    "google-assistant",
                     "voice",
-                    "raspberry pi",
+                    "raspberry-pi",
                     "php",
                     "javascript",
-                    "github"
+                    "github",
+                    "video"
                 ]
             }
         },
@@ -2469,7 +2495,8 @@
                     }
                 ],
                 "tags": [
-                    "github"
+                    "github",
+                    "video"
                 ]
             }
         },
@@ -2505,7 +2532,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -2541,7 +2568,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -2612,7 +2639,7 @@
                 ],
                 "tags": [
                     "sva",
-                    "school of visual arts",
+                    "school-of-visual-arts",
                     "video"
                 ]
             }
@@ -2679,7 +2706,7 @@
                     }
                 },
                 "tags": [
-                    "our lady of hope"
+                    "our-lady-of-hope"
                 ]
             }
         },
@@ -2713,7 +2740,8 @@
                 ],
                 "tags": [
                     "evan",
-                    "mancininet"
+                    "mancininet",
+                    "live-site"
                 ]
             }
         },
@@ -2738,8 +2766,9 @@
                     }
                 },
                 "tags": [
-                    "code for america",
-                    "job"
+                    "code-for-america",
+                    "job",
+                    "video"
                 ]
             }
         },
@@ -2774,7 +2803,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -2863,7 +2892,8 @@
                 "tags": [
                     "facebook",
                     "job",
-                    "fb-fte"
+                    "fb-fte",
+                    "video"
                 ]
             }
         },
@@ -3093,7 +3123,9 @@
                 "tags": [
                     "facebook",
                     "job",
-                    "fb-fte"
+                    "fb-fte",
+                    "live-site",
+                    "video"
                 ]
             }
         },
@@ -3152,7 +3184,8 @@
                 "tags": [
                     "facebook",
                     "job",
-                    "fb-fte"
+                    "fb-fte",
+                    "video"
                 ]
             }
         },
@@ -3351,7 +3384,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -3386,7 +3419,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -3411,7 +3444,7 @@
                     }
                 },
                 "tags": [
-                    "art students league",
+                    "art-students-league",
                     "drawing"
                 ]
             }
@@ -3438,7 +3471,7 @@
                 },
                 "tags": [
                     "sva",
-                    "school of visual arts",
+                    "school-of-visual-arts",
                     "drawing"
                 ]
             }
@@ -3579,7 +3612,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -3623,11 +3656,12 @@
                         "url": "https:\/\/leo.gd\/#place-lists"
                     }
                 ],
-                "tags": [
-                    "github",
-                    "php",
-                    "javascript"
-                ]
+                "tags": {
+                    "1": "php",
+                    "2": "javascript",
+                    "3": "live-site",
+                    "4": "github"
+                }
             }
         },
         {
@@ -3652,7 +3686,7 @@
                 },
                 "tags": [
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -3678,7 +3712,7 @@
                 },
                 "tags": [
                     "sva",
-                    "school of visual arts",
+                    "school-of-visual-arts",
                     "painting"
                 ]
             }
@@ -3705,7 +3739,7 @@
                 },
                 "tags": [
                     "arduino",
-                    "home automation"
+                    "home-automation"
                 ]
             }
         },
@@ -3766,8 +3800,9 @@
                     }
                 },
                 "tags": [
-                    "code for america",
-                    "job"
+                    "code-for-america",
+                    "job",
+                    "video"
                 ]
             }
         },
@@ -3803,7 +3838,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -3838,7 +3873,7 @@
                 "tags": [
                     "portfolio2012",
                     "sva",
-                    "school of visual arts"
+                    "school-of-visual-arts"
                 ]
             }
         },
@@ -3961,7 +3996,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -3996,7 +4031,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -4088,7 +4123,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -4124,7 +4159,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -4160,7 +4195,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -4196,7 +4231,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -4229,7 +4264,9 @@
                     }
                 ],
                 "tags": [
-                    "map"
+                    "map",
+                    "live-site",
+                    "video"
                 ]
             }
         },
@@ -4321,8 +4358,8 @@
                 },
                 "tags": [
                     "arduino",
-                    "raspberry pi",
-                    "home automation"
+                    "raspberry-pi",
+                    "home-automation"
                 ]
             }
         },
@@ -4378,10 +4415,10 @@
                     }
                 ],
                 "tags": [
-                    "home automation",
-                    "google assistant",
+                    "home-automation",
+                    "google-assistant",
                     "voice",
-                    "raspberry pi",
+                    "raspberry-pi",
                     "node",
                     "php",
                     "javascript",
@@ -4411,7 +4448,7 @@
                 },
                 "tags": [
                     "sva",
-                    "school of visual arts",
+                    "school-of-visual-arts",
                     "painting"
                 ]
             }
@@ -4523,7 +4560,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -4549,7 +4586,7 @@
                 },
                 "tags": [
                     "resexcellence",
-                    "imac g4"
+                    "imac-g4"
                 ]
             }
         },
@@ -4611,11 +4648,12 @@
                         "url": "https:\/\/github.com\/leomancini\/imac-g4"
                     }
                 ],
-                "tags": [
-                    "github",
-                    "javascript",
-                    "imac g4"
-                ]
+                "tags": {
+                    "1": "javascript",
+                    "2": "imac-g4",
+                    "3": "live-site",
+                    "4": "github"
+                }
             }
         },
         {
@@ -4757,11 +4795,11 @@
                         "url": "https:\/\/github.com\/leomancini\/home-control\/blob\/master\/ir-control-projector-apple-tv.ino"
                     }
                 ],
-                "tags": [
-                    "github",
-                    "arduino",
-                    "home automation"
-                ]
+                "tags": {
+                    "1": "arduino",
+                    "2": "home-automation",
+                    "3": "github"
+                }
             }
         },
         {
@@ -4826,7 +4864,7 @@
                     }
                 ],
                 "tags": [
-                    "home automation",
+                    "home-automation",
                     "github"
                 ]
             }
@@ -4852,7 +4890,7 @@
                     }
                 },
                 "tags": [
-                    "code for america",
+                    "code-for-america",
                     "job"
                 ]
             }
@@ -4911,7 +4949,7 @@
                 "tags": [
                     "portfolio2012",
                     "sva",
-                    "school of visual arts"
+                    "school-of-visual-arts"
                 ]
             }
         },
@@ -4946,7 +4984,7 @@
                 "tags": [
                     "portfolio2012",
                     "sva",
-                    "school of visual arts"
+                    "school-of-visual-arts"
                 ]
             }
         },
@@ -4981,7 +5019,7 @@
                 "tags": [
                     "portfolio2012",
                     "sva",
-                    "school of visual arts"
+                    "school-of-visual-arts"
                 ]
             }
         },
@@ -5014,8 +5052,10 @@
                     }
                 ],
                 "tags": [
-                    "code for america",
-                    "job"
+                    "code-for-america",
+                    "job",
+                    "github",
+                    "video"
                 ]
             }
         },
@@ -5040,7 +5080,7 @@
                     }
                 },
                 "tags": [
-                    "code for america",
+                    "code-for-america",
                     "job"
                 ]
             }
@@ -5081,8 +5121,10 @@
                     }
                 ],
                 "tags": [
-                    "code for america",
-                    "job"
+                    "code-for-america",
+                    "job",
+                    "github",
+                    "video"
                 ]
             }
         },
@@ -5121,8 +5163,11 @@
                     }
                 ],
                 "tags": [
-                    "code for america",
-                    "job"
+                    "code-for-america",
+                    "job",
+                    "github",
+                    "live-site",
+                    "video"
                 ]
             }
         },
@@ -5188,7 +5233,8 @@
                     }
                 ],
                 "tags": [
-                    "dad"
+                    "dad",
+                    "live-site"
                 ]
             }
         },
@@ -5214,7 +5260,7 @@
                 },
                 "tags": [
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -5272,7 +5318,7 @@
                     }
                 },
                 "tags": [
-                    "home automation"
+                    "home-automation"
                 ]
             }
         },
@@ -5298,8 +5344,9 @@
                 },
                 "tags": [
                     "sva",
-                    "school of visual arts",
-                    "sculpture"
+                    "school-of-visual-arts",
+                    "sculpture",
+                    "video"
                 ]
             }
         },
@@ -5345,7 +5392,7 @@
                 ],
                 "tags": [
                     "sva",
-                    "school of visual arts",
+                    "school-of-visual-arts",
                     "video"
                 ]
             }
@@ -5371,7 +5418,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -5396,7 +5443,7 @@
                     }
                 },
                 "tags": [
-                    "code for america",
+                    "code-for-america",
                     "job"
                 ]
             }
@@ -5429,7 +5476,9 @@
                         "url": "https:\/\/github.com\/leomancini\/lambda-url-proxy\/blob\/main\/proxy.php"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "github"
+                ]
             }
         },
         {
@@ -5464,9 +5513,8 @@
                     "mandarin",
                     "chinese",
                     "\u4e2d\u6587",
-                    "language learning",
-                    "javascript",
-                    "github"
+                    "language-learning",
+                    "javascript"
                 ]
             }
         },
@@ -5492,7 +5540,8 @@
                 },
                 "tags": [
                     "php",
-                    "home automation"
+                    "home-automation",
+                    "video"
                 ]
             }
         },
@@ -5518,7 +5567,7 @@
                 },
                 "tags": [
                     "sva",
-                    "school of visual arts",
+                    "school-of-visual-arts",
                     "painting"
                 ]
             }
@@ -5551,7 +5600,8 @@
                 ],
                 "tags": [
                     "javascript",
-                    "php"
+                    "php",
+                    "video"
                 ]
             }
         },
@@ -5680,9 +5730,12 @@
                         "url": "https:\/\/noshado.ws\/archive\/tweets\/1587616448259756032,1587616651700305922,1587616734516764672"
                     }
                 ],
-                "tags": [
-                    "live-site"
-                ]
+                "tags": {
+                    "0": "live-site",
+                    "1": "github",
+                    "4": "archived-tweet",
+                    "5": "video"
+                }
             }
         },
         {
@@ -5788,7 +5841,9 @@
                         }
                     }
                 },
-                "tags": []
+                "tags": [
+                    "video"
+                ]
             }
         },
         {
@@ -5855,7 +5910,9 @@
                         "link": "https:\/\/artoflauramancini.com"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "live-site"
+                ]
             }
         },
         {
@@ -5949,7 +6006,7 @@
                 },
                 "tags": [
                     "sva",
-                    "school of visual arts",
+                    "school-of-visual-arts",
                     "painting"
                 ]
             }
@@ -5982,7 +6039,9 @@
                         "url": "https:\/\/github.com\/leomancini\/arduino-oled-display\/blob\/main\/display-parsed-json.ino"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "github"
+                ]
             }
         },
         {
@@ -6087,7 +6146,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -6155,7 +6214,7 @@
                 "tags": [
                     "portfolio2012",
                     "sva",
-                    "school of visual arts"
+                    "school-of-visual-arts"
                 ]
             }
         },
@@ -6188,11 +6247,12 @@
                     }
                 ],
                 "tags": [
-                    "home automation",
-                    "google assistant",
+                    "home-automation",
+                    "google-assistant",
                     "voice",
                     "php",
-                    "github"
+                    "github",
+                    "video"
                 ]
             }
         },
@@ -6232,7 +6292,8 @@
                     }
                 ],
                 "tags": [
-                    "map"
+                    "map",
+                    "live-site"
                 ]
             }
         },
@@ -6267,7 +6328,8 @@
                 "tags": [
                     "camera",
                     "php",
-                    "github"
+                    "github",
+                    "video"
                 ]
             }
         },
@@ -6325,7 +6387,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -6350,7 +6412,8 @@
                     }
                 },
                 "tags": [
-                    "Quartz Composer"
+                    "quartz-composer",
+                    "video"
                 ]
             }
         },
@@ -6392,7 +6455,8 @@
                     "map",
                     "data",
                     "stats",
-                    "github"
+                    "github",
+                    "live-site"
                 ]
             }
         },
@@ -6440,7 +6504,7 @@
                     "portfolio2012",
                     "photography",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -6560,7 +6624,9 @@
                         "url": "https:\/\/ofc.land\/"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "live-site"
+                ]
             }
         },
         {
@@ -6590,7 +6656,7 @@
                     }
                 ],
                 "tags": [
-                    "open dream"
+                    "open-dream"
                 ]
             }
         },
@@ -6622,7 +6688,10 @@
                         "url": "https:\/\/github.com\/leomancini\/optical-data-transfer"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "github",
+                    "video"
+                ]
             }
         },
         {
@@ -6722,7 +6791,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -6756,7 +6825,7 @@
                 ],
                 "tags": [
                     "portfolio2012",
-                    "art students league",
+                    "art-students-league",
                     "drawing",
                     "painting"
                 ]
@@ -6851,7 +6920,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -6943,7 +7012,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -6978,7 +7047,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -7004,7 +7073,7 @@
                 },
                 "tags": [
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -7045,7 +7114,8 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school",
+                    "live-site"
                 ]
             }
         },
@@ -7070,7 +7140,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -7146,9 +7216,11 @@
                     "mandarin",
                     "chinese",
                     "\u4e2d\u6587",
-                    "language learning",
+                    "language-learning",
                     "javascript",
-                    "github"
+                    "github",
+                    "live-site",
+                    "video"
                 ]
             }
         },
@@ -7233,7 +7305,9 @@
                     }
                 ],
                 "tags": [
-                    "map"
+                    "map",
+                    "live-site",
+                    "github"
                 ]
             }
         },
@@ -7296,7 +7370,8 @@
                     }
                 ],
                 "tags": [
-                    "pixelstorms"
+                    "pixelstorms",
+                    "video"
                 ]
             }
         },
@@ -7427,8 +7502,10 @@
                     }
                 ],
                 "tags": [
-                    "code for america",
-                    "job"
+                    "code-for-america",
+                    "job",
+                    "github",
+                    "video"
                 ]
             }
         },
@@ -7461,8 +7538,10 @@
                     }
                 ],
                 "tags": [
-                    "code for america",
-                    "job"
+                    "code-for-america",
+                    "job",
+                    "github",
+                    "video"
                 ]
             }
         },
@@ -7495,7 +7574,8 @@
                     }
                 ],
                 "tags": [
-                    "portfolio"
+                    "portfolio",
+                    "live-site"
                 ]
             }
         },
@@ -7534,7 +7614,9 @@
                     }
                 ],
                 "tags": [
-                    "portfolio"
+                    "portfolio",
+                    "live-site",
+                    "github"
                 ]
             }
         },
@@ -7566,7 +7648,9 @@
                         "url": "https:\/\/github.com\/leomancini\/process-card-transactions-api"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "github"
+                ]
             }
         },
         {
@@ -7597,7 +7681,9 @@
                         "url": "https:\/\/leomancinidesign.com\/storage\/codebox\/progressbar\/?level=79&color=00e0f9&bgcolor=007b89"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "live-site"
+                ]
             }
         },
         {
@@ -7621,7 +7707,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -7689,7 +7775,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -7737,7 +7823,9 @@
                     "javascript",
                     "chrome",
                     "extension",
-                    "github"
+                    "github",
+                    "archived-tweet",
+                    "video"
                 ]
             }
         },
@@ -7770,7 +7858,8 @@
                     }
                 ],
                 "tags": [
-                    "drawing"
+                    "drawing",
+                    "archived-tweet"
                 ]
             }
         },
@@ -7829,7 +7918,7 @@
                 },
                 "tags": [
                     "sva",
-                    "school of visual arts"
+                    "school-of-visual-arts"
                 ]
             }
         },
@@ -7954,9 +8043,9 @@
                     }
                 ],
                 "tags": [
-                    "raspberry pi",
+                    "raspberry-pi",
                     "rf",
-                    "home automation",
+                    "home-automation",
                     "github"
                 ]
             }
@@ -7983,7 +8072,8 @@
                 },
                 "tags": [
                     "rfid",
-                    "home automation"
+                    "home-automation",
+                    "video"
                 ]
             }
         },
@@ -8052,7 +8142,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -8078,7 +8168,7 @@
                 },
                 "tags": [
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -8308,7 +8398,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -8343,7 +8433,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -8368,7 +8458,7 @@
                     }
                 },
                 "tags": [
-                    "our lady of hope"
+                    "our-lady-of-hope"
                 ]
             }
         },
@@ -8432,7 +8522,8 @@
                     }
                 ],
                 "tags": [
-                    "Quartz Composer"
+                    "quartz-composer",
+                    "video"
                 ]
             }
         },
@@ -8458,7 +8549,7 @@
                 },
                 "tags": [
                     "sva",
-                    "school of visual arts",
+                    "school-of-visual-arts",
                     "sculpture"
                 ]
             }
@@ -8484,7 +8575,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -8542,7 +8633,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -8567,7 +8658,7 @@
                     }
                 },
                 "tags": [
-                    "our lady of hope"
+                    "our-lady-of-hope"
                 ]
             }
         },
@@ -8617,7 +8708,10 @@
                         "url": "https:\/\/noshado.ws:3085\/skyline\/filter?building=UNBuilding"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "github",
+                    "live-site"
+                ]
             }
         },
         {
@@ -8675,7 +8769,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -8710,7 +8804,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -8736,7 +8830,7 @@
                 },
                 "tags": [
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -8796,7 +8890,8 @@
                 },
                 "tags": [
                     "square",
-                    "job"
+                    "job",
+                    "video"
                 ]
             }
         },
@@ -8870,7 +8965,9 @@
                         "link": "http:\/\/tizag.com\/"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "live-site"
+                ]
             }
         },
         {
@@ -8934,7 +9031,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -8970,7 +9067,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -9025,7 +9122,9 @@
                         "url": "https:\/\/github.com\/leomancini\/sun-data-api\/blob\/main\/index.php"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "github"
+                ]
             }
         },
         {
@@ -9056,7 +9155,9 @@
                         "url": "https:\/\/leomancinidesign.com\/storage\/codebox\/sunrays-desktopgenerator\/"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "live-site"
+                ]
             }
         },
         {
@@ -9080,7 +9181,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -9119,9 +9220,9 @@
                     }
                 ],
                 "tags": [
-                    "sunset quality predictor",
+                    "sunset-quality-predictor",
                     "sunset",
-                    "machine learning",
+                    "machine-learning",
                     "data",
                     "camera",
                     "github"
@@ -9175,12 +9276,14 @@
                     }
                 ],
                 "tags": [
-                    "sunset quality predictor",
+                    "sunset-quality-predictor",
                     "sunset",
-                    "machine learning",
+                    "machine-learning",
                     "data",
                     "camera",
-                    "github"
+                    "github",
+                    "live-site",
+                    "archived-tweet"
                 ]
             }
         },
@@ -9219,7 +9322,7 @@
                     }
                 ],
                 "tags": [
-                    "sunset quality predictor",
+                    "sunset-quality-predictor",
                     "sunset",
                     "camera",
                     "github"
@@ -9261,12 +9364,13 @@
                     }
                 ],
                 "tags": [
-                    "sunset quality predictor",
+                    "sunset-quality-predictor",
                     "sunset",
                     "javascript",
                     "php",
                     "camera",
-                    "github"
+                    "github",
+                    "live-site"
                 ]
             }
         },
@@ -9305,11 +9409,12 @@
                     }
                 ],
                 "tags": [
-                    "sunset quality predictor",
+                    "sunset-quality-predictor",
                     "sunset",
-                    "machine learning",
+                    "machine-learning",
                     "data",
-                    "github"
+                    "github",
+                    "live-site"
                 ]
             }
         },
@@ -9359,13 +9464,14 @@
                         "url": "https:\/\/www.instagram.com\/p\/CdcMLqmreQM\/"
                     }
                 ],
-                "tags": [
-                    "sunset quality predictor",
-                    "bash",
-                    "script",
-                    "camera",
-                    "github"
-                ]
+                "tags": {
+                    "0": "sunset-quality-predictor",
+                    "1": "bash",
+                    "2": "script",
+                    "3": "camera",
+                    "4": "github",
+                    "6": "video"
+                }
             }
         },
         {
@@ -9389,7 +9495,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -9414,7 +9520,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -9574,7 +9680,7 @@
                     }
                 },
                 "tags": [
-                    "code for america",
+                    "code-for-america",
                     "job"
                 ]
             }
@@ -9600,7 +9706,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -9695,7 +9801,9 @@
                         "url": "https:\/\/leomancinidesign.com\/storage\/codebox\/text-req-checker\/"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "live-site"
+                ]
             }
         },
         {
@@ -9745,7 +9853,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -9778,7 +9886,8 @@
                     }
                 ],
                 "tags": [
-                    "freelance"
+                    "freelance",
+                    "video"
                 ]
             }
         },
@@ -9836,7 +9945,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -9861,7 +9970,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -9919,7 +10028,8 @@
                 "tags": [
                     "bash",
                     "script",
-                    "github"
+                    "github",
+                    "video"
                 ]
             }
         },
@@ -9952,7 +10062,8 @@
                     }
                 ],
                 "tags": [
-                    "covid"
+                    "covid",
+                    "live-site"
                 ]
             }
         },
@@ -9987,7 +10098,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -10026,7 +10137,9 @@
                     }
                 ],
                 "tags": [
-                    "camera"
+                    "camera",
+                    "github",
+                    "live-site"
                 ]
             }
         },
@@ -10104,7 +10217,8 @@
                     }
                 },
                 "tags": [
-                    "Quartz Composer"
+                    "quartz-composer",
+                    "video"
                 ]
             }
         },
@@ -10140,7 +10254,7 @@
                     "portfolio2012",
                     "job",
                     "internship",
-                    "nyc department of education"
+                    "nyc-department-of-education"
                 ]
             }
         },
@@ -10212,7 +10326,9 @@
                         "url": "https:\/\/github.com\/leomancini\/process-card-transactions-ios"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "github"
+                ]
             }
         },
         {
@@ -10243,7 +10359,9 @@
                         "url": "https:\/\/github.com\/leomancini\/view-card-transactions-web"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "github"
+                ]
             }
         },
         {
@@ -10273,7 +10391,7 @@
                     }
                 ],
                 "tags": [
-                    "open dream"
+                    "open-dream"
                 ]
             }
         },
@@ -10298,8 +10416,8 @@
                     }
                 },
                 "tags": [
-                    "home automation",
-                    "machine learning"
+                    "home-automation",
+                    "machine-learning"
                 ]
             }
         },
@@ -10361,7 +10479,8 @@
                     }
                 ],
                 "tags": [
-                    "portfolio2012"
+                    "portfolio2012",
+                    "live-site"
                 ]
             }
         },
@@ -10392,7 +10511,7 @@
                     }
                 ],
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -10430,7 +10549,10 @@
                         "url": "https:\/\/labs.noshado.ws\/weather-theme-key\/?location=11101"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "github",
+                    "live-site"
+                ]
             }
         },
         {
@@ -10504,11 +10626,13 @@
                         "url": "https:\/\/noshado.ws\/archive\/tweets\/1279825218333106177,1280185169782005760"
                     }
                 ],
-                "tags": [
-                    "github",
-                    "javascript",
-                    "map"
-                ]
+                "tags": {
+                    "1": "javascript",
+                    "2": "map",
+                    "3": "live-site",
+                    "4": "github",
+                    "5": "archived-tweet"
+                }
             }
         },
         {
@@ -10532,7 +10656,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         },
@@ -10567,7 +10691,7 @@
                 "tags": [
                     "portfolio2012",
                     "thhs",
-                    "townsend harris high school"
+                    "townsend-harris-high-school"
                 ]
             }
         },
@@ -10592,7 +10716,7 @@
                     }
                 },
                 "tags": [
-                    "code for america",
+                    "code-for-america",
                     "job"
                 ]
             }
@@ -10618,7 +10742,7 @@
                     }
                 },
                 "tags": [
-                    "high school freelance"
+                    "high-school-freelance"
                 ]
             }
         }

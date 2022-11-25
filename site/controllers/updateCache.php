@@ -2,7 +2,7 @@
     include('getProjectsList.php');
 
     $projectsList = getProjectsList();
-    $projectsListWithManifests = getProjectsListWithManifests($projectsList);
+    $projectsListWithManifests = getProjectsListWithManifestsAndFiles($projectsList);
 
 	$cacheFile = '..'.$config['cacheFile'];
 	$cacheFileHandler = fopen($cacheFile, 'w') or die('Unable to open file!');
