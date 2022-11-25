@@ -5711,9 +5711,15 @@
                 "links": [
                     {
                         "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
+                        "label": "View Source (Filter)",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/skyline-data-api\/blob\/main\/processing.js"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Source (Timelapse)",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/skyline-data-api\/blob\/main\/timelapses\/create-timelapse.sh"
                     },
                     {
                         "type": "live_site",
@@ -5741,8 +5747,8 @@
                     "3": "bash",
                     "4": "script",
                     "5": "github",
-                    "8": "archived-tweet",
-                    "9": "video"
+                    "9": "archived-tweet",
+                    "10": "video"
                 }
             }
         },
