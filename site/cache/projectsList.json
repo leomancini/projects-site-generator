@@ -5732,9 +5732,13 @@
                 ],
                 "tags": {
                     "0": "live-site",
-                    "1": "github",
-                    "4": "archived-tweet",
-                    "5": "video"
+                    "1": "skyline",
+                    "2": "camera",
+                    "3": "bash",
+                    "4": "script",
+                    "5": "github",
+                    "8": "archived-tweet",
+                    "9": "video"
                 }
             }
         },
@@ -6327,6 +6331,8 @@
                 ],
                 "tags": [
                     "camera",
+                    "sunset",
+                    "skyline",
                     "php",
                     "github",
                     "video"
@@ -9123,6 +9129,8 @@
                     }
                 ],
                 "tags": [
+                    "skyline",
+                    "camera",
                     "github"
                 ]
             }
@@ -9222,6 +9230,7 @@
                 "tags": [
                     "sunset-quality-predictor",
                     "sunset",
+                    "skyline",
                     "machine-learning",
                     "data",
                     "camera",
@@ -9278,6 +9287,7 @@
                 "tags": [
                     "sunset-quality-predictor",
                     "sunset",
+                    "skyline",
                     "machine-learning",
                     "data",
                     "camera",
@@ -9324,6 +9334,7 @@
                 "tags": [
                     "sunset-quality-predictor",
                     "sunset",
+                    "skyline",
                     "camera",
                     "github"
                 ]
@@ -9366,6 +9377,7 @@
                 "tags": [
                     "sunset-quality-predictor",
                     "sunset",
+                    "skyline",
                     "javascript",
                     "php",
                     "camera",
@@ -9411,6 +9423,7 @@
                 "tags": [
                     "sunset-quality-predictor",
                     "sunset",
+                    "skyline",
                     "machine-learning",
                     "data",
                     "github",
@@ -9466,11 +9479,13 @@
                 ],
                 "tags": {
                     "0": "sunset-quality-predictor",
-                    "1": "bash",
-                    "2": "script",
-                    "3": "camera",
-                    "4": "github",
-                    "6": "video"
+                    "1": "sunset",
+                    "2": "skyline",
+                    "3": "bash",
+                    "4": "script",
+                    "5": "camera",
+                    "6": "github",
+                    "8": "video"
                 }
             }
         },
@@ -10026,6 +10041,8 @@
                     }
                 ],
                 "tags": [
+                    "skyline",
+                    "sunset",
                     "bash",
                     "script",
                     "github",
