@@ -3500,14 +3500,6 @@
                         }
                     }
                 },
-                "links": [
-                    {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": ""
-                    }
-                ],
                 "tags": []
             }
         },
