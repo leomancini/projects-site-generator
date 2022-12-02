@@ -4,8 +4,12 @@ function refreshProjectsList(params) {
         $('#projectsList').empty();
         listItemsCount = 0;
 
+        let displayType = 'list';
+
+        $('#projectsList').addClass(displayType);
+
         $.each(projectsList.projects, function(key, projectInfo) {
-            projectListItem = renderProjectListItem(projectInfo, params);
+            projectListItem = renderProjectListItem(projectInfo, params, displayType);
             $('#projectsList').append(projectListItem);
             listItemsCount++;
         });
@@ -28,7 +32,7 @@ function refreshProjectsList(params) {
     });
 }
 
-function renderProjectListItem(projectInfo, params) {
+function renderProjectListItem(projectInfo, params, displayType) {
     projectListItem = '';
 
     if(!yearsIndex.includes(projectInfo.manifest.startDate.timestamp.components.yearNumber)) {
@@ -44,12 +48,36 @@ function renderProjectListItem(projectInfo, params) {
         projectListItemShortDescriptionHtml =`<span class='shortDescription'>${projectInfo.manifest.shortDescription}</span>`;
     }
 
-    projectListItem += `<li>
-        <a href='${projectInfo.directory.id}'>
-            <span class='name'>${projectInfo.manifest.name}</span>
-            ${projectListItemShortDescriptionHtml}
-            </a>
-        </li>`;
+    if (displayType === 'list') {
+        projectListItem += `<li>
+            <a href='${projectInfo.directory.id}'>
+                <span class='name'>${projectInfo.manifest.name}</span>
+                ${projectListItemShortDescriptionHtml}
+                </a>
+            </li>`;
+    } else if (displayType === 'grid') {
+        projectListItemThumbnail = '';
+
+        if (projectInfo.files.screenshots) {
+            let firstScreenshot = projectInfo.files.screenshots[Object.keys(projectInfo.files.screenshots)[0]];
+
+            if (firstScreenshot && (firstScreenshot.includes('.jpg') || firstScreenshot.includes('.png'))) {
+                projectListItemThumbnail = `<div class='thumbnail' style='background-image: url("projects/${projectInfo.directory.id}/screenshots/${firstScreenshot}");'></div>`;
+            } else {
+                projectListItemThumbnail = `<div class='thumbnail'></div>`;
+            }
+        } else {
+            projectListItemThumbnail = `<div class='thumbnail'></div>`;
+        }
+
+        projectListItem += `<li>
+            <a href='${projectInfo.directory.id}'>
+                ${projectListItemThumbnail}
+                <span class='name'>${projectInfo.manifest.name}</span>
+                ${projectListItemShortDescriptionHtml}
+                </a>
+            </li>`;
+    }
 
     return $(projectListItem);
 }

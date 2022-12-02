@@ -28,7 +28,8 @@
                 'directory' => [
                     'id' => $projectDirectory
                 ],
-                'manifest' => $projectManifest
+                'manifest' => $projectManifest,
+                'files' => $projectFiles
             ];
 
             $startDateTimestamp = strtotime($projectInfo['manifest']['startDate']['string']);

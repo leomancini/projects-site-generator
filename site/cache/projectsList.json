@@ -35,6 +35,14 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.jpg",
+                    "4": "3.jpg"
+                }
             }
         },
         {
@@ -61,6 +69,12 @@
                     "music",
                     "audio"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Biden-Harris Inauguration 2021.mp3"
+                }
             }
         },
         {
@@ -94,6 +108,15 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png"
+                }
             }
         },
         {
@@ -122,6 +145,15 @@
                     "painting",
                     "sculpture"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.JPG",
+                    "4": "3@2x.JPG",
+                    "5": "4@2x.JPG"
+                }
             }
         },
         {
@@ -145,6 +177,12 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "code enter.png"
+                }
             }
         },
         {
@@ -170,6 +208,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "website.jpg"
+                }
             }
         },
         {
@@ -206,6 +250,12 @@
                     "twilio",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "IMG_1029@2x.png"
+                }
             }
         },
         {
@@ -229,6 +279,19 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "circles@2x.jpg",
+                    "3": "gradient@2x.jpg",
+                    "4": "top bar black@2x.jpg",
+                    "5": "top bar white@2x.jpg",
+                    "6": "white 2@2x.jpg",
+                    "7": "white- top bar@2x.jpg",
+                    "8": "white@2x.jpg",
+                    "9": "words@2x.jpg"
+                }
             }
         },
         {
@@ -254,6 +317,13 @@
                 "tags": [
                     "mom"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-front@2x.png",
+                    "3": "2-back@2x.png"
+                }
             }
         },
         {
@@ -280,6 +350,16 @@
                     "art-students-league",
                     "drawing"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.jpg",
+                    "4": "3@2x.jpg",
+                    "5": "4@2x.jpg",
+                    "6": "5@2x.jpg"
+                }
             }
         },
         {
@@ -327,6 +407,12 @@
                     "school-of-visual-arts",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "eyes-compressed.mp4"
+                }
             }
         },
         {
@@ -352,6 +438,13 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.jpg"
+                }
             }
         },
         {
@@ -379,6 +472,13 @@
                     "twilio",
                     "home-automation"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "iPhone1@2x.png",
+                    "3": "iPhone2@2x.png"
+                }
             }
         },
         {
@@ -402,6 +502,17 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.png",
+                    "7": "6@2x.png"
+                }
             }
         },
         {
@@ -441,6 +552,41 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "10.png",
+                    "4": "11.png",
+                    "5": "12.png",
+                    "6": "13.png",
+                    "7": "14.png",
+                    "8": "15.png",
+                    "9": "16.png",
+                    "10": "17.png",
+                    "11": "18.png",
+                    "12": "19.png",
+                    "13": "2.png",
+                    "14": "20.png",
+                    "15": "21.png",
+                    "16": "22.png",
+                    "17": "23.png",
+                    "18": "24.png",
+                    "19": "25.png",
+                    "20": "26.png",
+                    "21": "27.png",
+                    "22": "28.png",
+                    "23": "29.png",
+                    "24": "3.png",
+                    "25": "35.png",
+                    "26": "4.png",
+                    "27": "5.png",
+                    "28": "6.png",
+                    "29": "7.png",
+                    "30": "8.png",
+                    "31": "9.png"
+                }
             }
         },
         {
@@ -488,6 +634,14 @@
                     "live-site",
                     "archived-tweet"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png"
+                }
             }
         },
         {
@@ -522,6 +676,9 @@
                     "map",
                     "github"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt"
             }
         },
         {
@@ -555,6 +712,13 @@
                     "mom",
                     "mancininet"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1-placeholder@2x.png",
+                    "4": "2-website.jpg"
+                }
             }
         },
         {
@@ -587,6 +751,13 @@
                 "tags": [
                     "mom"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "4.png",
+                    "4": "5.png"
+                }
             }
         },
         {
@@ -619,6 +790,14 @@
                 "tags": [
                     "mom"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1.png",
+                    "4": "2.png",
+                    "5": "3.png"
+                }
             }
         },
         {
@@ -660,6 +839,14 @@
                     "mom",
                     "live-site"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "Desktop1@2x.png",
+                    "3": "Desktop2@2x.png",
+                    "4": "Desktop3@2x.png",
+                    "5": "Desktop4@2x.png"
+                }
             }
         },
         {
@@ -693,6 +880,15 @@
                     "pixelstorms",
                     "audio"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1-mockup1.png",
+                    "4": "2-mockup2.png",
+                    "5": "3-intro.m4a",
+                    "6": "4-outro.m4a"
+                }
             }
         },
         {
@@ -718,6 +914,30 @@
                 "tags": [
                     "resexcellence"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Blue Waves.jpg",
+                    "3": "BlueY.jpg",
+                    "4": "Bullets.jpg",
+                    "5": "Circle of Light - different colors.jpg",
+                    "6": "Circle of Light - white.jpg",
+                    "7": "Circle of Light.jpg",
+                    "8": "CooL.jpg",
+                    "9": "Devil.jpg",
+                    "10": "Eggs.jpg",
+                    "11": "HighLights.jpg",
+                    "12": "Iced - Invert.jpg",
+                    "13": "Iced.jpg",
+                    "14": "Interlocking Boxes.jpg",
+                    "15": "RGB - different colors.jpg",
+                    "16": "RGB.jpg",
+                    "17": "Sphere.jpg",
+                    "18": "Waves - Invert.jpg",
+                    "19": "Waves.jpg",
+                    "20": "bLu.jpg"
+                }
             }
         },
         {
@@ -753,6 +973,15 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3@2x.jpg",
+                    "5": "4@2x.jpg"
+                }
             }
         },
         {
@@ -778,6 +1007,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Attorney Miller.png"
+                }
             }
         },
         {
@@ -811,7 +1046,8 @@
                 "tags": [
                     "github"
                 ]
-            }
+            },
+            "files": []
         },
         {
             "directory": {
@@ -846,6 +1082,12 @@
                     "script",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Desktop@2x-hasMacDesktopShadow.png"
+                }
             }
         },
         {
@@ -877,6 +1119,12 @@
                     }
                 ],
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -902,6 +1150,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Banana Software.png"
+                }
             }
         },
         {
@@ -928,6 +1182,13 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.jpg"
+                }
             }
         },
         {
@@ -961,6 +1222,15 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png"
+                }
             }
         },
         {
@@ -996,6 +1266,24 @@
                     "job",
                     "internship"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "10.png",
+                    "4": "11.png",
+                    "5": "12.png",
+                    "6": "13.png",
+                    "7": "2.png",
+                    "8": "3.png",
+                    "9": "4.png",
+                    "10": "5.png",
+                    "11": "6.png",
+                    "12": "7.png",
+                    "13": "8.gif",
+                    "14": "9.gif"
+                }
             }
         },
         {
@@ -1021,6 +1309,14 @@
                 "tags": [
                     "pixelstorms"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1-600.jpg",
+                    "4": "2-130.jpg",
+                    "5": "3-50.jpg"
+                }
             }
         },
         {
@@ -1057,6 +1353,13 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.jpg"
+                }
             }
         },
         {
@@ -1080,6 +1383,17 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Aqua Brushed.jpg",
+                    "3": "Classic Brushed.jpg",
+                    "4": "Flow Brushed.jpg",
+                    "5": "Snowy Hills Brushed.jpg",
+                    "6": "Tiles Brushed.jpg",
+                    "7": "Water Brushed.jpg"
+                }
             }
         },
         {
@@ -1113,7 +1427,8 @@
                 "tags": [
                     "github"
                 ]
-            }
+            },
+            "files": []
         },
         {
             "directory": {
@@ -1147,6 +1462,13 @@
                     "portfolio2012",
                     "identity"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "1.jpg",
+                    "4": "2.jpg"
+                }
             }
         },
         {
@@ -1189,6 +1511,15 @@
                     "school-of-visual-arts",
                     "live-site"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png",
+                    "6": "5.png"
+                }
             }
         },
         {
@@ -1226,6 +1557,12 @@
                     "github",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "screen-recording@2x.mp4"
+                }
             }
         },
         {
@@ -1265,6 +1602,15 @@
                     "javascript",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "03-25@2x.jpg",
+                    "3": "Solar Noon@2x.jpg",
+                    "4": "Sunset@2x.jpg",
+                    "5": "Twilight AM@2x.jpg"
+                }
             }
         },
         {
@@ -1292,6 +1638,14 @@
                     "job",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-demo.mov",
+                    "3": "2-positive@2x.png",
+                    "4": "3-negative@2x.png"
+                }
             }
         },
         {
@@ -1318,6 +1672,12 @@
                     "code-for-america",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png"
+                }
             }
         },
         {
@@ -1353,6 +1713,15 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png"
+                }
             }
         },
         {
@@ -1378,6 +1747,13 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-website.png",
+                    "3": "2-website.png"
+                }
             }
         },
         {
@@ -1403,6 +1779,12 @@
                 "tags": [
                     "pixelstorms"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "website.jpg"
+                }
             }
         },
         {
@@ -1438,6 +1820,14 @@
                     "language-learning",
                     "javascript"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-Screen Shot 2020-04-14 at 6.04.57 PM@2x.png",
+                    "3": "2-mobile@2x.png",
+                    "4": "3-IMG_3823@2x.png"
+                }
             }
         },
         {
@@ -1464,6 +1854,12 @@
                     "family",
                     "menu"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "menu.jpg"
+                }
             }
         },
         {
@@ -1490,6 +1886,12 @@
                     "family",
                     "menu"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "menu@2x.jpg"
+                }
             }
         },
         {
@@ -1516,6 +1918,12 @@
                     "family",
                     "menu"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "menu@2x.jpg"
+                }
             }
         },
         {
@@ -1542,6 +1950,12 @@
                     "family",
                     "menu"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "menu@2x.jpg"
+                }
             }
         },
         {
@@ -1599,6 +2013,19 @@
                     "github",
                     "archived-tweet"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "DateAddedGraph-London@2x.png",
+                    "3": "DateAddedGraph-New York@2x.png",
+                    "4": "DateAddedGraph-San Francisco@2x.png",
+                    "5": "DateAddedGraph-Tokyo@2x.png",
+                    "6": "TopCategoriesLondon@2x.png",
+                    "7": "TopCategoriesNew York@2x.png",
+                    "8": "TopCategoriesSan Francisco@2x.png",
+                    "9": "TopCategoriesTokyo@2x.png"
+                }
             }
         },
         {
@@ -1635,6 +2062,12 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png"
+                }
             }
         },
         {
@@ -1671,6 +2104,16 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.jpg",
+                    "6": "5.jpg"
+                }
             }
         },
         {
@@ -1707,6 +2150,13 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg"
+                }
             }
         },
         {
@@ -1742,6 +2192,17 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png",
+                    "6": "5.png",
+                    "7": "6.png"
+                }
             }
         },
         {
@@ -1767,6 +2228,12 @@
                 "tags": [
                     "video"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "video--play-audio.mp4.mov"
+                }
             }
         },
         {
@@ -1792,6 +2259,12 @@
                 "tags": [
                     "video"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "video--play-audio.mp4"
+                }
             }
         },
         {
@@ -1815,6 +2288,13 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "IMG_1150@2x.JPG",
+                    "3": "IMG_1151@2x.JPG"
+                }
             }
         },
         {
@@ -1840,6 +2320,13 @@
                 "tags": [
                     "resexcellence"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-image@2x.png",
+                    "3": "2-ad.jpg"
+                }
             }
         },
         {
@@ -1873,6 +2360,12 @@
                 "tags": [
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png"
+                }
             }
         },
         {
@@ -1908,6 +2401,15 @@
                     "sva",
                     "school-of-visual-arts"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png"
+                }
             }
         },
         {
@@ -1944,6 +2446,13 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg"
+                }
             }
         },
         {
@@ -1992,6 +2501,13 @@
                     "live-site",
                     "archived-tweet"
                 ]
+            },
+            "files": {
+                "3": "example.json",
+                "4": "longDescription.txt",
+                "screenshots": {
+                    "3": "example@2x.png"
+                }
             }
         },
         {
@@ -2033,6 +2549,15 @@
                     "github",
                     "archived-tweet"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "000@2x.jpg",
+                    "4": "1-Low@2x.png",
+                    "5": "2-Medium@2x.png",
+                    "6": "3-High@2x.png"
+                }
             }
         },
         {
@@ -2074,6 +2599,12 @@
                     "github",
                     "live-site"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "IMG_6877@2x.jpg"
+                }
             }
         },
         {
@@ -2109,6 +2640,12 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -2134,6 +2671,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Crystal Media.png"
+                }
             }
         },
         {
@@ -2167,6 +2710,13 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "3.png"
+                }
             }
         },
         {
@@ -2200,6 +2750,12 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -2244,6 +2800,11 @@
                     }
                 ],
                 "tags": []
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1-Screenshot.png"
+                }
             }
         },
         {
@@ -2277,6 +2838,12 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -2310,6 +2877,13 @@
                 "tags": [
                     "github"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "0@2x.png",
+                    "3": "1@2x.png",
+                    "4": "2@2x.png"
+                }
             }
         },
         {
@@ -2345,6 +2919,17 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg",
+                    "6": "5.jpg",
+                    "7": "6.jpg"
+                }
             }
         },
         {
@@ -2371,6 +2956,15 @@
                     "raspberry-pi",
                     "home-automation"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.jpg",
+                    "4": "3@2x.jpg",
+                    "5": "4@2x.jpg",
+                    "6": "5@2x.jpg"
+                }
             }
         },
         {
@@ -2411,6 +3005,12 @@
                     "github",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "IMG_2518--play-audio.mp4"
+                }
             }
         },
         {
@@ -2434,6 +3034,12 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "screenshots": {
+                    "2": "Screen Shot 2020-04-04 at 6.56.25 PM.png",
+                    "3": "readme.txt"
+                }
             }
         },
         {
@@ -2468,6 +3074,13 @@
                     "php",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x--hasMacDesktopShadow.png",
+                    "3": "2@2x--hasMacDesktopShadow.png"
+                }
             }
         },
         {
@@ -2502,6 +3115,11 @@
                     "github",
                     "video"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "Demo 1@2x.mp4"
+                }
             }
         },
         {
@@ -2538,6 +3156,20 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.png",
+                    "5": "4.jpg",
+                    "6": "5.jpg",
+                    "7": "6.jpg",
+                    "8": "7.png",
+                    "9": "8.png",
+                    "10": "9.jpg"
+                }
             }
         },
         {
@@ -2574,6 +3206,20 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png",
+                    "6": "5.png",
+                    "7": "6.png",
+                    "8": "7.png",
+                    "9": "8.png",
+                    "10": "9.png"
+                }
             }
         },
         {
@@ -2599,6 +3245,14 @@
                 "tags": [
                     "mom"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3@2x.jpg"
+                }
             }
         },
         {
@@ -2646,6 +3300,17 @@
                     "school-of-visual-arts",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0-drawing-machine-compressed.mp4",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg",
+                    "6": "5.jpg",
+                    "7": "6.jpg"
+                }
             }
         },
         {
@@ -2687,6 +3352,13 @@
                     "mom",
                     "github"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "Desktop1@2x.png",
+                    "3": "Desktop2@2x.png",
+                    "4": "Desktop3@2x.png"
+                }
             }
         },
         {
@@ -2712,6 +3384,12 @@
                 "tags": [
                     "our-lady-of-hope"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "schedule.jpg"
+                }
             }
         },
         {
@@ -2747,6 +3425,14 @@
                     "mancininet",
                     "live-site"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "0-website.png",
+                    "3": "1-website.png",
+                    "4": "3-logo.png"
+                }
             }
         },
         {
@@ -2774,6 +3460,14 @@
                     "job",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-screenshot@2x.png",
+                    "3": "2-screenshot@2x.png",
+                    "4": "3-demo.mov"
+                }
             }
         },
         {
@@ -2809,6 +3503,18 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "3.jpg",
+                    "4": "4.jpg",
+                    "5": "5.jpg",
+                    "6": "6.jpg",
+                    "7": "7.jpg",
+                    "8": "8.jpg"
+                }
             }
         },
         {
@@ -2851,6 +3557,13 @@
                     "internship",
                     "fb-internship"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "roe-final1.png",
+                    "3": "roe-final2.png"
+                }
             }
         },
         {
@@ -2899,6 +3612,15 @@
                     "fb-fte",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4-friend-view-interactions@2x.mp4"
+                }
             }
         },
         {
@@ -2941,6 +3663,12 @@
                     "job",
                     "fb-fte"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "marketing-page@2x.jpg"
+                }
             }
         },
         {
@@ -2994,6 +3722,12 @@
                     "job",
                     "fb-fte"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png"
+                }
             }
         },
         {
@@ -3029,6 +3763,14 @@
                     "job",
                     "fb-fte"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png"
+                }
             }
         },
         {
@@ -3064,6 +3806,12 @@
                     "job",
                     "fb-fte"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png"
+                }
             }
         },
         {
@@ -3131,6 +3879,17 @@
                     "live-site",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0@2x.png",
+                    "3": "1@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.png",
+                    "7": "6@2x.mp4"
+                }
             }
         },
         {
@@ -3191,6 +3950,16 @@
                     "fb-fte",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.mp4",
+                    "6": "5@2x.mp4"
+                }
             }
         },
         {
@@ -3226,6 +3995,17 @@
                     "job",
                     "fb-fte"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.jpg",
+                    "7": "6@2x.jpg"
+                }
             }
         },
         {
@@ -3268,6 +4048,12 @@
                     "internship",
                     "fb-internship"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png"
+                }
             }
         },
         {
@@ -3296,6 +4082,15 @@
                     "internship",
                     "fb-internship"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-vertex1.png",
+                    "3": "2-vertex2.png",
+                    "4": "3-vertex7.png",
+                    "5": "4-vertex6.png"
+                }
             }
         },
         {
@@ -3355,6 +4150,14 @@
                     "job",
                     "fb-fte"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-mobile@2x.png",
+                    "3": "2-desktop-1@2x.png",
+                    "4": "3-desktop-2@2x.png"
+                }
             }
         },
         {
@@ -3390,6 +4193,15 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg"
+                }
             }
         },
         {
@@ -3425,6 +4237,14 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg"
+                }
             }
         },
         {
@@ -3451,6 +4271,30 @@
                     "art-students-league",
                     "drawing"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "IMG_1506 copy.jpg",
+                    "3": "IMG_1507 copy.jpg",
+                    "4": "IMG_1572 copy.jpg",
+                    "5": "IMG_1573 copy.jpg",
+                    "6": "IMG_1574 copy.jpg",
+                    "7": "IMG_1579 copy.jpg",
+                    "8": "IMG_1580 copy.jpg",
+                    "9": "IMG_1581 copy.jpg",
+                    "10": "IMG_1582 copy.jpg",
+                    "11": "IMG_1584 copy.jpg",
+                    "12": "IMG_1589 copy.jpg",
+                    "13": "conte1 copy.jpg",
+                    "14": "conte2 copy.jpg",
+                    "15": "conte3 copy.jpg",
+                    "16": "conte4 copy.jpg",
+                    "17": "figure 1.jpg",
+                    "18": "figure_sketch.jpg",
+                    "19": "ink copy.jpg",
+                    "20": "legs copy.jpg"
+                }
             }
         },
         {
@@ -3478,6 +4322,13 @@
                     "school-of-visual-arts",
                     "drawing"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "IMG_0688@2x.JPG",
+                    "3": "IMG_0700@2x.JPG"
+                }
             }
         },
         {
@@ -3501,6 +4352,13 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-front@2x.jpg",
+                    "3": "2-back@2x.jpg"
+                }
             }
         },
         {
@@ -3524,7 +4382,8 @@
                     }
                 },
                 "tags": []
-            }
+            },
+            "files": []
         },
         {
             "directory": {
@@ -3550,6 +4409,20 @@
                     "art",
                     "food"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.png",
+                    "7": "6@2x.png",
+                    "8": "7@2x.png",
+                    "9": "8@2x.png",
+                    "10": "9@2x.png"
+                }
             }
         },
         {
@@ -3575,6 +4448,16 @@
                 "tags": [
                     "freelance"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-mockup3.jpg",
+                    "3": "2-mockup4.jpg",
+                    "4": "3-mockup5.jpg",
+                    "5": "4-mockup.jpg",
+                    "6": "5-mockup2.jpg"
+                }
             }
         },
         {
@@ -3610,6 +4493,12 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -3658,6 +4547,13 @@
                     "3": "live-site",
                     "4": "github"
                 }
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-screenshot-compressed@2x.png",
+                    "3": "2-desktop@2x.png"
+                }
             }
         },
         {
@@ -3684,6 +4580,13 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.jpg",
+                    "3": "2.png"
+                }
             }
         },
         {
@@ -3711,6 +4614,14 @@
                     "school-of-visual-arts",
                     "painting"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "IMG_4436@2x.JPG",
+                    "3": "IMG_4438@2x.JPG",
+                    "4": "visionary landscape 1@2x.jpg"
+                }
             }
         },
         {
@@ -3737,6 +4648,11 @@
                     "arduino",
                     "home-automation"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1@2x.jpg"
+                }
             }
         },
         {
@@ -3773,6 +4689,10 @@
                     "twilio",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": []
             }
         },
         {
@@ -3800,6 +4720,13 @@
                     "job",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-mobile@2x.png",
+                    "3": "2-fair-chance-flow@2x.mp4"
+                }
             }
         },
         {
@@ -3836,6 +4763,17 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg",
+                    "6": "5.png",
+                    "7": "6.png"
+                }
             }
         },
         {
@@ -3871,6 +4809,14 @@
                     "sva",
                     "school-of-visual-arts"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg"
+                }
             }
         },
         {
@@ -3896,7 +4842,8 @@
                 "tags": [
                     "map"
                 ]
-            }
+            },
+            "files": []
         },
         {
             "directory": {
@@ -3935,6 +4882,24 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "10.png",
+                    "4": "11.png",
+                    "5": "12.png",
+                    "6": "13.png",
+                    "7": "2.jpg",
+                    "8": "3.jpg",
+                    "9": "4.png",
+                    "10": "5.png",
+                    "11": "6.jpg",
+                    "12": "7.png",
+                    "13": "8.png",
+                    "14": "9.png"
+                }
             }
         },
         {
@@ -3958,6 +4923,14 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-website.png",
+                    "3": "2-widget_mockup.jpg",
+                    "4": "3-Pre-release Features copy@2x.jpg"
+                }
             }
         },
         {
@@ -3994,6 +4967,14 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png"
+                }
             }
         },
         {
@@ -4029,6 +5010,18 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg",
+                    "6": "5.jpg",
+                    "7": "6.jpg",
+                    "8": "7.jpg"
+                }
             }
         },
         {
@@ -4052,6 +5045,15 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.jpg",
+                    "4": "3@2x.jpg",
+                    "5": "4@2x.jpg"
+                }
             }
         },
         {
@@ -4085,6 +5087,15 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg",
+                    "6": "5.jpg"
+                }
             }
         },
         {
@@ -4121,6 +5132,19 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.png",
+                    "5": "4.jpg",
+                    "6": "5.jpg",
+                    "7": "6.jpg",
+                    "8": "7.png",
+                    "9": "8.png"
+                }
             }
         },
         {
@@ -4157,6 +5181,16 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg",
+                    "6": "5.jpg"
+                }
             }
         },
         {
@@ -4193,6 +5227,17 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg",
+                    "6": "5.jpg",
+                    "7": "6.jpg"
+                }
             }
         },
         {
@@ -4229,6 +5274,18 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg",
+                    "6": "5.png",
+                    "7": "6.png",
+                    "8": "7.png"
+                }
             }
         },
         {
@@ -4264,6 +5321,12 @@
                     "live-site",
                     "video"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "Historical Aerial Photo Viewer@2x.mp4"
+                }
             }
         },
         {
@@ -4297,6 +5360,13 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.png"
+                }
             }
         },
         {
@@ -4330,6 +5400,15 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.png"
+                }
             }
         },
         {
@@ -4357,6 +5436,13 @@
                     "raspberry-pi",
                     "home-automation"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "Desktop@2x-hasMacDesktopShadow.png",
+                    "3": "Mobile@2x.png",
+                    "4": "hidden"
+                }
             }
         },
         {
@@ -4380,6 +5466,24 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "siena presentation.001-001.jpg",
+                    "3": "siena presentation.002-001.jpg",
+                    "4": "siena presentation.003-001.jpg",
+                    "5": "siena presentation.004-001.jpg",
+                    "6": "siena presentation.005-001.jpg",
+                    "7": "siena presentation.006-001.jpg",
+                    "8": "siena presentation.007-001.jpg",
+                    "9": "siena presentation.008-001.jpg",
+                    "10": "siena presentation.009-001.jpg",
+                    "11": "siena presentation.010-001.jpg",
+                    "12": "siena presentation.011-001.jpg",
+                    "13": "siena presentation.012-001.jpg",
+                    "14": "siena presentation.013-001.jpg"
+                }
             }
         },
         {
@@ -4420,6 +5524,9 @@
                     "javascript",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt"
             }
         },
         {
@@ -4447,6 +5554,15 @@
                     "school-of-visual-arts",
                     "painting"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-warm and cool@2x.jpg",
+                    "3": "2-IMG_4429@2x.JPG",
+                    "4": "3-2012-04-24-0315@2x.jpg",
+                    "5": "3-2012-04-24-0316@2x.JPG"
+                }
             }
         },
         {
@@ -4481,6 +5597,16 @@
                     "portfolio2012",
                     "freelance"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png",
+                    "6": "5.png"
+                }
             }
         },
         {
@@ -4533,6 +5659,13 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png"
+                }
             }
         },
         {
@@ -4558,6 +5691,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "iAppBlog.png"
+                }
             }
         },
         {
@@ -4584,6 +5723,12 @@
                     "resexcellence",
                     "imac-g4"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "image@2x.png"
+                }
             }
         },
         {
@@ -4608,6 +5753,17 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Frame 1@2x.jpg",
+                    "3": "Frame 2@2x.jpg",
+                    "4": "Frame 3@2x.jpg",
+                    "5": "Frame 4@2x.jpg",
+                    "6": "Frame 5@2x.jpg",
+                    "7": "Frame 6@2x.jpg"
+                }
             }
         },
         {
@@ -4650,6 +5806,12 @@
                     "3": "live-site",
                     "4": "github"
                 }
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "screenshot.gif"
+                }
             }
         },
         {
@@ -4676,6 +5838,12 @@
                     "indeed",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "mobile@2x.png"
+                }
             }
         },
         {
@@ -4702,6 +5870,12 @@
                     "indeed",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png"
+                }
             }
         },
         {
@@ -4728,6 +5902,15 @@
                     "indeed",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-mobile@2x.png",
+                    "3": "2-control-panel-1@2x.png",
+                    "4": "3-control-panel-2@2x.png",
+                    "5": "3-visualization-tool@2x.png"
+                }
             }
         },
         {
@@ -4754,6 +5937,12 @@
                     "indeed",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "mobile@2x.png"
+                }
             }
         },
         {
@@ -4796,6 +5985,11 @@
                     "2": "home-automation",
                     "3": "github"
                 }
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1@2x.jpg"
+                }
             }
         },
         {
@@ -4829,6 +6023,12 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png"
+                }
             }
         },
         {
@@ -4863,6 +6063,14 @@
                     "home-automation",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "temp-comparision-1@2x.png",
+                    "3": "temp-comparision-2@2x.png",
+                    "4": "temp-comparision-3@2x.png"
+                }
             }
         },
         {
@@ -4889,6 +6097,12 @@
                     "code-for-america",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "mobile@2x.png"
+                }
             }
         },
         {
@@ -4912,6 +6126,12 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "iPod.png"
+                }
             }
         },
         {
@@ -4947,6 +6167,21 @@
                     "sva",
                     "school-of-visual-arts"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "10.jpg",
+                    "4": "2.jpg",
+                    "5": "3.jpg",
+                    "6": "4.jpg",
+                    "7": "5.jpg",
+                    "8": "6.jpg",
+                    "9": "7.jpg",
+                    "10": "8.jpg",
+                    "11": "9.jpg"
+                }
             }
         },
         {
@@ -4982,6 +6217,13 @@
                     "sva",
                     "school-of-visual-arts"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg"
+                }
             }
         },
         {
@@ -5017,6 +6259,12 @@
                     "sva",
                     "school-of-visual-arts"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -5053,6 +6301,13 @@
                     "github",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-demo.mp4",
+                    "3": "2-screenshot@2x.png"
+                }
             }
         },
         {
@@ -5079,6 +6334,13 @@
                     "code-for-america",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0@2x.png",
+                    "3": "1@2x.png"
+                }
             }
         },
         {
@@ -5122,6 +6384,12 @@
                     "github",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Training Provider Data Demo.mp4"
+                }
             }
         },
         {
@@ -5165,6 +6433,13 @@
                     "live-site",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-mobile@2x.png",
+                    "3": "2-find-training-feed-video@2x.mp4"
+                }
             }
         },
         {
@@ -5191,6 +6466,12 @@
                     "dad",
                     "mancininet"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "website.jpg"
+                }
             }
         },
         {
@@ -5232,6 +6513,12 @@
                     "dad",
                     "live-site"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1-Desktop@2x-hasMacDesktopShadow.png",
+                    "3": "2-Desktop@2x-hasMacDesktopShadow.png"
+                }
             }
         },
         {
@@ -5258,6 +6545,12 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "juniorbanquet@2x.jpg"
+                }
             }
         },
         {
@@ -5291,6 +6584,12 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -5316,7 +6615,8 @@
                 "tags": [
                     "home-automation"
                 ]
-            }
+            },
+            "files": []
         },
         {
             "directory": {
@@ -5344,6 +6644,14 @@
                     "sculpture",
                     "video"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1-video.mp4",
+                    "3": "2-IMG_0668@2x.JPG",
+                    "4": "3-IMG_0666@2x.JPG",
+                    "5": "4-IMG_0670@2x.JPG"
+                }
             }
         },
         {
@@ -5391,6 +6699,12 @@
                     "school-of-visual-arts",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "kitchen-sensations-compressed.mp4"
+                }
             }
         },
         {
@@ -5416,6 +6730,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "website.png"
+                }
             }
         },
         {
@@ -5442,6 +6762,12 @@
                     "code-for-america",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "mobile@2x.png"
+                }
             }
         },
         {
@@ -5475,6 +6801,9 @@
                 "tags": [
                     "github"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt"
             }
         },
         {
@@ -5512,6 +6841,13 @@
                     "language-learning",
                     "javascript"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png"
+                }
             }
         },
         {
@@ -5539,6 +6875,12 @@
                     "home-automation",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Demo@2x.mov"
+                }
             }
         },
         {
@@ -5566,6 +6908,12 @@
                     "school-of-visual-arts",
                     "painting"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "2@2x.jpg"
+                }
             }
         },
         {
@@ -5599,6 +6947,11 @@
                     "php",
                     "video"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "Life Goals Demo@2x.mp4"
+                }
             }
         },
         {
@@ -5632,6 +6985,15 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png"
+                }
             }
         },
         {
@@ -5655,6 +7017,11 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "screenshots": {
+                    "2": "linkbeam.png"
+                }
             }
         },
         {
@@ -5678,6 +7045,11 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "screenshots": {
+                    "2": "2--withMacDesktopShadow@2x.png"
+                }
             }
         },
         {
@@ -5742,6 +7114,27 @@
                     "9": "archived-tweet",
                     "10": "video"
                 }
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "001-UNBuilding.jpg",
+                    "4": "002-UNBuilding.jpg",
+                    "5": "003-UNBuilding.jpg",
+                    "6": "004-EmpireStateBuilding.jpg",
+                    "7": "005-EmpireStateBuilding.jpg",
+                    "8": "006-EmpireStateBuilding.jpg",
+                    "9": "007-WindsorTower.jpg",
+                    "10": "008-WindsorTower.jpg",
+                    "11": "009-WindsorTower.jpg",
+                    "12": "010-WatersidePlazaTower1.jpg",
+                    "13": "011-WatersidePlazaTower1.jpg",
+                    "14": "012-WatersidePlazaTower1.jpg",
+                    "15": "EmpireStateBuilding-filter-type-1-sunrise.mp4",
+                    "16": "UNBuilding-filter-type-2-nightfall.mp4",
+                    "17": "UNBuilding-filter-type-2-sunset.mp4",
+                    "18": "UNBuilding-filter-type-2-sunsise.mp4"
+                }
             }
         },
         {
@@ -5772,7 +7165,8 @@
                     }
                 ],
                 "tags": []
-            }
+            },
+            "files": []
         },
         {
             "directory": {
@@ -5795,6 +7189,14 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.png",
+                    "4": "3.png"
+                }
             }
         },
         {
@@ -5825,6 +7227,14 @@
                     }
                 ],
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "again.jpg",
+                    "3": "grid.jpg",
+                    "4": "type.jpg"
+                }
             }
         },
         {
@@ -5850,6 +7260,12 @@
                 "tags": [
                     "video"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "Fake Leopard.mp4"
+                }
             }
         },
         {
@@ -5879,6 +7295,12 @@
                     }
                 ],
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "32.png"
+                }
             }
         },
         {
@@ -5919,6 +7341,17 @@
                 "tags": [
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png",
+                    "6": "5.jpg",
+                    "7": "7.png"
+                }
             }
         },
         {
@@ -5948,6 +7381,14 @@
                     }
                 ],
                 "tags": []
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.jpg",
+                    "4": "3@2x.jpg",
+                    "5": "Desktop@2x-hasMacDesktopShadow.png"
+                }
             }
         },
         {
@@ -5988,6 +7429,21 @@
                 "tags": [
                     "freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "01@2x.png",
+                    "3": "02@2x.png",
+                    "4": "03@2x.png",
+                    "5": "04@2x.png",
+                    "6": "05@2x.png",
+                    "7": "06@2x.png",
+                    "8": "07@2x.png",
+                    "9": "08@2x.png",
+                    "10": "09@2x.png",
+                    "11": "10@2x.png"
+                }
             }
         },
         {
@@ -6015,6 +7471,15 @@
                     "school-of-visual-arts",
                     "painting"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.JPG",
+                    "3": "2@2x.JPG",
+                    "4": "IMG_0696@2x.JPG",
+                    "5": "IMG_0697@2x.JPG"
+                }
             }
         },
         {
@@ -6048,6 +7513,13 @@
                 "tags": [
                     "github"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x Large.jpg",
+                    "4": "2@2x Large.jpg"
+                }
             }
         },
         {
@@ -6089,6 +7561,17 @@
                     "mom",
                     "identity"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "1.jpg",
+                    "4": "2.jpg",
+                    "5": "3.jpg",
+                    "6": "4@2x.png",
+                    "7": "5@2x.png",
+                    "8": "6@2x.png"
+                }
             }
         },
         {
@@ -6129,6 +7612,14 @@
                     "portfolio2012",
                     "freelance"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.jpg"
+                }
             }
         },
         {
@@ -6154,6 +7645,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "website.png"
+                }
             }
         },
         {
@@ -6187,6 +7684,17 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.jpg",
+                    "6": "5.png",
+                    "7": "6.jpg"
+                }
             }
         },
         {
@@ -6222,6 +7730,13 @@
                     "sva",
                     "school-of-visual-arts"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png"
+                }
             }
         },
         {
@@ -6260,6 +7775,12 @@
                     "github",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "video-1608428967@2x.mp4"
+                }
             }
         },
         {
@@ -6301,6 +7822,12 @@
                     "map",
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "image@2x.png"
+                }
             }
         },
         {
@@ -6339,6 +7866,12 @@
                     "github",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "timelapse-2021-12-16-15-22-fps60@2x.mp4"
+                }
             }
         },
         {
@@ -6362,6 +7895,13 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "notepad.png"
+                }
             }
         },
         {
@@ -6397,6 +7937,17 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg",
+                    "6": "5.jpg",
+                    "7": "6.jpg"
+                }
             }
         },
         {
@@ -6423,6 +7974,11 @@
                     "quartz-composer",
                     "video"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "numbers.mov"
+                }
             }
         },
         {
@@ -6466,6 +8022,13 @@
                     "github",
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0-overview@2x.png",
+                    "3": "hidden"
+                }
             }
         },
         {
@@ -6514,6 +8077,26 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "10.jpg",
+                    "4": "11.jpg",
+                    "5": "12.jpg",
+                    "6": "13.jpg",
+                    "7": "14.jpg",
+                    "8": "15.jpg",
+                    "9": "2.jpg",
+                    "10": "3.jpg",
+                    "11": "4.jpg",
+                    "12": "5.jpg",
+                    "13": "6.jpg",
+                    "14": "7.jpg",
+                    "15": "8.jpg",
+                    "16": "9.jpg"
+                }
             }
         },
         {
@@ -6548,6 +8131,12 @@
                     "portfolio2012",
                     "map"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png"
+                }
             }
         },
         {
@@ -6573,6 +8162,12 @@
                 "tags": [
                     "dad"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "newsday-obama.jpg"
+                }
             }
         },
         {
@@ -6596,6 +8191,13 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "objectstudy1.jpg",
+                    "3": "objectstudy2.jpg"
+                }
             }
         },
         {
@@ -6635,7 +8237,8 @@
                 "tags": [
                     "live-site"
                 ]
-            }
+            },
+            "files": []
         },
         {
             "directory": {
@@ -6666,6 +8269,15 @@
                 "tags": [
                     "open-dream"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png",
+                    "6": "4@2x.png"
+                }
             }
         },
         {
@@ -6700,6 +8312,12 @@
                     "github",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "movie@2x.mp4"
+                }
             }
         },
         {
@@ -6733,6 +8351,24 @@
                 "tags": [
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-Overview Preview@2x@2x.png",
+                    "3": "2-Bottom Navigation Bar@2x.gif",
+                    "4": "3-Button@2x.gif",
+                    "5": "4-Notification@2x.jpg",
+                    "6": "5-System Navigation Bar@2x.gif",
+                    "7": "Bottom Sheet@2x.gif",
+                    "8": "Floating Action Button@2x.gif",
+                    "9": "Menu@2x.gif",
+                    "10": "Navigation Drawer@2x.gif",
+                    "11": "Share Sheet@2x.gif",
+                    "12": "Slider@2x.gif",
+                    "13": "Tabs@2x.gif",
+                    "14": "Top App Bar@2x.gif"
+                }
             }
         },
         {
@@ -6766,6 +8402,12 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png"
+                }
             }
         },
         {
@@ -6801,6 +8443,13 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg"
+                }
             }
         },
         {
@@ -6837,6 +8486,16 @@
                     "drawing",
                     "painting"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg",
+                    "6": "5.jpg"
+                }
             }
         },
         {
@@ -6860,6 +8519,26 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Blanket.jpg",
+                    "3": "Brick by Brick.jpg",
+                    "4": "Fungus.jpg",
+                    "5": "Jeans.jpg",
+                    "6": "Oak.jpg",
+                    "7": "Pine.jpg",
+                    "8": "Prison.jpg",
+                    "9": "Rosewood.jpg",
+                    "10": "Rusted Metal.jpg",
+                    "11": "Silk.jpg",
+                    "12": "Snakes.jpg",
+                    "13": "Snowstorm.jpg",
+                    "14": "The Ancient World.jpg",
+                    "15": "The Prism.jpg",
+                    "16": "Waves.jpg"
+                }
             }
         },
         {
@@ -6894,6 +8573,13 @@
                     "portfolio2012",
                     "identity"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png"
+                }
             }
         },
         {
@@ -6930,6 +8616,21 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "10.png",
+                    "4": "2.png",
+                    "5": "3.jpg",
+                    "6": "4.jpg",
+                    "7": "5.jpg",
+                    "8": "6.jpg",
+                    "9": "7.jpg",
+                    "10": "8.jpg",
+                    "11": "9.png"
+                }
             }
         },
         {
@@ -6964,6 +8665,20 @@
                     "portfolio2012",
                     "identity"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.jpg",
+                    "4": "3.png",
+                    "5": "4.png",
+                    "6": "5.jpg",
+                    "7": "6.jpg",
+                    "8": "7.jpg",
+                    "9": "8.jpg",
+                    "10": "9.jpg"
+                }
             }
         },
         {
@@ -6987,6 +8702,12 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "image.jpg"
+                }
             }
         },
         {
@@ -7022,6 +8743,14 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.png"
+                }
             }
         },
         {
@@ -7057,6 +8786,46 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "10.png",
+                    "4": "11.png",
+                    "5": "12.png",
+                    "6": "13.png",
+                    "7": "14.png",
+                    "8": "15.png",
+                    "9": "16.png",
+                    "10": "17.png",
+                    "11": "18.png",
+                    "12": "19.png",
+                    "13": "2.png",
+                    "14": "20.png",
+                    "15": "21.png",
+                    "16": "22.png",
+                    "17": "23.png",
+                    "18": "24.png",
+                    "19": "25.png",
+                    "20": "26.png",
+                    "21": "27.png",
+                    "22": "28.png",
+                    "23": "29.png",
+                    "24": "3.png",
+                    "25": "30.png",
+                    "26": "31.png",
+                    "27": "32.png",
+                    "28": "33.png",
+                    "29": "34.png",
+                    "30": "35.png",
+                    "31": "4.png",
+                    "32": "5.png",
+                    "33": "6.png",
+                    "34": "7.png",
+                    "35": "8.png",
+                    "36": "9.png"
+                }
             }
         },
         {
@@ -7083,6 +8852,14 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png"
+                }
             }
         },
         {
@@ -7125,6 +8902,14 @@
                     "townsend-harris-high-school",
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png"
+                }
             }
         },
         {
@@ -7150,6 +8935,14 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-website.png",
+                    "3": "2-website.png",
+                    "4": "3-website.png"
+                }
             }
         },
         {
@@ -7184,6 +8977,12 @@
                     "map",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Screen Shot 2018-02-09 at 11.45.10 AM@2x.png"
+                }
             }
         },
         {
@@ -7230,6 +9029,12 @@
                     "live-site",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Demo 1@2x.mp4"
+                }
             }
         },
         {
@@ -7253,6 +9058,35 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "00-old_intro.jpg",
+                    "3": "01-city1.jpg",
+                    "4": "02-city2.jpg",
+                    "5": "03-city3.jpg",
+                    "6": "04-apple_store.jpg",
+                    "7": "05-apple_store_top.jpg",
+                    "8": "06-genius_bar.jpg",
+                    "9": "07-computers.jpg",
+                    "10": "08-ipod.jpg",
+                    "11": "09-park.jpg",
+                    "12": "10-boat.jpg",
+                    "13": "11-apartment1.jpg",
+                    "14": "12-standard_apartment.jpg",
+                    "15": "13-leo.jpg",
+                    "16": "14-leo2.jpg",
+                    "17": "15-evan.jpg",
+                    "18": "16-evan2.jpg",
+                    "19": "17-office1.jpg",
+                    "20": "18-elevator1.jpg",
+                    "21": "19-elevator2.jpg",
+                    "22": "20-office1_fl2.jpg",
+                    "23": "21-office1_nothing.jpg",
+                    "24": "22-mysterious_door.jpg",
+                    "25": "23-website.png"
+                }
             }
         },
         {
@@ -7276,6 +9110,12 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "mobile@2x.png"
+                }
             }
         },
         {
@@ -7317,6 +9157,15 @@
                     "live-site",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-east-williamsburg@2x.png",
+                    "3": "2-long-island-city@2x.png",
+                    "4": "3-manhattan@2x.png",
+                    "5": "4-williamsburg@2x.png"
+                }
             }
         },
         {
@@ -7340,6 +9189,12 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "logo.jpg"
+                }
             }
         },
         {
@@ -7381,6 +9236,18 @@
                     "pixelstorms",
                     "video"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1-website@2x.png",
+                    "4": "2-website@2x.png",
+                    "5": "3-logo@2x.png",
+                    "6": "4-logo@2x.png",
+                    "7": "5-badges@2x.png",
+                    "8": "6-placeholder@2x.png",
+                    "9": "7-pixelstorms-ad.mp4"
+                }
             }
         },
         {
@@ -7406,6 +9273,31 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Plastic Wave 01.jpg",
+                    "3": "Plastic Wave 02.jpg",
+                    "4": "Plastic Wave 03.jpg",
+                    "5": "Plastic Wave 04.jpg",
+                    "6": "Plastic Wave 05.jpg",
+                    "7": "Plastic Wave 06.jpg",
+                    "8": "Plastic Wave 07.jpg",
+                    "9": "Plastic Wave 08.jpg",
+                    "10": "Plastic Wave 09.jpg",
+                    "11": "Plastic Wave 10.jpg",
+                    "12": "Plastic Wave 11.jpg",
+                    "13": "Plastic Wave 12.jpg",
+                    "14": "Plastic Wave 13.jpg",
+                    "15": "Plastic Wave 14.jpg",
+                    "16": "Plastic Wave 15.jpg",
+                    "17": "Plastic Wave 16.jpg",
+                    "18": "Plastic Wave 17.jpg",
+                    "19": "Plastic Wave 18.jpg",
+                    "20": "Plastic Wave 19.jpg",
+                    "21": "Plastic Wave 20.jpg"
+                }
             }
         },
         {
@@ -7446,6 +9338,12 @@
                 "tags": [
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Desktop@2x.png"
+                }
             }
         },
         {
@@ -7479,6 +9377,14 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg"
+                }
             }
         },
         {
@@ -7515,6 +9421,19 @@
                     "github",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-demo.mp4",
+                    "3": "2-Portable Profile Demo \u2013 Chrome Extension \u2013 Input into Various Websites.mp4",
+                    "4": "3-Portable Profile Demo \u2013 Chrome Extension \u2013 Read Data from Existing User.mp4",
+                    "5": "5-flow@2x.png",
+                    "6": "6-flow@2x.png",
+                    "7": "7-flow@2x.png",
+                    "8": "8-existing@2x.png",
+                    "9": "9-proposed@2x.png"
+                }
             }
         },
         {
@@ -7551,6 +9470,16 @@
                     "github",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0-demo.mp4",
+                    "3": "1-flow@2x.png",
+                    "4": "2-flow@2x.png",
+                    "5": "8-existing@2x.png",
+                    "6": "9-proposed@2x.png"
+                }
             }
         },
         {
@@ -7585,6 +9514,17 @@
                     "portfolio",
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.png",
+                    "7": "6@2x.png"
+                }
             }
         },
         {
@@ -7626,6 +9566,15 @@
                     "live-site",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png"
+                }
             }
         },
         {
@@ -7659,6 +9608,12 @@
                 "tags": [
                     "github"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "email__hasMacDesktopShadow@2x.png"
+                }
             }
         },
         {
@@ -7692,6 +9647,14 @@
                 "tags": [
                     "live-site"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png"
+                }
             }
         },
         {
@@ -7717,6 +9680,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Project Creative.png"
+                }
             }
         },
         {
@@ -7750,6 +9719,12 @@
                 "tags": [
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Finder@2x-hasMacDesktopShadow.png"
+                }
             }
         },
         {
@@ -7785,6 +9760,12 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.jpg"
+                }
             }
         },
         {
@@ -7835,6 +9816,14 @@
                     "archived-tweet",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Screenshot@2x.png",
+                    "3": "Video Demo@2x.mp4",
+                    "4": "hidden"
+                }
             }
         },
         {
@@ -7869,6 +9858,12 @@
                     "drawing",
                     "archived-tweet"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "image@2x.jpg"
+                }
             }
         },
         {
@@ -7902,6 +9897,11 @@
                 "tags": [
                     "github"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "Desktop@2x-hasMacDesktopShadow.png"
+                }
             }
         },
         {
@@ -7928,6 +9928,13 @@
                     "sva",
                     "school-of-visual-arts"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-front@2x.jpg",
+                    "3": "2-back@2x.jpg"
+                }
             }
         },
         {
@@ -7953,6 +9960,12 @@
                 "tags": [
                     "menu"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -7986,6 +9999,12 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png"
+                }
             }
         },
         {
@@ -8020,6 +10039,17 @@
                     "portfolio2012",
                     "freelance"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png",
+                    "6": "5.png",
+                    "7": "6.png"
+                }
             }
         },
         {
@@ -8056,6 +10086,14 @@
                     "home-automation",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.jpg",
+                    "4": "3@2x.png"
+                }
             }
         },
         {
@@ -8083,6 +10121,13 @@
                     "home-automation",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "video-1582241852@2x.mp4",
+                    "3": "video-1582608559@2x.mp4"
+                }
             }
         },
         {
@@ -8116,6 +10161,12 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -8152,6 +10203,20 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg",
+                    "6": "5.jpg",
+                    "7": "6.jpg",
+                    "8": "7.jpg",
+                    "9": "8.jpg",
+                    "10": "9.jpg"
+                }
             }
         },
         {
@@ -8178,6 +10243,12 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "final@2x.jpg"
+                }
             }
         },
         {
@@ -8220,6 +10291,15 @@
                     "game",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-scattergories-builder@2x.png",
+                    "3": "2-scattergories-builder@2x.png",
+                    "4": "3-scattergories-builder@2x.png",
+                    "5": "hidden"
+                }
             }
         },
         {
@@ -8243,7 +10323,8 @@
                     }
                 },
                 "tags": []
-            }
+            },
+            "files": []
         },
         {
             "directory": {
@@ -8266,6 +10347,16 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "screenshots": {
+                    "2": "4.png",
+                    "3": "5.png",
+                    "4": "6.png",
+                    "5": "site.png",
+                    "6": "z-raschool-admin.png",
+                    "7": "z-tailored-cms.png"
+                }
             }
         },
         {
@@ -8300,6 +10391,12 @@
                     "camera",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "security-camera-history@2x.png"
+                }
             }
         },
         {
@@ -8325,6 +10422,12 @@
                 "tags": [
                     "photoshop"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "lmancini_portrait_flat@2x.jpg"
+                }
             }
         },
         {
@@ -8350,6 +10453,12 @@
                 "tags": [
                     "photoshop"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Final@2x.jpg"
+                }
             }
         },
         {
@@ -8373,6 +10482,12 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "selfportrait_graphite.jpg"
+                }
             }
         },
         {
@@ -8408,6 +10523,15 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg"
+                }
             }
         },
         {
@@ -8443,6 +10567,13 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png"
+                }
             }
         },
         {
@@ -8468,6 +10599,12 @@
                 "tags": [
                     "our-lady-of-hope"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "schedule.jpg"
+                }
             }
         },
         {
@@ -8501,6 +10638,13 @@
                 "tags": [
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-Mobile@2x.png",
+                    "3": "2-Desktop@2x-hasMacDesktopShadow.png"
+                }
             }
         },
         {
@@ -8533,6 +10677,13 @@
                     "quartz-composer",
                     "video"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1 - Geodesic Dome 30 sec compressed@2x.mp4",
+                    "3": "2 - Circles fast 10 sec compressed@2x.mp4",
+                    "4": "3 - Quilt 30 sec compressed@2x.mp4"
+                }
             }
         },
         {
@@ -8560,6 +10711,14 @@
                     "school-of-visual-arts",
                     "sculpture"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.JPG",
+                    "3": "2@2x.JPG",
+                    "4": "3@2x.JPG"
+                }
             }
         },
         {
@@ -8585,6 +10744,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "final.jpg"
+                }
             }
         },
         {
@@ -8608,6 +10773,12 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "todo.png"
+                }
             }
         },
         {
@@ -8643,6 +10814,21 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "10.jpg",
+                    "4": "2.jpg",
+                    "5": "3.jpg",
+                    "6": "4.jpg",
+                    "7": "5.jpg",
+                    "8": "6.jpg",
+                    "9": "7.jpg",
+                    "10": "8.jpg",
+                    "11": "9.jpg"
+                }
             }
         },
         {
@@ -8668,6 +10854,13 @@
                 "tags": [
                     "our-lady-of-hope"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "schedule-1@2x.jpg",
+                    "3": "schedule-2.jpg"
+                }
             }
         },
         {
@@ -8722,6 +10915,13 @@
                     "github",
                     "live-site"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "empire-state-building--code.txt",
+                    "3": "un-building--code.txt"
+                }
             }
         },
         {
@@ -8745,6 +10945,14 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-dark@2x.jpg",
+                    "3": "2-white@2x.jpg",
+                    "4": "3-primary colors@2x.jpg"
+                }
             }
         },
         {
@@ -8781,6 +10989,15 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.jpg"
+                }
             }
         },
         {
@@ -8816,6 +11033,14 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg"
+                }
             }
         },
         {
@@ -8842,6 +11067,12 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "may27@2x.png"
+                }
             }
         },
         {
@@ -8876,6 +11107,12 @@
                     "square",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "mobile@2x.png"
+                }
             }
         },
         {
@@ -8903,6 +11140,17 @@
                     "job",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-desktop@2x.png",
+                    "3": "2-desktop@2x.png",
+                    "4": "3-desktop@2x.png",
+                    "5": "4-desktop@2x.png",
+                    "6": "5-video@2x.mp4",
+                    "7": "6-instagram@2x.png"
+                }
             }
         },
         {
@@ -8937,6 +11185,17 @@
                     "square",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0-mobile@2x.png",
+                    "3": "1-desktop@2x.png",
+                    "4": "2-desktop@2x.png",
+                    "5": "3-desktop@2x.png",
+                    "6": "4-desktop@2x.png",
+                    "7": "5-code@2x.png"
+                }
             }
         },
         {
@@ -8978,6 +11237,12 @@
                 "tags": [
                     "live-site"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "reference_guide--code.txt"
+                }
             }
         },
         {
@@ -9018,6 +11283,14 @@
                     "portfolio2012",
                     "freelance"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png"
+                }
             }
         },
         {
@@ -9043,6 +11316,16 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-final.png",
+                    "3": "2-sketch.jpg",
+                    "4": "3-photo.jpg",
+                    "5": "4-vector.jpg",
+                    "6": "5-vector.jpg"
+                }
             }
         },
         {
@@ -9079,6 +11362,12 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -9102,6 +11391,12 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "final@2x.jpg"
+                }
             }
         },
         {
@@ -9139,6 +11434,10 @@
                     "camera",
                     "github"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": []
             }
         },
         {
@@ -9172,6 +11471,15 @@
                 "tags": [
                     "live-site"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png"
+                }
             }
         },
         {
@@ -9197,6 +11505,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "website.jpg"
+                }
             }
         },
         {
@@ -9242,6 +11556,10 @@
                     "camera",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": []
             }
         },
         {
@@ -9301,6 +11619,15 @@
                     "live-site",
                     "archived-tweet"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-sample-composite-image@2x.png",
+                    "3": "2-training-data-builder@2x.png",
+                    "4": "3-training-data@2x.png",
+                    "5": "4-predictions@2x.png"
+                }
             }
         },
         {
@@ -9344,6 +11671,17 @@
                     "camera",
                     "github"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-rating@2x.png",
+                    "3": "2-rating@2x.png",
+                    "4": "3-rating@2x.png",
+                    "5": "4-rating@2x.png",
+                    "6": "5-rating@2x.png",
+                    "7": "6-instagram@2x.png"
+                }
             }
         },
         {
@@ -9390,6 +11728,17 @@
                     "github",
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0-phones@2x.png",
+                    "3": "1-browser@2x.png",
+                    "4": "2-browser@2x.png",
+                    "5": "3-browser@2x.png",
+                    "6": "4-browser@2x.png",
+                    "7": "5-browser@2x.png"
+                }
             }
         },
         {
@@ -9435,6 +11784,13 @@
                     "github",
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "animated@2x.png",
+                    "3": "grid@2x.png"
+                }
             }
         },
         {
@@ -9493,6 +11849,17 @@
                     "6": "github",
                     "8": "video"
                 }
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "2022-05-05@2x.mp4",
+                    "3": "2022-05-06@2x.mp4",
+                    "4": "2022-05-08@2x.mp4",
+                    "5": "2022-05-20@2x.mp4",
+                    "6": "2022-05-22@2x.mp4",
+                    "7": "2022-05-25@2x.mp4"
+                }
             }
         },
         {
@@ -9518,6 +11885,13 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-website.png",
+                    "3": "2-album-art.png"
+                }
             }
         },
         {
@@ -9543,6 +11917,13 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-website.png",
+                    "3": "2-invite.png"
+                }
             }
         },
         {
@@ -9578,6 +11959,16 @@
                     "sva",
                     "sva-engineering"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png",
+                    "6": "5.png"
+                }
             }
         },
         {
@@ -9611,6 +12002,13 @@
                     "sva",
                     "sva-engineering"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "0-mobile.png",
+                    "4": "1-desktop.png"
+                }
             }
         },
         {
@@ -9644,6 +12042,12 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -9678,6 +12082,13 @@
                     "portfolio2012",
                     "freelance"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png"
+                }
             }
         },
         {
@@ -9704,6 +12115,12 @@
                     "code-for-america",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0@2x.png"
+                }
             }
         },
         {
@@ -9729,6 +12146,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Ted Winder.png"
+                }
             }
         },
         {
@@ -9762,6 +12185,13 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png"
+                }
             }
         },
         {
@@ -9792,6 +12222,12 @@
                     }
                 ],
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png"
+                }
             }
         },
         {
@@ -9825,6 +12261,14 @@
                 "tags": [
                     "live-site"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png"
+                }
             }
         },
         {
@@ -9851,6 +12295,13 @@
                     "family",
                     "menu"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-english@2x.png",
+                    "3": "2-chinese@2x.png"
+                }
             }
         },
         {
@@ -9876,6 +12327,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "website.png"
+                }
             }
         },
         {
@@ -9910,6 +12367,12 @@
                     "freelance",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Ad - Final - Compressed-desktop.mp4"
+                }
             }
         },
         {
@@ -9943,6 +12406,16 @@
                 "tags": [
                     "portfolio2012"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg",
+                    "4": "3.jpg",
+                    "5": "4.png",
+                    "6": "5.png"
+                }
             }
         },
         {
@@ -9968,6 +12441,13 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-website.png",
+                    "3": "2-placeholder.jpg"
+                }
             }
         },
         {
@@ -9993,6 +12473,13 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-website.jpg",
+                    "3": "2-website.jpg"
+                }
             }
         },
         {
@@ -10016,6 +12503,12 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "underground.png"
+                }
             }
         },
         {
@@ -10054,6 +12547,13 @@
                     "github",
                     "video"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x-hasMacDesktopShadow.png",
+                    "3": "2021-12-20-03-00--2021-12-20-11-00@2x.mp4"
+                }
             }
         },
         {
@@ -10088,6 +12588,12 @@
                     "covid",
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Elevator@2x.png"
+                }
             }
         },
         {
@@ -10123,6 +12629,12 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg"
+                }
             }
         },
         {
@@ -10164,6 +12676,13 @@
                     "github",
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0-overview@2x.png",
+                    "3": "hidden"
+                }
             }
         },
         {
@@ -10187,7 +12706,8 @@
                     }
                 },
                 "tags": []
-            }
+            },
+            "files": []
         },
         {
             "directory": {
@@ -10217,6 +12737,11 @@
                     }
                 ],
                 "tags": []
+            },
+            "files": {
+                "screenshots": {
+                    "2": "treasure@2x.jpg"
+                }
             }
         },
         {
@@ -10243,6 +12768,12 @@
                     "quartz-composer",
                     "video"
                 ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1@2x.mp4",
+                    "3": "2@2x.mp4"
+                }
             }
         },
         {
@@ -10279,6 +12810,13 @@
                     "internship",
                     "nyc-department-of-education"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg"
+                }
             }
         },
         {
@@ -10319,6 +12857,13 @@
                 "tags": [
                     "freelance"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-mobile@2x.png",
+                    "3": "2-desktop@2x.png"
+                }
             }
         },
         {
@@ -10352,6 +12897,12 @@
                 "tags": [
                     "github"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "v1@2x.png"
+                }
             }
         },
         {
@@ -10385,6 +12936,12 @@
                 "tags": [
                     "github"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png"
+                }
             }
         },
         {
@@ -10416,6 +12973,18 @@
                 "tags": [
                     "open-dream"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-mobile@2x.png",
+                    "3": "2-mobile@2x.png",
+                    "4": "3-mobile@2x.png",
+                    "5": "5-desktop@2x.png",
+                    "6": "6-desktop@2x.png",
+                    "7": "7-desktop@2x.png",
+                    "8": "8-desktop@2x.png"
+                }
             }
         },
         {
@@ -10442,6 +13011,14 @@
                     "home-automation",
                     "machine-learning"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-Desktop@2x.png",
+                    "3": "2-Desktop@2x.png",
+                    "4": "3-training-data-builder@2x.png"
+                }
             }
         },
         {
@@ -10465,6 +13042,23 @@
                     }
                 },
                 "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Bee Sting.png",
+                    "3": "Cash Register.png",
+                    "4": "Cock Fight.png",
+                    "5": "Conversation between a piccolo and an upright bass.png",
+                    "6": "Elevator Music.png",
+                    "7": "Faulty Light Bulb.png",
+                    "8": "Jackhammer.png",
+                    "9": "Motorcycles.png",
+                    "10": "Opening a Bottle or Can of Beer.png",
+                    "11": "War.png",
+                    "12": "Whistling Tea Kettle.png",
+                    "13": "Wrestling Match.png"
+                }
             }
         },
         {
@@ -10505,6 +13099,19 @@
                     "portfolio2012",
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.png",
+                    "7": "6@2x.png",
+                    "8": "7@2x.png",
+                    "9": "8@2x.png"
+                }
             }
         },
         {
@@ -10536,6 +13143,16 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-website.png",
+                    "3": "2-website.png",
+                    "4": "3-logo.png",
+                    "5": "4-logo-detail.png",
+                    "6": "5-logo-detail.png"
+                }
             }
         },
         {
@@ -10576,6 +13193,12 @@
                     "github",
                     "live-site"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "image@2x.png"
+                }
             }
         },
         {
@@ -10607,6 +13230,15 @@
                     }
                 ],
                 "tags": []
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Leo_Mancini_Web_Developer_Icons.zip"
+                },
+                "screenshots": {
+                    "2": "icons@2x.png"
+                }
             }
         },
         {
@@ -10656,6 +13288,20 @@
                     "4": "github",
                     "5": "archived-tweet"
                 }
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "A-Mobile1@2x.png",
+                    "3": "A-Mobile2@2x.png",
+                    "4": "A-Mobile3@2x.png",
+                    "5": "A-Mobile4@2x.png",
+                    "6": "B-Desktop1@2x.png",
+                    "7": "B-Desktop2@2x.png",
+                    "8": "B-Desktop3@2x.png",
+                    "9": "B-Desktop4@2x.png",
+                    "10": "hidden"
+                }
             }
         },
         {
@@ -10681,6 +13327,12 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "WinX.png"
+                }
             }
         },
         {
@@ -10716,6 +13368,13 @@
                     "thhs",
                     "townsend-harris-high-school"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1.jpg",
+                    "3": "2.jpg"
+                }
             }
         },
         {
@@ -10742,6 +13401,12 @@
                     "code-for-america",
                     "job"
                 ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0@2x.png"
+                }
             }
         },
         {
@@ -10767,6 +13432,16 @@
                 "tags": [
                     "high-school-freelance"
                 ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-website.png",
+                    "3": "2-logo.png",
+                    "4": "3-logo-sample.png",
+                    "5": "4-logo-detail.png",
+                    "6": "5-logo-detail.png"
+                }
             }
         }
     ]
