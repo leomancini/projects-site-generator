@@ -32,6 +32,6 @@
         }
     },
     "debug": false,
-    "useCacheFileOnLocalhost": true,
+    "useCacheFileOnLocalhost": false,
     "cacheFile": "/cache/projectsList.json"
 }

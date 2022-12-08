@@ -4691,8 +4691,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
-                "screenshots": []
+                "2": "longDescription.txt"
             }
         },
         {
@@ -5526,7 +5525,8 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt"
+                "2": "longDescription.txt",
+                "screenshots": []
             }
         },
         {
@@ -6803,7 +6803,8 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt"
+                "3": "longDescription.txt",
+                "screenshots": []
             }
         },
         {
@@ -11295,6 +11296,41 @@
         },
         {
             "directory": {
+                "id": "stock-photo-collection-1"
+            },
+            "manifest": {
+                "name": "Stock Photo Collection",
+                "shortDescription": "Series of city and nature photos for purchase",
+                "startDate": {
+                    "string": "December 7, 2022",
+                    "timestamp": {
+                        "raw": 1670371200,
+                        "formatted": "December 2022",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "tags": [
+                    "photography"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-istockphoto-1446702120-1024x1024.jpg",
+                    "3": "2-istockphoto-1446702127-1024x1024.jpg",
+                    "4": "3-istockphoto-1446702142-1024x1024.jpg",
+                    "5": "4-istockphoto-1446702137-1024x1024.jpg",
+                    "6": "5-istockphoto-1446702110-1024x1024.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "stomp-app-icon"
             },
             "manifest": {
@@ -11436,8 +11472,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
-                "screenshots": []
+                "3": "longDescription.txt"
             }
         },
         {
@@ -11558,8 +11593,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
-                "screenshots": []
+                "2": "longDescription.txt"
             }
         },
         {
