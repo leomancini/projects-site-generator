@@ -4691,7 +4691,8 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt"
+                "2": "longDescription.txt",
+                "screenshots": []
             }
         },
         {
@@ -5525,8 +5526,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
-                "screenshots": []
+                "2": "longDescription.txt"
             }
         },
         {
@@ -6803,8 +6803,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
-                "screenshots": []
+                "3": "longDescription.txt"
             }
         },
         {
@@ -11201,6 +11200,44 @@
         },
         {
             "directory": {
+                "id": "sq-payroll-schedule"
+            },
+            "manifest": {
+                "name": "Square Payroll Payment Schedule",
+                "shortDescription": "Updates to make it easier for employers to pay employees faster",
+                "startDate": {
+                    "string": "December 2022",
+                    "timestamp": {
+                        "raw": 1669852800,
+                        "formatted": "December 2022",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "tags": [
+                    "square",
+                    "job"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4 - Deadline 1 \u2013 4DP@2x.png",
+                    "6": "5 - Deadline 2 \u2013 2DP@2x.png",
+                    "7": "6 - Deadline 3 \u2013 1DP@2x.png",
+                    "8": "7 - Deadline Picker GIF.gif"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "sql-php-reference-guide"
             },
             "manifest": {
@@ -11472,7 +11509,8 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt"
+                "3": "longDescription.txt",
+                "screenshots": []
             }
         },
         {
@@ -11593,7 +11631,8 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt"
+                "2": "longDescription.txt",
+                "screenshots": []
             }
         },
         {
