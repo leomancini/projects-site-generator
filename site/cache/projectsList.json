@@ -5752,7 +5752,9 @@
                         }
                     }
                 },
-                "tags": []
+                "tags": [
+                    "drawing"
+                ]
             },
             "files": {
                 "3": "longDescription.txt",
@@ -9580,6 +9582,41 @@
         },
         {
             "directory": {
+                "id": "powerbook-and-network-drawings"
+            },
+            "manifest": {
+                "name": "PowerBook G4 and Home Network Sketches",
+                "shortDescription": "Drawings of Mac laptop and home network setup",
+                "startDate": {
+                    "string": "Jan 2003",
+                    "dateEstimated": true,
+                    "timestamp": {
+                        "raw": 1041379200,
+                        "formatted": "January 2003",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2003",
+                            "yearNumber": 2003
+                        }
+                    }
+                },
+                "tags": [
+                    "drawing"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.jpg",
+                    "4": "3@2x.jpg",
+                    "5": "4@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "process-card-transactions-api"
             },
             "manifest": {
@@ -11977,6 +12014,7 @@
                 "shortDescription": "Sketches of superheros in a short story",
                 "startDate": {
                     "string": "January 2002",
+                    "dateEstimated": true,
                     "timestamp": {
                         "raw": 1009843200,
                         "formatted": "January 2002",
