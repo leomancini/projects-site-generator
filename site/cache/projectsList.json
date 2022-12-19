@@ -4691,8 +4691,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
-                "screenshots": []
+                "2": "longDescription.txt"
             }
         },
         {
@@ -5526,7 +5525,8 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt"
+                "2": "longDescription.txt",
+                "screenshots": []
             }
         },
         {
@@ -6805,7 +6805,8 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt"
+                "3": "longDescription.txt",
+                "screenshots": []
             }
         },
         {
@@ -10995,6 +10996,48 @@
         },
         {
             "directory": {
+                "id": "spaceship-aircraft-drawings"
+            },
+            "manifest": {
+                "name": "Spaceship and Aircraft Drawings",
+                "shortDescription": "Sketches of imaginary planes, helicopters, and spaceships",
+                "startDate": {
+                    "string": "April 2002",
+                    "dateEstimated": true,
+                    "timestamp": {
+                        "raw": 1017619200,
+                        "formatted": "April 2002",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2002",
+                            "yearNumber": 2002
+                        }
+                    }
+                },
+                "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "01@2x.jpg",
+                    "4": "02@2x.jpg",
+                    "5": "03@2x.jpg",
+                    "6": "04@2x.jpg",
+                    "7": "05@2x.jpg",
+                    "8": "06@2x.jpg",
+                    "9": "07@2x.jpg",
+                    "10": "08@2x.jpg",
+                    "11": "09@2x.jpg",
+                    "12": "10@2x.jpg",
+                    "13": "11@2x.jpg",
+                    "14": "12@2x.jpg",
+                    "15": "13@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "specialized-high-schools-student-handbook"
             },
             "manifest": {
@@ -11547,8 +11590,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
-                "screenshots": []
+                "3": "longDescription.txt"
             }
         },
         {
@@ -11669,8 +11711,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
-                "screenshots": []
+                "2": "longDescription.txt"
             }
         },
         {
