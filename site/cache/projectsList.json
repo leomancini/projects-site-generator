@@ -11432,8 +11432,17 @@
                         }
                     }
                 },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "View on iStockPhoto",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.istockphoto.com\/portfolio\/leomancini"
+                    }
+                ],
                 "tags": [
-                    "photography"
+                    "photography",
+                    "live-site"
                 ]
             },
             "files": {
