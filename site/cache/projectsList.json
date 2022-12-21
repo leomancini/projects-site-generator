@@ -3612,12 +3612,13 @@
                         "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/D834611"
                     }
                 ],
-                "tags": [
-                    "facebook",
-                    "job",
-                    "fb-fte",
-                    "video"
-                ]
+                "tags": {
+                    "0": "facebook",
+                    "1": "job",
+                    "2": "fb-fte",
+                    "3": "patent",
+                    "6": "video"
+                }
             },
             "files": {
                 "2": "longDescription.txt",
@@ -3726,7 +3727,8 @@
                 "tags": [
                     "facebook",
                     "job",
-                    "fb-fte"
+                    "fb-fte",
+                    "patent"
                 ]
             },
             "files": {
@@ -3884,13 +3886,14 @@
                         "url": "https:\/\/noshado.ws\/archive\/riff\/"
                     }
                 ],
-                "tags": [
-                    "facebook",
-                    "job",
-                    "fb-fte",
-                    "live-site",
-                    "video"
-                ]
+                "tags": {
+                    "0": "facebook",
+                    "1": "job",
+                    "2": "fb-fte",
+                    "3": "patent",
+                    "5": "live-site",
+                    "6": "video"
+                }
             },
             "files": {
                 "2": "longDescription.txt",
@@ -3962,12 +3965,13 @@
                         "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/11157134"
                     }
                 ],
-                "tags": [
-                    "facebook",
-                    "job",
-                    "fb-fte",
-                    "video"
-                ]
+                "tags": {
+                    "0": "facebook",
+                    "1": "job",
+                    "2": "fb-fte",
+                    "3": "patent",
+                    "5": "video"
+                }
             },
             "files": {
                 "2": "longDescription.txt",
@@ -4166,7 +4170,8 @@
                 "tags": [
                     "facebook",
                     "job",
-                    "fb-fte"
+                    "fb-fte",
+                    "patent"
                 ]
             },
             "files": {

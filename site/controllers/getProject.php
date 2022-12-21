@@ -112,6 +112,10 @@
                 if (stringContains($link['url'], 'noshado.ws/archive/tweets')) {
                     array_push($tags, 'archived-tweet');
                 }
+
+                if (stringContains($link['type'], 'patent')) {
+                    array_push($tags, 'patent');
+                }
             }
         }
 
