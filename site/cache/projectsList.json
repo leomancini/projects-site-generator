@@ -3597,13 +3597,19 @@
                         "type": "patent",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "http:\/\/patft.uspto.gov\/netacgi\/nph-Parser?Sect2=PTO1&Sect2=HITOFF&p=1&u=\/netahtml\/PTO\/search-bool.html&r=1&f=G&l=50&d=PALL&RefSrch=yes&Query=PN\/D834611"
+                        "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/10771513"
                     },
                     {
                         "type": "patent",
-                        "label": "View Patent Pending",
+                        "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "http:\/\/appft1.uspto.gov\/netacgi\/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=\/netahtml\/PTO\/srchnum.html&r=1&f=G&l=50&s1=20180253193.PGNR."
+                        "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/10728360"
+                    },
+                    {
+                        "type": "patent",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/D834611"
                     }
                 ],
                 "tags": [
@@ -3714,7 +3720,7 @@
                         "type": "patent",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "http:\/\/patft.uspto.gov\/netacgi\/nph-Parser?Sect2=PTO1&Sect2=HITOFF&p=1&u=\/netahtml\/PTO\/search-bool.html&r=1&f=G&l=50&d=PALL&RefSrch=yes&Query=PN\/9560154"
+                        "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/10306003"
                     }
                 ],
                 "tags": [
@@ -3863,7 +3869,13 @@
                         "type": "patent",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "http:\/\/patft.uspto.gov\/netacgi\/nph-Parser?Sect2=PTO1&Sect2=HITOFF&p=1&u=\/netahtml\/PTO\/search-bool.html&r=1&f=G&l=50&d=PALL&RefSrch=yes&Query=PN\/9772813"
+                        "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/11366630"
+                    },
+                    {
+                        "type": "patent",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/20220269468"
                     },
                     {
                         "type": "live_site",
@@ -3939,9 +3951,15 @@
                     },
                     {
                         "type": "patent",
-                        "label": "View Patent Pending",
+                        "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "http:\/\/appft.uspto.gov\/netacgi\/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=\/netahtml\/PTO\/srchnum.html&r=1&f=G&l=50&d=PG01&s1=20190018864.PGNR."
+                        "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/11023429"
+                    },
+                    {
+                        "type": "patent",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/11157134"
                     }
                 ],
                 "tags": [
@@ -4142,7 +4160,7 @@
                         "type": "patent",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "http:\/\/patft.uspto.gov\/netacgi\/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=\/netahtml\/PTO\/srchnum.html&r=1&f=G&l=50&d=PALL&s1=10628473.PN."
+                        "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/10628473"
                     }
                 ],
                 "tags": [
