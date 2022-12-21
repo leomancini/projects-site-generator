@@ -3597,12 +3597,6 @@
                         "type": "patent",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/10771513"
-                    },
-                    {
-                        "type": "patent",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/image-ppubs.uspto.gov\/dirsearch-public\/print\/downloadPdf\/10728360"
                     },
                     {
@@ -3617,7 +3611,7 @@
                     "1": "job",
                     "2": "fb-fte",
                     "3": "patent",
-                    "6": "video"
+                    "5": "video"
                 }
             },
             "files": {
