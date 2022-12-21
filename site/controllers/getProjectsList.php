@@ -1,7 +1,7 @@
 <?php
     include('base.php');
     include('getProject.php');
-    
+
     $config = loadConfig();
 
     function getProjectsList() {
@@ -111,13 +111,13 @@
                     }
 
                     if (array_key_exists('credits', $projectInfo['manifest'])) {
-                        if (stringContains(strtolower(join(' ', call_user_func_array('array_merge', $projectInfo['manifest']['credits']))), $searchQuery)) {
+                        if (stringContains(stringifyArray($projectInfo['manifest']['credits']), $searchQuery)) {
                             $searchMatch = true;
                         }
                     }
 
                     if (array_key_exists('links', $projectInfo['manifest'])) {
-                        if (stringContains(strtolower(join(' ', call_user_func_array('array_merge', $projectInfo['manifest']['links']))), $searchQuery)) {
+                        if (stringContains(stringifyArray($projectInfo['manifest']['links']), $searchQuery)) {
                             $searchMatch = true;
                         }
                     }

@@ -12,4 +12,14 @@
             return false;
         }
     }
+
+    function stringifyArray($array) {
+        $string = '';
+        
+        foreach($array as $value) {
+            $string .= strtolower(join(' ', array_merge($value)));
+        }
+
+        return $string;
+    }
 ?>
