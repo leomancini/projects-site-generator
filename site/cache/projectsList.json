@@ -8520,6 +8520,50 @@
         },
         {
             "directory": {
+                "id": "patent-viewer"
+            },
+            "manifest": {
+                "name": "US Patent Viewer",
+                "shortDescription": "Displays PDFs cached locally or directly from the US Patent Office",
+                "startDate": {
+                    "string": "December 21, 2022",
+                    "timestamp": {
+                        "raw": 1671580800,
+                        "formatted": "December 2022",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/patent-viewer"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Example",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/labs.noshado.ws\/patent\/10628473"
+                    }
+                ],
+                "tags": [
+                    "github",
+                    "live-site"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": []
+            }
+        },
+        {
+            "directory": {
                 "id": "pattern-desktop-pictures"
             },
             "manifest": {
