@@ -3519,6 +3519,40 @@
         },
         {
             "directory": {
+                "id": "fb-auto-captioned-video"
+            },
+            "manifest": {
+                "name": "Facebook Live Captions for Video",
+                "shortDescription": "Automatically generate and display captions for video content",
+                "startDate": {
+                    "string": "May 2015",
+                    "timestamp": {
+                        "raw": 1430438400,
+                        "formatted": "May 2015",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2015",
+                            "yearNumber": 2015
+                        }
+                    }
+                },
+                "tags": [
+                    "facebook",
+                    "job",
+                    "fb-fte",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "story.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "fb-blush"
             },
             "manifest": {
