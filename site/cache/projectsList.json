@@ -8718,7 +8718,7 @@
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/patent-viewer"
+                        "url": "https:\/\/github.com\/leomancini\/patent-viewer\/blob\/main\/viewer.php"
                     },
                     {
                         "type": "live_site",
