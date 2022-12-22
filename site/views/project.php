@@ -77,10 +77,19 @@
             <div id='links'>
                 <?php if(array_key_exists('links', $projectManifest)) { ?>
                     <?php if(count($projectManifest['links']) > 0) { ?>
-                        <?php foreach($projectManifest['links'] as $link) { ?><a href='<?php echo $link['url']; ?>' target='_blank' rel='noopener' class='link'>
+                        <?php
+                            $projectLinkTypesMetadata = [];
+                            foreach($projectManifest['links'] as $link) {
+                                $projectLinkTypesMetadata[$link['type']]['count']++;
+                            }
+                        ?>
+                        <?php foreach($projectManifest['links'] as $link) { ?>
+                            <a href='<?php echo $link['url']; ?>' target='_blank' rel='noopener' class='link'>
+                                <?php $projectLinkTypesMetadata[$link['type']]['index']++; ?>
                                 <span class='icon'><i class="material-icons"><?php echo getIconForLink($link); ?></i></span>
-                                <span class='label'><?php echo getLabelForLink($link); ?></span>
-                            </a><?php } ?>
+                                <span class='label'><?php echo getLabelForLink($link, $projectLinkTypesMetadata[$link['type']]); ?></span>
+                            </a>
+                        <?php } ?>
                     <?php } ?>
                 <?php } ?>
             </div>

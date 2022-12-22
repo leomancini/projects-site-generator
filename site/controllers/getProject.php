@@ -43,7 +43,7 @@
         return $iconCode;
     }
 
-    function getLabelForLink($link) {
+    function getLabelForLink($link, $linkTypeMetadata) {
         global $config;
 
         $labelCode = '';
@@ -51,6 +51,10 @@
         if ($config) {
             if ($link['label'] === 'DEFAULT_FOR_TYPE') {
                 $labelCode = $config['links']['defaultLabelsForType'][$link['type']];
+                
+                if ($linkTypeMetadata['count'] > 1) {
+                    $labelCode .= ' '.$linkTypeMetadata['index'];
+                }
             } else {
                 $labelCode = $link['label'];
             }
