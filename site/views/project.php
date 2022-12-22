@@ -81,6 +81,10 @@
                             $projectLinkTypesMetadata = [];
                             foreach($projectManifest['links'] as $link) {
                                 $projectLinkTypesMetadata[$link['type']]['count']++;
+
+                                if($link['label'] === 'DEFAULT_FOR_TYPE') {
+                                    $projectLinkTypesMetadata[$link['type']]['countWithDefaultLabel']++;
+                                }
                             }
                         ?>
                         <?php foreach($projectManifest['links'] as $link) { ?>

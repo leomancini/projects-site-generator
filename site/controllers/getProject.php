@@ -52,7 +52,7 @@
             if ($link['label'] === 'DEFAULT_FOR_TYPE') {
                 $labelCode = $config['links']['defaultLabelsForType'][$link['type']];
                 
-                if ($linkTypeMetadata['count'] > 1) {
+                if ($linkTypeMetadata['countWithDefaultLabel'] > 1) {
                     $labelCode .= ' '.$linkTypeMetadata['index'];
                 }
             } else {
