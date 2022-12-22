@@ -4154,6 +4154,51 @@
         },
         {
             "directory": {
+                "id": "fb-time-machine-camera-app"
+            },
+            "manifest": {
+                "name": "Facebook Time Machine Camera",
+                "shortDescription": "Capture a moment and choose the format later",
+                "startDate": {
+                    "string": "January 2015",
+                    "timestamp": {
+                        "raw": 1420070400,
+                        "formatted": "January 2015",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2015",
+                            "yearNumber": 2015
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "patent",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/labs.noshado.ws\/patent\/10148885"
+                    }
+                ],
+                "tags": [
+                    "facebook",
+                    "job",
+                    "fb-fte",
+                    "patent",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1-switch-mode@2x.mp4",
+                    "4": "2-share@2x.mp4",
+                    "5": "3-flow@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "fb-topic-pages"
             },
             "manifest": {
