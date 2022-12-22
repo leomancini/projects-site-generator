@@ -3983,6 +3983,56 @@
         },
         {
             "directory": {
+                "id": "fb-selfie-reactions"
+            },
+            "manifest": {
+                "name": "Facebook Selfie Reactions",
+                "shortDescription": "Respond to a friend's post with a selfie",
+                "startDate": {
+                    "string": "May 2015",
+                    "timestamp": {
+                        "raw": 1430438400,
+                        "formatted": "May 2015",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2015",
+                            "yearNumber": 2015
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "patent",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/labs.noshado.ws\/patent\/20190130620"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Jonas Christiansen",
+                        "type": "Stories version",
+                        "link": "https:\/\/labs.noshado.ws\/patent\/20190130620"
+                    }
+                ],
+                "tags": [
+                    "facebook",
+                    "job",
+                    "fb-fte",
+                    "patent",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "video@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "fb-stories-and-direct"
             },
             "manifest": {
