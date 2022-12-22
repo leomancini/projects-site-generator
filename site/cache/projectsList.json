@@ -3519,6 +3519,52 @@
         },
         {
             "directory": {
+                "id": "fb-blush"
+            },
+            "manifest": {
+                "name": "Facebook Blush",
+                "shortDescription": "Share visual content with small groups",
+                "startDate": {
+                    "string": "January 2015",
+                    "timestamp": {
+                        "raw": 1420070400,
+                        "formatted": "January 2015",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2015",
+                            "yearNumber": 2015
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "patent",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/labs.noshado.ws\/patent\/10771513"
+                    }
+                ],
+                "tags": [
+                    "facebook",
+                    "job",
+                    "fb-fte",
+                    "patent",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2-color-picker@2x.mp4",
+                    "5": "3-navigation@2x.mp4",
+                    "6": "4-composer@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "fb-boosted-posts"
             },
             "manifest": {
