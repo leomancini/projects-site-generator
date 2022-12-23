@@ -3706,6 +3706,80 @@
         },
         {
             "directory": {
+                "id": "fb-india-optimizations"
+            },
+            "manifest": {
+                "name": "Facebook Optimizations for India",
+                "shortDescription": "Share and view content in multiple languages",
+                "startDate": {
+                    "string": "April 2017",
+                    "timestamp": {
+                        "raw": 1491004800,
+                        "formatted": "April 2017",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2017",
+                            "yearNumber": 2017
+                        }
+                    }
+                },
+                "tags": [
+                    "facebook",
+                    "job",
+                    "fb-fte",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2@2x.mp4",
+                    "5": "3@2x.png",
+                    "6": "4@2x.mp4",
+                    "7": "5@2x.png",
+                    "8": "6@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "fb-japan-optimizations"
+            },
+            "manifest": {
+                "name": "Facebook Optimizations for Japan",
+                "shortDescription": "Use an app customized to Japanese culture and design patterns",
+                "startDate": {
+                    "string": "May 2017",
+                    "timestamp": {
+                        "raw": 1493596800,
+                        "formatted": "May 2017",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2017",
+                            "yearNumber": 2017
+                        }
+                    }
+                },
+                "tags": [
+                    "facebook",
+                    "job",
+                    "fb-fte"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "fb-mentions-app"
             },
             "manifest": {
@@ -4039,13 +4113,13 @@
                 "name": "Facebook Stories and Direct",
                 "shortDescription": "Share your day with friends and send private visual messages",
                 "startDate": {
-                    "string": "August 2017",
+                    "string": "March 2017",
                     "timestamp": {
-                        "raw": 1501545600,
-                        "formatted": "August 2017",
+                        "raw": 1488326400,
+                        "formatted": "March 2017",
                         "components": {
-                            "monthFormatted": "August",
-                            "monthNumber": 8,
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
                             "yearFormatted": "2017",
                             "yearNumber": 2017
                         }
