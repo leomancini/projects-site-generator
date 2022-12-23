@@ -12367,6 +12367,38 @@
         },
         {
             "directory": {
+                "id": "superman-illustration-1"
+            },
+            "manifest": {
+                "name": "Superman Illustration",
+                "shortDescription": "Drawing based on superhero comic book",
+                "startDate": {
+                    "string": "January 2003",
+                    "dateEstimated": true,
+                    "timestamp": {
+                        "raw": 1041379200,
+                        "formatted": "January 2003",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2003",
+                            "yearNumber": 2003
+                        }
+                    }
+                },
+                "tags": [
+                    "drawing"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "drawing@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "superman-vs-hulk-book"
             },
             "manifest": {
@@ -12386,7 +12418,9 @@
                         }
                     }
                 },
-                "tags": []
+                "tags": [
+                    "drawing"
+                ]
             },
             "files": {
                 "3": "longDescription.txt",
