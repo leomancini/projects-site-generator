@@ -11803,6 +11803,38 @@
         },
         {
             "directory": {
+                "id": "storyteller-tool"
+            },
+            "manifest": {
+                "name": "Storyteller Presentation Tool",
+                "shortDescription": "View interaction flows from multiple perspectives",
+                "startDate": {
+                    "string": "July 2020",
+                    "timestamp": {
+                        "raw": 1593561600,
+                        "formatted": "July 2020",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2020",
+                            "yearNumber": 2020
+                        }
+                    }
+                },
+                "tags": [
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1-video@2x.mp4",
+                    "4": "2-story--code.txt"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "student-enrollment-advisory-council"
             },
             "manifest": {
