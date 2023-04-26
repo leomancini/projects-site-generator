@@ -137,7 +137,7 @@
         return $projectsList;
     }
 
-    if ($_SERVER['SERVER_NAME'] !== 'localhost' || $config['useCacheFileOnLocalhost']) {
+    if (($_SERVER['SERVER_NAME'] !== 'localhost' && $_SERVER['SERVER_NAME'] !== 'macserver.local') || $config['useCacheFileOnLocalhost']) {
         $cacheFile = '..'.$config['cacheFile'];
         if (file_exists($cacheFile)) {
             $cacheFileHandler = fopen($cacheFile, 'r') or die('Unable to open file!');
