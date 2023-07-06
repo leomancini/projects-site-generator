@@ -4872,6 +4872,45 @@
         },
         {
             "directory": {
+                "id": "fourth-of-july-party-microsite"
+            },
+            "manifest": {
+                "name": "Fourth of July Party Microsite",
+                "shortDescription": "Event page with countdown, menu, attendees, and promos",
+                "startDate": {
+                    "string": "July 2023",
+                    "timestamp": {
+                        "raw": 1688169600,
+                        "formatted": "July 2023",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2023",
+                            "yearNumber": 2023
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "video",
+                        "label": "Watch Fireworks Timelapse",
+                        "icon": "play_arrow",
+                        "url": "https:\/\/www.youtube.com\/watch?v=wAnAvbVx6Ek"
+                    }
+                ],
+                "tags": [
+                    "live-site"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "0-phones@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "french-club-t-shirt"
             },
             "manifest": {
