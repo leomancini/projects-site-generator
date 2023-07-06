@@ -8564,46 +8564,6 @@
         },
         {
             "directory": {
-                "id": "ofc-website"
-            },
-            "manifest": {
-                "name": "OFC Website and Branding",
-                "shortDescription": "Gallery showcasing recent OFC projects",
-                "startDate": {
-                    "string": "April 2020",
-                    "timestamp": {
-                        "raw": 1585699200,
-                        "formatted": "April 2020",
-                        "components": {
-                            "monthFormatted": "April",
-                            "monthNumber": 4,
-                            "yearFormatted": "2020",
-                            "yearNumber": 2020
-                        }
-                    }
-                },
-                "credits": [
-                    {
-                        "name": "Alicia Zhang",
-                        "type": "creator"
-                    }
-                ],
-                "links": [
-                    {
-                        "type": "live_site",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/ofc.land\/"
-                    }
-                ],
-                "tags": [
-                    "live-site"
-                ]
-            },
-            "files": []
-        },
-        {
-            "directory": {
                 "id": "open-dream-branding"
             },
             "manifest": {
