@@ -7040,6 +7040,7 @@
                     "sva",
                     "school-of-visual-arts",
                     "sculpture",
+                    "arduino",
                     "video"
                 ]
             },
@@ -7599,6 +7600,58 @@
         },
         {
             "directory": {
+                "id": "lote-writer"
+            },
+            "manifest": {
+                "name": "LOTE Writer",
+                "shortDescription": "Text editor optimized for writing in a language you are learning",
+                "startDate": {
+                    "string": "June 2022",
+                    "timestamp": {
+                        "raw": 1654041600,
+                        "formatted": "June 2022",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/lote-writer-server"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Client Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/lote-writer-client"
+                    }
+                ],
+                "tags": {
+                    "0": "mandarin",
+                    "1": "chinese",
+                    "2": "\u4e2d\u6587",
+                    "3": "language-learning",
+                    "4": "javascript",
+                    "5": "github",
+                    "7": "video"
+                }
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "01-Writing Mode 1@2x.png",
+                    "4": "02-Tooltip@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "lyric-illustrations"
             },
             "manifest": {
@@ -7778,7 +7831,9 @@
                         "type": "inspiration"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "arduino"
+                ]
             },
             "files": {
                 "screenshots": {
@@ -7909,6 +7964,7 @@
                     }
                 ],
                 "tags": [
+                    "arduino",
                     "github"
                 ]
             },
@@ -8267,6 +8323,7 @@
                     "sunset",
                     "skyline",
                     "php",
+                    "raspberry-pi",
                     "github",
                     "video"
                 ]
