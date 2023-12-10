@@ -9521,7 +9521,9 @@
                         }
                     }
                 },
-                "tags": []
+                "tags": [
+                    "pixel-city"
+                ]
             },
             "files": {
                 "2": "longDescription.txt",
@@ -9573,12 +9575,87 @@
                         }
                     }
                 },
-                "tags": []
+                "tags": [
+                    "pixel-city"
+                ]
             },
             "files": {
                 "3": "longDescription.txt",
                 "screenshots": {
                     "2": "mobile@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "pixel-city-2-ai-prototype"
+            },
+            "manifest": {
+                "name": "Pixel City 2.0 AI Experiments",
+                "shortDescription": "Automatically generates story lines for a choose-your-own-adventure game",
+                "startDate": {
+                    "string": "May 2023",
+                    "timestamp": {
+                        "raw": 1682899200,
+                        "formatted": "May 2023",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2023",
+                            "yearNumber": 2023
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": ""
+                    }
+                ],
+                "tags": [
+                    "pixel-city",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Demo Test 2 Sped Up.mp4",
+                    "3": "Demo Test 3 Sped Up.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "pixel-city-2-manual-path-builder"
+            },
+            "manifest": {
+                "name": "Pixel City 2.0 Path Builder",
+                "shortDescription": "Construct story lines for a choose-your-own-adventure game",
+                "startDate": {
+                    "string": "February 2023",
+                    "timestamp": {
+                        "raw": 1675209600,
+                        "formatted": "February 2023",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2023",
+                            "yearNumber": 2023
+                        }
+                    }
+                },
+                "tags": [
+                    "pixel-city",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Demo 1@2x.mp4"
                 }
             }
         },
@@ -9652,7 +9729,9 @@
                         }
                     }
                 },
-                "tags": []
+                "tags": [
+                    "pixel-city"
+                ]
             },
             "files": {
                 "3": "longDescription.txt",
