@@ -10832,6 +10832,41 @@
         },
         {
             "directory": {
+                "id": "scanner-art"
+            },
+            "manifest": {
+                "name": "Scanner Art",
+                "shortDescription": "Images made with a portable document scanner",
+                "startDate": {
+                    "string": "August 2022",
+                    "timestamp": {
+                        "raw": 1659312000,
+                        "formatted": "August 2022",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "tags": [
+                    "art"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "001.png",
+                    "4": "002.png",
+                    "5": "003.png",
+                    "6": "004.png",
+                    "7": "005.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "scattergories"
             },
             "manifest": {
