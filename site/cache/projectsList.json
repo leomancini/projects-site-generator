@@ -683,6 +683,48 @@
         },
         {
             "directory": {
+                "id": "art-card-sender"
+            },
+            "manifest": {
+                "name": "Art Card Sender",
+                "shortDescription": "Send a card with art by Laura Mancini",
+                "startDate": {
+                    "string": "October 2017",
+                    "timestamp": {
+                        "raw": 1506816000,
+                        "formatted": "October 2017",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2017",
+                            "yearNumber": 2017
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Laura Mancini",
+                        "type": "artist",
+                        "link": "https:\/\/artoflauramancini.com"
+                    }
+                ],
+                "tags": [
+                    "mom"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "001@2x.png",
+                    "4": "002@2x.png",
+                    "5": "003@2x.png",
+                    "6": "004@2x.png",
+                    "7": "005@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "art-of-laura-mancini-0"
             },
             "manifest": {
