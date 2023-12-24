@@ -2899,6 +2899,94 @@
         },
         {
             "directory": {
+                "id": "cyprus-usability-day-presentation-2015"
+            },
+            "manifest": {
+                "name": "Cyprus Usability Day Presentation 2015",
+                "shortDescription": "Sharing the story of creating Facebook Riff",
+                "startDate": {
+                    "string": "MONTH_YEAR",
+                    "timestamp": {
+                        "raw": false,
+                        "formatted": "January 1970",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "1970",
+                            "yearNumber": 1970
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Jonah Jones",
+                        "type": "co-presenter",
+                        "link": "https:\/\/jonahjones.co.uk\/"
+                    }
+                ],
+                "links": [
+                    {
+                        "type": "portfolio",
+                        "label": "View App Details",
+                        "icon": "smartphone",
+                        "url": "https:\/\/leomancini.net\/fb-riff"
+                    }
+                ],
+                "tags": [
+                    "facebook",
+                    "job",
+                    "fb-fte"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "slides.001.jpg",
+                    "3": "slides.002.jpg",
+                    "4": "slides.003.jpg",
+                    "5": "slides.004.jpg",
+                    "6": "slides.005.jpg",
+                    "7": "slides.006.jpg",
+                    "8": "slides.007.jpg",
+                    "9": "slides.008.jpg",
+                    "10": "slides.009.jpg",
+                    "11": "slides.010.jpg",
+                    "12": "slides.011.jpg",
+                    "13": "slides.012.jpg",
+                    "14": "slides.013.jpg",
+                    "15": "slides.014.jpg",
+                    "16": "slides.015.jpg",
+                    "17": "slides.016.jpg",
+                    "18": "slides.017.jpg",
+                    "19": "slides.018.jpg",
+                    "20": "slides.019.jpg",
+                    "21": "slides.020.jpg",
+                    "22": "slides.021.jpg",
+                    "23": "slides.022.jpg",
+                    "24": "slides.023.jpg",
+                    "25": "slides.024.jpg",
+                    "26": "slides.025.jpg",
+                    "27": "slides.026.jpg",
+                    "28": "slides.027.jpg",
+                    "29": "slides.028.jpg",
+                    "30": "slides.029.jpg",
+                    "31": "slides.030.jpg",
+                    "32": "slides.031.jpg",
+                    "33": "slides.032.jpg",
+                    "34": "slides.033.jpg",
+                    "35": "slides.034.jpg",
+                    "36": "slides.035.jpg",
+                    "37": "slides.036.jpg",
+                    "38": "slides.037.jpg",
+                    "39": "slides.038.jpg",
+                    "40": "slides.039.jpg",
+                    "41": "slides.040.jpg",
+                    "42": "z999-photo.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "dancer-drawing"
             },
             "manifest": {
@@ -4126,6 +4214,12 @@
                         "label": "View Marketing Site",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/noshado.ws\/archive\/riff\/"
+                    },
+                    {
+                        "type": "link",
+                        "label": "View Process Presentation",
+                        "icon": "slideshow",
+                        "url": "https:\/\/leomancini.net\/cyprus-usability-day-presentation-2015"
                     }
                 ],
                 "tags": {
@@ -8491,7 +8585,10 @@
                     }
                 ],
                 "tags": [
-                    "job"
+                    "facebook",
+                    "job",
+                    "internship",
+                    "fb-internship"
                 ]
             },
             "files": {
