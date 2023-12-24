@@ -8465,6 +8465,45 @@
         },
         {
             "directory": {
+                "id": "now-serving"
+            },
+            "manifest": {
+                "name": "Now Serving",
+                "shortDescription": "Website to see the current menu at the Facebook MPK campus",
+                "startDate": {
+                    "string": "August 2012",
+                    "timestamp": {
+                        "raw": 1343779200,
+                        "formatted": "August 2012",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2012",
+                            "yearNumber": 2012
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Mac Tyler",
+                        "type": "visual design",
+                        "link": "https:\/\/www.mactyler.com\/"
+                    }
+                ],
+                "tags": [
+                    "job"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Desktop@2x.png",
+                    "3": "Mobile@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "number-grid-visualizations"
             },
             "manifest": {
