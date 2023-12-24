@@ -8808,6 +8808,80 @@
         },
         {
             "directory": {
+                "id": "oasis-academy-workshops"
+            },
+            "manifest": {
+                "name": "Product Design Workshops at Oasis Academy",
+                "shortDescription": "Teaching 12-13 year olds in London about design",
+                "startDate": {
+                    "string": "October 2014",
+                    "timestamp": {
+                        "raw": 1412121600,
+                        "formatted": "October 2014",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2014",
+                            "yearNumber": 2014
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "link",
+                        "label": "Learn About Oasis Academy",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.oasisacademysouthbank.org\/"
+                    }
+                ],
+                "tags": [
+                    "facebook",
+                    "job",
+                    "fb-fte"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Notes 1@2x.jpg",
+                    "3": "Notes 2@2x.jpg",
+                    "4": "Notes 3@2x.jpg",
+                    "5": "Notes 4@2x.jpg",
+                    "6": "Presentation 31@2x.jpg",
+                    "7": "Presentation 32@2x.jpg",
+                    "8": "Presentation 33@2x.jpg",
+                    "9": "Presentation 34@2x.jpg",
+                    "10": "Presentation 35@2x.jpg",
+                    "11": "Presentation 36@2x.jpg",
+                    "12": "Presentation 37@2x.jpg",
+                    "13": "Presentation 38@2x.jpg",
+                    "14": "Presentation 39@2x.jpg",
+                    "15": "Presentation 40@2x.jpg",
+                    "16": "Presentation 41@2x.jpg",
+                    "17": "Presentation 42@2x.jpg",
+                    "18": "Presentation 43@2x.jpg",
+                    "19": "Presentation 44@2x.jpg",
+                    "20": "Presentation 45@2x.jpg",
+                    "21": "Presentation 46@2x.jpg",
+                    "22": "Presentation 47@2x.jpg",
+                    "23": "Presentation 48@2x.jpg",
+                    "24": "Presentation 49@2x.jpg",
+                    "25": "Presentation 50@2x.jpg",
+                    "26": "Presentation 51@2x.jpg",
+                    "27": "Presentation 52@2x.jpg",
+                    "28": "Presentation 53@2x.jpg",
+                    "29": "Presentation 54@2x.jpg",
+                    "30": "Presentation 55@2x.jpg",
+                    "31": "Presentation 56@2x.jpg",
+                    "32": "Presentation 57@2x.jpg",
+                    "33": "Presentation 58@2x.jpg",
+                    "34": "Presentation 59@2x.jpg",
+                    "35": "Presentation 60@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "obama-newsday-cover-design"
             },
             "manifest": {
