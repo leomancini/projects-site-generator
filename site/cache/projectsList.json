@@ -2899,21 +2899,21 @@
         },
         {
             "directory": {
-                "id": "cyprus-usability-day-presentation-2015"
+                "id": "cyprus-usability-day-presentation"
             },
             "manifest": {
-                "name": "Cyprus Usability Day Presentation 2015",
+                "name": "Cyprus Usability Day Presentation",
                 "shortDescription": "Sharing the story of creating Facebook Riff",
                 "startDate": {
-                    "string": "MONTH_YEAR",
+                    "string": "November 2015",
                     "timestamp": {
-                        "raw": false,
-                        "formatted": "January 1970",
+                        "raw": 1446336000,
+                        "formatted": "November 2015",
                         "components": {
-                            "monthFormatted": "January",
-                            "monthNumber": 1,
-                            "yearFormatted": "1970",
-                            "yearNumber": 1970
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2015",
+                            "yearNumber": 2015
                         }
                     }
                 },
@@ -2930,6 +2930,24 @@
                         "label": "View App Details",
                         "icon": "smartphone",
                         "url": "https:\/\/leomancini.net\/fb-riff"
+                    },
+                    {
+                        "type": "link",
+                        "label": "View Recap",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/b3website.com\/blog\/recap-facebook-in-cyprus-for-the-world-usability-day-wud"
+                    },
+                    {
+                        "type": "link",
+                        "label": "View Event Info 1",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.cyprusinteractionlab.com\/facebook-at-cyprus-university-of-technology-world-usability-day-2015\/"
+                    },
+                    {
+                        "type": "link",
+                        "label": "View Event Info 2",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www2.deloitte.com\/cy\/en\/pages\/about-deloitte\/events\/world-usability-day.html"
                     }
                 ],
                 "tags": [
