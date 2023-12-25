@@ -3590,6 +3590,41 @@
         },
         {
             "directory": {
+                "id": "employment-contract-reviewer"
+            },
+            "manifest": {
+                "name": "Employment Contract Reviewer",
+                "shortDescription": "Concept app to help people understand employment contracts",
+                "startDate": {
+                    "string": "December 2023",
+                    "timestamp": {
+                        "raw": 1701388800,
+                        "formatted": "December 2023",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2023",
+                            "yearNumber": 2023
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Alicia Zhang",
+                        "type": "idea"
+                    }
+                ],
+                "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "phones@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "evan-mancini-website-1"
             },
             "manifest": {
