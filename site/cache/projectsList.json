@@ -3590,6 +3590,48 @@
         },
         {
             "directory": {
+                "id": "email-receipt-parser"
+            },
+            "manifest": {
+                "name": "GPT Email Receipt Parser",
+                "shortDescription": "Extract item and price info from email receipts",
+                "startDate": {
+                    "string": "December 2023",
+                    "timestamp": {
+                        "raw": 1701388800,
+                        "formatted": "December 2023",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2023",
+                            "yearNumber": 2023
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/email-receipt-parser\/blob\/main\/email-server.js"
+                    }
+                ],
+                "tags": [
+                    "node",
+                    "email",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "demo@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "employment-contract-reviewer"
             },
             "manifest": {
@@ -3619,7 +3661,7 @@
             "files": {
                 "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "phones@2x.png"
+                    "3": "phones@2x.png"
                 }
             }
         },
