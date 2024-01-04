@@ -4311,9 +4311,9 @@
                         "url": "https:\/\/noshado.ws\/archive\/riff\/"
                     },
                     {
-                        "type": "link",
+                        "type": "slides",
                         "label": "View Process Presentation",
-                        "icon": "slideshow",
+                        "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/leomancini.net\/cyprus-usability-day-presentation-2015"
                     }
                 ],
@@ -9499,6 +9499,47 @@
                     "8": "7.jpg",
                     "9": "8.jpg",
                     "10": "9.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "personal-mantras"
+            },
+            "manifest": {
+                "name": "Personal Mantras",
+                "shortDescription": "Set of guiding life principles, refining over time",
+                "startDate": {
+                    "string": "January 2024",
+                    "timestamp": {
+                        "raw": 1704067200,
+                        "formatted": "January 2024",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "slides",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/leo.gd\/l\/personal-mantras"
+                    }
+                ],
+                "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.png"
                 }
             }
         },

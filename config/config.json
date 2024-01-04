@@ -14,7 +14,8 @@
             "patent": "account_balance",
             "twitter": "article",
             "twitter_archive": "article",
-            "download": "download"
+            "download": "download",
+            "slides": "slideshow"
         },
         "defaultLabelsForType": {
             "github": "View Source",
@@ -28,7 +29,8 @@
             "patent": "View Patent",
             "twitter": "View on Twitter",
             "twitter_archive": "View Archived Tweet",
-            "download": "Download"
+            "download": "Download",
+            "slides": "View Slides"
         }
     },
     "debug": false,
