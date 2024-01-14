@@ -3617,8 +3617,10 @@
                     }
                 ],
                 "tags": [
+                    "share-the-pie",
                     "node",
                     "email",
+                    "receipt",
                     "github",
                     "video"
                 ]
@@ -10800,6 +10802,55 @@
                     "2": "Screenshot@2x.png",
                     "3": "Video Demo@2x.mp4",
                     "4": "hidden"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "qr-receipt-data-transfer"
+            },
+            "manifest": {
+                "name": "QR Receipt Data Transfer",
+                "shortDescription": "Encode receipt information into a QR code for sharing with a group",
+                "startDate": {
+                    "string": "January 4, 2024",
+                    "timestamp": {
+                        "raw": 1704326400,
+                        "formatted": "January 2024",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/qr-receipt-data-transfer"
+                    }
+                ],
+                "credits": [
+                    {
+                        "type": "idea",
+                        "name": "Nirav Savjani",
+                        "link": "https:\/\/nirav.co\/"
+                    }
+                ],
+                "tags": [
+                    "share-the-pie",
+                    "receipt",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "demo@2x.mp4"
                 }
             }
         },
