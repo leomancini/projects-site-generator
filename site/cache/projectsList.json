@@ -8084,11 +8084,11 @@
             },
             "files": {
                 "screenshots": {
-                    "2": "0@2x.png",
-                    "3": "1@2x.jpg",
-                    "4": "2@2x.jpg",
-                    "5": "3@2x.jpg",
-                    "6": "Desktop@2x-hasMacDesktopShadow.png"
+                    "3": "0@2x.png",
+                    "4": "1@2x.jpg",
+                    "5": "2@2x.jpg",
+                    "6": "3@2x.jpg",
+                    "7": "Desktop@2x-hasMacDesktopShadow.png"
                 }
             }
         },
@@ -8578,6 +8578,40 @@
                 "2": "longDescription.txt",
                 "screenshots": {
                     "2": "timelapse-2021-12-16-15-22-fps60@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "nfc-home-shortcuts"
+            },
+            "manifest": {
+                "name": "NFC Tag Home Shortcuts",
+                "shortDescription": "Scan tags to control home and access dashboard",
+                "startDate": {
+                    "string": "March 2020",
+                    "timestamp": {
+                        "raw": 1583020800,
+                        "formatted": "March 2020",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2020",
+                            "yearNumber": 2020
+                        }
+                    }
+                },
+                "tags": [
+                    "rfid",
+                    "home-automation",
+                    "video"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "video-1582241852@2x.mp4",
+                    "3": "video-1582608559@2x.mp4"
                 }
             }
         },
@@ -11125,40 +11159,6 @@
                     "2": "1@2x.jpg",
                     "3": "2@2x.jpg",
                     "4": "3@2x.png"
-                }
-            }
-        },
-        {
-            "directory": {
-                "id": "rfid-home-shortcuts"
-            },
-            "manifest": {
-                "name": "RFID Tag Home Shortcuts",
-                "shortDescription": "Scan tags to control home and access dashboard",
-                "startDate": {
-                    "string": "March 2020",
-                    "timestamp": {
-                        "raw": 1583020800,
-                        "formatted": "March 2020",
-                        "components": {
-                            "monthFormatted": "March",
-                            "monthNumber": 3,
-                            "yearFormatted": "2020",
-                            "yearNumber": 2020
-                        }
-                    }
-                },
-                "tags": [
-                    "rfid",
-                    "home-automation",
-                    "video"
-                ]
-            },
-            "files": {
-                "2": "longDescription.txt",
-                "screenshots": {
-                    "2": "video-1582241852@2x.mp4",
-                    "3": "video-1582608559@2x.mp4"
                 }
             }
         },
