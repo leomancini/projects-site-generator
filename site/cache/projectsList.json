@@ -12253,8 +12253,9 @@
                 ]
             },
             "files": {
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "mobile@2x.png"
+                    "2": "mobile@2x.png"
                 }
             }
         },
@@ -12285,14 +12286,14 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1-desktop@2x.png",
-                    "4": "2-desktop@2x.png",
-                    "5": "3-desktop@2x.png",
-                    "6": "4-desktop@2x.png",
-                    "7": "5-video@2x.mp4",
-                    "8": "6-instagram@2x.png"
+                    "2": "1-desktop@2x.png",
+                    "3": "2-desktop@2x.png",
+                    "4": "3-desktop@2x.png",
+                    "5": "4-desktop@2x.png",
+                    "6": "5-video@2x.mp4",
+                    "7": "6-instagram@2x.png"
                 }
             }
         },
