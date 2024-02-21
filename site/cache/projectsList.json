@@ -7384,10 +7384,10 @@
         },
         {
             "directory": {
-                "id": "kupana-caregivers-program"
+                "id": "kupuna-caregivers-program"
             },
             "manifest": {
-                "name": "Kupana Caregivers Program Expense Tracker",
+                "name": "Kupuna Caregivers Program Expense Tracker",
                 "shortDescription": "Support people to get back into the workforce by helping them get reimbursed for caregiving expenses",
                 "startDate": {
                     "string": "July 2018",
