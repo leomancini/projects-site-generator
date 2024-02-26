@@ -71,7 +71,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "Biden-Harris Inauguration 2021.mp3"
                 }
@@ -179,7 +179,7 @@
                 "tags": []
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "code enter.png"
                 }
@@ -210,7 +210,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "website.jpg"
                 }
@@ -440,7 +440,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1.png",
                     "3": "2.jpg"
@@ -636,11 +636,11 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1@2x.png",
-                    "3": "2@2x.png",
-                    "4": "3@2x.png"
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png"
                 }
             }
         },
@@ -678,7 +678,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt"
+                "3": "longDescription.txt"
             }
         },
         {
@@ -713,13 +713,13 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "001@2x.png",
-                    "3": "002@2x.png",
-                    "4": "003@2x.png",
-                    "5": "004@2x.png",
-                    "6": "005@2x.png"
+                    "3": "001@2x.png",
+                    "4": "002@2x.png",
+                    "5": "003@2x.png",
+                    "6": "004@2x.png",
+                    "7": "005@2x.png"
                 }
             }
         },
@@ -756,10 +756,10 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1-placeholder@2x.png",
-                    "3": "2-website.jpg"
+                    "3": "1-placeholder@2x.png",
+                    "4": "2-website.jpg"
                 }
             }
         },
@@ -795,10 +795,10 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "4.png",
-                    "3": "5.png"
+                    "3": "4.png",
+                    "4": "5.png"
                 }
             }
         },
@@ -834,11 +834,11 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1.png",
-                    "3": "2.png",
-                    "4": "3.png"
+                    "3": "1.png",
+                    "4": "2.png",
+                    "5": "3.png"
                 }
             }
         },
@@ -924,12 +924,12 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1-mockup1.png",
-                    "3": "2-mockup2.png",
-                    "4": "3-intro.m4a",
-                    "5": "4-outro.m4a"
+                    "3": "1-mockup1.png",
+                    "4": "2-mockup2.png",
+                    "5": "3-intro.m4a",
+                    "6": "4-outro.m4a"
                 }
             }
         },
@@ -1051,7 +1051,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "Attorney Miller.png"
                 }
@@ -1194,7 +1194,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "Banana Software.png"
                 }
@@ -1353,11 +1353,11 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1-600.jpg",
-                    "3": "2-130.jpg",
-                    "4": "3-50.jpg"
+                    "3": "1-600.jpg",
+                    "4": "2-130.jpg",
+                    "5": "3-50.jpg"
                 }
             }
         },
@@ -1508,8 +1508,8 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "1.jpg",
-                    "3": "2.jpg"
+                    "3": "1.jpg",
+                    "4": "2.jpg"
                 }
             }
         },
@@ -1757,17 +1757,17 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "01@2x.png",
-                    "3": "02@2x.png",
-                    "4": "03@2x.png",
-                    "5": "04@2x.png",
-                    "6": "05@2x.png",
-                    "7": "06@2x.png",
-                    "8": "07@2x.png",
-                    "9": "08@2x.png",
-                    "10": "hidden"
+                    "3": "01@2x.png",
+                    "4": "02@2x.png",
+                    "5": "03@2x.png",
+                    "6": "04@2x.png",
+                    "7": "05@2x.png",
+                    "8": "06@2x.png",
+                    "9": "07@2x.png",
+                    "10": "08@2x.png",
+                    "11": "hidden"
                 }
             }
         },
@@ -1840,7 +1840,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-website.png",
                     "3": "2-website.png"
@@ -1872,7 +1872,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "website.jpg"
                 }
@@ -2321,9 +2321,9 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "video--play-audio.mp4.mov"
+                    "3": "video--play-audio.mp4.mov"
                 }
             }
         },
@@ -2352,7 +2352,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "video--play-audio.mp4"
                 }
@@ -2594,10 +2594,10 @@
                 ]
             },
             "files": {
-                "2": "example.json",
-                "3": "longDescription.txt",
+                "3": "example.json",
+                "4": "longDescription.txt",
                 "screenshots": {
-                    "2": "example@2x.png"
+                    "3": "example@2x.png"
                 }
             }
         },
@@ -2642,12 +2642,12 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "000@2x.jpg",
-                    "3": "1-Low@2x.png",
-                    "4": "2-Medium@2x.png",
-                    "5": "3-High@2x.png"
+                    "3": "000@2x.jpg",
+                    "4": "1-Low@2x.png",
+                    "5": "2-Medium@2x.png",
+                    "6": "3-High@2x.png"
                 }
             }
         },
@@ -2692,9 +2692,9 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "IMG_6877@2x.jpg"
+                    "3": "IMG_6877@2x.jpg"
                 }
             }
         },
@@ -2764,7 +2764,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "Crystal Media.png"
                 }
@@ -2958,7 +2958,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "slides.001.jpg",
                     "3": "slides.002.jpg",
@@ -3444,7 +3444,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1.jpg",
                     "3": "2.jpg",
@@ -3627,7 +3627,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "demo@2x.mp4"
                 }
@@ -3662,9 +3662,9 @@
                 "tags": []
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "phones@2x.png"
+                    "3": "phones@2x.png"
                 }
             }
         },
@@ -3703,7 +3703,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "0-website.png",
                     "3": "1-website.png",
@@ -3821,9 +3821,9 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "story.mp4"
+                    "3": "story.mp4"
                 }
             }
         },
@@ -3864,14 +3864,14 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1@2x.png",
-                    "3": "2-color-picker@2x.mp4",
-                    "4": "3-navigation@2x.mp4",
-                    "5": "4-composer@2x.mp4",
-                    "6": "999-sketch-blush-001@2x.png",
-                    "7": "999-sketch-blush-002@2x.png"
+                    "3": "1@2x.png",
+                    "4": "2-color-picker@2x.mp4",
+                    "5": "3-navigation@2x.mp4",
+                    "6": "4-composer@2x.mp4",
+                    "7": "999-sketch-blush-001@2x.png",
+                    "8": "999-sketch-blush-002@2x.png"
                 }
             }
         },
@@ -4010,14 +4010,14 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1@2x.png",
-                    "3": "2@2x.mp4",
-                    "4": "3@2x.png",
-                    "5": "4@2x.mp4",
-                    "6": "5@2x.png",
-                    "7": "6@2x.png"
+                    "3": "1@2x.png",
+                    "4": "2@2x.mp4",
+                    "5": "3@2x.png",
+                    "6": "4@2x.mp4",
+                    "7": "5@2x.png",
+                    "8": "6@2x.png"
                 }
             }
         },
@@ -4048,11 +4048,11 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1@2x.png",
-                    "3": "2@2x.png",
-                    "4": "3@2x.png"
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png"
                 }
             }
         },
@@ -4388,9 +4388,9 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "video@2x.mp4"
+                    "3": "video@2x.mp4"
                 }
             }
         },
@@ -4602,11 +4602,11 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1-switch-mode@2x.mp4",
-                    "3": "2-share@2x.mp4",
-                    "4": "3-flow@2x.png"
+                    "3": "1-switch-mode@2x.mp4",
+                    "4": "2-share@2x.mp4",
+                    "5": "3-flow@2x.png"
                 }
             }
         },
@@ -4912,7 +4912,7 @@
                 "tags": []
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-front@2x.jpg",
                     "3": "2-back@2x.jpg"
@@ -4971,15 +4971,15 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "1@2x.png",
-                    "3": "2@2x.png",
-                    "4": "3@2x.png",
-                    "5": "4@2x.png",
-                    "6": "5@2x.png",
-                    "7": "6@2x.png",
-                    "8": "7@2x.png",
-                    "9": "8@2x.png",
-                    "10": "9@2x.png"
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png",
+                    "6": "4@2x.png",
+                    "7": "5@2x.png",
+                    "8": "6@2x.png",
+                    "9": "7@2x.png",
+                    "10": "8@2x.png",
+                    "11": "9@2x.png"
                 }
             }
         },
@@ -5145,10 +5145,10 @@
                 "tags": []
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1@2x.png",
-                    "3": "hidden"
+                    "3": "1@2x.png",
+                    "4": "hidden"
                 }
             }
         },
@@ -5918,9 +5918,9 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "Historical Aerial Photo Viewer@2x.mp4"
+                    "3": "Historical Aerial Photo Viewer@2x.mp4"
                 }
             }
         },
@@ -6288,7 +6288,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "iAppBlog.png"
                 }
@@ -6352,7 +6352,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "Frame 1@2x.jpg",
                     "3": "Frame 2@2x.jpg",
@@ -6445,15 +6445,15 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1-input.png",
-                    "3": "1-output.png",
-                    "4": "2-input.png",
-                    "5": "2-output.png",
-                    "6": "3-input.png",
-                    "7": "3-output.png",
-                    "8": "sample--code.txt"
+                    "3": "1-input.png",
+                    "4": "1-output.png",
+                    "5": "2-input.png",
+                    "6": "2-output.png",
+                    "7": "3-input.png",
+                    "8": "3-output.png",
+                    "9": "sample--code.txt"
                 }
             }
         },
@@ -7111,7 +7111,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "website.jpg"
                 }
@@ -7376,7 +7376,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "website.png"
                 }
@@ -7384,10 +7384,10 @@
         },
         {
             "directory": {
-                "id": "kupuna-caregivers-program"
+                "id": "kupana-caregivers-program"
             },
             "manifest": {
-                "name": "Kupuna Caregivers Program Expense Tracker",
+                "name": "Kupana Caregivers Program Expense Tracker",
                 "shortDescription": "Support people to get back into the workforce by helping them get reimbursed for caregiving expenses",
                 "startDate": {
                     "string": "July 2018",
@@ -7447,7 +7447,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt"
+                "3": "longDescription.txt"
             }
         },
         {
@@ -7760,27 +7760,27 @@
                 }
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "0-1@2x.png",
-                    "3": "0-2@2x.png",
-                    "4": "0-3@2x.png",
-                    "5": "001-UNBuilding.jpg",
-                    "6": "002-UNBuilding.jpg",
-                    "7": "003-UNBuilding.jpg",
-                    "8": "004-EmpireStateBuilding.jpg",
-                    "9": "005-EmpireStateBuilding.jpg",
-                    "10": "006-EmpireStateBuilding.jpg",
-                    "11": "007-WindsorTower.jpg",
-                    "12": "008-WindsorTower.jpg",
-                    "13": "009-WindsorTower.jpg",
-                    "14": "010-WatersidePlazaTower1.jpg",
-                    "15": "011-WatersidePlazaTower1.jpg",
-                    "16": "012-WatersidePlazaTower1.jpg",
-                    "17": "EmpireStateBuilding-filter-type-1-sunrise.mp4",
-                    "18": "UNBuilding-filter-type-2-nightfall.mp4",
-                    "19": "UNBuilding-filter-type-2-sunset.mp4",
-                    "20": "UNBuilding-filter-type-2-sunsise.mp4"
+                    "3": "0-1@2x.png",
+                    "4": "0-2@2x.png",
+                    "5": "0-3@2x.png",
+                    "6": "001-UNBuilding.jpg",
+                    "7": "002-UNBuilding.jpg",
+                    "8": "003-UNBuilding.jpg",
+                    "9": "004-EmpireStateBuilding.jpg",
+                    "10": "005-EmpireStateBuilding.jpg",
+                    "11": "006-EmpireStateBuilding.jpg",
+                    "12": "007-WindsorTower.jpg",
+                    "13": "008-WindsorTower.jpg",
+                    "14": "009-WindsorTower.jpg",
+                    "15": "010-WatersidePlazaTower1.jpg",
+                    "16": "011-WatersidePlazaTower1.jpg",
+                    "17": "012-WatersidePlazaTower1.jpg",
+                    "18": "EmpireStateBuilding-filter-type-1-sunrise.mp4",
+                    "19": "UNBuilding-filter-type-2-nightfall.mp4",
+                    "20": "UNBuilding-filter-type-2-sunset.mp4",
+                    "21": "UNBuilding-filter-type-2-sunsise.mp4"
                 }
             }
         },
@@ -7838,7 +7838,7 @@
                 "tags": []
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1.jpg",
                     "3": "2.png",
@@ -7891,10 +7891,10 @@
                 }
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "01-Writing Mode 1@2x.png",
-                    "3": "02-Tooltip@2x.mp4"
+                    "3": "01-Writing Mode 1@2x.png",
+                    "4": "02-Tooltip@2x.mp4"
                 }
             }
         },
@@ -7961,9 +7961,9 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "Fake Leopard.mp4"
+                    "3": "Fake Leopard.mp4"
                 }
             }
         },
@@ -8085,11 +8085,11 @@
             },
             "files": {
                 "screenshots": {
-                    "2": "0@2x.png",
-                    "3": "1@2x.jpg",
-                    "4": "2@2x.jpg",
-                    "5": "3@2x.jpg",
-                    "6": "Desktop@2x-hasMacDesktopShadow.png"
+                    "3": "0@2x.png",
+                    "4": "1@2x.jpg",
+                    "5": "2@2x.jpg",
+                    "6": "3@2x.jpg",
+                    "7": "Desktop@2x-hasMacDesktopShadow.png"
                 }
             }
         },
@@ -8133,7 +8133,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "01@2x.png",
                     "3": "02@2x.png",
@@ -8218,10 +8218,10 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1@2x Large.jpg",
-                    "3": "2@2x Large.jpg"
+                    "3": "1@2x Large.jpg",
+                    "4": "2@2x Large.jpg"
                 }
             }
         },
@@ -8268,12 +8268,12 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "1.jpg",
-                    "3": "2.jpg",
-                    "4": "3.jpg",
-                    "5": "4@2x.png",
-                    "6": "5@2x.png",
-                    "7": "6@2x.png"
+                    "3": "1.jpg",
+                    "4": "2.jpg",
+                    "5": "3.jpg",
+                    "6": "4@2x.png",
+                    "7": "5@2x.png",
+                    "8": "6@2x.png"
                 }
             }
         },
@@ -8350,7 +8350,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "website.png"
                 }
@@ -8527,13 +8527,13 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "0-hero@2x.png",
-                    "3": "1-screenshot@2x.png",
-                    "4": "2-screenshot@2x.png",
-                    "5": "3-screenshot@2x.png",
-                    "6": "hidden"
+                    "3": "0-hero@2x.png",
+                    "4": "1-screenshot@2x.png",
+                    "5": "2-screenshot@2x.png",
+                    "6": "3-screenshot@2x.png",
+                    "7": "hidden"
                 }
             }
         },
@@ -8727,7 +8727,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "Desktop@2x.png",
                     "3": "Mobile@2x.png"
@@ -8808,11 +8808,11 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1@2x.png",
-                    "3": "2@2x.png",
-                    "4": "hidden"
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "hidden"
                 }
             }
         },
@@ -8959,7 +8959,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "Notes 1@2x.jpg",
                     "3": "Notes 2@2x.jpg",
@@ -9023,7 +9023,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "newsday-obama.jpg"
                 }
@@ -9092,10 +9092,10 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "1@2x.png",
-                    "3": "2@2x.png",
-                    "4": "3@2x.png",
-                    "5": "4@2x.png"
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png",
+                    "6": "4@2x.png"
                 }
             }
         },
@@ -9357,7 +9357,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt"
+                "3": "longDescription.txt"
             }
         },
         {
@@ -9574,7 +9574,7 @@
                 "tags": []
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.png",
                     "3": "2@2x.png",
@@ -9840,7 +9840,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-website.png",
                     "3": "2-website.png",
@@ -10019,7 +10019,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "mobile@2x.png"
                 }
@@ -10059,7 +10059,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "Demo Test 2 Sped Up.mp4",
                     "3": "Demo Test 3 Sped Up.mp4"
@@ -10092,7 +10092,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "Demo 1@2x.mp4"
                 }
@@ -10173,7 +10173,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "logo.jpg"
                 }
@@ -10220,15 +10220,15 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1-website@2x.png",
-                    "3": "2-website@2x.png",
-                    "4": "3-logo@2x.png",
-                    "5": "4-logo@2x.png",
-                    "6": "5-badges@2x.png",
-                    "7": "6-placeholder@2x.png",
-                    "8": "7-pixelstorms-ad.mp4"
+                    "3": "1-website@2x.png",
+                    "4": "2-website@2x.png",
+                    "5": "3-logo@2x.png",
+                    "6": "4-logo@2x.png",
+                    "7": "5-badges@2x.png",
+                    "8": "6-placeholder@2x.png",
+                    "9": "7-pixelstorms-ad.mp4"
                 }
             }
         },
@@ -10586,7 +10586,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.jpg",
                     "3": "2@2x.jpg",
@@ -10628,9 +10628,9 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "email__hasMacDesktopShadow@2x.png"
+                    "3": "email__hasMacDesktopShadow@2x.png"
                 }
             }
         },
@@ -10667,7 +10667,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.png",
                     "3": "2@2x.png",
@@ -10700,7 +10700,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "Project Creative.png"
                 }
@@ -10887,9 +10887,9 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "demo@2x.mp4"
+                    "3": "demo@2x.mp4"
                 }
             }
         },
@@ -10997,7 +10997,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-front@2x.jpg",
                     "3": "2-back@2x.jpg"
@@ -11029,7 +11029,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1.jpg"
                 }
@@ -11309,13 +11309,13 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "001.png",
-                    "3": "002.png",
-                    "4": "003.png",
-                    "5": "004.png",
-                    "6": "005.png"
+                    "3": "001.png",
+                    "4": "002.png",
+                    "5": "003.png",
+                    "6": "004.png",
+                    "7": "005.png"
                 }
             }
         },
@@ -11740,7 +11740,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "001@2x.png",
                     "3": "002@2x.png"
@@ -11846,7 +11846,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "final.jpg"
                 }
@@ -12017,10 +12017,10 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "0-un-building--code.txt",
-                    "3": "empire-state-building--code.txt"
+                    "3": "0-un-building--code.txt",
+                    "4": "empire-state-building--code.txt"
                 }
             }
         },
@@ -12081,21 +12081,21 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "01@2x.jpg",
-                    "3": "02@2x.jpg",
-                    "4": "03@2x.jpg",
-                    "5": "04@2x.jpg",
-                    "6": "05@2x.jpg",
-                    "7": "06@2x.jpg",
-                    "8": "07@2x.jpg",
-                    "9": "08@2x.jpg",
-                    "10": "09@2x.jpg",
-                    "11": "10@2x.jpg",
-                    "12": "11@2x.jpg",
-                    "13": "12@2x.jpg",
-                    "14": "13@2x.jpg"
+                    "3": "01@2x.jpg",
+                    "4": "02@2x.jpg",
+                    "5": "03@2x.jpg",
+                    "6": "04@2x.jpg",
+                    "7": "05@2x.jpg",
+                    "8": "06@2x.jpg",
+                    "9": "07@2x.jpg",
+                    "10": "08@2x.jpg",
+                    "11": "09@2x.jpg",
+                    "12": "10@2x.jpg",
+                    "13": "11@2x.jpg",
+                    "14": "12@2x.jpg",
+                    "15": "13@2x.jpg"
                 }
             }
         },
@@ -12421,9 +12421,9 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "reference_guide--code.txt"
+                    "3": "reference_guide--code.txt"
                 }
             }
         },
@@ -12509,7 +12509,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-istockphoto-1446702120-1024x1024.jpg",
                     "3": "2-istockphoto-1446702127-1024x1024.jpg",
@@ -12544,7 +12544,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-final.png",
                     "3": "2-sketch.jpg",
@@ -12579,10 +12579,10 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1-video@2x.mp4",
-                    "3": "2-story--code.txt"
+                    "3": "1-video@2x.mp4",
+                    "4": "2-story--code.txt"
                 }
             }
         },
@@ -12694,7 +12694,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt"
+                "3": "longDescription.txt"
             }
         },
         {
@@ -12730,7 +12730,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.png",
                     "3": "2@2x.png",
@@ -12764,7 +12764,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "website.jpg"
                 }
@@ -13143,7 +13143,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-website.png",
                     "3": "2-album-art.png"
@@ -13176,9 +13176,9 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "drawing@2x.jpg"
+                    "3": "drawing@2x.jpg"
                 }
             }
         },
@@ -13208,7 +13208,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.jpg",
                     "3": "2@2x.jpg",
@@ -13246,7 +13246,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-website.png",
                     "3": "2-invite.png"
@@ -13333,8 +13333,8 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "0-mobile.png",
-                    "3": "1-desktop.png"
+                    "3": "0-mobile.png",
+                    "4": "1-desktop.png"
                 }
             }
         },
@@ -13475,7 +13475,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "Ted Winder.png"
                 }
@@ -13590,7 +13590,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.png",
                     "3": "2@2x.png",
@@ -13656,7 +13656,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "website.png"
                 }
@@ -13770,7 +13770,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-website.png",
                     "3": "2-placeholder.jpg"
@@ -13802,7 +13802,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-website.jpg",
                     "3": "2-website.jpg"
@@ -13832,7 +13832,7 @@
                 "tags": []
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "underground.png"
                 }
@@ -14226,7 +14226,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "v1@2x.png"
                 }
@@ -14265,7 +14265,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.png"
                 }
@@ -14472,7 +14472,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-website.png",
                     "3": "2-website.png",
@@ -14559,7 +14559,7 @@
                 "tags": []
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "Leo_Mancini_Web_Developer_Icons.zip"
                 },
@@ -14656,7 +14656,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "WinX.png"
                 }
@@ -14761,7 +14761,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "1-website.png",
                     "3": "2-logo.png",
