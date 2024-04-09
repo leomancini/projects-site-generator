@@ -107,6 +107,7 @@ $(document).ready(function() {
             urlKeyword = location.hash.replaceAll('#', '');
         }
 
+        urlKeyword = urlKeyword.replaceAll('%23', '#');
         urlKeyword = decodeURI(urlKeyword);
 
         $('#searchKeyword').val(urlKeyword);
