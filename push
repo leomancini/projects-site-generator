@@ -2,7 +2,7 @@ echo Commit message?
 read COMMIT_MESSAGE
 
 echo '\n# Updating cache...'
-curl http://localhost:8888/projects-site-generator/site/controllers/updateCache.php &> /dev/null
+curl http://localhost/projects-site-generator/site/controllers/updateCache.php &> /dev/null
 echo '\n# Cache updated!'
 
 echo '\n# Committing site code changes...'
