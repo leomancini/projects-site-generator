@@ -12213,6 +12213,38 @@
         },
         {
             "directory": {
+                "id": "sq-auto-invest-paycheck"
+            },
+            "manifest": {
+                "name": "Square Payroll Auto Paycheck Investing",
+                "shortDescription": "Concept for allocating portion of paycheck into stocks or bitcoin",
+                "startDate": {
+                    "string": "October 2020",
+                    "timestamp": {
+                        "raw": 1601510400,
+                        "formatted": "October 2020",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2020",
+                            "yearNumber": 2020
+                        }
+                    }
+                },
+                "tags": [
+                    "square",
+                    "job"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "mobile@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "sq-early-wage-access"
             },
             "manifest": {
@@ -12369,6 +12401,40 @@
                     "6": "5 - Deadline 2 \u2013 2DP@2x.png",
                     "7": "6 - Deadline 3 \u2013 1DP@2x.png",
                     "8": "7 - Deadline Picker GIF.gif"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "sq-team-app-onboarding"
+            },
+            "manifest": {
+                "name": "Square Payroll Team App Onboarding",
+                "shortDescription": "Explorations for the new employee experience",
+                "startDate": {
+                    "string": "May 2021",
+                    "timestamp": {
+                        "raw": 1619827200,
+                        "formatted": "May 2021",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2021",
+                            "yearNumber": 2021
+                        }
+                    }
+                },
+                "tags": [
+                    "square",
+                    "job"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png"
                 }
             }
         },
