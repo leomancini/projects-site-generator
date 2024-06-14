@@ -13789,6 +13789,55 @@
         },
         {
             "directory": {
+                "id": "the-icon-game"
+            },
+            "manifest": {
+                "name": "The Icon Game",
+                "shortDescription": "Catch the icons before they fall to the bottom of the screen",
+                "startDate": {
+                    "string": "November 2018",
+                    "timestamp": {
+                        "raw": 1541030400,
+                        "formatted": "November 2018",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2018",
+                            "yearNumber": 2018
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/game.imacg4.com"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/the-icon-game"
+                    }
+                ],
+                "tags": {
+                    "1": "javascript",
+                    "2": "imac-g4",
+                    "3": "live-site",
+                    "4": "github",
+                    "5": "video"
+                }
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "demo@2x-compressed.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "the-mac-bundle"
             },
             "manifest": {
