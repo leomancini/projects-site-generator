@@ -6750,6 +6750,61 @@
         },
         {
             "directory": {
+                "id": "iphone-react-viewer"
+            },
+            "manifest": {
+                "name": "iPhone React Viewer",
+                "shortDescription": "Add an iPhone device frame to any React prototype",
+                "startDate": {
+                    "string": "July 2024",
+                    "timestamp": {
+                        "raw": 1719792000,
+                        "formatted": "July 2024",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/iphone-react-viewer"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Package",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.npmjs.com\/package\/iphone-react-viewer"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Demo",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/iphone-react-viewer-demo.netlify.leo.gd\/"
+                    }
+                ],
+                "tags": [
+                    "github",
+                    "live-site"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0-light-mode--code.txt",
+                    "3": "1-light-mode-screenshot.png",
+                    "4": "2-dark-mode--code.txt",
+                    "5": "3-dark-mode-screenshot.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "ipod-illustration"
             },
             "manifest": {
