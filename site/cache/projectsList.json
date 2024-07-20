@@ -5442,6 +5442,52 @@
         },
         {
             "directory": {
+                "id": "gpt-vision-origami-studio"
+            },
+            "manifest": {
+                "name": "GPT Vision Origami Studio",
+                "shortDescription": "Prototype using GPT-4 to generate image descriptions",
+                "startDate": {
+                    "string": "July 2024",
+                    "timestamp": {
+                        "raw": 1719792000,
+                        "formatted": "July 2024",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/gpt-vision-origami-studio"
+                    },
+                    {
+                        "type": "download",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/gpt-vision-origami-studio\/raw\/63f8e99762d60690995d882599922b70db3ce58d\/GPT%20Vision%20%E2%80%93%20Blank%20API%20Key.origami"
+                    }
+                ],
+                "tags": {
+                    "0": "github",
+                    "2": "video"
+                }
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Demo@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "graphic-musings"
             },
             "manifest": {
