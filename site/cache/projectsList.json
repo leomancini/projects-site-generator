@@ -1134,6 +1134,51 @@
         },
         {
             "directory": {
+                "id": "auto-express-server-setup"
+            },
+            "manifest": {
+                "name": "Auto Express Server Setup",
+                "shortDescription": "Script to automate setting up a new Express server",
+                "startDate": {
+                    "string": "July 2024",
+                    "timestamp": {
+                        "raw": 1719792000,
+                        "formatted": "July 2024",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Setup Script Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/setup-new-express-server.sh"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Decommissioning Script Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/remove-express-server.sh"
+                    }
+                ],
+                "tags": {
+                    "0": "bash",
+                    "1": "script",
+                    "3": "server-setup-scripts",
+                    "4": "github"
+                }
+            },
+            "files": {
+                "2": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
                 "id": "awesome-cert-generator"
             },
             "manifest": {
