@@ -1209,7 +1209,7 @@
                         "type": "github",
                         "label": "View Removal Script Source",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/remove-new-react-app.sh"
+                        "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/remove-react-app.sh"
                     }
                 ],
                 "tags": {
