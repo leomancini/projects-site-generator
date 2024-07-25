@@ -1139,7 +1139,7 @@
             },
             "manifest": {
                 "name": "Auto Express Server Setup",
-                "shortDescription": "Script to automate setting up a new Express server",
+                "shortDescription": "Script to automate hosting a boilerplate Express server",
                 "startDate": {
                     "string": "July 2024",
                     "timestamp": {
@@ -1165,6 +1165,51 @@
                         "label": "View Removal Script Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/remove-express-server.sh"
+                    }
+                ],
+                "tags": {
+                    "0": "bash",
+                    "1": "script",
+                    "3": "server-setup-scripts",
+                    "4": "github"
+                }
+            },
+            "files": {
+                "2": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
+                "id": "auto-react-app-hosting-setup"
+            },
+            "manifest": {
+                "name": "Auto React App Hosting Setup",
+                "shortDescription": "Script to automate hosting a boilerplate React app",
+                "startDate": {
+                    "string": "July 2024",
+                    "timestamp": {
+                        "raw": 1719792000,
+                        "formatted": "July 2024",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Setup Script Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/setup-new-react-app.sh"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Removal Script Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/remove-new-react-app.sh"
                     }
                 ],
                 "tags": {
