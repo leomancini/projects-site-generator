@@ -1135,10 +1135,10 @@
         },
         {
             "directory": {
-                "id": "auto-express-server-setup"
+                "id": "auto-express-server-hosting-setup"
             },
             "manifest": {
-                "name": "Auto Express Server Setup",
+                "name": "Auto Express Server Hosting Setup",
                 "shortDescription": "Script to automate hosting a boilerplate Express server",
                 "startDate": {
                     "string": "July 2024",
