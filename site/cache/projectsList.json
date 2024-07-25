@@ -1119,11 +1119,12 @@
                         "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/setup-new-domain.sh"
                     }
                 ],
-                "tags": [
-                    "bash",
-                    "script",
-                    "github"
-                ]
+                "tags": {
+                    "0": "bash",
+                    "1": "script",
+                    "3": "server-setup-scripts",
+                    "4": "github"
+                }
             },
             "files": {
                 "2": "longDescription.txt",
