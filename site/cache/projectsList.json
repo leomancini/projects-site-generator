@@ -1116,7 +1116,7 @@
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/auto-domain-setup"
+                        "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/setup-new-domain.sh"
                     }
                 ],
                 "tags": [
