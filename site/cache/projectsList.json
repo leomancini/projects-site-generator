@@ -1165,13 +1165,20 @@
                         "label": "View Removal Script Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/remove-express-server.sh"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Demo",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/setup-new-express-server-demo.noshado.ws\/"
                     }
                 ],
                 "tags": {
                     "0": "bash",
                     "1": "script",
                     "3": "server-setup-scripts",
-                    "4": "github"
+                    "4": "github",
+                    "6": "live-site"
                 }
             },
             "files": {
@@ -1210,13 +1217,20 @@
                         "label": "View Removal Script Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/remove-react-app.sh"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Demo",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/setup-new-react-app-demo.noshado.ws\/"
                     }
                 ],
                 "tags": {
                     "0": "bash",
                     "1": "script",
                     "3": "server-setup-scripts",
-                    "4": "github"
+                    "4": "github",
+                    "6": "live-site"
                 }
             },
             "files": {
