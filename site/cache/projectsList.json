@@ -1162,7 +1162,7 @@
                     },
                     {
                         "type": "github",
-                        "label": "View Decommissioning Script Source",
+                        "label": "View Removal Script Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/remove-express-server.sh"
                     }
