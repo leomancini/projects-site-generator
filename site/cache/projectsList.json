@@ -1141,9 +1141,9 @@
                 "name": "Auto Express Server Hosting Setup",
                 "shortDescription": "Script to automate hosting a boilerplate Express server",
                 "startDate": {
-                    "string": "July 2024",
+                    "string": "July 21, 2024",
                     "timestamp": {
-                        "raw": 1719792000,
+                        "raw": 1721520000,
                         "formatted": "July 2024",
                         "components": {
                             "monthFormatted": "July",
@@ -1193,9 +1193,9 @@
                 "name": "Auto React App Hosting Setup",
                 "shortDescription": "Script to automate hosting a boilerplate React app",
                 "startDate": {
-                    "string": "July 2024",
+                    "string": "July 22, 2024",
                     "timestamp": {
-                        "raw": 1719792000,
+                        "raw": 1721606400,
                         "formatted": "July 2024",
                         "components": {
                             "monthFormatted": "July",
@@ -6310,6 +6310,49 @@
             },
             "files": {
                 "2": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
+                "id": "host-manager-script"
+            },
+            "manifest": {
+                "name": "Host Manager Program",
+                "shortDescription": "Interactive shell script to create and remove hosted instances",
+                "startDate": {
+                    "string": "July 28, 2024",
+                    "timestamp": {
+                        "raw": 1722124800,
+                        "formatted": "July 2024",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/host-manager.sh"
+                    }
+                ],
+                "tags": [
+                    "bash",
+                    "script",
+                    "server-setup-scripts",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "video@2x.mp4"
+                }
             }
         },
         {
