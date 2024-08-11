@@ -8,23 +8,24 @@
     $projectManifest = getProjectManifest($projectDirectoryId);
     $projectFiles = getProjectFiles($projectDirectoryId);
     $tags = getProjectTags($projectManifest, $projectFiles);
+    $shareImage = getProjectShareImage(projectDirectoryId, $projectFiles);
 ?>
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Leo Mancini &ndash; <?php echo $projectManifest['name']; ?></title>
-		<link rel='stylesheet/less' href='site/resources/css/project.less<?php if ($config['debug'] === true) { echo '?hash='.rand(0, 9999); } ?>'>
-		<script src='site/resources/js/lib/less.js'></script>
-		<script src='site/resources/js/lib/jquery.js'></script>
+        <title>Leo Mancini &ndash; <?php echo $projectManifest['name']; ?></title>
+        <link rel='stylesheet/less' href='site/resources/css/project.less<?php if ($config['debug'] === true) { echo '?hash='.rand(0, 9999); } ?>'>
+        <script src='site/resources/js/lib/less.js'></script>
+        <script src='site/resources/js/lib/jquery.js'></script>
         <script src='site/resources/js/project.js<?php if ($config['debug'] === true) { echo '?hash='.rand(0, 9999); } ?>'></script>
         <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
-		<meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
         <meta property='og:url' content='https://leomancini.net/<?php echo $projectDirectoryId; ?>'>
         <meta property='og:type' content='website'>
         <meta property='og:title' content='<?php echo $projectManifest['name']; ?>'>
         <meta property='og:description' content='<?php echo $projectManifest['shortDescription']; ?>'>
-        <?php if($projectFiles['screenshots'] && reset($projectFiles['screenshots'])) { ?>
-            <meta property='og:image' content='https://leomancini.net/projects/<?php echo $projectDirectoryId; ?>/screenshots/<?php echo reset($projectFiles['screenshots']); ?>'>
+        <?php if($shareImage) { ?>
+            <meta property='og:image' content='<?php echo $shareImage; ?>'>
         <?php } ?>
         <meta name='format-detection' content='telephone=no'>
     </head>

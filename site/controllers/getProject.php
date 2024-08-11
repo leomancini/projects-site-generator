@@ -27,6 +27,18 @@
         return $projectFiles;
     }
 
+    function getProjectShareImage($projectDirectoryId, $projectFiles) {
+        $shareImagePath = '../../projects/'.$projectDirectoryId.'/share-image.png';
+
+        if (file_exists($shareImagePath)) {
+            return "https://leomancini.net/projects/".$projectDirectoryId."/share-image.png";
+        } else if ($projectFiles['screenshots'] && reset($projectFiles['screenshots'])) {
+            return "https://leomancini.net/projects/".$projectDirectoryId."/screenshots/".reset($projectFiles['screenshots']);
+        } else {
+            return false;
+        }
+    }
+
     function getIconForLink($link) {
         global $config;
 
