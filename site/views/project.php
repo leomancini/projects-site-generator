@@ -8,7 +8,7 @@
     $projectManifest = getProjectManifest($projectDirectoryId);
     $projectFiles = getProjectFiles($projectDirectoryId);
     $tags = getProjectTags($projectManifest, $projectFiles);
-    $shareImage = getProjectShareImage(projectDirectoryId, $projectFiles);
+    $shareImage = getProjectShareImage($projectDirectoryId, $projectFiles);
 ?>
 <!DOCTYPE HTML>
 <html>
