@@ -12142,6 +12142,74 @@
         },
         {
             "directory": {
+                "id": "share-the-pie"
+            },
+            "manifest": {
+                "name": "Share the Pie",
+                "shortDescription": "Split the bill by item after a group meal",
+                "startDate": {
+                    "string": "August 2024",
+                    "timestamp": {
+                        "raw": 1722470400,
+                        "formatted": "August 2024",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/sharethepie.app"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Client Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/zachtemkin\/share-the-pie-client\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/share-the-pie-server\/"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "design and engineering"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "0-slide@2x.png",
+                    "4": "1-initiator@2x.png",
+                    "5": "2-initiator@2x.png",
+                    "6": "3-initiator@2x.png",
+                    "7": "4-initiator@2x.png",
+                    "8": "5-initiator@2x.png",
+                    "9": "6-initiator@2x.png",
+                    "10": "7-slide@2x.png",
+                    "11": "8-participant@2x.png",
+                    "12": "9-participant@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "sheep-systems-website-banner"
             },
             "manifest": {
