@@ -11327,6 +11327,56 @@
         },
         {
             "directory": {
+                "id": "read-cv-jaguar-template"
+            },
+            "manifest": {
+                "name": "Read.cv Jaguar Template",
+                "shortDescription": "Nostalgic theme for sharing resume and projects",
+                "startDate": {
+                    "string": "September 2024",
+                    "timestamp": {
+                        "raw": 1725148800,
+                        "formatted": "September 2024",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "View Demo",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/helmsmqc8.sites.cv\/"
+                    },
+                    {
+                        "type": "other",
+                        "label": "View Template",
+                        "icon": "settings",
+                        "url": "https:\/\/read.cv\/sites\/templates\/helmsmqc8"
+                    }
+                ],
+                "tags": [
+                    "imac-g4",
+                    "live-site",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "6": "share-image.png",
+                "screenshots": {
+                    "3": "00@2x.mp4",
+                    "4": "01@2x.png",
+                    "5": "02@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "read-serial-data"
             },
             "manifest": {
