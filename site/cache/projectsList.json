@@ -9619,6 +9619,56 @@
         },
         {
             "directory": {
+                "id": "parking-sign-reminder-generator"
+            },
+            "manifest": {
+                "name": "Parking Sign Reminder Generator",
+                "shortDescription": "Take a photo of a parking sign and create a calendar reminder",
+                "startDate": {
+                    "string": "September 20, 2024",
+                    "timestamp": {
+                        "raw": 1726790400,
+                        "formatted": "September 2024",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Client Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/parking-sign-reminder-generator-client"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/parking-sign-reminder-generator-server"
+                    }
+                ],
+                "tags": {
+                    "0": "github",
+                    "2": "video"
+                }
+            },
+            "files": {
+                "3": "01@2x.png",
+                "4": "02@2x.png",
+                "5": "longDescription.txt",
+                "screenshots": {
+                    "3": "00-demo@2x.mp4",
+                    "4": "01@2x.png",
+                    "5": "02@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "pastel-studies"
             },
             "manifest": {
