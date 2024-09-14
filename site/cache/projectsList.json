@@ -3902,6 +3902,37 @@
         },
         {
             "directory": {
+                "id": "fall-2024-triptychs"
+            },
+            "manifest": {
+                "name": "Fall Triptychs",
+                "shortDescription": "Series of photographs of daily life in New York City",
+                "startDate": {
+                    "string": "September 12, 2024",
+                    "timestamp": {
+                        "raw": 1726099200,
+                        "formatted": "September 2024",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "001\u2013A \u2013 2024-09-12@2x.jpg",
+                    "4": "002 \u2013 2024-09-11@2x.jpg",
+                    "5": "003 \u2013 2024-09-13@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "faunix-poetry-book"
             },
             "manifest": {
