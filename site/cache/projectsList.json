@@ -15238,6 +15238,53 @@
         },
         {
             "directory": {
+                "id": "wave-social"
+            },
+            "manifest": {
+                "name": "Wave Social Network",
+                "shortDescription": "Experimental platform to share with small groups",
+                "startDate": {
+                    "string": "December 2024",
+                    "timestamp": {
+                        "raw": 1733011200,
+                        "formatted": "December 2024",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Client Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/wave-client"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/wave-server"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "way-to-wifi"
             },
             "manifest": {
