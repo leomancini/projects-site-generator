@@ -11938,6 +11938,58 @@
         },
         {
             "directory": {
+                "id": "screenshot-to-calendar-event"
+            },
+            "manifest": {
+                "name": "Screenshot to Calendar Event",
+                "shortDescription": "Parses data from a screenshot and adds it to calendar",
+                "startDate": {
+                    "string": "December 2024",
+                    "timestamp": {
+                        "raw": 1733011200,
+                        "formatted": "December 2024",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/screenshot-to-calendar-event-server"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Mac Script Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/screenshot-to-calendar-event-mac-client"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Mac Script",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/screenshot-to-calendar-event-mac-client\/releases\/download\/latest\/Screenshot.to.Calendar.Event.zip"
+                    }
+                ],
+                "tags": {
+                    "0": "github",
+                    "3": "video"
+                }
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "demo@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "security-camera-history"
             },
             "manifest": {
