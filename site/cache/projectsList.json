@@ -4320,13 +4320,13 @@
                         "type": "article",
                         "label": "View Articles Announcement",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/newsroom.fb.com\/news\/2013\/12\/news-feed-fyi-helping-you-find-more-news-to-talk-about\/"
+                        "url": "https:\/\/about.fb.com\/news\/2013\/12\/news-feed-fyi-helping-you-find-more-news-to-talk-about\/"
                     },
                     {
                         "type": "article",
                         "label": "View Videos Announcement",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/newsroom.fb.com\/news\/2014\/09\/the-latest-on-facebook-video\/"
+                        "url": "https:\/\/about.fb.com\/news\/2014\/09\/the-latest-on-facebook-video\/"
                     },
                     {
                         "type": "patent",
@@ -4374,7 +4374,7 @@
                         "type": "article",
                         "label": "View Launch Announcement",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/newsroom.fb.com\/news\/2015\/09\/updates-for-facebook-notes\/"
+                        "url": "https:\/\/about.fb.com\/news\/2015\/09\/updates-for-facebook-notes\/"
                     }
                 ],
                 "tags": [
@@ -4466,7 +4466,7 @@
                         "type": "article",
                         "label": "View Launch Announcement",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/newsroom.fb.com\/news\/2015\/04\/riff-make-videos-with-friends\/"
+                        "url": "https:\/\/about.fb.com\/news\/2015\/04\/riff-make-videos-with-friends\/"
                     },
                     {
                         "type": "article",
@@ -4502,7 +4502,7 @@
                         "type": "slides",
                         "label": "View Process Presentation",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/leomancini.net\/cyprus-usability-day-presentation-2015"
+                        "url": "https:\/\/leomancini.net\/cyprus-usability-day-presentation"
                     }
                 ],
                 "tags": {
@@ -4863,13 +4863,13 @@
                         "type": "article",
                         "label": "View Launch Announcement",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/newsroom.fb.com\/news\/2014\/01\/finding-popular-conversations-on-facebook\/"
+                        "url": "https:\/\/about.fb.com\/news\/2014\/01\/finding-popular-conversations-on-facebook\/"
                     },
                     {
                         "type": "article",
                         "label": "View Update Announcement",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/newsroom.fb.com\/news\/2014\/12\/updates-to-trending\/"
+                        "url": "https:\/\/about.fb.com\/news\/2014\/12\/updates-to-trending\/"
                     },
                     {
                         "type": "article",
@@ -15238,7 +15238,7 @@
         },
         {
             "directory": {
-                "id": "wave-social"
+                "id": "wave-social-network"
             },
             "manifest": {
                 "name": "Wave Social Network",
