@@ -14885,6 +14885,70 @@
         },
         {
             "directory": {
+                "id": "travel-guide"
+            },
+            "manifest": {
+                "name": "Travel Guide",
+                "shortDescription": "Generated guides for any city with any focus",
+                "startDate": {
+                    "string": "December 2024",
+                    "timestamp": {
+                        "raw": 1733011200,
+                        "formatted": "December 2024",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "link",
+                        "label": "View Example Guide",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/travel-guide.leo.gd\/?city=shanghai&flavor=tourist"
+                    },
+                    {
+                        "type": "link",
+                        "label": "View Example Server Response",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/travel-guide-server.noshado.ws\/?city=shanghai&flavor=tourist"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Client Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/travel-guide-client"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/travel-guide-server"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.PNG",
+                    "3": "2@2x.PNG",
+                    "4": "3@2x.PNG",
+                    "5": "4@2x.PNG",
+                    "6": "5@2x.PNG",
+                    "7": "6@2x.PNG",
+                    "8": "7@2x.PNG",
+                    "9": "8@2x.PNG"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "treasure-map"
             },
             "manifest": {
