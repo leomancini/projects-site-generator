@@ -15374,6 +15374,12 @@
                 },
                 "links": [
                     {
+                        "type": "live_site",
+                        "label": "View Demo Group",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/wave.leo.gd\/DEMO\/000"
+                    },
+                    {
                         "type": "github",
                         "label": "View Client Source",
                         "icon": "DEFAULT_FOR_TYPE",
@@ -15387,6 +15393,7 @@
                     }
                 ],
                 "tags": [
+                    "live-site",
                     "github"
                 ]
             },
