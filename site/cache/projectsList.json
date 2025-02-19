@@ -3867,6 +3867,42 @@
         },
         {
             "directory": {
+                "id": "face-mask-holder"
+            },
+            "manifest": {
+                "name": "Face Mask Holder",
+                "shortDescription": "Container for storing medical face masks",
+                "startDate": {
+                    "string": "February 2025",
+                    "timestamp": {
+                        "raw": 1738368000,
+                        "formatted": "February 2025",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "3d_model",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.tinkercad.com\/things\/9GB1E7nbBbV-face-mask-holder?sharecode=CgYuMYNaSdaQ_gPIP1gW-HzHpaY05jtrkEOVOUqwwWA"
+                    }
+                ],
+                "tags": [
+                    "3d-model"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
                 "id": "fair-chance-recruiting-calculator"
             },
             "manifest": {
@@ -5832,6 +5868,8 @@
                     }
                 ],
                 "tags": [
+                    "bash",
+                    "script",
                     "github",
                     "video"
                 ]
@@ -5840,6 +5878,46 @@
                 "3": "longDescription.txt",
                 "screenshots": {
                     "2": "demo@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "happy-birthday-message-holder"
+            },
+            "manifest": {
+                "name": "Happy Birthday Message Holder",
+                "shortDescription": "Reusable envelope for holding a birthday message",
+                "startDate": {
+                    "string": "February 2025",
+                    "timestamp": {
+                        "raw": 1738368000,
+                        "formatted": "February 2025",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "3d_model",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.tinkercad.com\/things\/b1pHFjA12rx-hbd-zst?sharecode=xnxk6fPfzZZ_dfR84peuejk_sHNq542ttki-VJ_nG-8"
+                    }
+                ],
+                "tags": [
+                    "3d-model",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "IMG_0334@2x.mp4"
                 }
             }
         },

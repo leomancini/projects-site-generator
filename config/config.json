@@ -15,7 +15,8 @@
             "twitter": "article",
             "twitter_archive": "article",
             "download": "download",
-            "slides": "slideshow"
+            "slides": "slideshow",
+            "3d_model": "view_in_ar"
         },
         "defaultLabelsForType": {
             "github": "View Source",
@@ -30,7 +31,8 @@
             "twitter": "View on Twitter",
             "twitter_archive": "View Archived Tweet",
             "download": "Download",
-            "slides": "View Slides"
+            "slides": "View Slides",
+            "3d_model": "View 3D Model"
         }
     },
     "debug": false,
