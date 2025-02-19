@@ -3891,6 +3891,18 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/www.tinkercad.com\/things\/9GB1E7nbBbV-face-mask-holder?sharecode=CgYuMYNaSdaQ_gPIP1gW-HzHpaY05jtrkEOVOUqwwWA"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/face-mask-holder\/downloads\/Face_Mask_Holder.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download 3MF File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/face-mask-holder\/downloads\/Face_Mask_Holder.3mf"
                     }
                 ],
                 "tags": [
@@ -3898,7 +3910,11 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt"
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Face_Mask_Holder.3mf",
+                    "3": "Face_Mask_Holder.stl"
+                }
             }
         },
         {
@@ -5907,6 +5923,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/www.tinkercad.com\/things\/b1pHFjA12rx-hbd-zst?sharecode=xnxk6fPfzZZ_dfR84peuejk_sHNq542ttki-VJ_nG-8"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/face-mask-holder\/downloads\/HBD_ZST.stl"
                     }
                 ],
                 "tags": [
@@ -5915,7 +5937,10 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "HBD_ZST.stl"
+                },
                 "screenshots": {
                     "2": "IMG_0334@2x.mp4"
                 }
