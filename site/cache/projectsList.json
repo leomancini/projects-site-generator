@@ -5863,9 +5863,9 @@
                 "name": "Happy Birthday Bash Script",
                 "shortDescription": "Birthday card in terminal with animations and gifts",
                 "startDate": {
-                    "string": "February 2025",
+                    "string": "February 19, 2025",
                     "timestamp": {
-                        "raw": 1738368000,
+                        "raw": 1739923200,
                         "formatted": "February 2025",
                         "components": {
                             "monthFormatted": "February",
