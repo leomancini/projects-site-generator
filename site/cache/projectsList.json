@@ -5805,6 +5805,46 @@
         },
         {
             "directory": {
+                "id": "happy-birthday-bash-script"
+            },
+            "manifest": {
+                "name": "Happy Birthday Bash Script",
+                "shortDescription": "Birthday card in terminal with animations and gifts",
+                "startDate": {
+                    "string": "February 2025",
+                    "timestamp": {
+                        "raw": 1738368000,
+                        "formatted": "February 2025",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/happy-birthday-bash-script\/"
+                    }
+                ],
+                "tags": [
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "demo@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "harrisfest-advertising"
             },
             "manifest": {
