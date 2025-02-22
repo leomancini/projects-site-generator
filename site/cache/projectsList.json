@@ -12876,11 +12876,15 @@
                     "1": "sound",
                     "2": "phone",
                     "3": "github",
-                    "4": "live-site"
+                    "4": "live-site",
+                    "5": "video"
                 }
             },
             "files": {
-                "2": "longDescription.txt"
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1-video--play-audio--size=443x960.mp4"
+                }
             }
         },
         {

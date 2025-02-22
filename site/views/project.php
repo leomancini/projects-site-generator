@@ -106,17 +106,29 @@
 
                             if(stringContains($screenshotFileName, '@2x')) { array_push($imageClasses, 'retina'); }
                             if(stringContains($screenshotFileName, 'hasMacDesktopShadow')) { array_push($imageClasses, 'hasMacDesktopShadow'); }
+                            if(stringContains($screenshotFileName, '--size=')) {
+                                $sizeString = explode('--size=', $screenshotFileName)[1];
+                                $sizeString = explode('.', $sizeString)[0];
+                                
+                                if (strpos($sizeString, 'x') !== false) {
+                                    list($width, $height) = explode('x', $sizeString);
+                                    $sizeOverride = "width: {$width}px; height: {$height}px;";
+                                } else {
+                                    $width = $sizeString;
+                                    $sizeOverride = "width: {$width}px;";
+                                }
+                            }
 
                             $imageClassesString = implode(' ', $imageClasses);
 
                             if ($screenshotFileName !== 'hidden') {
                                 if(stringContains(strtolower($screenshotFileName), '.png') || stringContains(strtolower($screenshotFileName), '.jpg') || stringContains(strtolower($screenshotFileName), '.gif')) {
-                                    echo "<img src='projects/$projectDirectoryId/screenshots/$screenshotFileName' class='$imageClassesString'>";
+                                    echo "<img src='projects/$projectDirectoryId/screenshots/$screenshotFileName' class='$imageClassesString' style='$sizeOverride'>";
                                 } else if(stringContains(strtolower($screenshotFileName), '.mov') || stringContains(strtolower($screenshotFileName), '.mp4')) {
                                     if (stringContains(strtolower($screenshotFileName), '--play-audio')) {
-                                        echo "<video class='$imageClassesString' playsinline controls><source src='projects/$projectDirectoryId/screenshots/$screenshotFileName'></video>";
+                                        echo "<video class='$imageClassesString' style='$sizeOverride' playsinline controls><source src='projects/$projectDirectoryId/screenshots/$screenshotFileName'></video>";
                                     } else {
-                                        echo "<video class='$imageClassesString' loop autoplay muted playsinline><source src='projects/$projectDirectoryId/screenshots/$screenshotFileName'></video>";
+                                        echo "<video class='$imageClassesString' style='$sizeOverride' loop autoplay muted playsinline><source src='projects/$projectDirectoryId/screenshots/$screenshotFileName'></video>";
                                     }
                                 } else if(stringContains(strtolower($screenshotFileName), '.mp3') || stringContains(strtolower($screenshotFileName), '.m4a')) {
                                     echo "<audio class='$imageClassesString' controls><source src='projects/$projectDirectoryId/screenshots/$screenshotFileName' type='audio/mpeg'></audio>";
