@@ -8258,6 +8258,47 @@
         },
         {
             "directory": {
+                "id": "llm-api-template"
+            },
+            "manifest": {
+                "name": "LLM API Template",
+                "shortDescription": "Server that provides a unified API interface for various language models",
+                "startDate": {
+                    "string": "February 22, 2025",
+                    "timestamp": {
+                        "raw": 1740182400,
+                        "formatted": "February 2025",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/llm-api-template"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "0-anthropic--code.txt",
+                    "4": "1-openai--code.txt",
+                    "5": "2-google--code.txt"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "localchat"
             },
             "manifest": {
