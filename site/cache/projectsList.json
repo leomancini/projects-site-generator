@@ -893,6 +893,38 @@
         },
         {
             "directory": {
+                "id": "asia-2425-video-journal"
+            },
+            "manifest": {
+                "name": "Asia 2425 Video Journal",
+                "shortDescription": "Snapshots of a trip through China and Vietnam",
+                "startDate": {
+                    "string": "January 2025",
+                    "timestamp": {
+                        "raw": 1735689600,
+                        "formatted": "January 2025",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "tags": [
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1-video--play-audio--size=443.mp4",
+                    "4": "2-video--play-audio--size=443.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "ask-the-mac-experts"
             },
             "manifest": {
