@@ -1701,6 +1701,113 @@
         },
         {
             "directory": {
+                "id": "byt-hardware"
+            },
+            "manifest": {
+                "name": "Byt Hardware",
+                "shortDescription": "Desktop device for displaying various data",
+                "startDate": {
+                    "string": "March 5, 2025",
+                    "timestamp": {
+                        "raw": 1741132800,
+                        "formatted": "March 2025",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/byt-hardware\/downloads\/Byt_Hardware.stl"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "3D modeling"
+                    },
+                    {
+                        "name": "Dan Zaharia",
+                        "link": "http:\/\/danzaharia.com\/",
+                        "type": "3D modeling"
+                    }
+                ],
+                "tags": [
+                    "byt"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Byt_Hardware.stl"
+                },
+                "screenshots": {
+                    "3": "1-IMG_1442@2x.jpg",
+                    "4": "3-IMG_1408@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "byt-software"
+            },
+            "manifest": {
+                "name": "Byt Software",
+                "shortDescription": "Series of apps designed to run in custom enclosure",
+                "startDate": {
+                    "string": "March 6, 2025",
+                    "timestamp": {
+                        "raw": 1741219200,
+                        "formatted": "March 2025",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/byt-client"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Dan Zaharia",
+                        "link": "http:\/\/danzaharia.com\/",
+                        "type": "Subway Arrivals API"
+                    }
+                ],
+                "tags": [
+                    "byt",
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "01@2x.png",
+                    "3": "02@2x.png",
+                    "4": "03@2x.png",
+                    "5": "04@2x.png",
+                    "6": "05@2x.png",
+                    "7": "06@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "cadavre-exquis"
             },
             "manifest": {
