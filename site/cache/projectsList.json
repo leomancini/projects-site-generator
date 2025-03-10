@@ -8397,6 +8397,50 @@
         },
         {
             "directory": {
+                "id": "live-world-cameras"
+            },
+            "manifest": {
+                "name": "Live World Cameras Display",
+                "shortDescription": "Grid of live cameras in simulated CRT monitors",
+                "startDate": {
+                    "string": "March 9, 2025",
+                    "timestamp": {
+                        "raw": 1741478400,
+                        "formatted": "March 2025",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/live-world-cameras.leo.gd\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/live-world-cameras"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": []
+            }
+        },
+        {
+            "directory": {
                 "id": "llm-api-template"
             },
             "manifest": {
@@ -9607,7 +9651,7 @@
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/nyc-traffic-cameras"
+                        "url": "https:\/\/github.com\/leomancini\/live-world-cameras"
                     }
                 ],
                 "tags": [
