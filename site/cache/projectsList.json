@@ -8436,7 +8436,15 @@
             },
             "files": {
                 "3": "longDescription.txt",
-                "screenshots": []
+                "screenshots": {
+                    "3": "1-world-airports@2x.png",
+                    "4": "2-world-cities@2x.png",
+                    "5": "3-us-cities@2x.png",
+                    "6": "4-nyc-streets@2x.png",
+                    "7": "5-nyc-old-streets@2x.png",
+                    "8": "6-nyc-traffic@2x.png",
+                    "9": "7-japan@2x.png"
+                }
             }
         },
         {
