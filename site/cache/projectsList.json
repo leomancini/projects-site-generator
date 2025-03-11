@@ -1725,6 +1725,12 @@
                         "label": "Download STL File",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/byt-hardware\/downloads\/Byt_Hardware.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download 3MF File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/byt-hardware\/downloads\/Byt_Hardware.3mf"
                     }
                 ],
                 "credits": [
@@ -1747,7 +1753,8 @@
             "files": {
                 "4": "longDescription.txt",
                 "downloads": {
-                    "2": "Byt_Hardware.stl"
+                    "2": "Byt_Hardware.3mf",
+                    "3": "Byt_Hardware.stl"
                 },
                 "screenshots": {
                     "3": "1-IMG_1442@2x.jpg",
