@@ -9683,8 +9683,11 @@
             "files": {
                 "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "01-screenshot@2x.png",
-                    "3": "02-video@2x.mp4"
+                    "3": "1-demo.mp4",
+                    "4": "2-IMG_1796@2x.jpg",
+                    "5": "3-CleanShot 2025-03-11 at 17.03.33-compressed.mp4",
+                    "6": "4-screenshot@2x.png",
+                    "7": "hidden"
                 }
             }
         },
