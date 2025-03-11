@@ -12002,13 +12002,21 @@
                         "url": "https:\/\/github.com\/fcc-lol\/kiosk-server"
                     }
                 ],
-                "tags": [
-                    "fcc",
-                    "github"
-                ]
+                "tags": {
+                    "0": "fcc",
+                    "1": "github",
+                    "3": "video"
+                }
             },
             "files": {
-                "2": "longDescription.txt"
+                "3": "2-IMG_1749@2x.jpg",
+                "4": "3-IMG_1735@2x.jpg",
+                "5": "longDescription.txt",
+                "screenshots": {
+                    "3": "1-demo@2x.mp4",
+                    "4": "IMG_1734@2x.jpg",
+                    "5": "IMG_1749@2x.jpg"
+                }
             }
         },
         {
