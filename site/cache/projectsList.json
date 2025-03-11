@@ -1740,7 +1740,8 @@
                     }
                 ],
                 "tags": [
-                    "byt"
+                    "byt",
+                    "fcc"
                 ]
             },
             "files": {
@@ -1791,6 +1792,7 @@
                 ],
                 "tags": [
                     "byt",
+                    "fcc",
                     "github"
                 ]
             },
@@ -8476,6 +8478,7 @@
                     }
                 ],
                 "tags": [
+                    "fcc",
                     "github"
                 ]
             },
@@ -11956,6 +11959,49 @@
                 "screenshots": {
                     "2": "1.png"
                 }
+            }
+        },
+        {
+            "directory": {
+                "id": "remote-controlled-kiosk-display"
+            },
+            "manifest": {
+                "name": "Remote-Controlled Kiosk Display",
+                "shortDescription": "System for managing content on a wall-mounted monitor",
+                "startDate": {
+                    "string": "March 11, 2025",
+                    "timestamp": {
+                        "raw": 1741651200,
+                        "formatted": "March 2025",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Client Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-client"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-server"
+                    }
+                ],
+                "tags": [
+                    "fcc",
+                    "github"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt"
             }
         },
         {
