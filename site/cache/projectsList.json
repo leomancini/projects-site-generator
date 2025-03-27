@@ -13186,6 +13186,12 @@
                         "label": "View Config",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/sound-machine-phone-service.noshado.ws\/config"
+                    },
+                    {
+                        "type": "storage",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/labs.noshado.ws\/sound-machine-storage\/"
                     }
                 ],
                 "tags": {
@@ -13200,6 +13206,65 @@
                 "3": "longDescription.txt",
                 "screenshots": {
                     "3": "1-video--play-audio--size=443x960.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "sound-machine-waveform-display"
+            },
+            "manifest": {
+                "name": "Sound Machine Waveform Display",
+                "shortDescription": "Exploration of waveform visualizations of audio files",
+                "startDate": {
+                    "string": "July 2024",
+                    "timestamp": {
+                        "raw": 1719792000,
+                        "formatted": "July 2024",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/sound-machine-display.leo.gd\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/sound-machine-display"
+                    },
+                    {
+                        "type": "storage",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/labs.noshado.ws\/sound-machine-storage\/"
+                    }
+                ],
+                "tags": [
+                    "sound",
+                    "live-site",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.mp4",
+                    "4": "2--play-audio.mp4",
+                    "5": "3@2x.png",
+                    "6": "4@2x.png",
+                    "7": "5@2x.png",
+                    "8": "6@2x.mp4"
                 }
             }
         },
