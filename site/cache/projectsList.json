@@ -6148,6 +6148,64 @@
         },
         {
             "directory": {
+                "id": "hdmi-wall-plate"
+            },
+            "manifest": {
+                "name": "HDMI Wall Plate",
+                "shortDescription": "Custom cover for HDMI port, generated with AI",
+                "startDate": {
+                    "string": "March 25, 2025",
+                    "timestamp": {
+                        "raw": 1742860800,
+                        "formatted": "March 2025",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download SCAD File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/hdmi-wall-plate\/downloads\/HDMI_Wall_Plate.scad"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/hdmi-wall-plate\/downloads\/HDMI_Wall_Plate.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download 3MF File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/hdmi-wall-plate\/downloads\/HDMI_Wall_Plate.3mf"
+                    }
+                ],
+                "tags": []
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "HDMI_Wall_Plate.3mf",
+                    "3": "HDMI_Wall_Plate.scad",
+                    "4": "HDMI_Wall_Plate.stl"
+                },
+                "screenshots": {
+                    "3": "1@2x.jpg",
+                    "4": "2@2x.jpg",
+                    "5": "2@2x.png",
+                    "6": "3@2x.png",
+                    "7": "4@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "helvetica-typography-experiments"
             },
             "manifest": {
