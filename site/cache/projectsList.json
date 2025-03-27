@@ -6169,7 +6169,7 @@
                 "links": [
                     {
                         "type": "download",
-                        "label": "Download SCAD File",
+                        "label": "View OpenSCAD Code",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/hdmi-wall-plate\/downloads\/HDMI_Wall_Plate.scad"
                     },
