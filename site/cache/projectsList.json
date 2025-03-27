@@ -6168,7 +6168,7 @@
                 },
                 "links": [
                     {
-                        "type": "download",
+                        "type": "github",
                         "label": "View OpenSCAD Code",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/hdmi-wall-plate\/downloads\/HDMI_Wall_Plate.scad"
