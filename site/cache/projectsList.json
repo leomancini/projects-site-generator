@@ -1516,6 +1516,46 @@
         },
         {
             "directory": {
+                "id": "birthday-calendar-api"
+            },
+            "manifest": {
+                "name": "Birthday Calendar API",
+                "shortDescription": "Endpoint with birthdays of friends from Google Calendar",
+                "startDate": {
+                    "string": "March 30, 2025",
+                    "timestamp": {
+                        "raw": 1743292800,
+                        "formatted": "March 2025",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/birthday-calendar-server"
+                    }
+                ],
+                "tags": [
+                    "fcc",
+                    "github"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "sample--code.txt"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "blastr-tv"
             },
             "manifest": {
@@ -13203,7 +13243,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "2": "0-un-building--code.txt",
                     "3": "empire-state-building--code.txt"
