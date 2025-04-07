@@ -12538,6 +12538,48 @@
         },
         {
             "directory": {
+                "id": "self-hosted-ai"
+            },
+            "manifest": {
+                "name": "Self-Hosted AI Cluster",
+                "shortDescription": "Personal server for interacting with various LLMs",
+                "startDate": {
+                    "string": "March 2025",
+                    "timestamp": {
+                        "raw": 1740787200,
+                        "formatted": "March 2025",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/ai.leo.gd"
+                    }
+                ],
+                "tags": [
+                    "ai",
+                    "live-site"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "0-IMG_0255@2x.jpg",
+                    "4": "2-Screenshot 2025-04-07 at 12.51.49\u202fPM@2x.png",
+                    "5": "3-CleanShot 2025-04-07 at 13.03.08@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "self-portrait-2007"
             },
             "manifest": {
