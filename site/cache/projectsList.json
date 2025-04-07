@@ -1747,7 +1747,8 @@
                 ],
                 "tags": [
                     "byt",
-                    "fcc"
+                    "fcc",
+                    "3D"
                 ]
             },
             "files": {
@@ -4064,7 +4065,7 @@
                     }
                 ],
                 "tags": [
-                    "3d-model"
+                    "3D"
                 ]
             },
             "files": {
@@ -6093,7 +6094,7 @@
                     }
                 ],
                 "tags": [
-                    "3d-model",
+                    "3D",
                     "video"
                 ]
             },
@@ -6194,7 +6195,9 @@
                         "url": "\/projects\/hdmi-wall-plate\/downloads\/HDMI_Wall_Plate.3mf"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "3D"
+                ]
             },
             "files": {
                 "4": "longDescription.txt",

@@ -125,6 +125,14 @@
                     array_push($tags, 'live-site');
                 }
 
+                if (
+                    stringContains($link['label'], 'STL') ||
+                    stringContains($link['label'], '3MF') ||
+                    stringContains($link['label'], 'CAD')
+                ) {
+                    array_push($tags, '3D');
+                }
+
                 if (stringContains($link['url'], 'noshado.ws/archive/tweets')) {
                     array_push($tags, 'archived-tweet');
                 }
@@ -146,7 +154,9 @@
 
         if(count($tags) > 0) {
             foreach($tags as $tagKey => $tagValue) {
-                $tags[$tagKey] = str_replace(' ', '-', strtolower($tagValue));
+                $tagValueFormatted = str_replace(' ', '-', strtolower($tagValue));
+                $tagValueFormatted = str_replace('3d', '3D', $tagValueFormatted);
+                $tags[$tagKey] = $tagValueFormatted;
             }
         }
 
