@@ -94,7 +94,8 @@
                 $searchMatch = false;
 
                 if (stringContains($searchQuery, '#')) {
-                    if (stringContains(strtolower(join(' ', $projectInfo['manifest']['tags'])), str_replace('#', '', $searchQuery))) {
+                    $tagToMatch = str_replace('#', '', $searchQuery);
+                    if (in_array($tagToMatch, $projectInfo['manifest']['tags'])) {
                         $searchMatch = true;
                     }
                 } else {
