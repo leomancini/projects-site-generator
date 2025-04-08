@@ -15431,6 +15431,64 @@
         },
         {
             "directory": {
+                "id": "this-or-that-machine"
+            },
+            "manifest": {
+                "name": "This or That Machine",
+                "shortDescription": "Choose between two options within a category",
+                "startDate": {
+                    "string": "April 2025",
+                    "timestamp": {
+                        "raw": 1743465600,
+                        "formatted": "April 2025",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Firmware Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/this-or-that-machine-firmware"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/this-or-that-machine-server"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download XCS File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/happy-birthday-message-holder\/downloads\/This_or_That_Machine.xcs"
+                    }
+                ],
+                "tags": {
+                    "0": "github",
+                    "2": "video"
+                }
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "This_or_That_Machine.xcs"
+                },
+                "screenshots": {
+                    "3": "0-IMG_3621-compressed.mp4",
+                    "4": "1-IMG_3678@2x.jpg",
+                    "5": "2-IMG_3660@2x.jpg",
+                    "6": "3-IMG_3636@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "timelapse-builder-script"
             },
             "manifest": {
