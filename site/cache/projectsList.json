@@ -8034,6 +8034,86 @@
         },
         {
             "directory": {
+                "id": "kiosk-remote-control-mac"
+            },
+            "manifest": {
+                "name": "Kiosk Remote Control Mac App",
+                "shortDescription": "Menu bar app to control content on kiosk display",
+                "startDate": {
+                    "string": "April 8, 2025",
+                    "timestamp": {
+                        "raw": 1744070400,
+                        "formatted": "April 2025",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-remote-control-mac"
+                    }
+                ],
+                "tags": [
+                    "fcc",
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "screenshot@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "kiosk-remote-control-web"
+            },
+            "manifest": {
+                "name": "Kiosk Remote Control Web App",
+                "shortDescription": "Mobile web app to control content on kiosk display",
+                "startDate": {
+                    "string": "March 12, 2025",
+                    "timestamp": {
+                        "raw": 1741737600,
+                        "formatted": "March 2025",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-client\/blob\/main\/src\/RemoteControl.tsx"
+                    }
+                ],
+                "tags": [
+                    "fcc",
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-Simulator Screenshot - iPhone 16 Pro - 2025-04-07 at 13.07.40@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "kitchen-sensations-video"
             },
             "manifest": {
@@ -12111,7 +12191,7 @@
                         "type": "github",
                         "label": "View Client Source",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-client"
+                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-client\/blob\/main\/src\/Display.tsx"
                     },
                     {
                         "type": "github",
@@ -12129,10 +12209,9 @@
             "files": {
                 "3": "longDescription.txt",
                 "screenshots": {
-                    "3": "0-demo@2x.mp4",
-                    "4": "1-Simulator Screenshot - iPhone 16 Pro - 2025-04-07 at 13.07.40@2x.png",
-                    "5": "2-IMG_1749@2x.jpg",
-                    "6": "3-IMG_2850@2x.jpg"
+                    "3": "2-IMG_1749@2x.jpg",
+                    "4": "3-IMG_2850@2x.jpg",
+                    "5": "4-demo@2x.mp4"
                 }
             }
         },
