@@ -15489,6 +15489,47 @@
         },
         {
             "directory": {
+                "id": "this-or-that-machine-admin"
+            },
+            "manifest": {
+                "name": "This or That Machine Admin",
+                "shortDescription": "Tool to manage pairs, view votes, and use device simulator",
+                "startDate": {
+                    "string": "April 13, 2025",
+                    "timestamp": {
+                        "raw": 1744502400,
+                        "formatted": "April 2025",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/this-or-that-machine-admin"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "timelapse-builder-script"
             },
             "manifest": {
