@@ -13331,6 +13331,80 @@
         },
         {
             "directory": {
+                "id": "sound-machine"
+            },
+            "manifest": {
+                "name": "Sound Machine",
+                "shortDescription": "Device for playing various audio recordings",
+                "startDate": {
+                    "string": "April 16, 2025",
+                    "timestamp": {
+                        "raw": 1744761600,
+                        "formatted": "April 2025",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Firmware Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/sound-machine-firmware"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Waveform Generator Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/sound-machine-waveform-generator"
+                    },
+                    {
+                        "type": "storage",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/labs.noshado.ws\/sound-machine-storage\/"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Faceplate STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/sound-machine\/downloads\/Sound_Machine_Faceplate.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Frame STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/sound-machine\/downloads\/Sound_Machine_Frame.stl"
+                    }
+                ],
+                "tags": {
+                    "0": "sound",
+                    "1": "sound-machine",
+                    "2": "github",
+                    "4": "3D",
+                    "6": "video"
+                }
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Sound_Machine_Faceplate.stl",
+                    "3": "Sound_Machine_Frame.stl"
+                },
+                "screenshots": {
+                    "3": "0-demo--play-audio.mp4",
+                    "4": "IMG_4170@2x.jpg",
+                    "5": "IMG_4178@2x.jpg",
+                    "6": "IMG_4180@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "sound-machine-phone-service"
             },
             "manifest": {
@@ -13372,9 +13446,10 @@
                 "tags": {
                     "1": "sound",
                     "2": "phone",
-                    "3": "github",
-                    "4": "live-site",
-                    "5": "video"
+                    "3": "sound-machine",
+                    "4": "github",
+                    "5": "live-site",
+                    "6": "video"
                 }
             },
             "files": {
@@ -13426,6 +13501,7 @@
                 ],
                 "tags": [
                     "sound",
+                    "sound-machine",
                     "live-site",
                     "github",
                     "video"
