@@ -15594,8 +15594,9 @@
                     }
                 ],
                 "tags": {
-                    "0": "github",
-                    "2": "video"
+                    "0": "this-or-that-machine",
+                    "1": "github",
+                    "3": "video"
                 }
             },
             "files": {
@@ -15640,6 +15641,7 @@
                     }
                 ],
                 "tags": [
+                    "this-or-that-machine",
                     "github"
                 ]
             },
@@ -15649,6 +15651,55 @@
                     "2": "1@2x.png",
                     "3": "2@2x.png",
                     "4": "3@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "this-or-that-machine-votes-viewer"
+            },
+            "manifest": {
+                "name": "This or That Machine Votes Viewer",
+                "shortDescription": "View statistics of what choices are made",
+                "startDate": {
+                    "string": "April 18, 2025",
+                    "timestamp": {
+                        "raw": 1744934400,
+                        "formatted": "April 2025",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/this-or-that-machine-votes-viewer"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/this-or-that-machine-votes-viewer.leo.gd\/"
+                    }
+                ],
+                "tags": [
+                    "this-or-that-machine",
+                    "github",
+                    "live-site",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "This or That Machine Votes Viewer \u2013 Compressed.mp4",
+                    "3": "this-or-that-machine-votes-viewer.leo.gd_@2x.png"
                 }
             }
         },
