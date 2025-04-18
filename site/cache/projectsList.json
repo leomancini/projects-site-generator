@@ -8653,6 +8653,53 @@
         },
         {
             "directory": {
+                "id": "live-world-stats"
+            },
+            "manifest": {
+                "name": "Live World Stats",
+                "shortDescription": "Dashboard of various societal statistics",
+                "startDate": {
+                    "string": "April 18, 2025",
+                    "timestamp": {
+                        "raw": 1744934400,
+                        "formatted": "April 2025",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/live-world-stats.leo.gd\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/live-world-stats"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "CleanShot 2025-04-18 at 00.06.29@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "llm-api-template"
             },
             "manifest": {
