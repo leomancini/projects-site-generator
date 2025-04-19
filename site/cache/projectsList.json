@@ -3,6 +3,27 @@
     "projects": [
         {
             "directory": {
+                "id": ".gitignore"
+            },
+            "manifest": {
+                "startDate": {
+                    "timestamp": {
+                        "raw": false,
+                        "formatted": "January 1970",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "1970",
+                            "yearNumber": 1970
+                        }
+                    }
+                },
+                "tags": []
+            },
+            "files": null
+        },
+        {
+            "directory": {
                 "id": "2012-cover-design-competition-visual-design"
             },
             "manifest": {
@@ -916,10 +937,10 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1-video--play-audio--size=443.mp4",
-                    "4": "2-video--play-audio--size=443.mp4"
+                    "2": "1-video--play-audio--size=443.mp4",
+                    "3": "2-video--play-audio--size=443.mp4"
                 }
             }
         },
@@ -1550,7 +1571,7 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "sample--code.txt"
+                    "2": "sample--code.txt"
                 }
             }
         },
@@ -1792,16 +1813,16 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Byt_Hardware.3mf",
                     "3": "Byt_Hardware.stl"
                 },
                 "screenshots": {
-                    "3": "1@2x.jpg",
-                    "4": "2@2x.jpg",
-                    "5": "3@2x.jpg",
-                    "6": "hidden"
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.jpg",
+                    "4": "3@2x.jpg",
+                    "5": "hidden"
                 }
             }
         },
@@ -1847,23 +1868,23 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "01@2x.png",
-                    "4": "02@2x.png",
-                    "5": "03@2x.png",
-                    "6": "04@2x.png",
-                    "7": "05@2x.png",
-                    "8": "06@2x.png",
-                    "9": "07@2x.png",
-                    "10": "08@2x.png",
-                    "11": "09@2x.png",
-                    "12": "10@2x.png",
-                    "13": "11@2x.png",
-                    "14": "12@2x.png",
-                    "15": "13@2x.png",
-                    "16": "14@2x.png",
-                    "17": "15@2x.png"
+                    "2": "01@2x.png",
+                    "3": "02@2x.png",
+                    "4": "03@2x.png",
+                    "5": "04@2x.png",
+                    "6": "05@2x.png",
+                    "7": "06@2x.png",
+                    "8": "07@2x.png",
+                    "9": "08@2x.png",
+                    "10": "09@2x.png",
+                    "11": "10@2x.png",
+                    "12": "11@2x.png",
+                    "13": "12@2x.png",
+                    "14": "13@2x.png",
+                    "15": "14@2x.png",
+                    "16": "15@2x.png"
                 }
             }
         },
@@ -2113,15 +2134,15 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "01@2x.png",
-                    "4": "02@2x.png",
-                    "5": "03@2x.png",
-                    "6": "04@2x.png",
-                    "7": "05@2x.png",
-                    "8": "06@2x.png",
-                    "9": "07@2x.png",
-                    "10": "08@2x.png",
-                    "11": "hidden"
+                    "2": "01@2x.png",
+                    "3": "02@2x.png",
+                    "4": "03@2x.png",
+                    "5": "04@2x.png",
+                    "6": "05@2x.png",
+                    "7": "06@2x.png",
+                    "8": "07@2x.png",
+                    "9": "08@2x.png",
+                    "10": "hidden"
                 }
             }
         },
@@ -4110,13 +4131,13 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Face_Mask_Holder.3mf",
                     "3": "Face_Mask_Holder.stl"
                 },
                 "screenshots": {
-                    "3": "IMG_2683@2x.jpg"
+                    "2": "IMG_2683@2x.jpg"
                 }
             }
         },
@@ -4178,11 +4199,11 @@
                 "tags": []
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "001\u2013A \u2013 2024-09-12@2x.jpg",
-                    "4": "002 \u2013 2024-09-11@2x.jpg",
-                    "5": "003 \u2013 2024-09-13@2x.jpg"
+                    "2": "001\u2013A \u2013 2024-09-12@2x.jpg",
+                    "3": "002 \u2013 2024-09-11@2x.jpg",
+                    "4": "003 \u2013 2024-09-13@2x.jpg"
                 }
             }
         },
@@ -5920,7 +5941,7 @@
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "Demo@2x.mp4"
                 }
@@ -6094,7 +6115,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "demo@2x.mp4"
                 }
@@ -6140,7 +6161,7 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "HBD_ZST.stl"
                 },
@@ -6241,18 +6262,18 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "HDMI_Wall_Plate.3mf",
                     "3": "HDMI_Wall_Plate.scad",
                     "4": "HDMI_Wall_Plate.stl"
                 },
                 "screenshots": {
-                    "3": "1@2x.jpg",
-                    "4": "2@2x.jpg",
-                    "5": "2@2x.png",
-                    "6": "3@2x.png",
-                    "7": "4@2x.png"
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.jpg",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png",
+                    "6": "4@2x.png"
                 }
             }
         },
@@ -6798,7 +6819,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "video@2x.mp4"
                 }
@@ -8067,7 +8088,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "screenshot@2x.png"
                 }
@@ -8107,7 +8128,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "1-Simulator Screenshot - iPhone 16 Pro - 2025-04-07 at 13.07.40@2x.png"
                 }
@@ -8639,15 +8660,15 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1-world-airports@2x.png",
-                    "4": "2-world-cities@2x.png",
-                    "5": "3-us-cities@2x.png",
-                    "6": "4-nyc-streets@2x.png",
-                    "7": "5-nyc-old-streets@2x.png",
-                    "8": "6-nyc-traffic@2x.png",
-                    "9": "7-japan@2x.png"
+                    "2": "1-world-airports@2x.png",
+                    "3": "2-world-cities@2x.png",
+                    "4": "3-us-cities@2x.png",
+                    "5": "4-nyc-streets@2x.png",
+                    "6": "5-nyc-old-streets@2x.png",
+                    "7": "6-nyc-traffic@2x.png",
+                    "8": "7-japan@2x.png"
                 }
             }
         },
@@ -8692,9 +8713,9 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "CleanShot 2025-04-18 at 00.06.29@2x.mp4"
+                    "2": "CleanShot 2025-04-18 at 00.06.29@2x.mp4"
                 }
             }
         },
@@ -8735,9 +8756,9 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "0-anthropic--code.txt",
-                    "4": "1-openai--code.txt",
-                    "5": "2-google--code.txt"
+                    "2": "0-anthropic--code.txt",
+                    "3": "1-openai--code.txt",
+                    "4": "2-google--code.txt"
                 }
             }
         },
@@ -9922,13 +9943,13 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1-demo.mp4",
-                    "4": "2-IMG_1796@2x.jpg",
-                    "5": "3-CleanShot 2025-03-11 at 17.03.33-compressed.mp4",
-                    "6": "4-screenshot@2x.png",
-                    "7": "hidden"
+                    "2": "1-demo.mp4",
+                    "3": "2-IMG_1796@2x.jpg",
+                    "4": "3-CleanShot 2025-03-11 at 17.03.33-compressed.mp4",
+                    "5": "4-screenshot@2x.png",
+                    "6": "hidden"
                 }
             }
         },
@@ -10319,12 +10340,12 @@
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "00-demo@2x.mp4",
-                    "4": "01@2x.png",
-                    "5": "03@2x.png",
-                    "6": "hidden"
+                    "2": "00-demo@2x.mp4",
+                    "3": "01@2x.png",
+                    "4": "03@2x.png",
+                    "5": "hidden"
                 }
             }
         },
@@ -12125,12 +12146,12 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
-                "6": "share-image.png",
+                "2": "longDescription.txt",
+                "5": "share-image.png",
                 "screenshots": {
-                    "3": "00@2x.mp4",
-                    "4": "01@2x.png",
-                    "5": "02@2x.png"
+                    "2": "00@2x.mp4",
+                    "3": "01@2x.png",
+                    "4": "02@2x.png"
                 }
             }
         },
@@ -12169,9 +12190,9 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "IMG_0505@2x.mp4"
+                    "2": "IMG_0505@2x.mp4"
                 }
             }
         },
@@ -12255,11 +12276,11 @@
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "2-IMG_1749@2x.jpg",
-                    "4": "3-IMG_2850@2x.jpg",
-                    "5": "4-demo@2x.mp4"
+                    "2": "2-IMG_1749@2x.jpg",
+                    "3": "3-IMG_2850@2x.jpg",
+                    "4": "4-demo@2x.mp4"
                 }
             }
         },
@@ -12662,7 +12683,7 @@
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "demo@2x.mp4"
                 }
@@ -12742,11 +12763,11 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "0-IMG_0255@2x.jpg",
-                    "4": "2-Screenshot 2025-04-07 at 12.51.49\u202fPM@2x.png",
-                    "5": "3-CleanShot 2025-04-07 at 13.03.08@2x.png"
+                    "2": "0-IMG_0255@2x.jpg",
+                    "3": "2-Screenshot 2025-04-07 at 12.51.49\u202fPM@2x.png",
+                    "4": "3-CleanShot 2025-04-07 at 13.03.08@2x.png"
                 }
             }
         },
@@ -13158,19 +13179,19 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
-                "6": "share-image.png",
+                "2": "longDescription.txt",
+                "5": "share-image.png",
                 "screenshots": {
-                    "3": "0-slide@2x.png",
-                    "4": "1-initiator@2x.png",
-                    "5": "2-initiator@2x.png",
-                    "6": "3-initiator@2x.png",
-                    "7": "4-initiator@2x.png",
-                    "8": "5-initiator@2x.png",
-                    "9": "6-initiator@2x.png",
-                    "10": "7-slide@2x.png",
-                    "11": "8-participant@2x.png",
-                    "12": "9-participant@2x.png"
+                    "2": "0-slide@2x.png",
+                    "3": "1-initiator@2x.png",
+                    "4": "2-initiator@2x.png",
+                    "5": "3-initiator@2x.png",
+                    "6": "4-initiator@2x.png",
+                    "7": "5-initiator@2x.png",
+                    "8": "6-initiator@2x.png",
+                    "9": "7-slide@2x.png",
+                    "10": "8-participant@2x.png",
+                    "11": "9-participant@2x.png"
                 }
             }
         },
@@ -13370,7 +13391,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "0-un-building--code.txt",
                     "3": "empire-state-building--code.txt"
@@ -13438,16 +13459,16 @@
                 }
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Sound_Machine_Faceplate.stl",
                     "3": "Sound_Machine_Frame.stl"
                 },
                 "screenshots": {
-                    "3": "0-demo--play-audio.mp4",
-                    "4": "IMG_4170@2x.jpg",
-                    "5": "IMG_4178@2x.jpg",
-                    "6": "IMG_4180@2x.jpg"
+                    "2": "0-demo--play-audio.mp4",
+                    "3": "IMG_4170@2x.jpg",
+                    "4": "IMG_4178@2x.jpg",
+                    "5": "IMG_4180@2x.jpg"
                 }
             }
         },
@@ -13501,9 +13522,9 @@
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1-video--play-audio--size=443x960.mp4"
+                    "2": "1-video--play-audio--size=443x960.mp4"
                 }
             }
         },
@@ -13556,14 +13577,14 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1@2x.mp4",
-                    "4": "2--play-audio.mp4",
-                    "5": "3@2x.png",
-                    "6": "4@2x.png",
-                    "7": "5@2x.png",
-                    "8": "6@2x.mp4"
+                    "2": "1@2x.mp4",
+                    "3": "2--play-audio.mp4",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.png",
+                    "7": "6@2x.mp4"
                 }
             }
         },
@@ -13790,7 +13811,7 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "mobile@2x.png"
+                    "2": "mobile@2x.png"
                 }
             }
         },
@@ -13943,7 +13964,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.png",
                     "3": "2@2x.png",
@@ -13983,9 +14004,9 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1@2x.png",
-                    "4": "2@2x.png",
-                    "5": "3@2x.png"
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png"
                 }
             }
         },
@@ -14279,18 +14300,18 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1@2x.png",
-                    "4": "2@2x.png",
-                    "5": "3@2x.png",
-                    "6": "4@2x.png",
-                    "7": "5@2x.png",
-                    "8": "6@2x.png",
-                    "9": "7@2x.png",
-                    "10": "8@2x.png",
-                    "11": "demo@2x.mp4",
-                    "12": "hidden"
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.png",
+                    "7": "6@2x.png",
+                    "8": "7@2x.png",
+                    "9": "8@2x.png",
+                    "10": "demo@2x.mp4",
+                    "11": "hidden"
                 }
             }
         },
@@ -15340,9 +15361,9 @@
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "demo@2x-compressed.mp4"
+                    "2": "demo@2x-compressed.mp4"
                 }
             }
         },
@@ -15600,15 +15621,15 @@
                 }
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "This_or_That_Machine.xcs"
                 },
                 "screenshots": {
-                    "3": "0-IMG_3621-compressed.mp4",
-                    "4": "1-IMG_3678@2x.jpg",
-                    "5": "2-IMG_3660@2x.jpg",
-                    "6": "3-IMG_3636@2x.jpg"
+                    "2": "0-IMG_3621-compressed.mp4",
+                    "3": "1-IMG_3678@2x.jpg",
+                    "4": "2-IMG_3660@2x.jpg",
+                    "5": "3-IMG_3636@2x.jpg"
                 }
             }
         },
@@ -15646,7 +15667,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.png",
                     "3": "2@2x.png",
@@ -15696,7 +15717,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "This or That Machine Votes Viewer \u2013 Compressed.mp4",
                     "3": "this-or-that-machine-votes-viewer.leo.gd_@2x.png"
@@ -15952,15 +15973,15 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1@2x.png",
-                    "4": "2@2x.png",
-                    "5": "3@2x.png",
-                    "6": "4@2x.png",
-                    "7": "5@2x.png",
-                    "8": "6@2x.png",
-                    "9": "hidden"
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.png",
+                    "7": "6@2x.png",
+                    "8": "hidden"
                 }
             }
         },
@@ -16415,12 +16436,12 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1@2x.png",
-                    "4": "2@2x.png",
-                    "5": "3@2x.png",
-                    "6": "hidden"
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "hidden"
                 }
             }
         },
