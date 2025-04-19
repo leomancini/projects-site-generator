@@ -8056,6 +8056,48 @@
         },
         {
             "directory": {
+                "id": "kiosk-config-editor"
+            },
+            "manifest": {
+                "name": "Kiosk Config Editor",
+                "shortDescription": "Interface for editing list of URLs",
+                "startDate": {
+                    "string": "April 19, 2025",
+                    "timestamp": {
+                        "raw": 1745020800,
+                        "formatted": "April 2025",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-client\/blob\/main\/src\/pages\/Config.js"
+                    }
+                ],
+                "tags": [
+                    "fcc",
+                    "kiosk",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "CleanShot 2025-04-19 at 12.05.29@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "kiosk-remote-control-mac"
             },
             "manifest": {
@@ -8084,6 +8126,7 @@
                 ],
                 "tags": [
                     "fcc",
+                    "kiosk",
                     "github"
                 ]
             },
@@ -8091,6 +8134,48 @@
                 "2": "longDescription.txt",
                 "screenshots": {
                     "2": "screenshot@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "kiosk-remote-control-voice"
+            },
+            "manifest": {
+                "name": "Kiosk Remote Control Voice",
+                "shortDescription": "Switch content using voice commands",
+                "startDate": {
+                    "string": "April 18, 2025",
+                    "timestamp": {
+                        "raw": 1744934400,
+                        "formatted": "April 2025",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-remote-control-voice\/blob\/main\/update-homebridge-config.sh"
+                    }
+                ],
+                "tags": [
+                    "fcc",
+                    "kiosk",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "IMG_4374--play-audio.mp4"
                 }
             }
         },
@@ -8119,11 +8204,12 @@
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-client\/blob\/main\/src\/RemoteControl.tsx"
+                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-client\/blob\/main\/src\/pages\/RemoteControl.js"
                     }
                 ],
                 "tags": [
                     "fcc",
+                    "kiosk",
                     "github"
                 ]
             },
@@ -12260,7 +12346,7 @@
                         "type": "github",
                         "label": "View Client Source",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-client\/blob\/main\/src\/Display.tsx"
+                        "url": "https:\/\/github.com\/fcc-lol\/kiosk-client\/blob\/main\/src\/pages\/Display.js"
                     },
                     {
                         "type": "github",
@@ -12271,8 +12357,9 @@
                 ],
                 "tags": {
                     "0": "fcc",
-                    "1": "github",
-                    "3": "video"
+                    "1": "kiosk",
+                    "2": "github",
+                    "4": "video"
                 }
             },
             "files": {
