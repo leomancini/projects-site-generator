@@ -1,16 +1,16 @@
-@mobile: ~'only screen and (max-width: 667px)';
-@desktop: ~'only screen and (min-width: 668px)';
+@mobile: ~"only screen and (max-width: 667px)";
+@desktop: ~"only screen and (min-width: 668px)";
 
 * {
-	-webkit-font-smoothing: antialiased;
-	font-family: 'Helvetica Neue', 'Helvetica', 'Lucida Grande', 'Arial';
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	letter-spacing: 0px;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", "Helvetica", "Lucida Grande", "Arial";
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  letter-spacing: 0px;
 }
 
 @black: rgba(0, 0, 0, 1);
-@dark-gray: #2E2E2E;
-@darker-gray:#1A1A1A;
+@dark-gray: #2e2e2e;
+@darker-gray: #1a1a1a;
 @white: rgba(255, 255, 255, 1);
 
 @font-size-small: 16px;
@@ -18,30 +18,30 @@
 @font-size-large: 24px;
 
 ::selection {
-	@media (prefers-color-scheme: dark) {
-		color: @dark-gray;
-		background: @white;
-	}
+  @media (prefers-color-scheme: dark) {
+    color: @dark-gray;
+    background: @white;
+  }
 
-	color: @white;
-	background: @dark-gray;
+  color: @white;
+  background: @dark-gray;
 }
 
 html {
-	@media (prefers-color-scheme: dark) {
-		background: @darker-gray;
-	}
+  @media (prefers-color-scheme: dark) {
+    background: @darker-gray;
+  }
 
-	@media @mobile {
-		@media (prefers-color-scheme: dark) {
-			background: @black;
-		}
-	}
+  @media @mobile {
+    @media (prefers-color-scheme: dark) {
+      background: @black;
+    }
+  }
 
-	margin: 0;
-	background: @white;
+  margin: 0;
+  background: @white;
 }
 
 body {
-	margin: 0;
+  margin: 0;
 }
