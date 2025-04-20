@@ -9,9 +9,11 @@ RewriteCond %{HTTP_HOST} ^projects\.leo\.gd [NC]
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://projects.leo.gd/$1 [R,L]
 
+# Skip rewrite for manifest.json
+RewriteRule ^manifest\.json$ - [L]
+
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
-
 RewriteRule ^(.*)$ site/controllers/routeProjectUrl.php?url=$1 [L]
 RewriteRule ^$ site/views/ [L]
 
