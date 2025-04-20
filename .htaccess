@@ -11,7 +11,7 @@ RewriteRule ^(.*)$ https://projects.leo.gd/$1 [R,L]
 
 # Skip rewrite for manifest.json and favicon/icon files
 RewriteRule ^site/manifest\.json$ - [L]
-RewriteRule ^site/resources/images/(favicon|android-chrome).*\.(png|ico)$ - [L]
+RewriteRule ^site/resources/images/(favicon|android-chrome).*(-light|-dark)?\.(png|ico)$ - [L]
 
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
