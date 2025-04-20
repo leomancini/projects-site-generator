@@ -11,7 +11,7 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="resources/images/favicon-16.png">
 		<link rel="apple-touch-icon" sizes="180x180" href="resources/images/apple-touch-icon.png">
 		<link rel="mask-icon" href="resources/images/safari-pinned-tab.svg" color="#000000">
-		<link rel="manifest" href="resources/manifest.json">
+		<link rel="manifest" href="/manifest.json">
 		<link rel='stylesheet/less' href='site/resources/css/index.less<?php if ($config['debug'] === true) { echo '?hash='.rand(0, 9999); } ?>'>
 		<script src='site/resources/js/lib/less.js'></script>
 		<script src='site/resources/js/lib/jquery.js'></script>
