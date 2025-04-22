@@ -2,7 +2,7 @@
   include('../controllers/base.php');
 
 	$config = loadConfig();
-	$iconVersion = '34697435983';
+	$iconVersion = '34697435945';
 ?>
 <!DOCTYPE HTML>
 <html>
