@@ -11,7 +11,7 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="site/resources/images/favicon-32-dark.png" media="(prefers-color-scheme: dark)">
 		<link rel="icon" type="image/png" sizes="16x16" href="site/resources/images/favicon-16-light.png" media="(prefers-color-scheme: light)">
 		<link rel="icon" type="image/png" sizes="16x16" href="site/resources/images/favicon-16-dark.png" media="(prefers-color-scheme: dark)">
-		<link rel="apple-touch-icon" sizes="180x180" href="site/resources/images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="site/resources/images/apple-touch-icon.png?v=04212025">
 		<link rel="mask-icon" href="site/resources/images/safari-pinned-tab.svg" color="#000000">
 		<link rel="manifest" href="site/manifest.json">
 		<link rel='stylesheet/less' href='site/resources/css/index.less<?php if ($config['debug'] === true) { echo '?hash='.rand(0, 9999); } ?>'>
