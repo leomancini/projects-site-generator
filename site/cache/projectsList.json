@@ -9686,7 +9686,7 @@
             },
             "manifest": {
                 "name": "NFC Tag Holder",
-                "shortDescription": "Tag holder with space for label",
+                "shortDescription": "Generic enclosure with space for label",
                 "startDate": {
                     "string": "April 23, 2025",
                     "timestamp": {
