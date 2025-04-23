@@ -9682,10 +9682,10 @@
         },
         {
             "directory": {
-                "id": "nfc-tag-enclosure"
+                "id": "nfc-tag-holder"
             },
             "manifest": {
-                "name": "NFC Tag Enclosure",
+                "name": "NFC Tag Holder",
                 "shortDescription": "Tag holder with space for label",
                 "startDate": {
                     "string": "April 23, 2025",
@@ -9705,13 +9705,13 @@
                         "type": "download",
                         "label": "Download STL File",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "\/projects\/nfc-tag-enclosure\/downloads\/NFC_Tag_Enclosure.stl"
+                        "url": "\/projects\/nfc-tag-holder\/downloads\/NFC_Tag_Enclosure.stl"
                     },
                     {
                         "type": "download",
                         "label": "Download XCS File",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "\/projects\/nfc-tag-enclosure\/downloads\/NFC_Tag_Enclosure.xcs"
+                        "url": "\/projects\/nfc-tag-holder\/downloads\/NFC_Tag_Enclosure.xcs"
                     }
                 ],
                 "tags": [
