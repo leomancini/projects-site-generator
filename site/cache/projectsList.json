@@ -3146,6 +3146,18 @@
                         "label": "Download Frame 3MF File",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/crochet-frame\/downloads\/Crochet_Frame.3mf"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Firmware Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/azlm-crochet-frame-firmware"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/azlm-crochet-frame-server"
                     }
                 ],
                 "credits": [
@@ -3156,7 +3168,8 @@
                 ],
                 "tags": {
                     "0": "3D",
-                    "2": "video"
+                    "2": "github",
+                    "4": "video"
                 }
             },
             "files": {
@@ -9780,7 +9793,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "NFC_Tag_Enclosure.3mf",
                     "3": "NFC_Tag_Enclosure.stl"
