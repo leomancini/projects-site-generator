@@ -271,12 +271,12 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "3": "1-demo--play-audio.mp4",
-                    "4": "2@2x.jpg",
-                    "5": "3@2x.jpg",
-                    "6": "4@2x.jpg"
+                    "2": "1-demo--play-audio.mp4",
+                    "3": "2@2x.jpg",
+                    "4": "3@2x.jpg",
+                    "5": "4@2x.jpg"
                 }
             }
         },
@@ -314,13 +314,13 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "0-demo@2x.mp4",
-                    "3": "1@2x.png",
-                    "4": "2@2x.png",
-                    "5": "3@2x.png",
-                    "6": "4@2x.png"
+                    "3": "0-demo@2x.mp4",
+                    "4": "1@2x.png",
+                    "5": "2@2x.png",
+                    "6": "3@2x.png",
+                    "7": "4@2x.png"
                 }
             }
         },
@@ -1024,7 +1024,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "1-video--play-audio--size=443.mp4",
                     "3": "2-video--play-audio--size=443.mp4"
@@ -1900,7 +1900,7 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Byt_Hardware.3mf",
                     "3": "Byt_Hardware.stl"
@@ -1955,7 +1955,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "01@2x.png",
                     "3": "02@2x.png",
@@ -3260,18 +3260,18 @@
                 }
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Crochet_Frame.3mf",
                     "3": "Crochet_Frame.stl"
                 },
                 "screenshots": {
-                    "3": "01@2x.jpg",
-                    "4": "02.mp4",
-                    "5": "03@2x.jpg",
-                    "6": "04@2x.jpg",
-                    "7": "05@2x.jpg",
-                    "8": "06@2x.jpg"
+                    "2": "01@2x.jpg",
+                    "3": "02.mp4",
+                    "4": "03@2x.jpg",
+                    "5": "04@2x.jpg",
+                    "6": "05@2x.jpg",
+                    "7": "06@2x.jpg"
                 }
             }
         },
@@ -3315,17 +3315,17 @@
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "00-video@2x.mp4",
-                    "4": "01@2x.PNG",
-                    "5": "02@2x.PNG",
-                    "6": "03@2x.PNG",
-                    "7": "04@2x.PNG",
-                    "8": "05@2x.PNG",
-                    "9": "06@2x.PNG",
-                    "10": "07@2x.PNG",
-                    "11": "08@2x.PNG"
+                    "2": "00-video@2x.mp4",
+                    "3": "01@2x.PNG",
+                    "4": "02@2x.PNG",
+                    "5": "03@2x.PNG",
+                    "6": "04@2x.PNG",
+                    "7": "05@2x.PNG",
+                    "8": "06@2x.PNG",
+                    "9": "07@2x.PNG",
+                    "10": "08@2x.PNG"
                 }
             }
         },
@@ -4346,7 +4346,7 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Face_Mask_Holder.3mf",
                     "3": "Face_Mask_Holder.stl"
@@ -6330,7 +6330,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "demo@2x.mp4"
                 }
@@ -6376,7 +6376,7 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "HBD_ZST.stl"
                 },
@@ -6477,7 +6477,7 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "HDMI_Wall_Plate.3mf",
                     "3": "HDMI_Wall_Plate.scad",
@@ -8305,9 +8305,9 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "CleanShot 2025-04-19 at 12.32.09@2x.mp4"
+                    "2": "CleanShot 2025-04-19 at 12.32.09@2x.mp4"
                 }
             }
         },
@@ -8388,7 +8388,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "IMG_4374--play-audio.mp4"
                 }
@@ -8961,7 +8961,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "1-world-airports@2x.png",
                     "3": "2-world-cities@2x.png",
@@ -9014,9 +9014,9 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "CleanShot 2025-04-20 at 22.55.12@2x.mp4"
+                    "2": "CleanShot 2025-04-20 at 22.55.12@2x.mp4"
                 }
             }
         },
@@ -9278,6 +9278,39 @@
                 "2": "longDescription.txt",
                 "screenshots": {
                     "2": "32.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "macintosh-plus-refurb"
+            },
+            "manifest": {
+                "name": "Macintosh Plus Refurb",
+                "shortDescription": "Vintage case with modern internals",
+                "startDate": {
+                    "string": "May 3, 2025",
+                    "timestamp": {
+                        "raw": 1746230400,
+                        "formatted": "May 2025",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [],
+                "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.jpeg",
+                    "3": "2@2x.jpeg",
+                    "4": "3@2x.jpeg",
+                    "5": "4@2x.jpeg"
                 }
             }
         },
@@ -9940,11 +9973,11 @@
                     "3": "NFC_Tag_Enclosure.stl"
                 },
                 "screenshots": {
-                    "2": "01.jpg",
-                    "3": "02.jpg",
-                    "4": "03.jpg",
-                    "5": "04.jpg",
-                    "6": "hidden"
+                    "3": "01.jpg",
+                    "4": "02.jpg",
+                    "5": "03.jpg",
+                    "6": "04.jpg",
+                    "7": "hidden"
                 }
             }
         },
@@ -12500,8 +12533,8 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
-                "6": "share-image.png",
+                "2": "longDescription.txt",
+                "5": "share-image.png",
                 "screenshots": {
                     "2": "00@2x.mp4",
                     "3": "01@2x.png",
@@ -12631,7 +12664,7 @@
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "2-IMG_1749@2x.jpg",
                     "3": "3-IMG_2850@2x.jpg",
@@ -13118,7 +13151,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "0-IMG_0255@2x.jpg",
                     "3": "2-Screenshot 2025-04-07 at 12.51.49\u202fPM@2x.png",
@@ -13534,8 +13567,8 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
-                "6": "share-image.png",
+                "2": "longDescription.txt",
+                "5": "share-image.png",
                 "screenshots": {
                     "2": "0-slide@2x.png",
                     "3": "1-initiator@2x.png",
@@ -13814,7 +13847,7 @@
                 }
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Sound_Machine_Faceplate.stl",
                     "3": "Sound_Machine_Frame.stl"
@@ -13877,7 +13910,7 @@
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "1-video--play-audio--size=443x960.mp4"
                 }
@@ -13932,7 +13965,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.mp4",
                     "3": "2--play-audio.mp4",
@@ -15976,7 +16009,7 @@
                 }
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "This_or_That_Machine.xcs"
                 },
@@ -16022,22 +16055,22 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "00@2x.png",
-                    "4": "01@2x.png",
-                    "5": "02@2x.png",
-                    "6": "03@2x.png",
-                    "7": "04@2x.png",
-                    "8": "05@2x.png",
-                    "9": "06@2x.png",
-                    "10": "07@2x.png",
-                    "11": "08@2x.png",
-                    "12": "09@2x.png",
-                    "13": "10@2x.png",
-                    "14": "11@2x.png",
-                    "15": "12@2x.png",
-                    "16": "13@2x.png"
+                    "2": "00@2x.png",
+                    "3": "01@2x.png",
+                    "4": "02@2x.png",
+                    "5": "03@2x.png",
+                    "6": "04@2x.png",
+                    "7": "05@2x.png",
+                    "8": "06@2x.png",
+                    "9": "07@2x.png",
+                    "10": "08@2x.png",
+                    "11": "09@2x.png",
+                    "12": "10@2x.png",
+                    "13": "11@2x.png",
+                    "14": "12@2x.png",
+                    "15": "13@2x.png"
                 }
             }
         },
@@ -16932,7 +16965,7 @@
                 "tags": []
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Leo_Mancini_Web_Developer_Icons.zip"
                 },
