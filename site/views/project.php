@@ -122,7 +122,7 @@
                             $imageClassesString = implode(' ', $imageClasses);
 
                             if ($screenshotFileName !== 'hidden') {
-                                if(stringContains(strtolower($screenshotFileName), '.png') || stringContains(strtolower($screenshotFileName), '.jpg') || stringContains(strtolower($screenshotFileName), '.gif')) {
+                                if(stringContains(strtolower($screenshotFileName), '.png') || stringContains(strtolower($screenshotFileName), '.jpg') || stringContains(strtolower($screenshotFileName), '.jpeg') || stringContains(strtolower($screenshotFileName), '.gif')) {
                                     echo "<img src='projects/$projectDirectoryId/screenshots/$screenshotFileName' class='$imageClassesString' style='$sizeOverride'>";
                                 } else if(stringContains(strtolower($screenshotFileName), '.mov') || stringContains(strtolower($screenshotFileName), '.mp4')) {
                                     if (stringContains(strtolower($screenshotFileName), '--play-audio')) {

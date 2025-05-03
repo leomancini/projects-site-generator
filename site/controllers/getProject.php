@@ -32,11 +32,16 @@
 
         if (file_exists($shareImagePath)) {
             return "https://leomancini.net/projects/".$projectDirectoryId."/share-image.png";
-        } else if ($projectFiles['screenshots'] && reset($projectFiles['screenshots'])) {
-            return "https://leomancini.net/projects/".$projectDirectoryId."/screenshots/".reset($projectFiles['screenshots']);
-        } else {
-            return false;
+        } else if ($projectFiles['screenshots']) {
+            $imageExtensions = ['png', 'jpg', 'jpeg', 'gif', 'webp'];
+            foreach ($projectFiles['screenshots'] as $screenshot) {
+                $extension = strtolower(pathinfo($screenshot, PATHINFO_EXTENSION));
+                if (in_array($extension, $imageExtensions)) {
+                    return "https://leomancini.net/projects/".$projectDirectoryId."/screenshots/".$screenshot;
+                }
+            }
         }
+        return false;
     }
 
     function getIconForLink($link) {
