@@ -14,6 +14,13 @@
 <html>
 	<head>
         <title>Leo Mancini &ndash; <?php echo $projectManifest['name']; ?></title>
+        <link rel="icon" type="image/png" sizes="32x32" href="site/resources/images/favicon-32-light.png?v=<?php echo $iconVersion; ?>" media="(prefers-color-scheme: light)">
+		<link rel="icon" type="image/png" sizes="32x32" href="site/resources/images/favicon-32-dark.png?v=<?php echo $iconVersion; ?>" media="(prefers-color-scheme: dark)">
+		<link rel="icon" type="image/png" sizes="16x16" href="site/resources/images/favicon-16-light.png?v=<?php echo $iconVersion; ?>" media="(prefers-color-scheme: light)">
+		<link rel="icon" type="image/png" sizes="16x16" href="site/resources/images/favicon-16-dark.png?v=<?php echo $iconVersion; ?>" media="(prefers-color-scheme: dark)">
+		<link rel="apple-touch-icon" sizes="180x180" href="site/resources/images/apple-touch-icon.png?v=<?php echo $iconVersion; ?>">
+		<link rel="mask-icon" href="site/resources/images/safari-pinned-tab.svg?v=<?php echo $iconVersion; ?>" color="#000000">
+		<link rel="manifest" href="site/manifest.json">
         <link rel='stylesheet/less' href='site/resources/css/project.less<?php if ($config['debug'] === true) { echo '?hash='.rand(0, 9999); } ?>'>
         <script src='site/resources/js/lib/less.js'></script>
         <script src='site/resources/js/lib/jquery.js'></script>
