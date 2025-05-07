@@ -84,10 +84,10 @@
         $outputText = nl2br($inputText);
         
         // First handle code blocks
-        $outputText = preg_replace('~\[code="(.*?)"\]~', '<code>$1</code>', $outputText);
+        $outputText = preg_replace('~\[code="(.*?)"\]~', '<span class="customFormatting code">$1</span>', $outputText);
         
         // Then handle links
-        $outputText = preg_replace('~\[link="(.*?)" (.*?)\]~', '<a href="$1" target="_blank" rel="noopener">$2</a>', $outputText);
+        $outputText = preg_replace('~\[link="(.*?)" (.*?)\]~', '<a href="$1" target="_blank" rel="noopener"><span class="customFormatting link">$2</span></a>', $outputText);
         
         // Finally handle any remaining custom formatting
         $outputText = preg_replace('~\[(.*?)="(.*?)"\]~', '<span class="customFormatting $1">$2</span>', $outputText);
