@@ -11897,6 +11897,309 @@
         },
         {
             "directory": {
+                "id": "play-machine"
+            },
+            "manifest": {
+                "name": "Play Machine",
+                "shortDescription": "Experimental device for playing with software",
+                "startDate": {
+                    "string": "June 7, 2025",
+                    "timestamp": {
+                        "raw": 1749254400,
+                        "formatted": "June 2025",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "other",
+                        "label": "View Operating System",
+                        "icon": "settings",
+                        "url": "https:\/\/leomancini.net\/play-machine-os"
+                    },
+                    {
+                        "type": "other",
+                        "label": "View Apps",
+                        "icon": "apps",
+                        "url": "https:\/\/leomancini.net\/play-machine-apps"
+                    },
+                    {
+                        "type": "other",
+                        "label": "View Hardware",
+                        "icon": "memory",
+                        "url": "https:\/\/leomancini.net\/play-machine-hardware"
+                    },
+                    {
+                        "type": "other",
+                        "label": "View Server",
+                        "icon": "cloud",
+                        "url": "https:\/\/leomancini.net\/play-machine-server"
+                    },
+                    {
+                        "type": "other",
+                        "label": "View Companion App",
+                        "icon": "phone_iphone",
+                        "url": "https:\/\/leomancini.net\/play-machine-companion-app"
+                    },
+                    {
+                        "type": "other",
+                        "label": "View Remote Control",
+                        "icon": "settings_remote",
+                        "url": "https:\/\/leomancini.net\/play-machine-remote-control"
+                    }
+                ],
+                "tags": [
+                    "play-machine"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
+                "id": "play-machine-apps"
+            },
+            "manifest": {
+                "name": "Play Machine Apps",
+                "shortDescription": "Series of visualizations and utilities",
+                "startDate": {
+                    "string": "June 6, 2025",
+                    "timestamp": {
+                        "raw": 1749168000,
+                        "formatted": "June 2025",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/play-machine-os\/tree\/main\/src\/components\/Apps"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "visualizers"
+                    }
+                ],
+                "tags": [
+                    "play-machine",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "001-Circle Visualizer.mp4",
+                    "4": "002-Population Map.mp4",
+                    "5": "003-Wave Visualizer.mp4",
+                    "6": "004-Rain Machine.mp4",
+                    "7": "005-Cell Machine.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "play-machine-companion-app"
+            },
+            "manifest": {
+                "name": "Play Machine Companion App",
+                "shortDescription": "Save and load sets of inputs to the Play Machine",
+                "startDate": {
+                    "string": "June 2, 2025",
+                    "timestamp": {
+                        "raw": 1748822400,
+                        "formatted": "June 2025",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/play-machine-companion-app"
+                    }
+                ],
+                "tags": [
+                    "play-machine",
+                    "github"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
+                "id": "play-machine-hardware"
+            },
+            "manifest": {
+                "name": "Play Machine Hardware",
+                "shortDescription": "Device controlled with knobs, sliders, and buttons",
+                "startDate": {
+                    "string": "June 4, 2025",
+                    "timestamp": {
+                        "raw": 1748995200,
+                        "formatted": "June 2025",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download XCS File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/play-machine\/downloads\/Play_Machine.xcs"
+                    }
+                ],
+                "tags": [
+                    "play-machine"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Play_Machine.xcs"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "play-machine-os"
+            },
+            "manifest": {
+                "name": "Play Machine Operating System",
+                "shortDescription": "Platform for navigating between apps and processing input data",
+                "startDate": {
+                    "string": "June 5, 2025",
+                    "timestamp": {
+                        "raw": 1749081600,
+                        "formatted": "June 2025",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/play-machine-os"
+                    }
+                ],
+                "tags": [
+                    "play-machine",
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
+                "id": "play-machine-remote-control"
+            },
+            "manifest": {
+                "name": "Play Machine Remote Control",
+                "shortDescription": "Send inputs wirelessly to the Play Machine",
+                "startDate": {
+                    "string": "June 1, 2025",
+                    "timestamp": {
+                        "raw": 1748736000,
+                        "formatted": "June 2025",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "3D modeling"
+                    }
+                ],
+                "tags": [
+                    "play-machine"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
+                "id": "play-machine-server"
+            },
+            "manifest": {
+                "name": "Play Machine Server",
+                "shortDescription": "Connecting the Play Machine, companion app, and remote control",
+                "startDate": {
+                    "string": "June 3, 2025",
+                    "timestamp": {
+                        "raw": 1748908800,
+                        "formatted": "June 2025",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/play-machine-server"
+                    }
+                ],
+                "tags": [
+                    "play-machine",
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
                 "id": "podcast-manager"
             },
             "manifest": {
