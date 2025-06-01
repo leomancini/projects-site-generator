@@ -11936,6 +11936,12 @@
                     },
                     {
                         "type": "other",
+                        "label": "View Simulator",
+                        "icon": "mouse",
+                        "url": "https:\/\/leomancini.net\/play-machine-simulator"
+                    },
+                    {
+                        "type": "other",
                         "label": "View Server",
                         "icon": "cloud",
                         "url": "https:\/\/leomancini.net\/play-machine-server"
