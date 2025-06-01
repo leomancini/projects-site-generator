@@ -12082,10 +12082,17 @@
                         "label": "Download XCS File",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/play-machine\/downloads\/Play_Machine.xcs"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Input Processing Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/play-machine-hardware-controllers"
                     }
                 ],
                 "tags": [
-                    "play-machine"
+                    "play-machine",
+                    "github"
                 ]
             },
             "files": {
