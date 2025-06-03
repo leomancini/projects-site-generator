@@ -11959,12 +11959,24 @@
                         "url": "https:\/\/leomancini.net\/play-machine-remote-control"
                     }
                 ],
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "visualizers"
+                    }
+                ],
                 "tags": [
-                    "play-machine"
+                    "play-machine",
+                    "video"
                 ]
             },
             "files": {
-                "2": "longDescription.txt"
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "001-Circle Visualizer.mp4",
+                    "4": "002-Loading Presets.mp4"
+                }
             }
         },
         {
