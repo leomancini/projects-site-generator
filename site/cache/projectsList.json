@@ -12204,7 +12204,7 @@
             },
             "manifest": {
                 "name": "Play Machine Server",
-                "shortDescription": "Connecting the Play Machine, companion app, and remote control",
+                "shortDescription": "Connects the Play Machine, companion app, and remote control",
                 "startDate": {
                     "string": "June 3, 2025",
                     "timestamp": {
