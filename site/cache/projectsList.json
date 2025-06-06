@@ -12032,8 +12032,11 @@
             "files": {
                 "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "001-Circle Visualizer.mp4",
-                    "3": "002-Loading Presets.mp4"
+                    "3": "001@2x.jpeg",
+                    "4": "002-Circle Visualizer.mp4",
+                    "5": "003-Loading Presets.mp4",
+                    "6": "004@2x.jpeg",
+                    "7": "005@2x.jpeg"
                 }
             }
         },
