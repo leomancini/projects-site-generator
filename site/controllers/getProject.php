@@ -156,11 +156,16 @@
         }
 
         // If any video or audio files are attached to project, automatically add tags
-        foreach($projectFiles['screenshots'] as $screenshotFileName) {
-            if (stringContains($screenshotFileName, 'mov') || stringContains($screenshotFileName, 'mp4')) { 
-                array_push($tags, 'video');
-            } else if (stringContains($screenshotFileName, 'mp3') || stringContains($screenshotFileName, 'm4a')) { 
-                array_push($tags, 'audio');
+        if(array_key_exists('screenshots', $projectFiles) && $projectFiles['screenshots']) {
+            foreach($projectFiles['screenshots'] as $screenshotFileName) {
+                if (stringContains($screenshotFileName, 'mov') || stringContains($screenshotFileName, 'mp4')) { 
+                    array_push($tags, 'video');
+                } else if (stringContains($screenshotFileName, 'mp3') || stringContains($screenshotFileName, 'm4a')) { 
+                    array_push($tags, 'audio');
+                } else if (stringContains(strtolower($screenshotFileName), 'youtube') && stringContains(strtolower($screenshotFileName), '.txt')) {
+                    array_push($tags, 'video');
+                    array_push($tags, 'youtube');
+                }
             }
         }
 
@@ -175,5 +180,31 @@
         $tags = array_unique($tags);
 
         return $tags;
+    }
+
+
+
+    function convertYouTubeUrlToEmbed($url) {
+        // Handle different YouTube URL formats
+        $videoId = '';
+        
+        // Standard YouTube URL: https://www.youtube.com/watch?v=VIDEO_ID
+        if (preg_match('/(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/', $url, $matches)) {
+            $videoId = $matches[1];
+        }
+        // YouTube short URL: https://youtu.be/VIDEO_ID
+        else if (preg_match('/youtu\.be\/([a-zA-Z0-9_-]{11})/', $url, $matches)) {
+            $videoId = $matches[1];
+        }
+        // YouTube embed URL: https://www.youtube.com/embed/VIDEO_ID
+        else if (preg_match('/youtube\.com\/embed\/([a-zA-Z0-9_-]{11})/', $url, $matches)) {
+            $videoId = $matches[1];
+        }
+
+        if (!empty($videoId)) {
+            return "https://www.youtube.com/embed/" . $videoId;
+        }
+
+        return false;
     }
 ?>

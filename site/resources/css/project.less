@@ -296,7 +296,8 @@
 
     img,
     video,
-    audio {
+    audio,
+    .youtubeVideo {
       vertical-align: top;
       margin-right: 25px;
       margin-bottom: 25px;
@@ -315,6 +316,25 @@
       &.hasMacDesktopShadow {
         margin-left: -108px;
         margin-top: -70px;
+      }
+    }
+
+    .youtubeVideo {
+      width: 100%;
+      max-width: 1920px;
+      position: relative;
+
+      // Default 16:9 aspect ratio
+      height: 0;
+      padding-bottom: 56.25%; /* 16:9 */
+
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
       }
     }
 
@@ -435,6 +455,12 @@
       audio {
         width: 100% !important;
         height: unset !important;
+        margin-right: 0;
+      }
+
+      .youtubeVideo {
+        width: 100% !important;
+        height: auto !important;
         margin-right: 0;
       }
     }
