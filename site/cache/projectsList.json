@@ -3285,15 +3285,60 @@
         },
         {
             "directory": {
+                "id": "crochet-frame-alt"
+            },
+            "manifest": {
+                "name": "Crochet Frame Alt Firmware",
+                "shortDescription": "Additional mode to render static images",
+                "startDate": {
+                    "string": "April 24, 2025",
+                    "timestamp": {
+                        "raw": 1745452800,
+                        "formatted": "April 2025",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/azlm-crochet-frame-firmware-alt-static-images"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Alicia Zhang",
+                        "type": "collab"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "IMG_6490.jpeg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "crochet-frame-settings"
             },
             "manifest": {
                 "name": "Crochet Frame Settings App",
                 "shortDescription": "Web client for choosing colors, size, and speed settings",
                 "startDate": {
-                    "string": "April 28, 2025",
+                    "string": "April 25, 2025",
                     "timestamp": {
-                        "raw": 1745798400,
+                        "raw": 1745539200,
                         "formatted": "April 2025",
                         "components": {
                             "monthFormatted": "April",
