@@ -2768,57 +2768,6 @@
         },
         {
             "directory": {
-                "id": "coffee-nearby"
-            },
-            "manifest": {
-                "name": "Nearby Land",
-                "shortDescription": "Find nearby places in a retro app interface (collab with Zach Temkin)",
-                "startDate": {
-                    "string": "July 2022",
-                    "timestamp": {
-                        "raw": 1656633600,
-                        "formatted": "July 2022",
-                        "components": {
-                            "monthFormatted": "July",
-                            "monthNumber": 7,
-                            "yearFormatted": "2022",
-                            "yearNumber": 2022
-                        }
-                    }
-                },
-                "links": [
-                    {
-                        "type": "live_site",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/coffee.nearby.land\/"
-                    }
-                ],
-                "credits": [
-                    {
-                        "name": "Zach Temkin",
-                        "link": "https:\/\/zach.coffee",
-                        "type": "idea, design, and engineering"
-                    }
-                ],
-                "tags": [
-                    "map",
-                    "live-site"
-                ]
-            },
-            "files": {
-                "2": "longDescription.txt",
-                "screenshots": {
-                    "2": "0-hero@2x.png",
-                    "3": "1-screenshot@2x.png",
-                    "4": "2-screenshot@2x.png",
-                    "5": "3-screenshot@2x.png",
-                    "6": "hidden"
-                }
-            }
-        },
-        {
-            "directory": {
                 "id": "coffee-time-1-video"
             },
             "manifest": {
@@ -10095,6 +10044,57 @@
                 "2": "longDescription.txt",
                 "screenshots": {
                     "2": "video-1608428967@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "nearby-land"
+            },
+            "manifest": {
+                "name": "Coffee Nearby",
+                "shortDescription": "Find nearby places in a retro app interface (collab with Zach Temkin)",
+                "startDate": {
+                    "string": "July 2022",
+                    "timestamp": {
+                        "raw": 1656633600,
+                        "formatted": "July 2022",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2022",
+                            "yearNumber": 2022
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/coffee.nearby.land\/"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "idea, design, and engineering"
+                    }
+                ],
+                "tags": [
+                    "map",
+                    "live-site"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "0-hero@2x.png",
+                    "3": "1-screenshot@2x.png",
+                    "4": "2-screenshot@2x.png",
+                    "5": "3-screenshot@2x.png",
+                    "6": "hidden"
                 }
             }
         },
