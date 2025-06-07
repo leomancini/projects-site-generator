@@ -162,7 +162,8 @@
                                                 }
                                             }
                                             
-                                            echo "<div class='youtubeVideo $imageClassesString' style='$sizeOverride $aspectRatioStyle'>";
+                                            $styleContent = trim($sizeOverride . ' ' . $aspectRatioStyle);
+                                            echo "<div class='youtubeVideo" . ($imageClassesString ? " $imageClassesString" : "") . "'" . ($styleContent ? " style='$styleContent'" : "") . ">";
                                             echo "<iframe src='$embedUrl' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                                             echo "</div>";
                                         }
