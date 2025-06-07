@@ -7304,6 +7304,7 @@
             },
             "files": {
                 "2": "longDescription.txt",
+                "5": "share-image.png",
                 "screenshots": {
                     "3": "0-client.mp4",
                     "4": "1-screenshot-2@2x.png",
@@ -9176,7 +9177,8 @@
             "files": {
                 "3": "longDescription.txt",
                 "screenshots": {
-                    "3": "CleanShot 2025-04-20 at 22.55.12@2x.mp4"
+                    "3": "001-CleanShot 2025-04-20 at 22.55.12@2x.mp4",
+                    "4": "002-live-world-stats.leo.gd_.png"
                 }
             }
         },
@@ -9646,6 +9648,7 @@
             },
             "files": {
                 "3": "longDescription.txt",
+                "6": "share-image.png",
                 "screenshots": {
                     "3": "youtube-1.txt"
                 }
@@ -12116,6 +12119,7 @@
             },
             "files": {
                 "2": "longDescription.txt",
+                "5": "share-image.png",
                 "screenshots": {
                     "2": "001-Circle Visualizer.mp4",
                     "3": "002-Population Map.mp4",
@@ -12161,6 +12165,7 @@
             },
             "files": {
                 "3": "longDescription.txt",
+                "6": "share-image.png",
                 "screenshots": {
                     "3": "001-Saving Presets.mp4",
                     "4": "002-Loading Presets.mp4",
@@ -12202,7 +12207,8 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
+                "6": "share-image.png",
                 "screenshots": {
                     "2": "youtube-1.txt",
                     "3": "youtube-2.txt",
@@ -12307,6 +12313,7 @@
             },
             "files": {
                 "3": "longDescription.txt",
+                "6": "share-image.png",
                 "screenshots": {
                     "2": "000-os-demo.mp4",
                     "3": "001@2x.png",
@@ -12428,6 +12435,7 @@
             },
             "files": {
                 "3": "longDescription.txt",
+                "6": "share-image.png",
                 "screenshots": {
                     "3": "0@2x.mp4"
                 }
@@ -16810,6 +16818,7 @@
             },
             "files": {
                 "2": "longDescription.txt",
+                "5": "share-image.png",
                 "screenshots": {
                     "2": "This or That Machine Votes Viewer \u2013 Compressed.mp4",
                     "3": "this-or-that-machine-votes-viewer.leo.gd_@2x.png"
@@ -17856,8 +17865,8 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
-                "5": "share-image.png",
+                "3": "longDescription.txt",
+                "6": "share-image.png",
                 "screenshots": {
                     "2": "youtube.txt"
                 }
