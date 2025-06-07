@@ -324,7 +324,7 @@
       max-width: 1920px;
       position: relative;
 
-      // Default 16:9 aspect ratio
+      // Default to 16:9 aspect ratio
       height: 0;
       padding-bottom: 56.25%; /* 16:9 */
 
@@ -334,7 +334,6 @@
         left: 0;
         width: 100%;
         height: 100%;
-        border-radius: 8px;
       }
     }
 
@@ -452,15 +451,10 @@
     #screenshots {
       img,
       video,
-      audio {
-        width: 100% !important;
-        height: unset !important;
-        margin-right: 0;
-      }
-
+      audio,
       .youtubeVideo {
         width: 100% !important;
-        height: auto !important;
+        height: unset !important;
         margin-right: 0;
       }
     }
