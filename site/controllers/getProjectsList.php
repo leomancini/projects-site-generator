@@ -118,8 +118,24 @@
                     }
 
                     if (array_key_exists('links', $projectInfo['manifest'])) {
-                        if (stringContains(stringifyArray($projectInfo['manifest']['links']), $searchQuery)) {
-                            $searchMatch = true;
+                        foreach ($projectInfo['manifest']['links'] as $link) {
+                            // Parse the URL to get the host
+                            $parsedUrl = parse_url(strtolower($link));
+                            if (isset($parsedUrl['host'])) {
+                                $hostParts = explode('.', $parsedUrl['host']);
+                                $tld = end($hostParts);
+                                
+                                // If search query matches TLD exactly, skip this link
+                                if ($tld === $searchQuery) {
+                                    continue;
+                                }
+                            }
+                            
+                            // Check if search query appears anywhere in the link (but not as TLD)
+                            if (stringContains(strtolower($link), $searchQuery)) {
+                                $searchMatch = true;
+                                break;
+                            }
                         }
                     }
                 }
