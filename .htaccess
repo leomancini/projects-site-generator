@@ -20,6 +20,12 @@ RewriteRule ^$ site/views/ [L]
 
 Options -Indexes
 
+# Deny access to .gitignore files
+<Files ".gitignore">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
 <Files "manifest.json">
     Order Allow,Deny
     Allow from all
