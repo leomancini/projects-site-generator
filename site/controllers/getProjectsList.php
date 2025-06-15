@@ -8,7 +8,7 @@
         $projectsDirectory = '../../projects/';
         $projectDirectories = scandir($projectsDirectory);
 
-        $disallowedDirectories = ['.', '..', '.DS_Store', '.git', 'TEMPLATE', 'z-test-project'];
+        $disallowedDirectories = ['.', '..', '.DS_Store', '.git', '.gitignore', 'TEMPLATE', 'z-test-project'];
         $projects = array_diff($projectDirectories, $disallowedDirectories);
 
         return $projects;

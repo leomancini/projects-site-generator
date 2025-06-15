@@ -3,27 +3,6 @@
     "projects": [
         {
             "directory": {
-                "id": ".gitignore"
-            },
-            "manifest": {
-                "startDate": {
-                    "timestamp": {
-                        "raw": false,
-                        "formatted": "January 1970",
-                        "components": {
-                            "monthFormatted": "January",
-                            "monthNumber": 1,
-                            "yearFormatted": "1970",
-                            "yearNumber": 1970
-                        }
-                    }
-                },
-                "tags": []
-            },
-            "files": null
-        },
-        {
-            "directory": {
                 "id": "2012-cover-design-competition-visual-design"
             },
             "manifest": {
