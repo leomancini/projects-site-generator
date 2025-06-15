@@ -17,7 +17,8 @@
             "download": "download",
             "slides": "slideshow",
             "3d_model": "view_in_ar",
-            "storage": "folder_open"
+            "storage": "folder_open",
+            "document": "description"
         },
         "defaultLabelsForType": {
             "github": "View Source",
@@ -34,7 +35,8 @@
             "download": "Download",
             "slides": "View Slides",
             "3d_model": "View 3D Model",
-            "storage": "View Storage"
+            "storage": "View Storage",
+            "document": "View Document"
         }
     },
     "debug": false,
