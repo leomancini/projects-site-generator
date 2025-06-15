@@ -3803,7 +3803,7 @@
                         "type": "download",
                         "label": "Download PDF",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "link": "\/projects\/design-manifesto-2012\/downloads\/Design_Manifesto_2012.pdf"
+                        "url": "\/projects\/design-manifesto-2012\/downloads\/Design_Manifesto_2012.pdf"
                     }
                 ],
                 "tags": []
