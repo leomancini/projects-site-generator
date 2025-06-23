@@ -6670,7 +6670,7 @@
             },
             "manifest": {
                 "name": "Headlines Viewer",
-                "shortDescription": "Latest news presented in the style of a MTA R46 train head sign",
+                "shortDescription": "Latest news presented in the style of an MTA R46 train head sign",
                 "startDate": {
                     "string": "June 23, 2025",
                     "timestamp": {
