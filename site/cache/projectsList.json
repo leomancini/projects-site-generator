@@ -6512,7 +6512,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "Case \u2013 Back.stl",
                     "3": "Case \u2013 Front.stl",
@@ -6530,6 +6530,58 @@
                     "9": "02-sketch-002@2x.png",
                     "10": "02-sketch-003@2x.png",
                     "11": "02-sketch-004@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "handheld-computer-vision-rig-wall-mount"
+            },
+            "manifest": {
+                "name": "Handheld Computer Vision Rig Wall Mount",
+                "shortDescription": "Store and charge device while not in use",
+                "startDate": {
+                    "string": "June 26, 2025",
+                    "timestamp": {
+                        "raw": 1750896000,
+                        "formatted": "June 2025",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/handheld-computer-vision-rig-wall-mount\/downloads\/Handheld_Computer_Vision_Rig_Wall_Mount.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/handheld-computer-vision-rig-wall-mount\/downloads\/Handheld_Computer_Vision_Rig_Wall_Mount_Parts.zip"
+                    }
+                ],
+                "tags": [
+                    "3D"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Handheld_Computer_Vision_Rig_Wall_Mount.stl",
+                    "3": "Handheld_Computer_Vision_Rig_Wall_Mount_Parts.zip",
+                    "4": "Mount \u2013 Bottom.stl",
+                    "5": "Mount \u2013 Top.stl"
+                },
+                "screenshots": {
+                    "3": "IMG_7865.jpeg",
+                    "4": "IMG_7873.jpeg"
                 }
             }
         },
