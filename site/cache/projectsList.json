@@ -6468,6 +6468,68 @@
         },
         {
             "directory": {
+                "id": "handheld-computer-vision-rig"
+            },
+            "manifest": {
+                "name": "Handheld Computer Vision Rig",
+                "shortDescription": "Custom case for portable AI vision experiments",
+                "startDate": {
+                    "string": "June 25, 2025",
+                    "timestamp": {
+                        "raw": 1750809600,
+                        "formatted": "June 2025",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Software Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/rig-case-client"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/handheld-computer-vision-rig\/downloads\/Handheld_Computer_Vision_Rig.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/handheld-computer-vision-rig\/downloads\/Handheld_Computer_Vision_Rig_Parts.zip"
+                    }
+                ],
+                "tags": [
+                    "github",
+                    "3D"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Case \u2013 Back.stl",
+                    "3": "Case \u2013 Front.stl",
+                    "4": "Handheld_Computer_Vision_Rig.stl",
+                    "5": "Handheld_Computer_Vision_Rig_Parts.zip",
+                    "6": "Power Button.stl"
+                },
+                "screenshots": {
+                    "2": "01-sketch-001@2x.png",
+                    "3": "01-sketch-002@2x.png",
+                    "4": "01-sketch-003@2x.png",
+                    "5": "01-sketch-004@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "happy-birthday-bash-script"
             },
             "manifest": {
