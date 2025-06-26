@@ -6472,7 +6472,7 @@
             },
             "manifest": {
                 "name": "Handheld Computer Vision Rig",
-                "shortDescription": "Custom case for portable AI vision experiments",
+                "shortDescription": "Platform for portable AI vision experiments",
                 "startDate": {
                     "string": "June 25, 2025",
                     "timestamp": {
