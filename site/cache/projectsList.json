@@ -12432,7 +12432,7 @@
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/play-machine-os\/tree\/main\/src\/components\/Apps"
+                        "url": "https:\/\/github.com\/fcc-lol\/play-machine-os\/tree\/main\/src\/components\/Apps"
                     }
                 ],
                 "credits": [
@@ -12633,7 +12633,7 @@
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/play-machine-os"
+                        "url": "https:\/\/github.com\/fcc-lol\/play-machine-os"
                     }
                 ],
                 "tags": [
@@ -12755,7 +12755,7 @@
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/play-machine-os\/blob\/main\/src\/components\/Simulator\/Hardware.js"
+                        "url": "https:\/\/github.com\/fcc-lol\/play-machine-os\/blob\/main\/src\/components\/Simulator\/Hardware.js"
                     }
                 ],
                 "tags": [
