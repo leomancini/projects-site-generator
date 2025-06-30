@@ -6810,20 +6810,26 @@
                         "type": "live_site",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/headlines.leo.gd?scale=0.75"
+                        "url": "https:\/\/headlines.leo.gd\/nyc\/mta\/subway\/r46?scale=0.75"
                     },
                     {
                         "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
+                        "label": "View Client Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/headlines-viewer"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/headlines-server"
                     }
                 ],
-                "tags": [
-                    "live-site",
-                    "github",
-                    "video"
-                ]
+                "tags": {
+                    "0": "live-site",
+                    "1": "github",
+                    "3": "video"
+                }
             },
             "files": {
                 "3": "longDescription.txt",
