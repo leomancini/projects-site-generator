@@ -6506,10 +6506,11 @@
                         "url": "\/projects\/handheld-computer-vision-rig\/downloads\/Handheld_Computer_Vision_Rig_Parts.zip"
                     }
                 ],
-                "tags": [
-                    "github",
-                    "3D"
-                ]
+                "tags": {
+                    "0": "github",
+                    "1": "3D",
+                    "3": "video"
+                }
             },
             "files": {
                 "4": "longDescription.txt",
@@ -6521,15 +6522,16 @@
                     "6": "Power Button.stl"
                 },
                 "screenshots": {
-                    "2": "01-photo-001@2x.jpeg",
-                    "3": "01-photo-002@2x.jpeg",
-                    "4": "01-photo-003@2x.jpeg",
-                    "5": "01-photo-004@2x.jpeg",
-                    "6": "01-photo-005@2x.jpeg",
-                    "7": "02-sketch-001@2x.png",
-                    "8": "02-sketch-002@2x.png",
-                    "9": "02-sketch-003@2x.png",
-                    "10": "02-sketch-004@2x.png"
+                    "3": "00-demo-1080.mp4",
+                    "4": "01-photo-001@2x.jpeg",
+                    "5": "01-photo-002@2x.jpeg",
+                    "6": "01-photo-003@2x.jpeg",
+                    "7": "01-photo-004@2x.jpeg",
+                    "8": "01-photo-005@2x.jpeg",
+                    "9": "02-sketch-001@2x.png",
+                    "10": "02-sketch-002@2x.png",
+                    "11": "02-sketch-003@2x.png",
+                    "12": "02-sketch-004@2x.png"
                 }
             }
         },
