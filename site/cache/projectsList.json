@@ -8696,9 +8696,9 @@
                 "name": "JBOB (Just a Bunch of Buttons)",
                 "shortDescription": "Ten buttons in a case presenting a USB keyboard",
                 "startDate": {
-                    "string": "July 8, 2025",
+                    "string": "July 6, 2025",
                     "timestamp": {
-                        "raw": 1751932800,
+                        "raw": 1751760000,
                         "formatted": "July 2025",
                         "components": {
                             "monthFormatted": "July",
