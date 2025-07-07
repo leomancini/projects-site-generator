@@ -2180,6 +2180,85 @@
         },
         {
             "directory": {
+                "id": "cartridge-machine"
+            },
+            "manifest": {
+                "name": "Cartridge Machine",
+                "shortDescription": "Choose between visualizations using RFID cartridges",
+                "startDate": {
+                    "string": "July 6, 2025",
+                    "timestamp": {
+                        "raw": 1751760000,
+                        "formatted": "July 2025",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Firmware Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/cartridge-machine-firmware\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View API Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/cartridge-machine-api\/"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/cartridge-machine\/downloads\/Cartridge_Machine.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/cartridge-machine\/downloads\/Cartridge_Machine_Parts.zip"
+                    }
+                ],
+                "tags": {
+                    "0": "github",
+                    "2": "3D",
+                    "4": "video"
+                }
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "3": "Back Plate.stl",
+                    "4": "Cartrdige.stl",
+                    "5": "Cartridge Bottom.stl",
+                    "6": "Cartridge Top.stl",
+                    "7": "Cartridge_Machine.stl",
+                    "8": "Cartridge_Machine_Parts.zip",
+                    "9": "Case.stl"
+                },
+                "screenshots": {
+                    "3": "1.mp4",
+                    "4": "2@2x.jpeg",
+                    "5": "3@2x.mp4",
+                    "6": "4@2x.jpeg",
+                    "7": "5@2x.jpeg",
+                    "8": "6@2x.jpeg",
+                    "9": "7@2x.jpeg",
+                    "10": "8@2x.jpeg"
+                },
+                "tools": {
+                    "3": "ffmpeg_overlay_image_video.txt",
+                    "4": "overlay_images.zip"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "cash-app-website"
             },
             "manifest": {
@@ -6474,9 +6553,9 @@
                 "name": "Handheld Computer Vision Rig",
                 "shortDescription": "Platform for portable AI vision experiments",
                 "startDate": {
-                    "string": "June 25, 2025",
+                    "string": "June 26, 2025",
                     "timestamp": {
-                        "raw": 1750809600,
+                        "raw": 1750896000,
                         "formatted": "June 2025",
                         "components": {
                             "monthFormatted": "June",
@@ -6543,9 +6622,9 @@
                 "name": "Handheld Computer Vision Rig Wall Mount",
                 "shortDescription": "Store and charge device while not in use",
                 "startDate": {
-                    "string": "June 26, 2025",
+                    "string": "June 25, 2025",
                     "timestamp": {
-                        "raw": 1750896000,
+                        "raw": 1750809600,
                         "formatted": "June 2025",
                         "components": {
                             "monthFormatted": "June",
@@ -6574,7 +6653,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "Handheld_Computer_Vision_Rig_Wall_Mount.stl",
                     "3": "Handheld_Computer_Vision_Rig_Wall_Mount_Parts.zip",
@@ -8606,6 +8685,75 @@
                 "2": "longDescription.txt",
                 "screenshots": {
                     "2": "1.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "just-a-bunch-of-buttons-jbob"
+            },
+            "manifest": {
+                "name": "JBOB (Just a Bunch of Buttons)",
+                "shortDescription": "Ten buttons in a case presenting a USB keyboard",
+                "startDate": {
+                    "string": "July 8, 2025",
+                    "timestamp": {
+                        "raw": 1751932800,
+                        "formatted": "July 2025",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Firmware Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/ten-button-keyboard\/blob\/main\/code.py"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/just-a-bunch-of-buttons-jbob\/downloads\/JBOB_Just_a_Bunch_of_Buttons.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/just-a-bunch-of-buttons-jbob\/downloads\/JBOB_Just_a_Bunch_of_Buttons_Parts.zip"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "elevator screen demo"
+                    }
+                ],
+                "tags": {
+                    "0": "github",
+                    "1": "3D",
+                    "3": "video"
+                }
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Back Case.stl",
+                    "3": "Front Panel.stl",
+                    "4": "JBOB_Just_a_Bunch_of_Buttons.stl",
+                    "5": "JBOB_Just_a_Bunch_of_Buttons_Parts.zip"
+                },
+                "screenshots": {
+                    "3": "1@2x.jpeg",
+                    "4": "2.mp4",
+                    "5": "3@2x.jpeg",
+                    "6": "4@2x.jpeg"
                 }
             }
         },
