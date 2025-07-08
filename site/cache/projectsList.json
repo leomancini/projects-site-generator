@@ -2186,9 +2186,9 @@
                 "name": "Cartridge Machine",
                 "shortDescription": "Choose between visualizations using RFID cartridges",
                 "startDate": {
-                    "string": "July 6, 2025",
+                    "string": "July 7, 2025",
                     "timestamp": {
-                        "raw": 1751760000,
+                        "raw": 1751846400,
                         "formatted": "July 2025",
                         "components": {
                             "monthFormatted": "July",
@@ -2254,6 +2254,54 @@
                 "tools": {
                     "3": "ffmpeg_overlay_image_video.txt",
                     "4": "overlay_images.zip"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "cartridge-machine-simulator"
+            },
+            "manifest": {
+                "name": "Cartridge Machine Simulator",
+                "shortDescription": "Web-based experience that simulates hardware and firmware",
+                "startDate": {
+                    "string": "July 6, 2025",
+                    "timestamp": {
+                        "raw": 1751760000,
+                        "formatted": "July 2025",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/cartridge-machine-simulator.fcc.lol\/?fccApiKey=DEMO"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/cartridge-machine-simulator\/"
+                    }
+                ],
+                "tags": [
+                    "3D",
+                    "live-site",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "demo.mp4"
                 }
             }
         },
@@ -8696,9 +8744,9 @@
                 "name": "JBOB (Just a Bunch of Buttons)",
                 "shortDescription": "Ten buttons in a case presenting a USB keyboard",
                 "startDate": {
-                    "string": "July 6, 2025",
+                    "string": "July 5, 2025",
                     "timestamp": {
-                        "raw": 1751760000,
+                        "raw": 1751673600,
                         "formatted": "July 2025",
                         "components": {
                             "monthFormatted": "July",
