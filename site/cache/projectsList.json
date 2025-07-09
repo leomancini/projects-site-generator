@@ -2300,8 +2300,16 @@
             },
             "files": {
                 "2": "longDescription.txt",
+                "5": "share-image.png",
                 "screenshots": {
-                    "3": "demo.mp4"
+                    "3": "000-demo-1--size=1650.mp4",
+                    "4": "001.jpeg",
+                    "5": "002.jpeg",
+                    "6": "003.jpeg",
+                    "7": "004.jpeg",
+                    "8": "005.jpeg",
+                    "9": "006.jpeg",
+                    "10": "007.jpeg"
                 }
             }
         },
