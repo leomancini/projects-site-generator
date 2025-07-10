@@ -2259,6 +2259,55 @@
         },
         {
             "directory": {
+                "id": "cartridge-machine-cartridge-holder"
+            },
+            "manifest": {
+                "name": "Cartridge Machine Cartridge Holder",
+                "shortDescription": "Container for holding extra cartridges",
+                "startDate": {
+                    "string": "July 5, 2025",
+                    "timestamp": {
+                        "raw": 1751673600,
+                        "formatted": "July 2025",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": ""
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/cartridge-machine-cartridge-holder\/downloads\/Cartridge_Machine_Cartridge_Holder.stl"
+                    }
+                ],
+                "tags": [
+                    "3D"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Cartridge_Machine_Cartridge_Holder.stl"
+                },
+                "screenshots": {
+                    "2": "IMG_8863.jpeg",
+                    "3": "IMG_8868.jpeg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "cartridge-machine-simulator"
             },
             "manifest": {
