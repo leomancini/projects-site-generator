@@ -6404,7 +6404,7 @@
             },
             "manifest": {
                 "name": "GitHub Backup Script",
-                "shortDescription": "Download personal and organization repositories you have access to",
+                "shortDescription": "Download code in repositories for backups",
                 "startDate": {
                     "string": "July 10, 2025",
                     "timestamp": {
