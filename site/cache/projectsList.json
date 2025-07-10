@@ -7007,7 +7007,7 @@
             },
             "manifest": {
                 "name": "Headlines Viewer",
-                "shortDescription": "Latest news presented in the style of an MTA R46 train head sign",
+                "shortDescription": "Latest news presented in the style of NYC subway and bus head signs",
                 "startDate": {
                     "string": "June 23, 2025",
                     "timestamp": {
@@ -7024,9 +7024,15 @@
                 "links": [
                     {
                         "type": "live_site",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
+                        "label": "View Subway Style",
+                        "icon": "directions_railway",
                         "url": "https:\/\/headlines.leo.gd\/nyc\/mta\/subway\/r46?scale=0.75"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Bus Style",
+                        "icon": "directions_bus",
+                        "url": "https:\/\/headlines.leo.gd\/nyc\/mta\/bus?scale=0.75"
                     },
                     {
                         "type": "github",
@@ -7043,8 +7049,8 @@
                 ],
                 "tags": {
                     "0": "live-site",
-                    "1": "github",
-                    "3": "video"
+                    "2": "github",
+                    "4": "video"
                 }
             },
             "files": {
@@ -7053,8 +7059,9 @@
                     "3": "1-demo@2x.mp4",
                     "4": "2@2x.png",
                     "5": "3@2x.png",
-                    "6": "4@2x.png",
-                    "7": "5@2x.jpg"
+                    "6": "5@2x.jpg",
+                    "7": "6@2x.jpg",
+                    "8": "7@2x.jpg"
                 }
             }
         },
