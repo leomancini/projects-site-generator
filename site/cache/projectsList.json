@@ -12379,8 +12379,17 @@
                         }
                     }
                 },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/pixel-city-2023-admin"
+                    }
+                ],
                 "tags": [
                     "pixel-city",
+                    "github",
                     "video"
                 ]
             },
