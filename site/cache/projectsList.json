@@ -6400,6 +6400,43 @@
         },
         {
             "directory": {
+                "id": "git-backup-script"
+            },
+            "manifest": {
+                "name": "GitHub Backup Script",
+                "shortDescription": "Download personal and organization repositories you have access to",
+                "startDate": {
+                    "string": "July 10, 2025",
+                    "timestamp": {
+                        "raw": 1752105600,
+                        "formatted": "July 2025",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/git-backup-script\/blob\/main\/git-backup.sh"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": []
+            }
+        },
+        {
+            "directory": {
                 "id": "go-vegan"
             },
             "manifest": {
