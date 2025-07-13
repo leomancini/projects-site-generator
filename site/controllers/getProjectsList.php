@@ -145,8 +145,16 @@
                     }
 
                     if (array_key_exists('credits', $projectInfo['manifest'])) {
-                        if (searchInUrlsExcludingTldMatches($projectInfo['manifest']['credits'], $searchQuery)) {
-                            $searchMatch = true;
+                        // Search in credits properties (name, link, type)
+                        foreach ($projectInfo['manifest']['credits'] as $credit) {
+                            if (
+                                (isset($credit['name']) && stringContains(strtolower($credit['name']), $searchQuery)) ||
+                                (isset($credit['link']) && stringContains(strtolower($credit['link']), $searchQuery)) ||
+                                (isset($credit['type']) && stringContains(strtolower($credit['type']), $searchQuery))
+                            ) {
+                                $searchMatch = true;
+                                break;
+                            }
                         }
                     }
 
