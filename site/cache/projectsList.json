@@ -1880,7 +1880,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "Byt_Hardware.3mf",
                     "3": "Byt_Hardware.stl"
@@ -5696,8 +5696,8 @@
                     "2": "FCC_Coin_2025.stl"
                 },
                 "screenshots": {
-                    "2": "IMG_5207@2x.jpg",
-                    "3": "IMG_6181@2x.jpg"
+                    "3": "IMG_5207@2x.jpg",
+                    "4": "IMG_6181@2x.jpg"
                 }
             }
         },
@@ -9552,13 +9552,13 @@
                         "type": "live_site",
                         "label": "View Demo List 1",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/lists.fcc.lol\/p61X63OrEtjMohgq0ij4"
+                        "url": "https:\/\/lists.fcc.lol\/688aea0766df5aac370d267a"
                     },
                     {
                         "type": "live_site",
                         "label": "View Demo List 2",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/lists.fcc.lol\/RHAhsilO1fKq1OdwiL2u"
+                        "url": "https:\/\/lists.fcc.lol\/688aea0666df5aac370d2669"
                     }
                 ],
                 "credits": [
