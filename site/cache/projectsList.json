@@ -14941,13 +14941,13 @@
                         "type": "github",
                         "label": "View Client Source",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/zachtemkin\/share-the-pie-client\/"
+                        "url": "https:\/\/github.com\/fcc-lol\/share-the-pie-client\/"
                     },
                     {
                         "type": "github",
                         "label": "View Server Source",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/share-the-pie-server\/"
+                        "url": "https:\/\/github.com\/fcc-lol\/share-the-pie-server\/"
                     }
                 ],
                 "credits": [
