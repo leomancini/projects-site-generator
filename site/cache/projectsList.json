@@ -9638,7 +9638,8 @@
             "files": {
                 "3": "longDescription.txt",
                 "screenshots": {
-                    "3": "mobile@2x.png"
+                    "3": "hidden",
+                    "4": "mobile@2x.jpeg"
                 }
             }
         },
@@ -14967,7 +14968,7 @@
             "files": {
                 "3": "longDescription.txt",
                 "screenshots": {
-                    "3": "0--a@2x.png",
+                    "3": "0--a@2x.jpeg",
                     "4": "0-slide@2x.png",
                     "5": "1-initiator@2x.png",
                     "6": "2-initiator@2x.png",
@@ -18239,23 +18240,25 @@
                 }
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "001-mobile@2x.png",
-                    "3": "002-mobile@2x.png",
-                    "4": "003-mobile@2x.png",
-                    "5": "005-mobile@2x.png",
-                    "6": "006-mobile@2x.png",
-                    "7": "007-mobile@2x.png",
-                    "8": "008-mobile@2x.png",
-                    "9": "009-mobile@2x.png",
-                    "10": "010-mobile@2x.mp4",
-                    "11": "011-desktop@2x.png",
-                    "12": "012-desktop@2x.png",
-                    "13": "013-desktop@2x.png",
-                    "14": "014-desktop@2x.png",
-                    "15": "015-desktop@2x.mp4",
-                    "16": "hidden"
+                    "3": "00000a@2x.jpeg",
+                    "4": "00000b@2x.jpeg",
+                    "5": "001-mobile@2x.png",
+                    "6": "002-mobile@2x.png",
+                    "7": "003-mobile@2x.png",
+                    "8": "005-mobile@2x.png",
+                    "9": "006-mobile@2x.png",
+                    "10": "007-mobile@2x.png",
+                    "11": "008-mobile@2x.png",
+                    "12": "009-mobile@2x.png",
+                    "13": "010-mobile@2x.mp4",
+                    "14": "011-desktop@2x.png",
+                    "15": "012-desktop@2x.png",
+                    "16": "013-desktop@2x.png",
+                    "17": "014-desktop@2x.png",
+                    "18": "015-desktop@2x.mp4",
+                    "19": "hidden"
                 }
             }
         },
