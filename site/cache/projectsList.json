@@ -9607,14 +9607,20 @@
                 "links": [
                     {
                         "type": "live_site",
-                        "label": "View Demo List 1",
+                        "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/lists.fcc.lol\/"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Demo List 1",
+                        "icon": "list",
                         "url": "https:\/\/lists.fcc.lol\/leo-mancini\/long-island-city-coffee-and-tea"
                     },
                     {
                         "type": "live_site",
                         "label": "View Demo List 2",
-                        "icon": "DEFAULT_FOR_TYPE",
+                        "icon": "list",
                         "url": "https:\/\/lists.fcc.lol\/leo-mancini\/east-williamsburg-lunch"
                     }
                 ],
