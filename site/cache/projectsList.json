@@ -12996,15 +12996,28 @@
                 },
                 "links": [
                     {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
+                        "type": "download",
+                        "label": "Download STL File",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": ""
+                        "url": "\/projects\/play-machine-mini\/downloads\/Play_Machine_Mini.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/play-machine-mini\/downloads\/Play_Machine_Mini_Parts.zip"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download PCB Schematic",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/play-machine-mini\/downloads\/PCB_Schematic.pdf"
                     }
                 ],
-                "tags": [
-                    "video"
-                ]
+                "tags": {
+                    "0": "3D",
+                    "2": "video"
+                }
             },
             "files": {
                 "4": "longDescription.txt",
@@ -13012,15 +13025,22 @@
                     "2": "Bottom.stl",
                     "3": "Button.stl",
                     "4": "Enclosure.stl",
-                    "5": "Play_Machine_Mini.stl"
+                    "5": "PCB_Schematic.pdf",
+                    "6": "Play_Machine_Mini.stl",
+                    "7": "Play_Machine_Mini_Parts.zip"
                 },
                 "screenshots": {
                     "3": "0-silent.mp4",
                     "4": "1-audio--play-audio.mp4",
-                    "5": "3.jpeg",
-                    "6": "4.jpeg",
-                    "7": "5.jpeg",
-                    "8": "hidden"
+                    "5": "1@2x.jpeg",
+                    "6": "2@2x.jpeg",
+                    "7": "3@2x.jpeg",
+                    "8": "4@2x.jpeg",
+                    "9": "5@2x.jpeg",
+                    "10": "6@2x.jpeg",
+                    "11": "7@2x.jpeg",
+                    "12": "8@2x.jpeg",
+                    "13": "9@2x.jpeg"
                 }
             }
         },
