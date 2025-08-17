@@ -218,6 +218,68 @@
         },
         {
             "directory": {
+                "id": "ai-art-box"
+            },
+            "manifest": {
+                "name": "AI Art Box",
+                "shortDescription": "Combine prompts with knobs to generate art",
+                "startDate": {
+                    "string": "August 17, 2025",
+                    "timestamp": {
+                        "raw": 1755388800,
+                        "formatted": "August 2025",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Firmware Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/ai-art-box-firmware"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Generator Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/ai-art-box-generator"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/ai-art-box\/downloads\/AI_Art_Box_Parts.zip"
+                    }
+                ],
+                "tags": {
+                    "0": "ai",
+                    "1": "github",
+                    "3": "video"
+                }
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "3": "AI_Art_Box.stl",
+                    "4": "AI_Art_Box_Parts.zip",
+                    "5": "Case.stl",
+                    "6": "Front Frame.stl",
+                    "7": "Front Plate.xcs"
+                },
+                "screenshots": {
+                    "3": "0-demo.mp4",
+                    "4": "1.jpg",
+                    "5": "2.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "ai-phone"
             },
             "manifest": {
@@ -245,6 +307,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "github",
                     "video"
                 ]
@@ -289,6 +352,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "github",
                     "video"
                 ]
@@ -2233,13 +2297,13 @@
             "files": {
                 "3": "longDescription.txt",
                 "downloads": {
-                    "2": "Back Plate.stl",
-                    "3": "Cartrdige.stl",
-                    "4": "Cartridge Bottom.stl",
-                    "5": "Cartridge Top.stl",
-                    "6": "Cartridge_Machine.stl",
-                    "7": "Cartridge_Machine_Parts.zip",
-                    "8": "Case.stl"
+                    "3": "Back Plate.stl",
+                    "4": "Cartrdige.stl",
+                    "5": "Cartridge Bottom.stl",
+                    "6": "Cartridge Top.stl",
+                    "7": "Cartridge_Machine.stl",
+                    "8": "Cartridge_Machine_Parts.zip",
+                    "9": "Case.stl"
                 },
                 "screenshots": {
                     "2": "1.mp4",
@@ -3427,13 +3491,14 @@
                     }
                 ],
                 "tags": {
-                    "0": "3D",
-                    "2": "github",
-                    "4": "video"
+                    "0": "ai",
+                    "1": "3D",
+                    "3": "github",
+                    "5": "video"
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "Crochet_Frame.3mf",
                     "3": "Crochet_Frame.stl"
@@ -3528,8 +3593,9 @@
                     }
                 ],
                 "tags": {
-                    "0": "github",
-                    "2": "video"
+                    "0": "ai",
+                    "1": "github",
+                    "3": "video"
                 }
             },
             "files": {
@@ -6779,9 +6845,10 @@
                     }
                 ],
                 "tags": {
-                    "0": "github",
-                    "1": "3D",
-                    "3": "video"
+                    "0": "ai",
+                    "1": "github",
+                    "2": "3D",
+                    "4": "video"
                 }
             },
             "files": {
@@ -9866,6 +9933,7 @@
                 ],
                 "tags": [
                     "fcc",
+                    "ai",
                     "ai-infra",
                     "github"
                 ]
@@ -12816,6 +12884,7 @@
                 ],
                 "tags": [
                     "play-machine",
+                    "ai",
                     "github",
                     "video"
                 ]
