@@ -7,8 +7,8 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
-# Get the input filename and prepend the screenshots directory
-input_file="screenshots/$1"
+# Get the input filename
+input_file="$1"
 
 # Check if the input file exists
 if [ ! -f "$input_file" ]; then
@@ -16,13 +16,19 @@ if [ ! -f "$input_file" ]; then
     exit 1
 fi
 
+# Get the directory one level up from the video's location
+video_dir=$(dirname "$input_file")
+parent_dir=$(dirname "$video_dir")
+output_path="$parent_dir/share-image.png"
+
 # Extract the first frame
 echo "Extracting first frame from '$input_file'..."
-ffmpeg -i "$input_file" -vframes 1 -vf scale=1200:630 -q:v 2 share-image.png
+echo "Output will be saved to: $output_path"
+ffmpeg -i "$input_file" -vframes 1 -vf scale=1200:630 -q:v 2 "$output_path"
 
 # Check if ffmpeg succeeded
 if [ $? -eq 0 ]; then
-    echo "Successfully created share-image.png"
+    echo "Successfully created $output_path"
 else
     echo "Error: Failed to extract frame from video"
     exit 1
