@@ -244,6 +244,12 @@
                         "url": "https:\/\/github.com\/leomancini\/ai-art-box-firmware"
                     },
                     {
+                        "type": "document",
+                        "label": "View Prompts",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/raw.githubusercontent.com\/leomancini\/ai-art-box-generator\/refs\/heads\/main\/data\/combinations-2025-07-22T00-28-27-920Z.txt"
+                    },
+                    {
                         "type": "github",
                         "label": "View Generator Source",
                         "icon": "DEFAULT_FOR_TYPE",
