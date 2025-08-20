@@ -13196,15 +13196,21 @@
                     {
                         "name": "Zach Temkin",
                         "link": "https:\/\/zach.coffee",
-                        "type": "3D modeling"
+                        "type": "3D modeling and firmware"
                     }
                 ],
                 "tags": [
-                    "play-machine"
+                    "play-machine",
+                    "video"
                 ]
             },
             "files": {
-                "2": "longDescription.txt"
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1.jpeg",
+                    "4": "2.mp4",
+                    "5": "3.jpeg"
+                }
             }
         },
         {
