@@ -11159,6 +11159,55 @@
         },
         {
             "directory": {
+                "id": "nyc-bus-service-alerts-box"
+            },
+            "manifest": {
+                "name": "NYC Bus Service Alerts Box",
+                "shortDescription": "Desk device to show most recent changes to service",
+                "startDate": {
+                    "string": "September 5, 2025",
+                    "timestamp": {
+                        "raw": 1757030400,
+                        "formatted": "September 2025",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Firmware Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/nyc-bus-service-alerts-firmware\/blob\/main\/nyc-bus-service-alerts-firmware.ino"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View API Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/nyc-bus-service-alerts-api"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Demo Endpoint",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/nyc-bus-service-alerts-api.noshado.ws\/summaries?apiKey=DEMO&maxCharacters=20&maxStrings=100&maxDuration=30"
+                    }
+                ],
+                "tags": {
+                    "0": "github",
+                    "2": "live-site"
+                }
+            },
+            "files": {
+                "2": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
                 "id": "nyc-personal-transit-stats"
             },
             "manifest": {
@@ -13659,6 +13708,55 @@
         },
         {
             "directory": {
+                "id": "prediction-markets-research-api"
+            },
+            "manifest": {
+                "name": "Prediction Markets API",
+                "shortDescription": "Scraper for publicly-accessible prediction markets data",
+                "startDate": {
+                    "string": "September 3, 2025",
+                    "timestamp": {
+                        "raw": 1756857600,
+                        "formatted": "September 2025",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/prediction-markets-research-api"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View All Events",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/prediction-markets-research-api.noshado.ws\/all"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Random Event",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/prediction-markets-research-api.noshado.ws\/random"
+                    }
+                ],
+                "tags": [
+                    "github",
+                    "live-site"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
                 "id": "process-card-transactions-api"
             },
             "manifest": {
@@ -15390,6 +15488,55 @@
                     "2": "0-un-building--code.txt",
                     "3": "empire-state-building--code.txt"
                 }
+            }
+        },
+        {
+            "directory": {
+                "id": "somethin-meter"
+            },
+            "manifest": {
+                "name": "Somethin' Meter",
+                "shortDescription": "Panel to show configurable value within a range and label",
+                "startDate": {
+                    "string": "September 4, 2025",
+                    "timestamp": {
+                        "raw": 1756944000,
+                        "formatted": "September 2025",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Firmware Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/somethin-meter-firmware\/blob\/main\/somethin-meter-firmware.ino"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Server Proxy Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/somethin-meter-proxy"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Live Endpoint",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/somethin-meter-proxy.noshado.ws\/"
+                    }
+                ],
+                "tags": {
+                    "0": "github",
+                    "2": "live-site"
+                }
+            },
+            "files": {
+                "2": "longDescription.txt"
             }
         },
         {
