@@ -15542,9 +15542,9 @@
             "files": {
                 "3": "longDescription.txt",
                 "screenshots": {
-                    "3": "01.mp4",
-                    "4": "01@2x.jpeg",
-                    "5": "02@2x.jpeg"
+                    "3": "01-video.mp4",
+                    "4": "02@2x.jpeg",
+                    "5": "03@2x.jpeg"
                 }
             }
         },
