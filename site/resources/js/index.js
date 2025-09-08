@@ -1,3 +1,18 @@
+function escapeHtml(text) {
+  const map = {
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#039;"
+  };
+  return text
+    ? text.replace(/[&<>"']/g, function (m) {
+        return map[m];
+      })
+    : "";
+}
+
 function refreshProjectsList(params) {
   $.get(
     "site/controllers/getProjectsList.php?" + $.param(params),
@@ -58,13 +73,17 @@ function renderProjectListItem(projectInfo, params, displayType) {
   projectListItemShortDescriptionHtml = "";
 
   if (projectInfo.manifest.shortDescription) {
-    projectListItemShortDescriptionHtml = `<span class='shortDescription'>${projectInfo.manifest.shortDescription}</span>`;
+    projectListItemShortDescriptionHtml = `<span class='shortDescription'>${escapeHtml(
+      projectInfo.manifest.shortDescription
+    )}</span>`;
   }
 
   if (displayType === "list") {
     projectListItem += `<li>
             <a href='${projectInfo.directory.id}'>
-                <span class='name'>${projectInfo.manifest.name}</span>
+                <span class='name'>${escapeHtml(
+                  projectInfo.manifest.name
+                )}</span>
                 ${projectListItemShortDescriptionHtml}
                 </a>
             </li>`;
@@ -92,7 +111,9 @@ function renderProjectListItem(projectInfo, params, displayType) {
     projectListItem += `<li>
             <a href='${projectInfo.directory.id}'>
                 ${projectListItemThumbnail}
-                <span class='name'>${projectInfo.manifest.name}</span>
+                <span class='name'>${escapeHtml(
+                  projectInfo.manifest.name
+                )}</span>
                 ${projectListItemShortDescriptionHtml}
                 </a>
             </li>`;

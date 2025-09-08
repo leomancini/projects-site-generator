@@ -14,7 +14,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-        <title>Leo Mancini &ndash; <?php echo $projectManifest['name']; ?></title>
+        <title>Leo Mancini &ndash; <?php echo htmlspecialchars($projectManifest['name'], ENT_QUOTES, 'UTF-8'); ?></title>
         <link rel="icon" type="image/png" sizes="32x32" href="site/resources/images/favicon-32-light.png?v=<?php echo $iconVersion; ?>" media="(prefers-color-scheme: light)">
 		<link rel="icon" type="image/png" sizes="32x32" href="site/resources/images/favicon-32-dark.png?v=<?php echo $iconVersion; ?>" media="(prefers-color-scheme: dark)">
 		<link rel="icon" type="image/png" sizes="16x16" href="site/resources/images/favicon-16-light.png?v=<?php echo $iconVersion; ?>" media="(prefers-color-scheme: light)">
@@ -30,8 +30,8 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <meta property='og:url' content='https://leomancini.net/<?php echo $projectDirectoryId; ?>'>
         <meta property='og:type' content='website'>
-        <meta property='og:title' content='<?php echo $projectManifest['name']; ?>'>
-        <meta property='og:description' content='<?php echo $projectManifest['shortDescription']; ?>'>
+        <meta property='og:title' content='<?php echo htmlspecialchars($projectManifest['name'], ENT_QUOTES, 'UTF-8'); ?>'>
+        <meta property='og:description' content='<?php echo htmlspecialchars($projectManifest['shortDescription'], ENT_QUOTES, 'UTF-8'); ?>'>
         <?php if($shareImage) { ?>
             <meta property='og:image' content='<?php echo $shareImage; ?>'>
         <?php } ?>
@@ -50,10 +50,10 @@
             <?php } else { ?>
             <a id='back' href='./'>← &nbsp;back to projects list</a>
             <?php } ?>
-            <h1><?php echo $projectManifest['name']; ?></h1>
+            <h1><?php echo htmlspecialchars($projectManifest['name'], ENT_QUOTES, 'UTF-8'); ?></h1>
             <div id='descriptions'>
                 <?php if($projectManifest['shortDescription']) { ?>
-                    <div id='shortDescription'><?php echo $projectManifest['shortDescription']; ?></div>
+                    <div id='shortDescription'><?php echo htmlspecialchars($projectManifest['shortDescription'], ENT_QUOTES, 'UTF-8'); ?></div>
                 <?php } ?>
                 <?php
                     $longDescription = getProjectLongDescription($projectDirectoryId);
@@ -68,9 +68,9 @@
                         <label>Credits:</label>
                         <?php foreach($projectManifest['credits'] as $credit) { ?>
                             <?php if($credit['link']) { ?>
-                                <a href='<?php echo $credit['link']; ?>' target='_blank' rel='noopener' class='credit'><?php echo $credit['name']; if($credit['type']) { echo " (".$credit['type'].")"; } ?></a>
+                                <a href='<?php echo htmlspecialchars($credit['link'], ENT_QUOTES, 'UTF-8'); ?>' target='_blank' rel='noopener' class='credit'><?php echo htmlspecialchars($credit['name'], ENT_QUOTES, 'UTF-8'); if($credit['type']) { echo " (".htmlspecialchars($credit['type'], ENT_QUOTES, 'UTF-8').")"; } ?></a>
                             <?php } else { ?>
-                                <span class='credit'><?php echo $credit['name']; if($credit['type']) { echo " (".$credit['type'].")"; } ?></span>
+                                <span class='credit'><?php echo htmlspecialchars($credit['name'], ENT_QUOTES, 'UTF-8'); if($credit['type']) { echo " (".htmlspecialchars($credit['type'], ENT_QUOTES, 'UTF-8').")"; } ?></span>
                             <?php } ?>
                         <?php } ?>
                     <?php } ?>
