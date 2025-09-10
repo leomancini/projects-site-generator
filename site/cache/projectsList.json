@@ -257,6 +257,12 @@
                     },
                     {
                         "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/ai-art-box\/downloads\/AI_Art_Box.stl"
+                    },
+                    {
+                        "type": "download",
                         "label": "Download Parts",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/ai-art-box\/downloads\/AI_Art_Box_Parts.zip"
@@ -265,7 +271,8 @@
                 "tags": {
                     "0": "ai",
                     "1": "github",
-                    "3": "video"
+                    "3": "3D",
+                    "4": "video"
                 }
             },
             "files": {
@@ -10657,6 +10664,54 @@
         },
         {
             "directory": {
+                "id": "multiplayer-sound-box"
+            },
+            "manifest": {
+                "name": "Multiplayer Sound Box",
+                "shortDescription": "Device for sharing audio space amongst four participants",
+                "startDate": {
+                    "string": "September 10, 2025",
+                    "timestamp": {
+                        "raw": 1757462400,
+                        "formatted": "September 2025",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download Parts",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/multiplayer-sound-box\/downloads\/Multiplayer_Sound_Box_Parts.zip"
+                    }
+                ],
+                "tags": [
+                    "3D"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "3": "Bottom_Case.stl",
+                    "4": "Bottom_Plate.stl",
+                    "5": "Headphone_Mount.stl",
+                    "6": "Multiplayer_Sound_Box_Parts.zip",
+                    "7": "Top_Case.stl"
+                },
+                "screenshots": {
+                    "3": "1@2x.jpeg",
+                    "4": "2@2x.jpeg",
+                    "5": "3@2x.jpeg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "museum-studies"
             },
             "manifest": {
@@ -15531,16 +15586,35 @@
                         "label": "View Live Endpoint",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/somethin-meter-proxy.noshado.ws\/"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/somethin-meter\/downloads\/Somethin_Meter.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/somethin-meter\/downloads\/Somethin_Meter_Parts.zip"
                     }
                 ],
                 "tags": {
                     "0": "github",
                     "2": "live-site",
-                    "3": "video"
+                    "3": "3D",
+                    "4": "video"
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Back Case.stl",
+                    "3": "Front Plate.stl",
+                    "4": "Somethin_Meter.stl",
+                    "5": "Somethin_Meter_Parts.zip"
+                },
                 "screenshots": {
                     "3": "01-video.mp4",
                     "4": "02@2x.jpeg",
