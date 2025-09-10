@@ -44,6 +44,19 @@
         return false;
     }
 
+    function getProjectShareImageDimensions($projectDirectoryId, $projectFiles) {
+        $shareImagePath = '../../projects/'.$projectDirectoryId.'/share-image.png';
+
+        if (file_exists($shareImagePath)) {
+            // Standard share images should be 1200x630
+            return ['width' => 1200, 'height' => 630];
+        } else if ($projectFiles['screenshots']) {
+            // Screenshots are typically different dimensions, return default OG size
+            return ['width' => 1200, 'height' => 630];
+        }
+        return false;
+    }
+
     function getIconForLink($link) {
         global $config;
 
