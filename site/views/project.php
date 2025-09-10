@@ -10,7 +10,7 @@
     $tags = getProjectTags($projectManifest, $projectFiles);
     
     $shareImage = getProjectShareImage($projectDirectoryId, $projectFiles);
-    $shareImageDimensions = getProjectShareImageDimensions($projectDirectoryId, $projectFiles);
+    $shareImageWidth = getProjectShareImageWidth($projectDirectoryId, $projectFiles);
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -35,9 +35,8 @@
         <meta property='og:description' content='<?php echo htmlspecialchars($projectManifest['shortDescription'], ENT_QUOTES, 'UTF-8'); ?>'>
         <?php if($shareImage) { ?>
             <meta property='og:image' content='<?php echo $shareImage; ?>'>
-            <?php if($shareImageDimensions) { ?>
-                <meta property='og:image:width' content='<?php echo $shareImageDimensions['width']; ?>'>
-                <meta property='og:image:height' content='<?php echo $shareImageDimensions['height']; ?>'>
+            <?php if($shareImageWidth) { ?>
+                <meta property='og:image:width' content='<?php echo $shareImageWidth; ?>'>
             <?php } ?>
         <?php } ?>
         <meta name='format-detection' content='telephone=no'>
