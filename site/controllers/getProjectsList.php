@@ -128,7 +128,9 @@
 
                 if (stringContains($searchQuery, '#')) {
                     $tagToMatch = str_replace('#', '', $searchQuery);
-                    if (in_array($tagToMatch, $projectInfo['manifest']['tags'])) {
+                    // Make tag comparison case-insensitive
+                    $projectTagsLowercase = array_map('strtolower', $projectInfo['manifest']['tags']);
+                    if (in_array($tagToMatch, $projectTagsLowercase)) {
                         $searchMatch = true;
                     }
                 } else {
