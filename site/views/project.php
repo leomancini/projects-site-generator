@@ -38,6 +38,10 @@
             <?php if($shareImageWidth) { ?>
                 <meta property='og:image:width' content='<?php echo $shareImageWidth; ?>'>
             <?php } ?>
+            <meta name='twitter:card' content='summary_large_image'>
+            <meta name='twitter:image' content='<?php echo $shareImage; ?>'>
+            <meta name='twitter:title' content='<?php echo htmlspecialchars($projectManifest['name'], ENT_QUOTES, 'UTF-8'); ?>'>
+            <meta name='twitter:description' content='<?php echo htmlspecialchars($projectManifest['shortDescription'], ENT_QUOTES, 'UTF-8'); ?>'>
         <?php } ?>
         <meta name='format-detection' content='telephone=no'>
     </head>
