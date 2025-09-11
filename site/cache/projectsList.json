@@ -276,18 +276,18 @@
                 }
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
-                    "3": "AI_Art_Box.stl",
-                    "4": "AI_Art_Box_Parts.zip",
-                    "5": "Case.stl",
-                    "6": "Front Frame.stl",
-                    "7": "Front Plate.xcs"
+                    "2": "AI_Art_Box.stl",
+                    "3": "AI_Art_Box_Parts.zip",
+                    "4": "Case.stl",
+                    "5": "Front Frame.stl",
+                    "6": "Front Plate.xcs"
                 },
                 "screenshots": {
-                    "3": "0-demo.mp4",
-                    "4": "1.jpg",
-                    "5": "2.jpg"
+                    "2": "0-demo.mp4",
+                    "3": "1.jpg",
+                    "4": "2.jpg"
                 }
             }
         },
@@ -326,13 +326,13 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1-demo-v3--play-audio.mp4",
-                    "4": "2@2x.jpg",
-                    "5": "3@2x.jpg",
-                    "6": "4@2x.jpg",
-                    "7": "hidden"
+                    "2": "1-demo-v3--play-audio.mp4",
+                    "3": "2@2x.jpg",
+                    "4": "3@2x.jpg",
+                    "5": "4@2x.jpg",
+                    "6": "hidden"
                 }
             }
         },
@@ -371,13 +371,13 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "0-demo@2x.mp4",
-                    "4": "1@2x.png",
-                    "5": "2@2x.png",
-                    "6": "3@2x.png",
-                    "7": "4@2x.png"
+                    "2": "0-demo@2x.mp4",
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png",
+                    "6": "4@2x.png"
                 }
             }
         },
@@ -1957,7 +1957,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "Byt_Hardware.3mf",
                     "3": "Byt_Hardware.stl"
@@ -2310,13 +2310,13 @@
             "files": {
                 "3": "longDescription.txt",
                 "downloads": {
-                    "3": "Back Plate.stl",
-                    "4": "Cartrdige.stl",
-                    "5": "Cartridge Bottom.stl",
-                    "6": "Cartridge Top.stl",
-                    "7": "Cartridge_Machine.stl",
-                    "8": "Cartridge_Machine_Parts.zip",
-                    "9": "Case.stl"
+                    "2": "Back Plate.stl",
+                    "3": "Cartrdige.stl",
+                    "4": "Cartridge Bottom.stl",
+                    "5": "Cartridge Top.stl",
+                    "6": "Cartridge_Machine.stl",
+                    "7": "Cartridge_Machine_Parts.zip",
+                    "8": "Case.stl"
                 },
                 "screenshots": {
                     "2": "1.mp4",
@@ -3511,7 +3511,7 @@
                 }
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Crochet_Frame.3mf",
                     "3": "Crochet_Frame.stl"
@@ -5775,8 +5775,8 @@
                     "2": "FCC_Coin_2025.stl"
                 },
                 "screenshots": {
-                    "2": "IMG_5207@2x.jpg",
-                    "3": "IMG_6181@2x.jpg"
+                    "3": "IMG_5207@2x.jpg",
+                    "4": "IMG_6181@2x.jpg"
                 }
             }
         },
@@ -6312,14 +6312,14 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Frame.stl"
                 },
                 "screenshots": {
-                    "3": "001-IMG_6810.jpeg",
-                    "4": "002-CleanShot 2025-06-13 at 15.20.49@2x.png",
-                    "5": "003-CleanShot 2025-06-13 at 15.22.46@2x.png"
+                    "2": "001-IMG_6810.jpeg",
+                    "3": "002-CleanShot 2025-06-13 at 15.20.49@2x.png",
+                    "4": "003-CleanShot 2025-06-13 at 15.22.46@2x.png"
                 }
             }
         },
@@ -6873,7 +6873,7 @@
                 }
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Case \u2013 Back.stl",
                     "3": "Case \u2013 Front.stl",
@@ -6882,16 +6882,16 @@
                     "6": "Power Button.stl"
                 },
                 "screenshots": {
-                    "3": "00-demo-1080.mp4",
-                    "4": "01-photo-001@2x.jpeg",
-                    "5": "01-photo-002@2x.jpeg",
-                    "6": "01-photo-003@2x.jpeg",
-                    "7": "01-photo-004@2x.jpeg",
-                    "8": "01-photo-005@2x.jpeg",
-                    "9": "02-sketch-001@2x.png",
-                    "10": "02-sketch-002@2x.png",
-                    "11": "02-sketch-003@2x.png",
-                    "12": "02-sketch-004@2x.png"
+                    "2": "00-demo-1080.mp4",
+                    "3": "01-photo-001@2x.jpeg",
+                    "4": "01-photo-002@2x.jpeg",
+                    "5": "01-photo-003@2x.jpeg",
+                    "6": "01-photo-004@2x.jpeg",
+                    "7": "01-photo-005@2x.jpeg",
+                    "8": "02-sketch-001@2x.png",
+                    "9": "02-sketch-002@2x.png",
+                    "10": "02-sketch-003@2x.png",
+                    "11": "02-sketch-004@2x.png"
                 }
             }
         },
@@ -6934,7 +6934,7 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Handheld_Computer_Vision_Rig_Wall_Mount.stl",
                     "3": "Handheld_Computer_Vision_Rig_Wall_Mount_Parts.zip",
@@ -6942,8 +6942,8 @@
                     "5": "Mount \u2013 Top.stl"
                 },
                 "screenshots": {
-                    "3": "01@2x.jpeg",
-                    "4": "02@2x.jpeg"
+                    "2": "01@2x.jpeg",
+                    "3": "02@2x.jpeg"
                 }
             }
         },
@@ -7969,8 +7969,9 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
-                "5": "share-image.png",
+                "3": "longDescription.txt",
+                "6": "share-image.jpeg",
+                "7": "share-image.png",
                 "screenshots": {
                     "2": "0-client.mp4",
                     "3": "1-screenshot-2@2x.png",
@@ -10212,7 +10213,7 @@
                 "tags": []
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.jpeg",
                     "3": "2@2x.jpeg",
@@ -10317,7 +10318,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "1@2x.jpeg",
                     "3": "2@2x.jpeg",
@@ -10695,18 +10696,18 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
-                    "3": "Bottom_Case.stl",
-                    "4": "Bottom_Plate.stl",
-                    "5": "Headphone_Mount.stl",
-                    "6": "Multiplayer_Sound_Box_Parts.zip",
-                    "7": "Top_Case.stl"
+                    "2": "Bottom_Case.stl",
+                    "3": "Bottom_Plate.stl",
+                    "4": "Headphone_Mount.stl",
+                    "5": "Multiplayer_Sound_Box_Parts.zip",
+                    "6": "Top_Case.stl"
                 },
                 "screenshots": {
-                    "3": "1@2x.jpeg",
-                    "4": "2@2x.jpeg",
-                    "5": "3@2x.jpeg"
+                    "2": "1@2x.jpeg",
+                    "3": "2@2x.jpeg",
+                    "4": "3@2x.jpeg"
                 }
             }
         },
@@ -11009,17 +11010,17 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "NFC_Tag_Enclosure.3mf",
                     "3": "NFC_Tag_Enclosure.stl"
                 },
                 "screenshots": {
-                    "3": "01.jpg",
-                    "4": "02.jpg",
-                    "5": "03.jpg",
-                    "6": "04.jpg",
-                    "7": "hidden"
+                    "2": "01.jpg",
+                    "3": "02.jpg",
+                    "4": "03.jpg",
+                    "5": "04.jpg",
+                    "6": "hidden"
                 }
             }
         },
@@ -11258,9 +11259,9 @@
                 }
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "01@2x.jpeg"
+                    "2": "01@2x.jpeg"
                 }
             }
         },
@@ -12960,13 +12961,13 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "001@2x.jpeg",
-                    "4": "002-Circle Visualizer.mp4",
-                    "5": "003-Loading Presets.mp4",
-                    "6": "004@2x.jpeg",
-                    "7": "005@2x.jpeg"
+                    "2": "001@2x.jpeg",
+                    "3": "002-Circle Visualizer.mp4",
+                    "4": "003-Loading Presets.mp4",
+                    "5": "004@2x.jpeg",
+                    "6": "005@2x.jpeg"
                 }
             }
         },
@@ -13013,15 +13014,15 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
-                "6": "share-image.png",
+                "2": "longDescription.txt",
+                "5": "share-image.png",
                 "screenshots": {
-                    "3": "001-Circle Visualizer.mp4",
-                    "4": "002-Population Map.mp4",
-                    "5": "003-Wave Visualizer.mp4",
-                    "6": "004-Rain Machine.mp4",
-                    "7": "005-Cell Machine.mp4",
-                    "8": "006-Hand Detection.mp4"
+                    "2": "001-Circle Visualizer.mp4",
+                    "3": "002-Population Map.mp4",
+                    "4": "003-Wave Visualizer.mp4",
+                    "5": "004-Rain Machine.mp4",
+                    "6": "005-Cell Machine.mp4",
+                    "7": "006-Hand Detection.mp4"
                 }
             }
         },
@@ -13154,22 +13155,22 @@
                 ]
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Play_Machine.xcs"
                 },
                 "screenshots": {
-                    "3": "001@2x.jpeg",
-                    "4": "002@2x.jpeg",
-                    "5": "003@2x.jpeg",
-                    "6": "004@2x.jpeg",
-                    "7": "005@2x.jpeg",
-                    "8": "006@2x.jpeg",
-                    "9": "007@2x.jpeg",
-                    "10": "008@2x.jpeg",
-                    "11": "009@2x.jpeg",
-                    "12": "010@2x.jpeg",
-                    "13": "hidden"
+                    "2": "001@2x.jpeg",
+                    "3": "002@2x.jpeg",
+                    "4": "003@2x.jpeg",
+                    "5": "004@2x.jpeg",
+                    "6": "005@2x.jpeg",
+                    "7": "006@2x.jpeg",
+                    "8": "007@2x.jpeg",
+                    "9": "008@2x.jpeg",
+                    "10": "009@2x.jpeg",
+                    "11": "010@2x.jpeg",
+                    "12": "hidden"
                 }
             }
         },
@@ -13219,7 +13220,7 @@
                 }
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Bottom.stl",
                     "3": "Button.stl",
@@ -13229,17 +13230,17 @@
                     "7": "Play_Machine_Mini_Parts.zip"
                 },
                 "screenshots": {
-                    "3": "0-silent.mp4",
-                    "4": "1-audio--play-audio.mp4",
-                    "5": "1@2x.jpeg",
-                    "6": "2@2x.jpeg",
-                    "7": "3@2x.jpeg",
-                    "8": "4@2x.jpeg",
-                    "9": "5@2x.jpeg",
-                    "10": "6@2x.jpeg",
-                    "11": "7@2x.jpeg",
-                    "12": "8@2x.jpeg",
-                    "13": "9@2x.jpeg"
+                    "2": "0-silent.mp4",
+                    "3": "1-audio--play-audio.mp4",
+                    "4": "1@2x.jpeg",
+                    "5": "2@2x.jpeg",
+                    "6": "3@2x.jpeg",
+                    "7": "4@2x.jpeg",
+                    "8": "5@2x.jpeg",
+                    "9": "6@2x.jpeg",
+                    "10": "7@2x.jpeg",
+                    "11": "8@2x.jpeg",
+                    "12": "9@2x.jpeg"
                 }
             }
         },
@@ -13278,8 +13279,8 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
-                "6": "share-image.png",
+                "2": "longDescription.txt",
+                "5": "share-image.png",
                 "screenshots": {
                     "2": "000-os-demo.mp4",
                     "3": "001@2x.png",
@@ -13326,11 +13327,11 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "2": "longDescription.txt",
                 "screenshots": {
-                    "3": "1.jpeg",
-                    "4": "2.mp4",
-                    "5": "3.jpeg"
+                    "2": "1.jpeg",
+                    "3": "2.mp4",
+                    "4": "3.jpeg"
                 }
             }
         },
@@ -13407,7 +13408,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt"
+                "2": "longDescription.txt"
             }
         },
         {
@@ -15608,7 +15609,7 @@
                 }
             },
             "files": {
-                "4": "longDescription.txt",
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Back Case.stl",
                     "3": "Front Plate.stl",
@@ -15616,9 +15617,9 @@
                     "5": "Somethin_Meter_Parts.zip"
                 },
                 "screenshots": {
-                    "3": "01-video.mp4",
-                    "4": "02@2x.jpeg",
-                    "5": "03@2x.jpeg"
+                    "2": "01-video.mp4",
+                    "3": "02@2x.jpeg",
+                    "4": "03@2x.jpeg"
                 }
             }
         },
@@ -18211,12 +18212,12 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "1@2x.png",
-                    "3": "2@2x.png",
-                    "4": "3@2x.png",
-                    "5": "4@2x.png",
-                    "6": "5@2x.png",
-                    "7": "6@2x.png",
+                    "2": "1@2x.PNG",
+                    "3": "2@2x.PNG",
+                    "4": "3@2x.PNG",
+                    "5": "4@2x.PNG",
+                    "6": "5@2x.PNG",
+                    "7": "6@2x.PNG",
                     "8": "7@2x.png",
                     "9": "8@2x.png",
                     "10": "9@2x.png",
@@ -18678,23 +18679,23 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "000-a@2x.jpeg",
-                    "3": "000-b@2x.jpeg",
-                    "4": "001-mobile@2x.png",
-                    "5": "002-mobile@2x.png",
-                    "6": "003-mobile@2x.png",
-                    "7": "005-mobile@2x.png",
-                    "8": "006-mobile@2x.png",
-                    "9": "007-mobile@2x.png",
-                    "10": "008-mobile@2x.png",
-                    "11": "009-mobile@2x.png",
-                    "12": "010-mobile@2x.mp4",
-                    "13": "011-desktop@2x.png",
-                    "14": "012-desktop@2x.png",
-                    "15": "013-desktop@2x.png",
-                    "16": "014-desktop@2x.png",
-                    "17": "015-desktop@2x.mp4",
-                    "18": "hidden"
+                    "3": "000-a@2x.jpeg",
+                    "4": "000-b@2x.jpeg",
+                    "5": "001-mobile@2x.png",
+                    "6": "002-mobile@2x.png",
+                    "7": "003-mobile@2x.png",
+                    "8": "005-mobile@2x.png",
+                    "9": "006-mobile@2x.png",
+                    "10": "007-mobile@2x.png",
+                    "11": "008-mobile@2x.png",
+                    "12": "009-mobile@2x.png",
+                    "13": "010-mobile@2x.mp4",
+                    "14": "011-desktop@2x.png",
+                    "15": "012-desktop@2x.png",
+                    "16": "013-desktop@2x.png",
+                    "17": "014-desktop@2x.png",
+                    "18": "015-desktop@2x.mp4",
+                    "19": "hidden"
                 }
             }
         },

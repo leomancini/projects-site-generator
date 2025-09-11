@@ -28,11 +28,16 @@
     }
 
     function getProjectShareImage($projectDirectoryId, $projectFiles) {
-        $shareImagePath = '../../projects/'.$projectDirectoryId.'/share-image.png';
-
-        if (file_exists($shareImagePath)) {
-            return "https://leomancini.net/projects/".$projectDirectoryId."/share-image.png";
-        } else if ($projectFiles['screenshots']) {
+        $shareImageExtensions = ['png', 'jpg', 'jpeg'];
+        
+        foreach ($shareImageExtensions as $extension) {
+            $shareImagePath = '../../projects/'.$projectDirectoryId.'/share-image.'.$extension;
+            if (file_exists($shareImagePath)) {
+                return "https://leomancini.net/projects/".$projectDirectoryId."/share-image.".$extension;
+            }
+        }
+        
+        if ($projectFiles['screenshots']) {
             $imageExtensions = ['png', 'jpg', 'jpeg', 'gif', 'webp'];
             foreach ($projectFiles['screenshots'] as $screenshot) {
                 $extension = strtolower(pathinfo($screenshot, PATHINFO_EXTENSION));
@@ -45,12 +50,17 @@
     }
 
     function getProjectShareImageWidth($projectDirectoryId, $projectFiles) {
-        $shareImagePath = '../../projects/'.$projectDirectoryId.'/share-image.png';
-
-        if (file_exists($shareImagePath)) {
-            // Standard share images should be 1200 width
-            return 1200;
-        } else if ($projectFiles['screenshots']) {
+        $shareImageExtensions = ['png', 'jpg', 'jpeg'];
+        
+        foreach ($shareImageExtensions as $extension) {
+            $shareImagePath = '../../projects/'.$projectDirectoryId.'/share-image.'.$extension;
+            if (file_exists($shareImagePath)) {
+                // Standard share images should be 1200 width
+                return 1200;
+            }
+        }
+        
+        if ($projectFiles['screenshots']) {
             // For screenshots, use a width that works well for social media
             return 1200;
         }
