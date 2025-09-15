@@ -193,7 +193,7 @@
                         "type": "github",
                         "label": "View Firmware Source",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/fcc-lol\/number-frame-firmware"
+                        "url": "https:\/\/github.com\/fcc-lol\/number-frame-firmware\/blob\/main\/number-frame-firmware.ino"
                     },
                     {
                         "type": "live_site",
