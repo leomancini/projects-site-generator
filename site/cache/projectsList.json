@@ -197,7 +197,7 @@
                     },
                     {
                         "type": "live_site",
-                        "label": "View Live Mobile Controller",
+                        "label": "View Mobile Controller",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/8888.fcc.lol"
                     },
