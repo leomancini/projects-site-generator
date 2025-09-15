@@ -15662,6 +15662,12 @@
                         "url": "https:\/\/somethin-meter-proxy.noshado.ws\/"
                     },
                     {
+                        "type": "live_site",
+                        "label": "View Meter Visualizer",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/somethin-meter.leo.gd\/visualizer"
+                    },
+                    {
                         "type": "download",
                         "label": "Download STL File",
                         "icon": "DEFAULT_FOR_TYPE",
@@ -15677,8 +15683,8 @@
                 "tags": {
                     "0": "github",
                     "2": "live-site",
-                    "3": "3D",
-                    "4": "video"
+                    "4": "3D",
+                    "5": "video"
                 }
             },
             "files": {
