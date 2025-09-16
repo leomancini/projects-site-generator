@@ -217,8 +217,7 @@
                 "tags": {
                     "0": "ai",
                     "1": "github",
-                    "4": "live-site",
-                    "6": "video"
+                    "4": "live-site"
                 }
             },
             "files": {
@@ -227,7 +226,6 @@
                     "2": "8888_Number_Frame.xcs"
                 },
                 "screenshots": {
-                    "2": "0-demo.mp4",
                     "3": "1.jpeg"
                 }
             }
