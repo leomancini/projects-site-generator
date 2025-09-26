@@ -18094,6 +18094,54 @@
         },
         {
             "directory": {
+                "id": "today-api"
+            },
+            "manifest": {
+                "name": "Today API",
+                "shortDescription": "Endpoints to get interesting facts related to the current date",
+                "startDate": {
+                    "string": "September 26, 2025",
+                    "timestamp": {
+                        "raw": 1758844800,
+                        "formatted": "September 2025",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/today-api.fcc.lol\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/today-api"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "blooming-plants--code.txt",
+                    "3": "historical-events--code.txt",
+                    "4": "weird-holidays--code.txt"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "touchless"
             },
             "manifest": {
