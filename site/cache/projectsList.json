@@ -11545,6 +11545,12 @@
                         "url": "https:\/\/nyc-sky-colors.fcc.lol\/api"
                     },
                     {
+                        "type": "live_site",
+                        "label": "View on Byt",
+                        "icon": "home_max",
+                        "url": "https:\/\/byt.fcc.lol\/?app=NYCSkyColors"
+                    },
+                    {
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
@@ -11553,7 +11559,7 @@
                 ],
                 "tags": {
                     "0": "live-site",
-                    "2": "github"
+                    "3": "github"
                 }
             },
             "files": {
