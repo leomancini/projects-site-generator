@@ -65,10 +65,11 @@
                         }
                     }
                 },
-                "tags": [
-                    "music",
-                    "audio"
-                ]
+                "tags": {
+                    "0": "music",
+                    "2": "sound-bath",
+                    "3": "audio"
+                }
             },
             "files": {
                 "2": "longDescription.txt",
@@ -15751,6 +15752,80 @@
                     "3": "01-video.mp4",
                     "4": "02@2x.jpeg",
                     "5": "03@2x.jpeg"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "sound-bath-001"
+            },
+            "manifest": {
+                "name": "Sound Bath 001",
+                "shortDescription": "Mix of historical audio, music, and videos",
+                "startDate": {
+                    "string": "September 7, 2025",
+                    "timestamp": {
+                        "raw": 1757203200,
+                        "formatted": "September 2025",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "music",
+                        "label": "View Credits",
+                        "icon": "list",
+                        "url": "https:\/\/static.fcc.lol\/sound-bath-001-credits\/"
+                    }
+                ],
+                "tags": [
+                    "sound-bath",
+                    "video",
+                    "youtube"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "youtube.txt"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "sound-bath-002"
+            },
+            "manifest": {
+                "name": "Sound Bath 002",
+                "shortDescription": "Mix of historical audio with original videos",
+                "startDate": {
+                    "string": "September 7, 2025",
+                    "timestamp": {
+                        "raw": 1757203200,
+                        "formatted": "September 2025",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "tags": [
+                    "sound-bath",
+                    "video",
+                    "youtube"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "youtube.txt"
                 }
             }
         },
