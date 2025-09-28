@@ -11512,6 +11512,59 @@
         },
         {
             "directory": {
+                "id": "nyc-sky-colors-api"
+            },
+            "manifest": {
+                "name": "NYC Sky Colors API",
+                "shortDescription": "Microservice to get the current colors of the sky over Manhattan",
+                "startDate": {
+                    "string": "September 28, 2025",
+                    "timestamp": {
+                        "raw": 1759017600,
+                        "formatted": "September 2025",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "View Current Data",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/nyc-sky-colors.fcc.lol"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Endpoint",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/nyc-sky-colors.fcc.lol\/api"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/nyc-sky-colors-api"
+                    }
+                ],
+                "tags": {
+                    "0": "live-site",
+                    "2": "github"
+                }
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "demo--code.txt"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "nyc-subway-map-experiment"
             },
             "manifest": {
