@@ -11574,11 +11574,9 @@
                     "3": "1@2x.png",
                     "4": "2@2x.png",
                     "5": "3@2x.png",
-                    "6": "4@2x.png",
-                    "7": "5@2x.png",
-                    "8": "6-overlay.png",
-                    "9": "7-latest-image.jpeg",
-                    "10": "demo--code.txt"
+                    "6": "4-overlay.png",
+                    "7": "5-latest-image.jpeg",
+                    "8": "demo--code.txt"
                 }
             }
         },
