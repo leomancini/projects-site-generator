@@ -2127,7 +2127,8 @@
                     "18": "16@2x.png",
                     "19": "17@2x.png",
                     "20": "18@2x.png",
-                    "21": "19@2x.png"
+                    "21": "19@2x.png",
+                    "22": "20@2x.png"
                 }
             }
         },
@@ -5862,6 +5863,49 @@
                 "screenshots": {
                     "2": "IMG_5207@2x.jpg",
                     "3": "IMG_6181@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "fcc-opening-reception-nov-2025-invitation"
+            },
+            "manifest": {
+                "name": "FCC Opening Reception Invitation",
+                "shortDescription": "Card for promoting 2025 gallery show",
+                "startDate": {
+                    "string": "October 1, 2025",
+                    "timestamp": {
+                        "raw": 1759276800,
+                        "formatted": "October 2025",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download XCS File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/fcc-opening-reception-nov-2025-invitation\/downloads\/FCC_Opening_Reception_Nov_2025_Invitation.zip"
+                    }
+                ],
+                "tags": []
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "FCC_Opening_Reception_Nov_2025_Invitation.xcs"
+                },
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4@2x.png"
                 }
             }
         },
