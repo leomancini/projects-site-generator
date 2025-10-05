@@ -14767,6 +14767,65 @@
         },
         {
             "directory": {
+                "id": "rolodex-apps"
+            },
+            "manifest": {
+                "name": "Rolodex Apps",
+                "shortDescription": "Utilities and visualizations on circular screen (hardware by Zach Temkin)",
+                "startDate": {
+                    "string": "October 5, 2025",
+                    "timestamp": {
+                        "raw": 1759622400,
+                        "formatted": "October 2025",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "info",
+                        "label": "More Info",
+                        "icon": "info",
+                        "url": "https:\/\/fcc.lol\/project\/console"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "hardware, OS, app template"
+                    }
+                ],
+                "tags": [
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "IMG_9197.mov",
+                "4": "IMG_9198.mov",
+                "5": "IMG_9199.mov",
+                "6": "longDescription.txt",
+                "screenshots": {
+                    "3": "001@2x.jpeg",
+                    "4": "002@2x.jpeg",
+                    "5": "003@2x.jpeg",
+                    "6": "004@2x.jpeg",
+                    "7": "005@2x.jpeg",
+                    "8": "006@2x.jpeg",
+                    "9": "007.mp4",
+                    "10": "008.mp4",
+                    "11": "009.mp4",
+                    "12": "010@2x.jpeg",
+                    "13": "011.txt"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "roman-woman"
             },
             "manifest": {
