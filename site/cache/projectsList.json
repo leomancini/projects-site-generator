@@ -6014,7 +6014,10 @@
             },
             "files": {
                 "3": "longDescription.txt",
-                "screenshots": []
+                "screenshots": {
+                    "3": "1@2x.jpeg",
+                    "4": "2@2x.jpeg"
+                }
             }
         },
         {
