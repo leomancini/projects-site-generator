@@ -14331,6 +14331,83 @@
         },
         {
             "directory": {
+                "id": "propel-dsnp-plan-navigator"
+            },
+            "manifest": {
+                "name": "Propel Medicaid & Medicare Plan Navigator",
+                "shortDescription": "Help people with low-income find health plans with extra benefits",
+                "startDate": {
+                    "string": "May 2025",
+                    "timestamp": {
+                        "raw": 1746057600,
+                        "formatted": "May 2025",
+                        "components": {
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "tags": [
+                    "freelance"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "propel-ebt-theft-dashboard"
+            },
+            "manifest": {
+                "name": "Propel EBT Theft Dashboard",
+                "shortDescription": "Shows data from reports of unauthorized transactions",
+                "startDate": {
+                    "string": "February 15, 2025",
+                    "timestamp": {
+                        "raw": 1739577600,
+                        "formatted": "February 2025",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/stoptheft.propel.app"
+                    }
+                ],
+                "tags": [
+                    "job",
+                    "live-site"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png",
+                    "6": "4@2x.png",
+                    "7": "5@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "qr-receipt-data-transfer"
             },
             "manifest": {
