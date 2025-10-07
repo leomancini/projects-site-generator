@@ -1984,7 +1984,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "3": "001@2x.png",
                     "4": "002@2x.png",
@@ -2038,7 +2038,7 @@
                 ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
                     "3": "000@2x.png",
                     "4": "001@2x.png",
@@ -16201,6 +16201,52 @@
                 "screenshots": {
                     "2": "0-un-building--code.txt",
                     "3": "empire-state-building--code.txt"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "slope"
+            },
+            "manifest": {
+                "name": "Slope Onboarding",
+                "shortDescription": "Access business capital financing with custom offer terms",
+                "startDate": {
+                    "string": "April 2024",
+                    "timestamp": {
+                        "raw": 1711929600,
+                        "formatted": "April 2024",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "tags": [
+                    "slope",
+                    "freelance",
+                    "video"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "001 \u2013 Offer \u2013 Switcher.mp4",
+                    "4": "002 \u2013 Offer \u2013 Custom Terms 2.mp4",
+                    "5": "003 \u2013 Offer \u2013 Visual Due Date \u2013 Multiple Icons.mp4",
+                    "6": "004 \u2013 Offer \u2013 Visual Due Date \u2013 Progress Bar with Date.mp4",
+                    "7": "005 \u2013 Offer \u2013 Visual Due Date \u2013 Timeline.mp4",
+                    "8": "006 \u2013 Offer \u2013 Visual Installments \u2013 Timeline 2.mp4",
+                    "9": "007 \u2013 Offer \u2013 Visual Due Date \u2013 Slider.mp4",
+                    "10": "008@2x.png",
+                    "11": "009@2x.png",
+                    "12": "010@2x.png",
+                    "13": "011@2x.png",
+                    "14": "012@2x.png",
+                    "15": "013@2x.png",
+                    "16": "014@2x.png"
                 }
             }
         },
