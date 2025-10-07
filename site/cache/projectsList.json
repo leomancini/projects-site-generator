@@ -14591,19 +14591,25 @@
                 "id": "propel-dsnp-plan-navigator"
             },
             "manifest": {
+                "name": "Propel Medicaid & Medicare Plan Navigator",
+                "shortDescription": "Help people with low-income find health plans with extra benefits",
                 "startDate": {
+                    "string": "May 2025",
                     "timestamp": {
-                        "raw": false,
-                        "formatted": "January 1970",
+                        "raw": 1746057600,
+                        "formatted": "May 2025",
                         "components": {
-                            "monthFormatted": "January",
-                            "monthNumber": 1,
-                            "yearFormatted": "1970",
-                            "yearNumber": 1970
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
                         }
                     }
                 },
-                "tags": []
+                "tags": [
+                    "propel",
+                    "freelance"
+                ]
             },
             "files": {
                 "2": "longDescription.txt",
