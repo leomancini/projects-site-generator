@@ -1878,6 +1878,220 @@
         },
         {
             "directory": {
+                "id": "braid-bot-prototypes"
+            },
+            "manifest": {
+                "name": "Braid Meeting Bot Prototypes",
+                "shortDescription": "Experiments in playing games in video meetings",
+                "startDate": {
+                    "string": "July 2, 2024",
+                    "timestamp": {
+                        "raw": 1719878400,
+                        "formatted": "July 2024",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "tags": [
+                    "braid",
+                    "freelance",
+                    "video"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "Demo 1 \u2013 Joining a Meeting and Presenting Content.mp4",
+                    "3": "Demo 2 \u2013 Audio Player with Chat Commands--play-audio.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "braid-daily-mix-app"
+            },
+            "manifest": {
+                "name": "Braid Daily Mix App",
+                "shortDescription": "Get to know your friends better through daily quizzes",
+                "startDate": {
+                    "string": "July 1, 2024",
+                    "timestamp": {
+                        "raw": 1719792000,
+                        "formatted": "July 2024",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "tags": [
+                    "braid",
+                    "freelance",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "001@2x.png",
+                    "4": "002@2x.png",
+                    "5": "003@2x.png",
+                    "6": "004@2x.png",
+                    "7": "005@2x.png",
+                    "8": "006@2x.png",
+                    "9": "007@2x.png",
+                    "10": "008@2x.png",
+                    "11": "009@2x.png",
+                    "12": "010@2x.png",
+                    "13": "011@2x.png",
+                    "14": "012@2x.png",
+                    "15": "013@2x.png",
+                    "16": "014@2x.png",
+                    "17": "015@2x.png",
+                    "18": "demo@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "braid-dashboard"
+            },
+            "manifest": {
+                "name": "Braid Insights Dashboard & Design System",
+                "shortDescription": "See how you stack up to other players",
+                "startDate": {
+                    "string": "July 3, 2024",
+                    "timestamp": {
+                        "raw": 1719964800,
+                        "formatted": "July 2024",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "tags": [
+                    "braid",
+                    "freelance"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "001@2x.png",
+                    "4": "002@2x.png",
+                    "5": "003@2x.png",
+                    "6": "005@2x.png",
+                    "7": "007@2x.png",
+                    "8": "008@2x.png",
+                    "9": "010@2x.png",
+                    "10": "011@2x.png",
+                    "11": "012@2x.png",
+                    "12": "013-Colors@2x.png",
+                    "13": "014-Typography@2x.png",
+                    "14": "015-Inline Components@2x.png",
+                    "15": "016-Stat Components@2x.png",
+                    "16": "017-Container Components@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "braid-marketing-site"
+            },
+            "manifest": {
+                "name": "Braid Marketing Site",
+                "shortDescription": "Promote launch and explain product features",
+                "startDate": {
+                    "string": "July 4, 2024",
+                    "timestamp": {
+                        "raw": 1720051200,
+                        "formatted": "July 2024",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.trybraid.io\/"
+                    }
+                ],
+                "tags": [
+                    "braid",
+                    "freelance",
+                    "live-site"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "000@2x.png",
+                    "4": "001@2x.png",
+                    "5": "002@2x.png",
+                    "6": "003@2x.png",
+                    "7": "004@2x.png",
+                    "8": "005@2x.png",
+                    "9": "006@2x.png",
+                    "10": "007@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "braid-social-marketing"
+            },
+            "manifest": {
+                "name": "Braid Social Marketing Materials",
+                "shortDescription": "Collateral for social media to promote launch",
+                "startDate": {
+                    "string": "July 5, 2024",
+                    "timestamp": {
+                        "raw": 1720137600,
+                        "formatted": "July 2024",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "tags": [
+                    "braid",
+                    "freelance",
+                    "video"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "Braid Intro 5--play-audio.mp4",
+                    "3": "Facebook@2x.png",
+                    "4": "Instagram Post@2x.png",
+                    "5": "Instagram Story@2x.png",
+                    "6": "LinkedIn Cover Photo@2x.png",
+                    "7": "LinkedIn Post@2x.png",
+                    "8": "X@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "brushed-metal-desktop-pictures"
             },
             "manifest": {
