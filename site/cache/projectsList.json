@@ -2522,6 +2522,49 @@
         },
         {
             "directory": {
+                "id": "cash-app-card-studio"
+            },
+            "manifest": {
+                "name": "Cash App Card Studio",
+                "shortDescription": "Personalize and order your debit card on web",
+                "startDate": {
+                    "string": "September 2024",
+                    "timestamp": {
+                        "raw": 1725148800,
+                        "formatted": "September 2024",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/cash.app\/account\/card"
+                    }
+                ],
+                "tags": [
+                    "cash-app",
+                    "freelance",
+                    "live-site",
+                    "video"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "01-personalization.mp4",
+                    "3": "02-ordering.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "cash-app-website"
             },
             "manifest": {
@@ -14334,24 +14377,19 @@
                 "id": "propel-dsnp-plan-navigator"
             },
             "manifest": {
-                "name": "Propel Medicaid & Medicare Plan Navigator",
-                "shortDescription": "Help people with low-income find health plans with extra benefits",
                 "startDate": {
-                    "string": "May 2025",
                     "timestamp": {
-                        "raw": 1746057600,
-                        "formatted": "May 2025",
+                        "raw": false,
+                        "formatted": "January 1970",
                         "components": {
-                            "monthFormatted": "May",
-                            "monthNumber": 5,
-                            "yearFormatted": "2025",
-                            "yearNumber": 2025
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "1970",
+                            "yearNumber": 1970
                         }
                     }
                 },
-                "tags": [
-                    "freelance"
-                ]
+                "tags": []
             },
             "files": {
                 "2": "longDescription.txt",
@@ -14391,6 +14429,7 @@
                     }
                 ],
                 "tags": [
+                    "propel",
                     "job",
                     "live-site"
                 ]
