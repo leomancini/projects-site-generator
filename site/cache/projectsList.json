@@ -4647,6 +4647,62 @@
         },
         {
             "directory": {
+                "id": "distill"
+            },
+            "manifest": {
+                "name": "Distill Research Web App",
+                "shortDescription": "Tool for AI-powered research about people and companies",
+                "startDate": {
+                    "string": "April 2024",
+                    "timestamp": {
+                        "raw": 1711929600,
+                        "formatted": "April 2024",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/distill.fyi\/"
+                    }
+                ],
+                "tags": [
+                    "distill",
+                    "freelance",
+                    "live-site"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "001@2x.png",
+                    "3": "002@2x.png",
+                    "4": "003@2x.png",
+                    "5": "004@2x.png",
+                    "6": "005@2x.png",
+                    "7": "006@2x.png",
+                    "8": "007@2x.png",
+                    "9": "008@2x.png",
+                    "10": "009@2x.png",
+                    "11": "010@2x.png",
+                    "12": "011@2x.png",
+                    "13": "012@2x.png",
+                    "14": "013@2x.png",
+                    "15": "014@2x.png",
+                    "16": "015@2x.png",
+                    "17": "016@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "doe-website-refreshes"
             },
             "manifest": {
