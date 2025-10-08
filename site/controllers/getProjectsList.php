@@ -120,54 +120,127 @@
         return false;
     }
 
+    function parseSearchQuery($searchQuery) {
+        $parsedQuery = [
+            'tags' => [],
+            'yearRanges' => [],
+            'textTerms' => []
+        ];
+
+        // Split the search query into parts
+        $parts = preg_split('/\s+/', trim($searchQuery));
+
+        foreach ($parts as $part) {
+            // Check if it's a tag (starts with #)
+            if (strpos($part, '#') === 0) {
+                $tag = strtolower(substr($part, 1)); // Remove # and make lowercase
+                if (!empty($tag)) {
+                    $parsedQuery['tags'][] = $tag;
+                }
+            }
+            // Check if it's a year range (e.g., 2024-2025 or just 2024)
+            else if (preg_match('/^(\d{4})(-(\d{4}))?$/', $part, $matches)) {
+                $startYear = (int)$matches[1];
+                $endYear = isset($matches[3]) ? (int)$matches[3] : $startYear;
+                
+                $parsedQuery['yearRanges'][] = [
+                    'start' => $startYear,
+                    'end' => $endYear
+                ];
+            }
+            // Otherwise, it's a regular text search term
+            else if (!empty(trim($part))) {
+                $parsedQuery['textTerms'][] = strtolower($part);
+            }
+        }
+
+        return $parsedQuery;
+    }
+
     function searchProjectsList($projectsList) {
         if(isset($_GET['search']) && $_GET['search'] !== '') {
-            $projectsList['projects'] = array_filter($projectsList['projects'], function ($projectInfo) {
-                $searchQuery = strtolower($_GET['search']);
-                $searchMatch = false;
+            $searchQuery = $_GET['search'];
+            $parsedQuery = parseSearchQuery($searchQuery);
 
-                if (stringContains($searchQuery, '#')) {
-                    $tagToMatch = str_replace('#', '', $searchQuery);
-                    // Make tag comparison case-insensitive
-                    $projectTagsLowercase = array_map('strtolower', $projectInfo['manifest']['tags']);
-                    if (in_array($tagToMatch, $projectTagsLowercase)) {
-                        $searchMatch = true;
+            $projectsList['projects'] = array_filter($projectsList['projects'], function ($projectInfo) use ($parsedQuery) {
+                $projectYear = $projectInfo['manifest']['startDate']['timestamp']['components']['yearNumber'];
+                $projectTagsLowercase = array_map('strtolower', $projectInfo['manifest']['tags']);
+
+                // Check tags - ALL specified tags must match
+                foreach ($parsedQuery['tags'] as $requiredTag) {
+                    if (!in_array($requiredTag, $projectTagsLowercase)) {
+                        return false;
                     }
-                } else {
-                    if(
-                        stringContains(strtolower($projectInfo['directory']['id']), $searchQuery) ||
-                        stringContains(strtolower($projectInfo['manifest']['name']), $searchQuery) ||
-                        stringContains(strtolower($projectInfo['manifest']['shortDescription']), $searchQuery) ||
-                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['monthNumber']), $searchQuery) ||
-                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['monthFormatted']), $searchQuery) ||
-                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['yearNumber']), $searchQuery) ||
-                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['yearFormatted']), $searchQuery)
+                }
+
+                // Check year ranges - project must fall within AT LEAST ONE year range if any specified
+                if (!empty($parsedQuery['yearRanges'])) {
+                    $yearMatches = false;
+                    foreach ($parsedQuery['yearRanges'] as $yearRange) {
+                        if ($projectYear >= $yearRange['start'] && $projectYear <= $yearRange['end']) {
+                            $yearMatches = true;
+                            break;
+                        }
+                    }
+                    if (!$yearMatches) {
+                        return false;
+                    }
+                }
+
+                // Check text terms - ALL text terms must match somewhere in the project data
+                foreach ($parsedQuery['textTerms'] as $textTerm) {
+                    $textMatches = false;
+
+                    // Check in various project fields
+                    if (
+                        stringContains(strtolower($projectInfo['directory']['id']), $textTerm) ||
+                        stringContains(strtolower($projectInfo['manifest']['name']), $textTerm) ||
+                        stringContains(strtolower($projectInfo['manifest']['shortDescription']), $textTerm) ||
+                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['monthFormatted']), $textTerm) ||
+                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['yearFormatted']), $textTerm)
                     ) {
-                        $searchMatch = true;
+                        $textMatches = true;
                     }
 
-                    if (array_key_exists('credits', $projectInfo['manifest'])) {
-                        // Search in credits properties (name, link, type)
+                    // Check in credits
+                    if (!$textMatches && array_key_exists('credits', $projectInfo['manifest'])) {
                         foreach ($projectInfo['manifest']['credits'] as $credit) {
                             if (
-                                (isset($credit['name']) && stringContains(strtolower($credit['name']), $searchQuery)) ||
-                                (isset($credit['link']) && stringContains(strtolower($credit['link']), $searchQuery)) ||
-                                (isset($credit['type']) && stringContains(strtolower($credit['type']), $searchQuery))
+                                (isset($credit['name']) && stringContains(strtolower($credit['name']), $textTerm)) ||
+                                (isset($credit['link']) && stringContains(strtolower($credit['link']), $textTerm)) ||
+                                (isset($credit['type']) && stringContains(strtolower($credit['type']), $textTerm))
                             ) {
-                                $searchMatch = true;
+                                $textMatches = true;
                                 break;
                             }
                         }
                     }
 
-                    if (array_key_exists('links', $projectInfo['manifest'])) {
-                        if (searchInUrlsExcludingTldMatches($projectInfo['manifest']['links'], $searchQuery)) {
-                            $searchMatch = true;
+                    // Check in links
+                    if (!$textMatches && array_key_exists('links', $projectInfo['manifest'])) {
+                        if (searchInUrlsExcludingTldMatches($projectInfo['manifest']['links'], $textTerm)) {
+                            $textMatches = true;
                         }
                     }
+
+                    // Check in tags (for partial tag matches)
+                    if (!$textMatches) {
+                        foreach ($projectTagsLowercase as $tag) {
+                            if (stringContains($tag, $textTerm)) {
+                                $textMatches = true;
+                                break;
+                            }
+                        }
+                    }
+
+                    // If this text term doesn't match anywhere, reject this project
+                    if (!$textMatches) {
+                        return false;
+                    }
                 }
-                
-                return $searchMatch;
+
+                // If we get here, all criteria match
+                return true;
             });
 
             $searchMetadata = [
