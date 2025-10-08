@@ -4654,13 +4654,13 @@
                 "name": "Distill Research Web App",
                 "shortDescription": "Tool for AI-powered research about people and companies",
                 "startDate": {
-                    "string": "April 2024",
+                    "string": "May 2024",
                     "timestamp": {
-                        "raw": 1711929600,
-                        "formatted": "April 2024",
+                        "raw": 1714521600,
+                        "formatted": "May 2024",
                         "components": {
-                            "monthFormatted": "April",
-                            "monthNumber": 4,
+                            "monthFormatted": "May",
+                            "monthNumber": 5,
                             "yearFormatted": "2024",
                             "yearNumber": 2024
                         }
@@ -14650,15 +14650,15 @@
                 "name": "Propel Medicaid & Medicare Plan Navigator",
                 "shortDescription": "Help people with low-income find health plans with extra benefits",
                 "startDate": {
-                    "string": "May 2025",
+                    "string": "September 2024",
                     "timestamp": {
-                        "raw": 1746057600,
-                        "formatted": "May 2025",
+                        "raw": 1725148800,
+                        "formatted": "September 2024",
                         "components": {
-                            "monthFormatted": "May",
-                            "monthNumber": 5,
-                            "yearFormatted": "2025",
-                            "yearNumber": 2025
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2024",
+                            "yearNumber": 2024
                         }
                     }
                 },
