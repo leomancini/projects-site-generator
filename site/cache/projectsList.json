@@ -16731,6 +16731,66 @@
         },
         {
             "directory": {
+                "id": "space-dashboard"
+            },
+            "manifest": {
+                "name": "Space Dashboard",
+                "shortDescription": "View current data about the sun and moon",
+                "startDate": {
+                    "string": "October 12, 2025",
+                    "timestamp": {
+                        "raw": 1760227200,
+                        "formatted": "October 2025",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "View Sun Dashboard",
+                        "icon": "brightness_7",
+                        "url": "https:\/\/space-dashboard.fcc.lol\/sun"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "View Moon Dashboard",
+                        "icon": "bedtime",
+                        "url": "https:\/\/space-dashboard.fcc.lol\/moon"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/space-dashboard"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Dan Zaharia",
+                        "link": "https:\/\/github.com\/dzaharia1\/space-api",
+                        "type": "API"
+                    }
+                ],
+                "tags": {
+                    "0": "live-site",
+                    "2": "github"
+                }
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-sun@2x.png",
+                    "3": "2-moon@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "space-invaders-logos"
             },
             "manifest": {
