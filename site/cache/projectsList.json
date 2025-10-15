@@ -6225,6 +6225,36 @@
         },
         {
             "directory": {
+                "id": "fcc-opening-reception-nov-2025-poster"
+            },
+            "manifest": {
+                "name": "FCC Opening Reception Poster",
+                "shortDescription": "Materials for promoting 2025 gallery show",
+                "startDate": {
+                    "string": "October 15, 2025",
+                    "timestamp": {
+                        "raw": 1760486400,
+                        "formatted": "October 2025",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "tags": []
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "1-Poster@2x.jpeg",
+                    "3": "2-Square@2x.jpeg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "fcc-studio-portfolio"
             },
             "manifest": {
