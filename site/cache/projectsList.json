@@ -6243,13 +6243,39 @@
                         }
                     }
                 },
+                "links": [
+                    {
+                        "type": "other",
+                        "label": "View PDF",
+                        "icon": "description",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/Poster.pdf"
+                    },
+                    {
+                        "type": "other",
+                        "label": "View Full Size",
+                        "icon": "zoom_out_map",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/Poster@2x.png"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "projects"
+                    },
+                    {
+                        "name": "Dan Zaharia",
+                        "link": "http:\/\/danzaharia.com\/",
+                        "type": "projects"
+                    }
+                ],
                 "tags": []
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1-Poster@2x.jpeg",
-                    "3": "2-Square@2x.jpeg"
+                    "3": "1-Poster@2x.jpeg",
+                    "4": "2-Square@2x.jpeg"
                 }
             }
         },
