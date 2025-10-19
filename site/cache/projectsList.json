@@ -4173,6 +4173,56 @@
         },
         {
             "directory": {
+                "id": "cyberdeck-25"
+            },
+            "manifest": {
+                "name": "Cyberdeck 25",
+                "shortDescription": "Portable computer with switches and knobs",
+                "startDate": {
+                    "string": "October 19, 2025",
+                    "timestamp": {
+                        "raw": 1760832000,
+                        "formatted": "October 2025",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/cyberdeck-25\/downloads\/Cyberdeck_25.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/cyberdeck-25\/downloads\/Cyberdeck_25_Parts.zip"
+                    }
+                ],
+                "tags": [
+                    "3D"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Bottom_Cover.stl",
+                    "3": "Cyberdeck_25.stl",
+                    "4": "Cyberdeck_25_Parts.zip",
+                    "5": "Main_Case.stl",
+                    "6": "Side_Screw_Plug.stl"
+                },
+                "screenshots": []
+            }
+        },
+        {
+            "directory": {
                 "id": "cyprus-usability-day-presentation"
             },
             "manifest": {
