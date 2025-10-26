@@ -2829,6 +2829,38 @@
         },
         {
             "directory": {
+                "id": "catworld-2025"
+            },
+            "manifest": {
+                "name": "Catworld",
+                "shortDescription": "Short film of a day in the life of a world full of cats",
+                "startDate": {
+                    "string": "October 25, 2025",
+                    "timestamp": {
+                        "raw": 1761350400,
+                        "formatted": "October 2025",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "tags": [
+                    "video",
+                    "youtube"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "youtube.txt"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "cave-mural"
             },
             "manifest": {
