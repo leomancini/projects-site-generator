@@ -4303,7 +4303,8 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "youtube.txt"
+                    "2": "1-youtube.txt",
+                    "3": "2-screenshot@2x.png"
                 }
             }
         },
