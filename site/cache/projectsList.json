@@ -4268,6 +4268,47 @@
         },
         {
             "directory": {
+                "id": "cyberdeck-25-simulator"
+            },
+            "manifest": {
+                "name": "Cyberdeck 25 Simulator",
+                "shortDescription": "Debugger for testing hardware inputs on macOS",
+                "startDate": {
+                    "string": "October 18, 2025",
+                    "timestamp": {
+                        "raw": 1760745600,
+                        "formatted": "October 2025",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/cyberdeck-25-firmware\/blob\/main\/mac_simulator.py"
+                    }
+                ],
+                "tags": [
+                    "github",
+                    "video",
+                    "youtube"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "youtube.txt"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "cyprus-usability-day-presentation"
             },
             "manifest": {
