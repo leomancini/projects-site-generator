@@ -4263,7 +4263,9 @@
                     "5": "Main_Case.stl",
                     "6": "Side_Screw_Plug.stl"
                 },
-                "screenshots": []
+                "screenshots": {
+                    "2": "image@2x.jpeg"
+                }
             }
         },
         {
