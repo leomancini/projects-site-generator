@@ -15057,6 +15057,49 @@
         },
         {
             "directory": {
+                "id": "propel-snap-visualizations-gov-shutdown"
+            },
+            "manifest": {
+                "name": "Propel SNAP Visualizations",
+                "shortDescription": "Showing the impact of the government shutdown on the food stamps program",
+                "startDate": {
+                    "string": "November 1, 2025",
+                    "timestamp": {
+                        "raw": 1761955200,
+                        "formatted": "November 2025",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.propel.app\/shutdown-fundraise\/"
+                    }
+                ],
+                "tags": [
+                    "propel",
+                    "job",
+                    "live-site",
+                    "video"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x-compressed.mp4",
+                    "4": "2@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "qr-receipt-data-transfer"
             },
             "manifest": {
@@ -19909,6 +19952,36 @@
                     "11": "War.png",
                     "12": "Whistling Tea Kettle.png",
                     "13": "Wrestling Match.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "vote-no-kings-jacket"
+            },
+            "manifest": {
+                "name": "Vote \/ No Kings Jacket",
+                "shortDescription": "Limited edition (of one) statement garment",
+                "startDate": {
+                    "string": "October 31, 2025",
+                    "timestamp": {
+                        "raw": 1761868800,
+                        "formatted": "October 2025",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "tags": []
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1-front@2x.jpeg",
+                    "4": "2-back@2x.jpeg"
                 }
             }
         },
