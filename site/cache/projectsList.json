@@ -15061,7 +15061,7 @@
             },
             "manifest": {
                 "name": "Propel SNAP Visualizations",
-                "shortDescription": "Showing the impact of the government shutdown on the food stamps program",
+                "shortDescription": "Showing impact of the gov't shutdown on food stamps",
                 "startDate": {
                     "string": "November 1, 2025",
                     "timestamp": {
