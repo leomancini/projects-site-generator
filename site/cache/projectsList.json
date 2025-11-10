@@ -363,12 +363,13 @@
                     "6": "Front Plate.xcs"
                 },
                 "screenshots": {
-                    "2": "01-demo.mp4",
-                    "3": "02-demo.mp4",
-                    "4": "1.jpg",
-                    "5": "2.jpg",
-                    "6": "3-intro-video-youtube.txt",
-                    "7": "4-update-video-youtube.txt"
+                    "3": "0.jpeg",
+                    "4": "01-demo.mp4",
+                    "5": "02-demo.mp4",
+                    "6": "1.jpg",
+                    "7": "2.jpg",
+                    "8": "3-intro-video-youtube.txt",
+                    "9": "4-update-video-youtube.txt"
                 }
             }
         },
@@ -2258,17 +2259,18 @@
                     "3": "Byt_Hardware.stl"
                 },
                 "screenshots": {
-                    "2": "004@2x.jpeg",
-                    "3": "005@2x.jpeg",
-                    "4": "006@2x.jpeg",
-                    "5": "007@2x.jpeg",
-                    "6": "008@2x.jpeg",
-                    "7": "009@2x.jpeg",
-                    "8": "010@2x.jpeg",
-                    "9": "011@2x.jpeg",
-                    "10": "012@2x.jpeg",
-                    "11": "013@2x.jpeg",
-                    "12": "hidden"
+                    "3": "000@2x.jpeg",
+                    "4": "004@2x.jpeg",
+                    "5": "005@2x.jpeg",
+                    "6": "006@2x.jpeg",
+                    "7": "007@2x.jpeg",
+                    "8": "008@2x.jpeg",
+                    "9": "009@2x.jpeg",
+                    "10": "010@2x.jpeg",
+                    "11": "011@2x.jpeg",
+                    "12": "012@2x.jpeg",
+                    "13": "013@2x.jpeg",
+                    "14": "hidden"
                 }
             }
         },
@@ -2619,14 +2621,15 @@
                     "8": "Case.stl"
                 },
                 "screenshots": {
-                    "2": "1.mp4",
-                    "3": "2@2x.jpeg",
-                    "4": "3@2x.mp4",
-                    "5": "4@2x.jpeg",
-                    "6": "5@2x.jpeg",
-                    "7": "6@2x.jpeg",
-                    "8": "7@2x.jpeg",
-                    "9": "8@2x.jpeg"
+                    "3": "0@2x.jpeg",
+                    "4": "1.mp4",
+                    "5": "2@2x.jpeg",
+                    "6": "3@2x.mp4",
+                    "7": "4@2x.jpeg",
+                    "8": "5@2x.jpeg",
+                    "9": "6@2x.jpeg",
+                    "10": "7@2x.jpeg",
+                    "11": "8@2x.jpeg"
                 },
                 "tools": {
                     "2": "ffmpeg_overlay_image_video.txt",
@@ -4264,8 +4267,9 @@
                     "7": "Side_Screw_Plug.stl"
                 },
                 "screenshots": {
-                    "2": "1@2x.jpeg",
-                    "3": "2@2x.jpeg"
+                    "3": "0@2x.jpeg",
+                    "4": "1@2x.jpeg",
+                    "5": "2@2x.jpeg"
                 }
             }
         },
@@ -14142,17 +14146,18 @@
                     "7": "Play_Machine_Mini_Parts.zip"
                 },
                 "screenshots": {
-                    "2": "0-silent.mp4",
-                    "3": "1-audio--play-audio.mp4",
-                    "4": "1@2x.jpeg",
-                    "5": "2@2x.jpeg",
-                    "6": "3@2x.jpeg",
-                    "7": "4@2x.jpeg",
-                    "8": "5@2x.jpeg",
-                    "9": "6@2x.jpeg",
-                    "10": "7@2x.jpeg",
-                    "11": "8@2x.jpeg",
-                    "12": "9@2x.jpeg"
+                    "3": "0@2x.jpeg",
+                    "4": "1-silent.mp4",
+                    "5": "1@2x.jpeg",
+                    "6": "2-audio--play-audio.mp4",
+                    "7": "2@2x.jpeg",
+                    "8": "3@2x.jpeg",
+                    "9": "4@2x.jpeg",
+                    "10": "5@2x.jpeg",
+                    "11": "6@2x.jpeg",
+                    "12": "7@2x.jpeg",
+                    "13": "8@2x.jpeg",
+                    "14": "9@2x.jpeg"
                 }
             }
         },
@@ -15462,9 +15467,10 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "2-IMG_1749@2x.jpg",
-                    "3": "3-IMG_2850@2x.jpg",
-                    "4": "4-demo@2x.mp4"
+                    "3": "1-Frame 2@2x.jpeg",
+                    "4": "2-IMG_1749@2x.jpg",
+                    "5": "3-IMG_2850@2x.jpg",
+                    "6": "5-demo@2x.mp4"
                 }
             }
         },
@@ -16762,9 +16768,10 @@
                     "5": "Somethin_Meter_Parts.zip"
                 },
                 "screenshots": {
-                    "2": "01-video.mp4",
-                    "3": "02@2x.jpeg",
-                    "4": "03@2x.jpeg"
+                    "3": "0@2x.jpeg",
+                    "4": "1-video.mp4",
+                    "5": "1@2x.jpeg",
+                    "6": "2@2x.jpeg"
                 }
             }
         },
@@ -17087,8 +17094,9 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "1-sun@2x.png",
-                    "3": "2-moon@2x.png"
+                    "3": "1-sun@2x.png",
+                    "4": "2-moon@2x.png",
+                    "5": "3-frame@2x.jpeg"
                 }
             }
         },
@@ -20007,6 +20015,52 @@
                 "screenshots": {
                     "2": "1-front@2x.jpeg",
                     "3": "2-back@2x.jpeg"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "wallflower"
+            },
+            "manifest": {
+                "name": "Wallflower",
+                "shortDescription": "Wall art with AI video surrounded by crochet pattern",
+                "startDate": {
+                    "string": "November 15, 2025",
+                    "timestamp": {
+                        "raw": 1763164800,
+                        "formatted": "November 2025",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "video",
+                        "label": "Watch Video",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/leomancini.net\/catworld-2025"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Alicia Zhang",
+                        "type": "collab"
+                    }
+                ],
+                "tags": [
+                    "ai"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.jpeg",
+                    "4": "2@2x.jpeg"
                 }
             }
         },
