@@ -6368,19 +6368,74 @@
         },
         {
             "directory": {
-                "id": "fcc-opening-reception-nov-2025-invitation"
+                "id": "fcc-gallery-show-nov-2025"
             },
             "manifest": {
-                "name": "FCC Opening Reception Invitation",
+                "name": "FCC Gallery Show Fall 2025",
+                "shortDescription": "Photos and videos during 2025 gallery show",
+                "startDate": {
+                    "string": "November 9, 2025",
+                    "timestamp": {
+                        "raw": 1762646400,
+                        "formatted": "November 2025",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "projects"
+                    },
+                    {
+                        "name": "Dan Zaharia",
+                        "link": "http:\/\/danzaharia.com\/",
+                        "type": "projects"
+                    }
+                ],
+                "tags": [
+                    "fcc-gallery-show-fall-2025",
+                    "video",
+                    "youtube"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "3": "1.jpeg",
+                    "4": "2.jpeg",
+                    "5": "3.jpeg",
+                    "6": "4.jpeg",
+                    "7": "5.jpeg",
+                    "8": "6.jpeg",
+                    "9": "youtube-1.txt",
+                    "10": "youtube-2.txt",
+                    "11": "youtube-3.txt",
+                    "12": "youtube-4.txt",
+                    "13": "youtube-5.txt"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "fcc-gallery-show-nov-2025-opening-reception-invitations"
+            },
+            "manifest": {
+                "name": "FCC Gallery Show Fall 2025 Opening Receiption Invitation",
                 "shortDescription": "Card for promoting 2025 gallery show",
                 "startDate": {
-                    "string": "October 1, 2025",
+                    "string": "November 8, 2025",
                     "timestamp": {
-                        "raw": 1759276800,
-                        "formatted": "October 2025",
+                        "raw": 1762560000,
+                        "formatted": "November 2025",
                         "components": {
-                            "monthFormatted": "October",
-                            "monthNumber": 10,
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
                             "yearFormatted": "2025",
                             "yearNumber": 2025
                         }
@@ -6394,10 +6449,12 @@
                         "url": "\/projects\/fcc-opening-reception-nov-2025-invitation\/downloads\/FCC_Opening_Reception_Nov_2025_Invitation.zip"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "fcc-gallery-show-fall-2025"
+                ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "FCC_Opening_Reception_Nov_2025_Invitation.xcs"
                 },
@@ -6411,19 +6468,19 @@
         },
         {
             "directory": {
-                "id": "fcc-opening-reception-nov-2025-poster"
+                "id": "fcc-gallery-show-nov-2025-poster"
             },
             "manifest": {
-                "name": "FCC Opening Reception Poster",
+                "name": "FCC Gallery Show Fall 2025 Poster",
                 "shortDescription": "Materials for promoting 2025 gallery show",
                 "startDate": {
-                    "string": "October 15, 2025",
+                    "string": "November 9, 2025",
                     "timestamp": {
-                        "raw": 1760486400,
-                        "formatted": "October 2025",
+                        "raw": 1762646400,
+                        "formatted": "November 2025",
                         "components": {
-                            "monthFormatted": "October",
-                            "monthNumber": 10,
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
                             "yearFormatted": "2025",
                             "yearNumber": 2025
                         }
@@ -6455,13 +6512,61 @@
                         "type": "projects"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "fcc-gallery-show-fall-2025"
+                ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "3": "longDescription.txt",
                 "screenshots": {
-                    "2": "1-Poster@2x.jpeg",
-                    "3": "2-Square@2x.jpeg"
+                    "3": "1-Poster@2x.jpeg",
+                    "4": "2-Square@2x.jpeg",
+                    "5": "3@2x.jpeg",
+                    "6": "4@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "fcc-gallery-show-nov-2025-t-shirts-stickers"
+            },
+            "manifest": {
+                "name": "FCC Gallery Show Fall 2025 T-Shirts & Stickers",
+                "shortDescription": "Merch for promoting 2025 gallery show",
+                "startDate": {
+                    "string": "November 8, 2025",
+                    "timestamp": {
+                        "raw": 1762560000,
+                        "formatted": "November 2025",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "link": "https:\/\/zach.coffee",
+                        "type": "projects"
+                    },
+                    {
+                        "name": "Dan Zaharia",
+                        "link": "http:\/\/danzaharia.com\/",
+                        "type": "projects"
+                    }
+                ],
+                "tags": [
+                    "fcc-gallery-show-fall-2025"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.jpeg",
+                    "3": "2@2x.jpg"
                 }
             }
         },
@@ -20026,9 +20131,9 @@
                 "name": "Wallflower",
                 "shortDescription": "Wall art with AI video surrounded by crochet pattern",
                 "startDate": {
-                    "string": "November 15, 2025",
+                    "string": "November 7, 2025",
                     "timestamp": {
-                        "raw": 1763164800,
+                        "raw": 1762473600,
                         "formatted": "November 2025",
                         "components": {
                             "monthFormatted": "November",
