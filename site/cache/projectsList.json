@@ -6498,6 +6498,12 @@
                         "label": "View Full Size",
                         "icon": "zoom_out_map",
                         "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/Poster@2x.png"
+                    },
+                    {
+                        "type": "other",
+                        "label": "View Artist Statement",
+                        "icon": "description",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/Artist_Statement.pdf"
                     }
                 ],
                 "credits": [
@@ -6520,9 +6526,10 @@
                 "3": "longDescription.txt",
                 "screenshots": {
                     "3": "1-Poster@2x.jpeg",
-                    "4": "2-Square@2x.jpeg",
-                    "5": "3@2x.jpeg",
-                    "6": "4@2x.jpg"
+                    "4": "2-Statement@2x.png",
+                    "5": "3-Square@2x.jpeg",
+                    "6": "4@2x.jpeg",
+                    "7": "5@2x.jpg"
                 }
             }
         },
