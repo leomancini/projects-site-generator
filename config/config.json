@@ -18,7 +18,8 @@
             "slides": "slideshow",
             "3d_model": "view_in_ar",
             "storage": "folder_open",
-            "document": "description"
+            "document": "description",
+            "gallery-sign": "article"
         },
         "defaultLabelsForType": {
             "github": "View Source",
@@ -36,7 +37,8 @@
             "slides": "View Slides",
             "3d_model": "View 3D Model",
             "storage": "View Storage",
-            "document": "View Document"
+            "document": "View Document",
+            "gallery-sign": "View Gallery Sign"
         }
     },
     "debug": false,

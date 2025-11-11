@@ -213,6 +213,12 @@
                         "label": "Download XCS File",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/8888-number-frame\/downloads\/8888_Number_Frame.xcs"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/8888-number-frame.pdf"
                     }
                 ],
                 "tags": {
@@ -343,6 +349,12 @@
                         "label": "Download Parts",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/ai-art-box\/downloads\/AI_Art_Box_Parts.zip"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/ai-art-box.pdf"
                     }
                 ],
                 "tags": {
@@ -2232,6 +2244,12 @@
                         "label": "Download 3MF File",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/byt-hardware\/downloads\/Byt_Hardware.3mf"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/byt.pdf"
                     }
                 ],
                 "credits": [
@@ -2253,7 +2271,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "Byt_Hardware.3mf",
                     "3": "Byt_Hardware.stl"
@@ -2306,6 +2324,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/fcc-lol\/byt-client"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/byt.pdf"
                     }
                 ],
                 "credits": [
@@ -2601,6 +2625,12 @@
                         "label": "Download Parts as STL Files",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/cartridge-machine\/downloads\/Cartridge_Machine_Parts.zip"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/cartridge-machine.pdf"
                     }
                 ],
                 "tags": {
@@ -2663,6 +2693,12 @@
                         "label": "Download STL File",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/cartridge-machine-cartridge-holder\/downloads\/Cartridge_Machine_Cartridge_Holder.stl"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/cartridge-machine.pdf"
                     }
                 ],
                 "tags": [
@@ -3874,6 +3910,12 @@
                         "label": "View Server Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/azlm-crochet-frame-server"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/crochet-frame.pdf"
                     }
                 ],
                 "credits": [
@@ -4250,6 +4292,12 @@
                         "label": "Download Parts as STL Files",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/cyberdeck-25\/downloads\/Cyberdeck_25_Parts.zip"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/cyberdeck-25.pdf"
                     }
                 ],
                 "tags": {
@@ -7726,6 +7774,12 @@
                         "label": "Download Parts as STL Files",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/handheld-computer-vision-rig\/downloads\/Handheld_Computer_Vision_Rig_Parts.zip"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/handheld-computer-vision-rig.pdf"
                     }
                 ],
                 "tags": {
@@ -7790,6 +7844,12 @@
                         "label": "Download Parts as STL Files",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/handheld-computer-vision-rig-wall-mount\/downloads\/Handheld_Computer_Vision_Rig_Wall_Mount_Parts.zip"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/handheld-computer-vision-rig.pdf"
                     }
                 ],
                 "tags": [
@@ -11071,7 +11131,14 @@
                         }
                     }
                 },
-                "links": [],
+                "links": [
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/refurbished-mac-plus.pdf"
+                    }
+                ],
                 "tags": []
             },
             "files": {
@@ -11623,6 +11690,12 @@
                         "label": "Download Parts",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/multiplayer-sound-box\/downloads\/Multiplayer_Sound_Box_Parts.zip"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/multiplayer-sound-box.pdf"
                     }
                 ],
                 "tags": [
@@ -13974,6 +14047,12 @@
                         "label": "View Remote Control",
                         "icon": "settings_remote",
                         "url": "https:\/\/leomancini.net\/play-machine-remote-control"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/play-machine.pdf"
                     }
                 ],
                 "credits": [
@@ -14025,6 +14104,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/fcc-lol\/play-machine-os\/tree\/main\/src\/components\/Apps"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/play-machine.pdf"
                     }
                 ],
                 "credits": [
@@ -14175,6 +14260,12 @@
                         "label": "View Input Processing Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/play-machine-hardware-controllers"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/play-machine.pdf"
                     }
                 ],
                 "tags": [
@@ -14183,7 +14274,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "Play_Machine.xcs"
                 },
@@ -14240,6 +14331,12 @@
                         "label": "Download PCB Schematic",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/play-machine-mini\/downloads\/PCB_Schematic.pdf"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/play-machine-mini.pdf"
                     }
                 ],
                 "tags": {
@@ -14299,6 +14396,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/fcc-lol\/play-machine-os"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/play-machine.pdf"
                     }
                 ],
                 "tags": [
@@ -14343,6 +14446,14 @@
                         }
                     }
                 },
+                "links": [
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/play-machine-remotes.pdf"
+                    }
+                ],
                 "credits": [
                     {
                         "name": "Zach Temkin",
@@ -14384,6 +14495,14 @@
                         }
                     }
                 },
+                "links": [
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/play-machine-remotes.pdf"
+                    }
+                ],
                 "credits": [
                     {
                         "name": "Zach Temkin",
@@ -14429,6 +14548,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/play-machine-server"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/play-machine.pdf"
                     }
                 ],
                 "tags": [
@@ -14466,6 +14591,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/fcc-lol\/play-machine-os\/blob\/main\/src\/components\/Simulator\/Hardware.js"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/play-machine.pdf"
                     }
                 ],
                 "tags": [
@@ -15567,6 +15698,12 @@
                         "label": "View Server Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/fcc-lol\/kiosk-server"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/kiosk.pdf"
                     }
                 ],
                 "tags": {
@@ -16862,6 +16999,12 @@
                         "label": "Download Parts",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/somethin-meter\/downloads\/Somethin_Meter_Parts.zip"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/somethin-meter.pdf"
                     }
                 ],
                 "tags": {
@@ -17011,6 +17154,12 @@
                         "label": "Download Frame STL File",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/sound-machine\/downloads\/Sound_Machine_Frame.stl"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/sound-machine.pdf"
                     }
                 ],
                 "tags": {
@@ -17840,6 +17989,12 @@
                         "label": "View Generator Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/fcc-lol\/story-box-generator"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/story-box.pdf"
                     }
                 ],
                 "tags": [
@@ -19286,6 +19441,12 @@
                         "label": "Download XCS File",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/this-or-that-machine\/downloads\/This_or_That_Machine.xcs"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/this-or-that-machine.pdf"
                     }
                 ],
                 "tags": {
@@ -20156,6 +20317,12 @@
                         "label": "Watch Video",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/leomancini.net\/catworld-2025"
+                    },
+                    {
+                        "type": "gallery-sign",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/wallflower.pdf"
                     }
                 ],
                 "credits": [
