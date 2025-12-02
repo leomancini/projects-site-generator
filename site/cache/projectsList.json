@@ -6479,9 +6479,9 @@
                 "name": "FCC Gallery Show Fall 2025 Opening Reception Invitation",
                 "shortDescription": "Card for promoting 2025 gallery show",
                 "startDate": {
-                    "string": "November 8, 2025",
+                    "string": "November 7, 2025",
                     "timestamp": {
-                        "raw": 1762560000,
+                        "raw": 1762473600,
                         "formatted": "November 2025",
                         "components": {
                             "monthFormatted": "November",
