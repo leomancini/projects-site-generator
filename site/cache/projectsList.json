@@ -3875,9 +3875,9 @@
                 "name": "Crochet Frame",
                 "shortDescription": "Wall art with LED matrix surrounded by crochet pattern",
                 "startDate": {
-                    "string": "April 25, 2025",
+                    "string": "April 28, 2025",
                     "timestamp": {
-                        "raw": 1745539200,
+                        "raw": 1745798400,
                         "formatted": "April 2025",
                         "components": {
                             "monthFormatted": "April",
@@ -3957,9 +3957,9 @@
                 "name": "Crochet Frame Alt Firmware \u2013 Gallery Mode",
                 "shortDescription": "Additional mode to rotate through sparkles themes",
                 "startDate": {
-                    "string": "April 26, 2025",
+                    "string": "April 25, 2025",
                     "timestamp": {
-                        "raw": 1745625600,
+                        "raw": 1745539200,
                         "formatted": "April 2025",
                         "components": {
                             "monthFormatted": "April",
@@ -3999,9 +3999,9 @@
                 "name": "Crochet Frame Alt Firmware \u2013 Static Images",
                 "shortDescription": "Additional mode to render static images",
                 "startDate": {
-                    "string": "April 25, 2025",
+                    "string": "April 26, 2025",
                     "timestamp": {
-                        "raw": 1745539200,
+                        "raw": 1745625600,
                         "formatted": "April 2025",
                         "components": {
                             "monthFormatted": "April",
