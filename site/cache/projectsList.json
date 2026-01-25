@@ -6457,17 +6457,23 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "1.jpeg",
-                    "3": "2.jpeg",
-                    "4": "3.jpeg",
-                    "5": "4.jpeg",
-                    "6": "5.jpeg",
-                    "7": "6.jpeg",
-                    "8": "youtube-1.txt",
-                    "9": "youtube-2.txt",
-                    "10": "youtube-3.txt",
-                    "11": "youtube-4.txt",
-                    "12": "youtube-5.txt"
+                    "3": "001@2x.jpeg",
+                    "4": "002@2x.jpeg",
+                    "5": "003@2x.jpeg",
+                    "6": "004@2x.jpeg",
+                    "7": "005@2x.jpeg",
+                    "8": "006@2x.jpeg",
+                    "9": "007@2x.jpeg",
+                    "10": "008@2x.jpeg",
+                    "11": "009@2x.jpeg",
+                    "12": "010@2x.jpeg",
+                    "13": "011@2x.jpeg",
+                    "14": "012@2x.jpeg",
+                    "15": "youtube-1.txt",
+                    "16": "youtube-2.txt",
+                    "17": "youtube-3.txt",
+                    "18": "youtube-4.txt",
+                    "19": "youtube-5.txt"
                 }
             }
         },
@@ -6479,9 +6485,9 @@
                 "name": "FCC Gallery Show Fall 2025 Opening Reception Invitation",
                 "shortDescription": "Card for promoting 2025 gallery show",
                 "startDate": {
-                    "string": "November 7, 2025",
+                    "string": "November 6, 2025",
                     "timestamp": {
-                        "raw": 1762473600,
+                        "raw": 1762387200,
                         "formatted": "November 2025",
                         "components": {
                             "monthFormatted": "November",
@@ -6504,7 +6510,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "FCC_Opening_Reception_Nov_2025_Invitation.xcs"
                 },
@@ -6524,9 +6530,9 @@
                 "name": "FCC Gallery Show Fall 2025 Poster",
                 "shortDescription": "Materials for promoting 2025 gallery show",
                 "startDate": {
-                    "string": "November 9, 2025",
+                    "string": "November 7, 2025",
                     "timestamp": {
-                        "raw": 1762646400,
+                        "raw": 1762473600,
                         "formatted": "November 2025",
                         "components": {
                             "monthFormatted": "November",
@@ -11776,11 +11782,11 @@
                     "6": "Top_Case.stl"
                 },
                 "screenshots": {
-                    "2": "1@2x.jpeg",
-                    "3": "2@2x.jpeg",
-                    "4": "3@2x.jpeg",
-                    "5": "4@2x.jpeg",
-                    "6": "5-demo--play-audio.mp4"
+                    "3": "1@2x.jpeg",
+                    "4": "2@2x.jpeg",
+                    "5": "3@2x.jpeg",
+                    "6": "4@2x.jpeg",
+                    "7": "5-demo--play-audio.mp4"
                 }
             }
         },
@@ -20405,9 +20411,9 @@
                 "name": "Wallflower",
                 "shortDescription": "Wall art with AI video surrounded by crochet pattern",
                 "startDate": {
-                    "string": "November 7, 2025",
+                    "string": "November 5, 2025",
                     "timestamp": {
-                        "raw": 1762473600,
+                        "raw": 1762300800,
                         "formatted": "November 2025",
                         "components": {
                             "monthFormatted": "November",
