@@ -7720,6 +7720,65 @@
         },
         {
             "directory": {
+                "id": "grocery-personality-test"
+            },
+            "manifest": {
+                "name": "Grocery Personality Test",
+                "shortDescription": "Game to see what your grocery cart says about you",
+                "startDate": {
+                    "string": "December 1, 2025",
+                    "timestamp": {
+                        "raw": 1764547200,
+                        "formatted": "December 2025",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/grocery-personality-test.leo.gd\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Client Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/grocery-personality-test-client"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/grocery-personality-test-server"
+                    }
+                ],
+                "tags": {
+                    "0": "live-site",
+                    "1": "github",
+                    "3": "video"
+                }
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "00-demo@2x.mp4",
+                    "4": "1@2x.jpeg",
+                    "5": "2@2x.jpeg",
+                    "6": "3@2x.jpeg",
+                    "7": "4@2x.jpeg",
+                    "8": "5@2x.jpeg",
+                    "9": "6@2x.jpeg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "grwlr"
             },
             "manifest": {
@@ -10728,9 +10787,9 @@
                 "name": "Litm\u00e1n Bros Photo Blog",
                 "shortDescription": "Shared repository of photography",
                 "startDate": {
-                    "string": "December 2025",
+                    "string": "December 2, 2025",
                     "timestamp": {
-                        "raw": 1764547200,
+                        "raw": 1764633600,
                         "formatted": "December 2025",
                         "components": {
                             "monthFormatted": "December",
