@@ -6375,6 +6375,46 @@
         },
         {
             "directory": {
+                "id": "fb-trending-dashboard"
+            },
+            "manifest": {
+                "name": "Facebook Trending Dashboard",
+                "shortDescription": "View data about popular topics",
+                "startDate": {
+                    "string": "January 2014",
+                    "timestamp": {
+                        "raw": 1388534400,
+                        "formatted": "January 2014",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2014",
+                            "yearNumber": 2014
+                        }
+                    }
+                },
+                "tags": [
+                    "facebook",
+                    "job",
+                    "fb-fte"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "001.jpeg",
+                    "3": "002.jpeg",
+                    "4": "003.jpeg",
+                    "5": "004.jpeg",
+                    "6": "005.jpeg",
+                    "7": "006.jpeg",
+                    "8": "007.jpeg",
+                    "9": "008.jpeg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "fcc-coin-2025"
             },
             "manifest": {
