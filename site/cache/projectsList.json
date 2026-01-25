@@ -6637,29 +6637,6 @@
         },
         {
             "directory": {
-                "id": "fcc-opening-reception-nov-2025-poster"
-            },
-            "manifest": {
-                "startDate": {
-                    "timestamp": {
-                        "raw": false,
-                        "formatted": "January 1970",
-                        "components": {
-                            "monthFormatted": "January",
-                            "monthNumber": 1,
-                            "yearFormatted": "1970",
-                            "yearNumber": 1970
-                        }
-                    }
-                },
-                "tags": []
-            },
-            "files": {
-                "screenshots": []
-            }
-        },
-        {
-            "directory": {
                 "id": "fcc-studio-portfolio"
             },
             "manifest": {
