@@ -19757,19 +19757,19 @@
                         "type": "other",
                         "label": "View PDF",
                         "icon": "description",
-                        "url": "downloads\/this-or-that-machine-analysis-report\/This_or_That_Machine_Analysis_Report.pdf"
+                        "url": "\/projects\/this-or-that-machine-analysis-report\/downloads\/This_or_That_Machine_Analysis_Report.pdf"
                     },
                     {
                         "type": "other",
                         "label": "Download Pairs Data",
                         "icon": "code",
-                        "url": "downloads\/this-or-that-machine-analysis-report\/Pairs.csv"
+                        "url": "\/projects\/this-or-that-machine-analysis-report\/downloads\/This_or_That_Machine_Pairs.csv"
                     },
                     {
                         "type": "other",
                         "label": "Download Votes Data",
                         "icon": "code",
-                        "url": "downloads\/this-or-that-machine-analysis-report\/Votes.csv"
+                        "url": "\/projects\/this-or-that-machine-analysis-report\/downloads\/This_or_That_Machine_Votes.csv"
                     }
                 ],
                 "tags": [
