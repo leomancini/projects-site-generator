@@ -19621,9 +19621,9 @@
                 "name": "This or That Machine",
                 "shortDescription": "Choose between two options within a category",
                 "startDate": {
-                    "string": "April 2025",
+                    "string": "April 11, 2025",
                     "timestamp": {
-                        "raw": 1743465600,
+                        "raw": 1744329600,
                         "formatted": "April 2025",
                         "components": {
                             "monthFormatted": "April",
@@ -19687,9 +19687,9 @@
                 "name": "This or That Machine Admin",
                 "shortDescription": "Tool to manage pairs, view votes, and use device simulator",
                 "startDate": {
-                    "string": "April 13, 2025",
+                    "string": "April 10, 2025",
                     "timestamp": {
-                        "raw": 1744502400,
+                        "raw": 1744243200,
                         "formatted": "April 2025",
                         "components": {
                             "monthFormatted": "April",
@@ -19734,15 +19734,77 @@
         },
         {
             "directory": {
+                "id": "this-or-that-machine-analysis-report"
+            },
+            "manifest": {
+                "name": "This or That Machine Analysis Report",
+                "shortDescription": "Observations about voting behavior and trends",
+                "startDate": {
+                    "string": "April 10, 2025",
+                    "timestamp": {
+                        "raw": 1744243200,
+                        "formatted": "April 2025",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "other",
+                        "label": "View PDF",
+                        "icon": "description",
+                        "url": "\/downloads\/this-or-that-machine-analysis-report\/This_or_That_Machine_Analysis_Report.pdf"
+                    },
+                    {
+                        "type": "other",
+                        "label": "Download Pairs Data",
+                        "icon": "code",
+                        "url": "\/downloads\/this-or-that-machine-analysis-report\/Pairs.csv"
+                    },
+                    {
+                        "type": "other",
+                        "label": "Download Votes Data",
+                        "icon": "code",
+                        "url": "\/downloads\/this-or-that-machine-analysis-report\/Votes.csv"
+                    }
+                ],
+                "tags": [
+                    "this-or-that-machine"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "This_or_That_Machine_Analysis_Report.pdf",
+                    "3": "This_or_That_Machine_Pairs.csv",
+                    "4": "This_or_That_Machine_Votes.csv"
+                },
+                "screenshots": {
+                    "3": "001@2x.png",
+                    "4": "002@2x.png",
+                    "5": "003@2x.png",
+                    "6": "004@2x.png",
+                    "7": "005@2x.png",
+                    "8": "006@2x.png",
+                    "9": "007@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "this-or-that-machine-votes-viewer"
             },
             "manifest": {
                 "name": "This or That Machine Votes Viewer",
                 "shortDescription": "View statistics of what choices are made",
                 "startDate": {
-                    "string": "April 18, 2025",
+                    "string": "April 9, 2025",
                     "timestamp": {
-                        "raw": 1744934400,
+                        "raw": 1744156800,
                         "formatted": "April 2025",
                         "components": {
                             "monthFormatted": "April",
