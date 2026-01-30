@@ -19740,9 +19740,9 @@
                 "name": "This or That Machine Analysis Report",
                 "shortDescription": "Observations about voting behavior and trends",
                 "startDate": {
-                    "string": "April 10, 2025",
+                    "string": "April 8, 2025",
                     "timestamp": {
-                        "raw": 1744243200,
+                        "raw": 1744070400,
                         "formatted": "April 2025",
                         "components": {
                             "monthFormatted": "April",
