@@ -20095,7 +20095,7 @@
                 "id": "travel-guide"
             },
             "manifest": {
-                "name": "Travel Guide",
+                "name": "Travel Guide Web App",
                 "shortDescription": "Generated guides for any city with any focus",
                 "startDate": {
                     "string": "December 2024",
@@ -20153,6 +20153,49 @@
                     "9": "8@2x.png",
                     "10": "9@2x.png",
                     "11": "hidden"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "travel-guide-origami"
+            },
+            "manifest": {
+                "name": "Travel Guide Origami Prototype",
+                "shortDescription": "Exploration of a tool to \"chat with a city\"",
+                "startDate": {
+                    "string": "December 2025",
+                    "timestamp": {
+                        "raw": 1764547200,
+                        "formatted": "December 2025",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download Origami Prototype",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/travel-guide-origami\/Travel_Guide.origami"
+                    }
+                ],
+                "tags": [
+                    "video"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Travel_Guide.origami"
+                },
+                "screenshots": {
+                    "3": "Travel Guide@2x.mp4",
+                    "4": "screenshots@2x.jpeg"
                 }
             }
         },
