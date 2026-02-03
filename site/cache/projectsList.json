@@ -17136,15 +17136,27 @@
                 "links": [
                     {
                         "type": "document",
-                        "label": "View Blog Post",
+                        "label": "View Live Blog Post",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/www.propel.app\/insights\/helping-people-plan-meals-during-a-pause-in-snap-payments\/"
+                    },
+                    {
+                        "type": "document",
+                        "label": "View PDF Blog Post",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/snap-recipe-assistant\/downloads\/SNAP_Recipe_Assistant_Blog_Post.pdf"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "propel",
+                    "job"
+                ]
             },
             "files": {
-                "2": "longDescription.txt",
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "SNAP_Recipe_Assistant_Blog_Post.pdf"
+                },
                 "screenshots": {
                     "2": "screenshot@2x.png"
                 }
