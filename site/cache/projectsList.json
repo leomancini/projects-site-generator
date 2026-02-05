@@ -20647,7 +20647,7 @@
                 "id": "visually-inferred-street-metrics"
             },
             "manifest": {
-                "name": "Visual Inference Street Metrics",
+                "name": "Visually Inferred Street Metrics",
                 "shortDescription": "Data visualizations based on camera snapshots",
                 "startDate": {
                     "string": "February 1, 2026",
