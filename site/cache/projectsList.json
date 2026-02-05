@@ -18322,54 +18322,6 @@
         },
         {
             "directory": {
-                "id": "street-metrics"
-            },
-            "manifest": {
-                "name": "Visual Inference Street Metrics",
-                "shortDescription": "Data visualizations based on camera snapshots",
-                "startDate": {
-                    "string": "February 1, 2026",
-                    "timestamp": {
-                        "raw": 1769904000,
-                        "formatted": "February 2026",
-                        "components": {
-                            "monthFormatted": "February",
-                            "monthNumber": 2,
-                            "yearFormatted": "2026",
-                            "yearNumber": 2026
-                        }
-                    }
-                },
-                "links": [
-                    {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/street-metrics"
-                    },
-                    {
-                        "type": "live_site",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/street-metrics.noshado.ws\/dashboard"
-                    }
-                ],
-                "tags": [
-                    "ai",
-                    "github",
-                    "live-site"
-                ]
-            },
-            "files": {
-                "2": "longDescription.txt",
-                "screenshots": {
-                    "2": "1-dashboard@2x.png",
-                    "3": "2-2026-01-27-10-45.jpg"
-                }
-            }
-        },
-        {
-            "directory": {
                 "id": "student-enrollment-advisory-council"
             },
             "manifest": {
@@ -20687,6 +20639,56 @@
                     "11": "War.png",
                     "12": "Whistling Tea Kettle.png",
                     "13": "Wrestling Match.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "visually-inferred-street-metrics"
+            },
+            "manifest": {
+                "name": "Visual Inference Street Metrics",
+                "shortDescription": "Data visualizations based on camera snapshots",
+                "startDate": {
+                    "string": "February 1, 2026",
+                    "timestamp": {
+                        "raw": 1769904000,
+                        "formatted": "February 2026",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/street-metrics"
+                    },
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/street-metrics.noshado.ws"
+                    }
+                ],
+                "tags": [
+                    "ai",
+                    "github",
+                    "live-site"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png",
+                    "6": "4-2026-01-27-12-00.jpg"
                 }
             }
         },
