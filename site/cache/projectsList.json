@@ -11425,6 +11425,59 @@
         },
         {
             "directory": {
+                "id": "medium-format-film-frame"
+            },
+            "manifest": {
+                "name": "Medium Format Film Frame",
+                "shortDescription": "Desk object with backlight and swappable images",
+                "startDate": {
+                    "string": "February 2026",
+                    "timestamp": {
+                        "raw": 1769904000,
+                        "formatted": "February 2026",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/medium-format-film-frame\/downloads\/Medium_Format_Film_Frame.stl"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Mehdi Mulani",
+                        "link": "http:\/\/mehdiisdumb.com\/",
+                        "type": "idea"
+                    }
+                ],
+                "tags": [
+                    "3D"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Medium_Format_Film_Frame.stl"
+                },
+                "screenshots": {
+                    "3": "1.jpeg",
+                    "4": "2.jpeg",
+                    "5": "3.jpeg",
+                    "6": "4.jpeg",
+                    "7": "5.jpeg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "message-box"
             },
             "manifest": {
