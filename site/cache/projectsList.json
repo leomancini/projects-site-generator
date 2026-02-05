@@ -20664,22 +20664,34 @@
                 },
                 "links": [
                     {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/street-metrics.noshado.ws"
+                    },
+                    {
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/street-metrics"
                     },
                     {
-                        "type": "live_site",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/street-metrics.noshado.ws"
+                        "type": "custom",
+                        "label": "View Sample Input Photo",
+                        "icon": "photo",
+                        "url": "https:\/\/street-metrics.noshado.ws\/images\/TATAMI\/2026-01-28-12-00.jpg"
+                    },
+                    {
+                        "type": "custom",
+                        "label": "View Sample Output Data",
+                        "icon": "article",
+                        "url": "https:\/\/street-metrics.noshado.ws\/analysis\/TATAMI\/2026-01-28-12-00.json"
                     }
                 ],
                 "tags": [
                     "ai",
-                    "github",
-                    "live-site"
+                    "live-site",
+                    "github"
                 ]
             },
             "files": {
