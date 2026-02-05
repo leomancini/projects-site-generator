@@ -15020,10 +15020,10 @@
         },
         {
             "directory": {
-                "id": "portfolio-2012"
+                "id": "portfolio-2012-2017"
             },
             "manifest": {
-                "name": "Portfolio 2012",
+                "name": "Portfolio 2012-2017",
                 "shortDescription": "Selected work across freelance, school, and personal projects",
                 "startDate": {
                     "string": "January 1, 2012",
@@ -15065,10 +15065,10 @@
         },
         {
             "directory": {
-                "id": "portfolio-2020"
+                "id": "portfolio-2018-2025"
             },
             "manifest": {
-                "name": "Portfolio 2020",
+                "name": "Portfolio 2018-2025",
                 "shortDescription": "Selected work across professional and personal projects",
                 "startDate": {
                     "string": "January 2020",
@@ -15088,7 +15088,7 @@
                         "type": "live_site",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/leo.gd\/"
+                        "url": "https:\/\/leo.gd\/portfolio2018"
                     },
                     {
                         "type": "github",
