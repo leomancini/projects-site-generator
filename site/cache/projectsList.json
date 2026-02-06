@@ -20736,6 +20736,79 @@
         },
         {
             "directory": {
+                "id": "wall-organizer-system"
+            },
+            "manifest": {
+                "name": "Wall Organizer System",
+                "shortDescription": "Set of storage bins for mounting on the wall",
+                "startDate": {
+                    "string": "January 2026",
+                    "timestamp": {
+                        "raw": 1767225600,
+                        "formatted": "January 2026",
+                        "components": {
+                            "monthFormatted": "January",
+                            "monthNumber": 1,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download Module A",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/wall-organizer-system\/downloads\/Wall_Organizer_System_Module_A.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Module B",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/wall-organizer-system\/downloads\/Wall_Organizer_System_Module_B.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Module C",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/wall-organizer-system\/downloads\/Wall_Organizer_System_Module_C.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Module D-1 (Bin)",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/wall-organizer-system\/downloads\/Wall_Organizer_System_Module_D_1_Bin.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Module D-2 (Wall Mount)",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/wall-organizer-system\/downloads\/Wall_Organizer_System_Module_D_2_Wall_Mount.stl"
+                    }
+                ],
+                "tags": [
+                    "3D",
+                    "video"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "Wall_Organizer_System_Module_A.stl",
+                    "3": "Wall_Organizer_System_Module_B.stl",
+                    "4": "Wall_Organizer_System_Module_C.stl",
+                    "5": "Wall_Organizer_System_Module_D_1_Bin.stl",
+                    "6": "Wall_Organizer_System_Module_D_2_Wall_Mount.stl"
+                },
+                "screenshots": {
+                    "3": "1.jpeg",
+                    "4": "2.jpeg",
+                    "5": "3.mov"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "wallflower"
             },
             "manifest": {
