@@ -15527,10 +15527,59 @@
         },
         {
             "directory": {
+                "id": "propel-snap-recipe-assistant"
+            },
+            "manifest": {
+                "name": "Propel SNAP Recipe Assistant",
+                "shortDescription": "Helping people plan meals during a pause in SNAP payments",
+                "startDate": {
+                    "string": "October 28, 2025",
+                    "timestamp": {
+                        "raw": 1761609600,
+                        "formatted": "October 2025",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2025",
+                            "yearNumber": 2025
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "document",
+                        "label": "View Live Blog Post",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.propel.app\/insights\/helping-people-plan-meals-during-a-pause-in-snap-payments\/"
+                    },
+                    {
+                        "type": "document",
+                        "label": "View PDF Blog Post",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/snap-recipe-assistant\/downloads\/SNAP_Recipe_Assistant_Blog_Post.pdf"
+                    }
+                ],
+                "tags": [
+                    "propel",
+                    "job"
+                ]
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "downloads": {
+                    "2": "SNAP_Recipe_Assistant_Blog_Post.pdf"
+                },
+                "screenshots": {
+                    "2": "screenshot@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "propel-snap-visualizations-gov-shutdown"
             },
             "manifest": {
-                "name": "Propel SNAP Visualizations",
+                "name": "Propel Missed SNAP Payments Visualizations",
                 "shortDescription": "Showing impact of the gov't shutdown on food stamps",
                 "startDate": {
                     "string": "November 1, 2025",
@@ -17163,55 +17212,6 @@
                     "14": "012@2x.png",
                     "15": "013@2x.png",
                     "16": "014@2x.png"
-                }
-            }
-        },
-        {
-            "directory": {
-                "id": "snap-recipe-assistant"
-            },
-            "manifest": {
-                "name": "SNAP Recipe Assistant",
-                "shortDescription": "Helping people plan meals during a pause in SNAP payments",
-                "startDate": {
-                    "string": "October 28, 2025",
-                    "timestamp": {
-                        "raw": 1761609600,
-                        "formatted": "October 2025",
-                        "components": {
-                            "monthFormatted": "October",
-                            "monthNumber": 10,
-                            "yearFormatted": "2025",
-                            "yearNumber": 2025
-                        }
-                    }
-                },
-                "links": [
-                    {
-                        "type": "document",
-                        "label": "View Live Blog Post",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/www.propel.app\/insights\/helping-people-plan-meals-during-a-pause-in-snap-payments\/"
-                    },
-                    {
-                        "type": "document",
-                        "label": "View PDF Blog Post",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "\/projects\/snap-recipe-assistant\/downloads\/SNAP_Recipe_Assistant_Blog_Post.pdf"
-                    }
-                ],
-                "tags": [
-                    "propel",
-                    "job"
-                ]
-            },
-            "files": {
-                "4": "longDescription.txt",
-                "downloads": {
-                    "2": "SNAP_Recipe_Assistant_Blog_Post.pdf"
-                },
-                "screenshots": {
-                    "2": "screenshot@2x.png"
                 }
             }
         },
