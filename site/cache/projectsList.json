@@ -3305,6 +3305,47 @@
         },
         {
             "directory": {
+                "id": "city-tracker"
+            },
+            "manifest": {
+                "name": "City Tracker",
+                "shortDescription": "Track and organize the cities you've visited around the world",
+                "startDate": {
+                    "string": "February 2026",
+                    "timestamp": {
+                        "raw": 1769904000,
+                        "formatted": "February 2026",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/city-tracker.noshado.ws"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/city-tracker"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": []
+        },
+        {
+            "directory": {
                 "id": "citywide-high-school-fair-floor-directory"
             },
             "manifest": {
@@ -16115,6 +16156,46 @@
         },
         {
             "directory": {
+                "id": "region-tracker"
+            },
+            "manifest": {
+                "name": "Region Tracker",
+                "shortDescription": "Tool to track which regions of countries you've visited",
+                "startDate": {
+                    "string": "February 2026",
+                    "timestamp": {
+                        "raw": 1769904000,
+                        "formatted": "February 2026",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/region-tracker"
+                    },
+                    {
+                        "type": "live-site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/region-tracker.noshado.ws"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": []
+        },
+        {
+            "directory": {
                 "id": "remote-controlled-kiosk-display"
             },
             "manifest": {
@@ -17933,6 +18014,46 @@
                     "5": "4.jpg"
                 }
             }
+        },
+        {
+            "directory": {
+                "id": "split-tracker"
+            },
+            "manifest": {
+                "name": "Split Tracker",
+                "shortDescription": "Split costs with friends",
+                "startDate": {
+                    "string": "February 2026",
+                    "timestamp": {
+                        "raw": 1769904000,
+                        "formatted": "February 2026",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/split-tracker"
+                    },
+                    {
+                        "type": "live-site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/split.noshado.ws"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": []
         },
         {
             "directory": {
