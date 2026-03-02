@@ -15835,6 +15835,46 @@
         },
         {
             "directory": {
+                "id": "puzzles"
+            },
+            "manifest": {
+                "name": "Puzzles",
+                "shortDescription": "Web app with casual puzzle games and leaderboards",
+                "startDate": {
+                    "string": "February 2026",
+                    "timestamp": {
+                        "raw": 1769904000,
+                        "formatted": "February 2026",
+                        "components": {
+                            "monthFormatted": "February",
+                            "monthNumber": 2,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live-site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/puzzles.noshado.ws"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/puzzles"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": []
+        },
+        {
+            "directory": {
                 "id": "qr-receipt-data-transfer"
             },
             "manifest": {
