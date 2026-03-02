@@ -18077,21 +18077,21 @@
                 },
                 "links": [
                     {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/split-tracker"
-                    },
-                    {
                         "type": "live_site",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/split.noshado.ws"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/split-tracker"
                     }
                 ],
                 "tags": [
-                    "github",
-                    "live-site"
+                    "live-site",
+                    "github"
                 ]
             },
             "files": []
