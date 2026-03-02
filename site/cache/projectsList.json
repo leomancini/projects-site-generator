@@ -16201,7 +16201,7 @@
             },
             "manifest": {
                 "name": "Region Tracker",
-                "shortDescription": "Make a list of which regions of countries you've visited",
+                "shortDescription": "Make a list of the states or provinces you've visited",
                 "startDate": {
                     "string": "February 24, 2026",
                     "timestamp": {
