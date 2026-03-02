@@ -161,6 +161,14 @@
                                         $syncedUrl = trim($fileContents);
                                         $syncedContent = @file_get_contents($syncedUrl);
                                         if ($syncedContent !== false) {
+                                            // Strip YAML frontmatter
+                                            if (strpos($syncedContent, '---') === 0) {
+                                                $endOfFrontmatter = strpos($syncedContent, '---', 3);
+                                                if ($endOfFrontmatter !== false) {
+                                                    $syncedContent = ltrim(substr($syncedContent, $endOfFrontmatter + 3));
+                                                }
+                                            }
+
                                             $parsedown = new Parsedown();
                                             $parsedown->setSafeMode(true);
                                             echo "<div class='syncedFile'><div class='syncedFileContent'>" . $parsedown->text($syncedContent) . "</div></div>";
