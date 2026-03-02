@@ -1393,7 +1393,7 @@
             },
             "manifest": {
                 "name": "Auto App Hosting Skills",
-                "shortDescription": "Claude Code skills for provisioning web apps and services on DreamCompute",
+                "shortDescription": "Claude skills for provisioning web apps and services on DreamCompute",
                 "startDate": {
                     "string": "March 2, 2026",
                     "timestamp": {
@@ -15448,7 +15448,7 @@
             },
             "manifest": {
                 "name": "Projects Site Generator Skill",
-                "shortDescription": "Claude Code skill to automate adding entries to the projects site",
+                "shortDescription": "Claude skill to automate adding entries to the projects site",
                 "startDate": {
                     "string": "March 2, 2026",
                     "timestamp": {
