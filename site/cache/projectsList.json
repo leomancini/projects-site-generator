@@ -65,11 +65,11 @@
                         }
                     }
                 },
-                "tags": {
-                    "0": "music",
-                    "2": "sound-bath",
-                    "3": "audio"
-                }
+                "tags": [
+                    "music",
+                    "sound-bath",
+                    "audio"
+                ]
             },
             "files": {
                 "2": "longDescription.txt",
@@ -223,9 +223,11 @@
                 ],
                 "tags": {
                     "0": "ai",
-                    "1": "github",
-                    "4": "live-site",
-                    "6": "video"
+                    "1": "fcc-gallery-show-fall-2025",
+                    "2": "fcc",
+                    "3": "github",
+                    "6": "live-site",
+                    "8": "video"
                 }
             },
             "files": {
@@ -360,10 +362,12 @@
                 ],
                 "tags": {
                     "0": "ai",
-                    "1": "github",
-                    "3": "3D",
-                    "4": "video",
-                    "7": "youtube"
+                    "1": "fcc-gallery-show-fall-2025",
+                    "2": "fcc",
+                    "3": "github",
+                    "5": "3D",
+                    "6": "video",
+                    "9": "youtube"
                 }
             },
             "files": {
@@ -1411,12 +1415,12 @@
                         "url": "https:\/\/github.com\/leomancini\/server-setup-scripts\/blob\/main\/setup-new-domain.sh"
                     }
                 ],
-                "tags": {
-                    "0": "bash",
-                    "1": "script",
-                    "3": "server-setup-scripts",
-                    "4": "github"
-                }
+                "tags": [
+                    "bash",
+                    "script",
+                    "server-setup-scripts",
+                    "github"
+                ]
             },
             "files": {
                 "2": "longDescription.txt",
@@ -1474,9 +1478,9 @@
                 "tags": {
                     "0": "bash",
                     "1": "script",
-                    "3": "server-setup-scripts",
-                    "4": "github",
-                    "7": "live-site"
+                    "2": "server-setup-scripts",
+                    "3": "github",
+                    "6": "live-site"
                 }
             },
             "files": {
@@ -1532,9 +1536,9 @@
                 "tags": {
                     "0": "bash",
                     "1": "script",
-                    "3": "server-setup-scripts",
-                    "4": "github",
-                    "7": "live-site"
+                    "2": "server-setup-scripts",
+                    "3": "github",
+                    "6": "live-site"
                 }
             },
             "files": {
@@ -2268,6 +2272,7 @@
                 "tags": [
                     "byt",
                     "fcc",
+                    "fcc-gallery-show-fall-2025",
                     "3D"
                 ]
             },
@@ -2343,6 +2348,7 @@
                 "tags": [
                     "byt",
                     "fcc",
+                    "fcc-gallery-show-fall-2025",
                     "live-site",
                     "github"
                 ]
@@ -2635,9 +2641,11 @@
                     }
                 ],
                 "tags": {
-                    "0": "github",
-                    "2": "3D",
-                    "4": "video"
+                    "0": "fcc",
+                    "1": "fcc-gallery-show-fall-2025",
+                    "2": "github",
+                    "4": "3D",
+                    "6": "video"
                 }
             },
             "files": {
@@ -2703,6 +2711,8 @@
                     }
                 ],
                 "tags": [
+                    "fcc",
+                    "fcc-gallery-show-fall-2025",
                     "3D"
                 ]
             },
@@ -2753,7 +2763,7 @@
                     }
                 ],
                 "tags": [
-                    "3D",
+                    "fcc",
                     "live-site",
                     "github",
                     "video"
@@ -3927,9 +3937,11 @@
                 ],
                 "tags": {
                     "0": "ai",
-                    "1": "3D",
-                    "3": "github",
-                    "5": "video"
+                    "1": "fcc-gallery-show-fall-2025",
+                    "2": "fcc",
+                    "3": "3D",
+                    "5": "github",
+                    "7": "video"
                 }
             },
             "files": {
@@ -3984,6 +3996,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "github"
                 ]
             },
@@ -4026,6 +4039,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "github"
                 ]
             },
@@ -4303,8 +4317,10 @@
                     }
                 ],
                 "tags": {
-                    "0": "github",
-                    "2": "3D"
+                    "0": "fcc-gallery-show-fall-2025",
+                    "1": "fcc",
+                    "2": "github",
+                    "4": "3D"
                 }
             },
             "files": {
@@ -6442,6 +6458,7 @@
                     }
                 ],
                 "tags": [
+                    "fcc",
                     "3D"
                 ]
             },
@@ -6490,6 +6507,7 @@
                 ],
                 "tags": [
                     "fcc-gallery-show-fall-2025",
+                    "fcc",
                     "video",
                     "youtube"
                 ]
@@ -6546,7 +6564,8 @@
                     }
                 ],
                 "tags": [
-                    "fcc-gallery-show-fall-2025"
+                    "fcc-gallery-show-fall-2025",
+                    "fcc"
                 ]
             },
             "files": {
@@ -6615,7 +6634,8 @@
                     }
                 ],
                 "tags": [
-                    "fcc-gallery-show-fall-2025"
+                    "fcc-gallery-show-fall-2025",
+                    "fcc"
                 ]
             },
             "files": {
@@ -6670,7 +6690,8 @@
                     }
                 ],
                 "tags": [
-                    "fcc-gallery-show-fall-2025"
+                    "fcc-gallery-show-fall-2025",
+                    "fcc"
                 ]
             },
             "files": {
@@ -6722,9 +6743,10 @@
                     }
                 ],
                 "tags": {
-                    "0": "live-site",
-                    "1": "github",
-                    "3": "video"
+                    "0": "fcc",
+                    "1": "live-site",
+                    "2": "github",
+                    "4": "video"
                 }
             },
             "files": {
@@ -7193,12 +7215,12 @@
                         "url": "https:\/\/leo.gd\/#place-lists"
                     }
                 ],
-                "tags": {
-                    "1": "php",
-                    "2": "javascript",
-                    "3": "live-site",
-                    "4": "github"
-                }
+                "tags": [
+                    "php",
+                    "javascript",
+                    "live-site",
+                    "github"
+                ]
             },
             "files": {
                 "2": "longDescription.txt",
@@ -7900,9 +7922,11 @@
                 ],
                 "tags": {
                     "0": "ai",
-                    "1": "github",
-                    "2": "3D",
-                    "4": "video"
+                    "1": "fcc-gallery-show-fall-2025",
+                    "2": "fcc",
+                    "3": "github",
+                    "4": "3D",
+                    "6": "video"
                 }
             },
             "files": {
@@ -7971,6 +7995,8 @@
                     }
                 ],
                 "tags": [
+                    "fcc-gallery-show-fall-2025",
+                    "fcc",
                     "3D"
                 ]
             },
@@ -9124,12 +9150,12 @@
                         "url": "https:\/\/github.com\/leomancini\/imac-g4"
                     }
                 ],
-                "tags": {
-                    "1": "javascript",
-                    "2": "imac-g4",
-                    "3": "live-site",
-                    "4": "github"
-                }
+                "tags": [
+                    "javascript",
+                    "imac-g4",
+                    "live-site",
+                    "github"
+                ]
             },
             "files": {
                 "2": "longDescription.txt",
@@ -9350,11 +9376,11 @@
                         "url": "https:\/\/github.com\/leomancini\/home-control\/blob\/master\/ir-control-projector-apple-tv.ino"
                     }
                 ],
-                "tags": {
-                    "1": "arduino",
-                    "2": "home-automation",
-                    "3": "github"
-                }
+                "tags": [
+                    "arduino",
+                    "home-automation",
+                    "github"
+                ]
             },
             "files": {
                 "screenshots": {
@@ -10881,14 +10907,14 @@
                     }
                 ],
                 "tags": {
-                    "0": "live-site",
-                    "1": "skyline",
-                    "2": "camera",
-                    "3": "bash",
-                    "4": "script",
-                    "5": "github",
-                    "9": "archived-tweet",
-                    "10": "video"
+                    "0": "skyline",
+                    "1": "camera",
+                    "2": "bash",
+                    "3": "script",
+                    "4": "github",
+                    "6": "live-site",
+                    "8": "archived-tweet",
+                    "9": "video"
                 }
             },
             "files": {
@@ -11306,7 +11332,10 @@
                         "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/refurbished-mac-plus.pdf"
                     }
                 ],
-                "tags": []
+                "tags": [
+                    "fcc-gallery-show-fall-2025",
+                    "fcc"
+                ]
             },
             "files": {
                 "2": "longDescription.txt",
@@ -11920,7 +11949,8 @@
                     }
                 ],
                 "tags": [
-                    "3D",
+                    "fcc-gallery-show-fall-2025",
+                    "fcc",
                     "video"
                 ]
             },
@@ -14286,6 +14316,8 @@
                 ],
                 "tags": [
                     "play-machine",
+                    "fcc-gallery-show-fall-2025",
+                    "fcc",
                     "video"
                 ]
             },
@@ -14345,6 +14377,8 @@
                 "tags": [
                     "play-machine",
                     "ai",
+                    "fcc-gallery-show-fall-2025",
+                    "fcc",
                     "github",
                     "video"
                 ]
@@ -14493,6 +14527,8 @@
                 ],
                 "tags": [
                     "play-machine",
+                    "fcc-gallery-show-fall-2025",
+                    "fcc",
                     "github"
                 ]
             },
@@ -14563,8 +14599,11 @@
                     }
                 ],
                 "tags": {
-                    "0": "3D",
-                    "2": "video"
+                    "0": "play-machine",
+                    "1": "fcc-gallery-show-fall-2025",
+                    "2": "fcc",
+                    "3": "3D",
+                    "5": "video"
                 }
             },
             "files": {
@@ -14629,6 +14668,8 @@
                 ],
                 "tags": [
                     "play-machine",
+                    "fcc-gallery-show-fall-2025",
+                    "fcc",
                     "github",
                     "video"
                 ]
@@ -14686,6 +14727,8 @@
                 ],
                 "tags": [
                     "play-machine",
+                    "fcc-gallery-show-fall-2025",
+                    "fcc",
                     "video"
                 ]
             },
@@ -14734,7 +14777,9 @@
                     }
                 ],
                 "tags": [
-                    "play-machine"
+                    "play-machine",
+                    "fcc-gallery-show-fall-2025",
+                    "fcc"
                 ]
             },
             "files": {
@@ -14781,6 +14826,8 @@
                 ],
                 "tags": [
                     "play-machine",
+                    "fcc-gallery-show-fall-2025",
+                    "fcc",
                     "github"
                 ]
             },
@@ -14824,6 +14871,8 @@
                 ],
                 "tags": [
                     "play-machine",
+                    "fcc-gallery-show-fall-2025",
+                    "fcc",
                     "github",
                     "video"
                 ]
@@ -15346,6 +15395,41 @@
                     "2": "Finder@2x-hasMacDesktopShadow.png"
                 }
             }
+        },
+        {
+            "directory": {
+                "id": "projects-site-generator-skill"
+            },
+            "manifest": {
+                "name": "Projects Site Generator Skill",
+                "shortDescription": "Claude Code skill to automate adding entries to the projects site",
+                "startDate": {
+                    "string": "March 2, 2026",
+                    "timestamp": {
+                        "raw": 1772409600,
+                        "formatted": "March 2026",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/claude-skills\/tree\/main\/add-project"
+                    }
+                ],
+                "tags": [
+                    "ai",
+                    "github"
+                ]
+            },
+            "files": []
         },
         {
             "directory": {
@@ -15981,8 +16065,9 @@
                 "tags": {
                     "0": "fcc",
                     "1": "kiosk",
-                    "2": "github",
-                    "4": "video"
+                    "2": "fcc-gallery-show-fall-2025",
+                    "3": "github",
+                    "5": "video"
                 }
             },
             "files": {
@@ -17280,10 +17365,12 @@
                     }
                 ],
                 "tags": {
-                    "0": "github",
-                    "2": "live-site",
-                    "4": "3D",
-                    "5": "video"
+                    "0": "fcc-gallery-show-fall-2025",
+                    "1": "fcc",
+                    "2": "github",
+                    "4": "live-site",
+                    "6": "3D",
+                    "7": "video"
                 }
             },
             "files": {
@@ -17437,9 +17524,11 @@
                 "tags": {
                     "0": "sound",
                     "1": "sound-machine",
-                    "2": "github",
-                    "4": "3D",
-                    "6": "video"
+                    "2": "fcc-gallery-show-fall-2025",
+                    "3": "fcc",
+                    "4": "github",
+                    "6": "3D",
+                    "8": "video"
                 }
             },
             "files": {
@@ -17497,14 +17586,14 @@
                         "url": "https:\/\/labs.noshado.ws\/sound-machine-storage\/"
                     }
                 ],
-                "tags": {
-                    "1": "sound",
-                    "2": "phone",
-                    "3": "sound-machine",
-                    "4": "github",
-                    "5": "live-site",
-                    "6": "video"
-                }
+                "tags": [
+                    "sound",
+                    "phone",
+                    "sound-machine",
+                    "github",
+                    "live-site",
+                    "video"
+                ]
             },
             "files": {
                 "3": "longDescription.txt",
@@ -18271,6 +18360,8 @@
                     }
                 ],
                 "tags": [
+                    "fcc-gallery-show-fall-2025",
+                    "fcc",
                     "github"
                 ]
             },
@@ -19456,13 +19547,13 @@
                         "url": "https:\/\/github.com\/leomancini\/the-icon-game"
                     }
                 ],
-                "tags": {
-                    "1": "javascript",
-                    "2": "imac-g4",
-                    "3": "live-site",
-                    "4": "github",
-                    "5": "video"
-                }
+                "tags": [
+                    "javascript",
+                    "imac-g4",
+                    "live-site",
+                    "github",
+                    "video"
+                ]
             },
             "files": {
                 "2": "longDescription.txt",
@@ -19726,8 +19817,10 @@
                 ],
                 "tags": {
                     "0": "this-or-that-machine",
-                    "1": "github",
-                    "3": "video"
+                    "1": "fcc-gallery-show-fall-2025",
+                    "2": "fcc",
+                    "3": "github",
+                    "5": "video"
                 }
             },
             "files": {
@@ -20787,7 +20880,6 @@
                     }
                 ],
                 "tags": [
-                    "3D",
                     "video"
                 ]
             },
@@ -20848,7 +20940,9 @@
                     }
                 ],
                 "tags": [
-                    "ai"
+                    "ai",
+                    "fcc-gallery-show-fall-2025",
+                    "fcc"
                 ]
             },
             "files": {
@@ -21148,13 +21242,13 @@
                         "url": "https:\/\/noshado.ws\/archive\/tweets\/1279825218333106177,1280185169782005760"
                     }
                 ],
-                "tags": {
-                    "1": "javascript",
-                    "2": "map",
-                    "3": "live-site",
-                    "4": "github",
-                    "5": "archived-tweet"
-                }
+                "tags": [
+                    "javascript",
+                    "map",
+                    "live-site",
+                    "github",
+                    "archived-tweet"
+                ]
             },
             "files": {
                 "2": "longDescription.txt",
