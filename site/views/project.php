@@ -1,6 +1,7 @@
 <?php
     include('../controllers/base.php');
     include('../controllers/getProject.php');
+    include('../controllers/Parsedown.php');
 
     $config = loadConfig();
 
@@ -160,7 +161,9 @@
                                         $syncedUrl = trim($fileContents);
                                         $syncedContent = @file_get_contents($syncedUrl);
                                         if ($syncedContent !== false) {
-                                            echo "<div class='syncedFile'><pre class='syncedFileContent'>" . htmlspecialchars($syncedContent, ENT_QUOTES, 'UTF-8') . "</pre></div>";
+                                            $parsedown = new Parsedown();
+                                            $parsedown->setSafeMode(true);
+                                            echo "<div class='syncedFile'><div class='syncedFileContent'>" . $parsedown->text($syncedContent) . "</div></div>";
                                         }
                                     }
                                     // Check if this is a YouTube video file
