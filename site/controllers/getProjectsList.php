@@ -10,6 +10,9 @@
 
         $disallowedDirectories = ['.', '..', '.DS_Store', '.git', '.gitignore', 'TEMPLATE', 'z-test-project'];
         $projects = array_diff($projectDirectories, $disallowedDirectories);
+        $projects = array_filter($projects, function($entry) use ($projectsDirectory) {
+            return is_dir($projectsDirectory . $entry);
+        });
 
         return $projects;
     }

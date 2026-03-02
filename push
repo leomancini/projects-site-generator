@@ -18,7 +18,7 @@ git push leo@208.97.141.254:/home/leo/domains/leomancini.net/site.git # Push sit
 cd projects
 
 echo '\n# Auto-tagging projects...'
-node auto-tag.js
+node ../tools/auto-tag.js
 
 git add .
 
