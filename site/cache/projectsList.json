@@ -18083,14 +18083,15 @@
                         "url": "https:\/\/github.com\/leomancini\/split-tracker"
                     },
                     {
-                        "type": "live-site",
+                        "type": "live_site",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/split.noshado.ws"
                     }
                 ],
                 "tags": [
-                    "github"
+                    "github",
+                    "live-site"
                 ]
             },
             "files": []
