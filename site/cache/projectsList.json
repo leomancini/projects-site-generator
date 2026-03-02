@@ -1389,6 +1389,52 @@
         },
         {
             "directory": {
+                "id": "auto-app-hosting-skills"
+            },
+            "manifest": {
+                "name": "Auto App Hosting Skills",
+                "shortDescription": "Claude skills for provisioning web apps and services on DreamCompute",
+                "startDate": {
+                    "string": "March 2, 2026",
+                    "timestamp": {
+                        "raw": 1772409600,
+                        "formatted": "March 2026",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Setup Skill Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/claude-skills\/blob\/main\/setup-new-app\/SKILL.md"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Remove Skill Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/claude-skills\/blob\/main\/remove-app\/SKILL.md"
+                    }
+                ],
+                "tags": [
+                    "ai",
+                    "github"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "synced-file-1.txt",
+                    "3": "synced-file-2.txt"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "auto-domain-setup"
             },
             "manifest": {
@@ -15442,7 +15488,7 @@
             },
             "manifest": {
                 "name": "Projects Site Generator Skill",
-                "shortDescription": "Claude Code skill to automate adding entries to the projects site",
+                "shortDescription": "Claude skill to automate adding entries to the projects site",
                 "startDate": {
                     "string": "March 2, 2026",
                     "timestamp": {
