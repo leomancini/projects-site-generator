@@ -167,7 +167,7 @@
 
             $projectsList['projects'] = array_filter($projectsList['projects'], function ($projectInfo) use ($parsedQuery) {
                 $projectYear = $projectInfo['manifest']['startDate']['timestamp']['components']['yearNumber'];
-                $projectTagsLowercase = array_map('strtolower', $projectInfo['manifest']['tags']);
+                $projectTagsLowercase = array_map('strtolower', $projectInfo['manifest']['tags'] ?? []);
 
                 // Check tags - ALL specified tags must match
                 foreach ($parsedQuery['tags'] as $requiredTag) {
@@ -196,11 +196,11 @@
 
                     // Check in various project fields
                     if (
-                        stringContains(strtolower($projectInfo['directory']['id']), $textTerm) ||
-                        stringContains(strtolower($projectInfo['manifest']['name']), $textTerm) ||
-                        stringContains(strtolower($projectInfo['manifest']['shortDescription']), $textTerm) ||
-                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['monthFormatted']), $textTerm) ||
-                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['yearFormatted']), $textTerm)
+                        stringContains(strtolower($projectInfo['directory']['id'] ?? ''), $textTerm) ||
+                        stringContains(strtolower($projectInfo['manifest']['name'] ?? ''), $textTerm) ||
+                        stringContains(strtolower($projectInfo['manifest']['shortDescription'] ?? ''), $textTerm) ||
+                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['monthFormatted'] ?? ''), $textTerm) ||
+                        stringContains(strtolower($projectInfo['manifest']['startDate']['timestamp']['components']['yearFormatted'] ?? ''), $textTerm)
                     ) {
                         $textMatches = true;
                     }
