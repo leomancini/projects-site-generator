@@ -25,6 +25,8 @@
 
         foreach($projects as $projectDirectory) {
             $projectManifest = getProjectManifest($projectDirectory);
+            if (!$projectManifest) continue;
+
             $projectFiles = getProjectFiles($projectDirectory);
 
             $projectInfo = [
