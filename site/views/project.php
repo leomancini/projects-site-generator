@@ -158,7 +158,10 @@
                                     // Check if this is a synced file
                                     if (stringContains(strtolower($screenshotFileName), 'synced-file')) {
                                         $syncedUrl = trim($fileContents);
-                                        echo "<div class='syncedFile'><pre class='syncedFileContent' data-url='" . htmlspecialchars($syncedUrl, ENT_QUOTES, 'UTF-8') . "'></pre></div>";
+                                        $syncedContent = @file_get_contents($syncedUrl);
+                                        if ($syncedContent !== false) {
+                                            echo "<div class='syncedFile'><pre class='syncedFileContent'>" . htmlspecialchars($syncedContent, ENT_QUOTES, 'UTF-8') . "</pre></div>";
+                                        }
                                     }
                                     // Check if this is a YouTube video file
                                     else if (stringContains(strtolower($screenshotFileName), 'youtube')) {
