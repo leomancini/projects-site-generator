@@ -221,7 +221,8 @@
 
                     // Check in links
                     if (!$textMatches && array_key_exists('links', $projectInfo['manifest'])) {
-                        if (searchInUrlsExcludingTldMatches($projectInfo['manifest']['links'], $textTerm)) {
+                        $linkUrls = array_map(function($link) { return $link['url']; }, $projectInfo['manifest']['links']);
+                        if (searchInUrlsExcludingTldMatches($linkUrls, $textTerm)) {
                             $textMatches = true;
                         }
                     }
