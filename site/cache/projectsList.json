@@ -18062,7 +18062,7 @@
             },
             "manifest": {
                 "name": "Split Tracker",
-                "shortDescription": "Split costs with friends",
+                "shortDescription": "Keep track of shared costs with a group",
                 "startDate": {
                     "string": "February 2026",
                     "timestamp": {
