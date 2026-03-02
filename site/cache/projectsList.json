@@ -11162,7 +11162,7 @@
                     {
                         "type": "live-site",
                         "label": "View Example Feed",
-                        "icon": "DEFAULT_FOR_TYPE",
+                        "icon": "live-site",
                         "url": "https:\/\/local-news-reader.noshado.ws\/long-island-city"
                     }
                 ],
