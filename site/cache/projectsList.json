@@ -1410,13 +1410,13 @@
                 "links": [
                     {
                         "type": "github",
-                        "label": "View Setup Skill",
+                        "label": "View Setup Skill Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/claude-skills\/blob\/main\/setup-new-app\/SKILL.md"
                     },
                     {
                         "type": "github",
-                        "label": "View Remove Skill",
+                        "label": "View Remove Skill Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/claude-skills\/blob\/main\/remove-app\/SKILL.md"
                     }
