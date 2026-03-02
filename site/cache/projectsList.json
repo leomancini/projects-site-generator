@@ -1389,6 +1389,52 @@
         },
         {
             "directory": {
+                "id": "auto-app-hosting-skills"
+            },
+            "manifest": {
+                "name": "Auto App Hosting Skills",
+                "shortDescription": "Claude Code skills for provisioning and removing web applications on DreamCompute",
+                "startDate": {
+                    "string": "March 2, 2026",
+                    "timestamp": {
+                        "raw": 1772409600,
+                        "formatted": "March 2026",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Setup Skill",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/claude-skills\/blob\/main\/setup-new-app\/SKILL.md"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Remove Skill",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/claude-skills\/blob\/main\/remove-app\/SKILL.md"
+                    }
+                ],
+                "tags": [
+                    "ai",
+                    "github"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "synced-file-1.txt",
+                    "3": "synced-file-2.txt"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "auto-domain-setup"
             },
             "manifest": {
@@ -16804,52 +16850,6 @@
                 "screenshots": {
                     "2": "1.png",
                     "3": "2.png"
-                }
-            }
-        },
-        {
-            "directory": {
-                "id": "server-instance-skills"
-            },
-            "manifest": {
-                "name": "Server Instance Skills",
-                "shortDescription": "Claude Code skills for provisioning and removing web applications on DreamCompute",
-                "startDate": {
-                    "string": "March 2, 2026",
-                    "timestamp": {
-                        "raw": 1772409600,
-                        "formatted": "March 2026",
-                        "components": {
-                            "monthFormatted": "March",
-                            "monthNumber": 3,
-                            "yearFormatted": "2026",
-                            "yearNumber": 2026
-                        }
-                    }
-                },
-                "links": [
-                    {
-                        "type": "github",
-                        "label": "View Setup Skill",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/claude-skills\/blob\/main\/setup-new-app\/SKILL.md"
-                    },
-                    {
-                        "type": "github",
-                        "label": "View Remove Skill",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/claude-skills\/blob\/main\/remove-app\/SKILL.md"
-                    }
-                ],
-                "tags": [
-                    "ai",
-                    "github"
-                ]
-            },
-            "files": {
-                "screenshots": {
-                    "2": "synced-file-1.txt",
-                    "3": "synced-file-2.txt"
                 }
             }
         },
