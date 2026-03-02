@@ -11179,7 +11179,7 @@
             },
             "manifest": {
                 "name": "Local News Reader",
-                "shortDescription": "Aggregates and displays hyperlocal news for specific neighborhoods",
+                "shortDescription": "Aggregates and displays local news for specific neighborhoods",
                 "startDate": {
                     "string": "February 28, 2026",
                     "timestamp": {
