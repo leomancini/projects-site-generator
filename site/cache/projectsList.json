@@ -16216,16 +16216,16 @@
                 },
                 "links": [
                     {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/region-tracker"
-                    },
-                    {
                         "type": "live-site",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/region-tracker.noshado.ws"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/region-tracker"
                     }
                 ],
                 "tags": [
