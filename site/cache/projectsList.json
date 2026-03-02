@@ -15835,11 +15835,11 @@
         },
         {
             "directory": {
-                "id": "puzzles"
+                "id": "puzzles-app"
             },
             "manifest": {
-                "name": "Puzzles",
-                "shortDescription": "Web app with casual puzzle games and leaderboards",
+                "name": "Puzzles App",
+                "shortDescription": "Play mini brainteaser games with leaderboards",
                 "startDate": {
                     "string": "February 2026",
                     "timestamp": {
@@ -15855,7 +15855,7 @@
                 },
                 "links": [
                     {
-                        "type": "live-site",
+                        "type": "live_site",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/puzzles.noshado.ws"
@@ -15868,6 +15868,7 @@
                     }
                 ],
                 "tags": [
+                    "live-site",
                     "github"
                 ]
             },
