@@ -11160,14 +11160,15 @@
                         "url": "https:\/\/github.com\/leomancini\/local-news-reader"
                     },
                     {
-                        "type": "live-site",
+                        "type": "live_site",
                         "label": "View Example Feed",
-                        "icon": "live_site",
+                        "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/local-news-reader.noshado.ws\/long-island-city"
                     }
                 ],
                 "tags": [
-                    "github"
+                    "github",
+                    "live-site"
                 ]
             },
             "files": []
