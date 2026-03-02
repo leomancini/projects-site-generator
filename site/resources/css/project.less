@@ -378,6 +378,34 @@
         overflow-wrap: break-word;
       }
     }
+
+    .syncedFile {
+      @media (prefers-color-scheme: dark) {
+        border: 2px solid rgba(255, 255, 255, 0.15);
+      }
+
+      border: 2px solid rgba(0, 0, 0, 0.06);
+      max-width: 800px;
+      width: calc(100% - 32px);
+      border-radius: 8px;
+      margin-bottom: 32px;
+      overflow: hidden;
+
+      .syncedFileContent {
+        @media (prefers-color-scheme: dark) {
+          color: rgba(255, 255, 255, 0.85);
+        }
+
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Monaco;
+        font-size: 13px;
+        line-height: 1.5;
+        padding: 16px;
+        margin: 0;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+      }
+    }
   }
 }
 

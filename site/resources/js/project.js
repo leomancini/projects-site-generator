@@ -21,8 +21,24 @@ function goBackToProjectsList() {
   return false;
 }
 
+function loadSyncedFiles() {
+  $(".syncedFileContent[data-url]").each(function () {
+    var element = $(this);
+    var url = element.data("url");
+
+    fetch(url)
+      .then(function (response) {
+        return response.text();
+      })
+      .then(function (text) {
+        element.text(text);
+      });
+  });
+}
+
 $(document).ready(function () {
   calculateOffsetForScreenshotsHasMacDesktopShadow();
+  loadSyncedFiles();
 });
 
 $(window).resize(function () {

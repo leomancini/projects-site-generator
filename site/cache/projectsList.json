@@ -15429,7 +15429,11 @@
                     "github"
                 ]
             },
-            "files": []
+            "files": {
+                "screenshots": {
+                    "2": "synced-file.txt"
+                }
+            }
         },
         {
             "directory": {
