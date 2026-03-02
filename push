@@ -16,6 +16,10 @@ echo '\n# Pushing site code to leomancini.net...'
 git push leo@208.97.141.254:/home/leo/domains/leomancini.net/site.git # Push site/ viewer code to leomancini.net
 
 cd projects
+
+echo '\n# Auto-tagging projects...'
+node auto-tag.js
+
 git add .
 
 echo '\n# Committing project list changes...'
