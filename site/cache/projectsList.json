@@ -3309,7 +3309,7 @@
             },
             "manifest": {
                 "name": "City Tracker",
-                "shortDescription": "Track and organize the cities you've visited around the world",
+                "shortDescription": "Make a list of the cities you've visited",
                 "startDate": {
                     "string": "February 2026",
                     "timestamp": {
@@ -11179,7 +11179,7 @@
             },
             "manifest": {
                 "name": "Local News Reader",
-                "shortDescription": "Aggregates and displays local news for specific neighborhoods",
+                "shortDescription": "View aggregated local news for a neighborhood",
                 "startDate": {
                     "string": "February 28, 2026",
                     "timestamp": {
@@ -11195,21 +11195,21 @@
                 },
                 "links": [
                     {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/local-news-reader"
-                    },
-                    {
                         "type": "live_site",
                         "label": "View Example Feed",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/local-news-reader.noshado.ws\/long-island-city"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/local-news-reader"
                     }
                 ],
                 "tags": [
-                    "github",
-                    "live-site"
+                    "live-site",
+                    "github"
                 ]
             },
             "files": []
@@ -16200,7 +16200,7 @@
             },
             "manifest": {
                 "name": "Region Tracker",
-                "shortDescription": "Track which regions of countries you've visited",
+                "shortDescription": "Make a list of which regions of countries you've visited",
                 "startDate": {
                     "string": "February 2026",
                     "timestamp": {
