@@ -3311,9 +3311,9 @@
                 "name": "City Tracker",
                 "shortDescription": "Make a list of the cities you've visited",
                 "startDate": {
-                    "string": "February 2026",
+                    "string": "February 25, 2026",
                     "timestamp": {
-                        "raw": 1769904000,
+                        "raw": 1771977600,
                         "formatted": "February 2026",
                         "components": {
                             "monthFormatted": "February",
@@ -15841,9 +15841,9 @@
                 "name": "Puzzles App",
                 "shortDescription": "Play mini brainteaser games with leaderboards",
                 "startDate": {
-                    "string": "February 2026",
+                    "string": "February 26, 2026",
                     "timestamp": {
-                        "raw": 1769904000,
+                        "raw": 1772064000,
                         "formatted": "February 2026",
                         "components": {
                             "monthFormatted": "February",
@@ -16203,9 +16203,9 @@
                 "name": "Region Tracker",
                 "shortDescription": "Make a list of which regions of countries you've visited",
                 "startDate": {
-                    "string": "February 2026",
+                    "string": "February 24, 2026",
                     "timestamp": {
-                        "raw": 1769904000,
+                        "raw": 1771891200,
                         "formatted": "February 2026",
                         "components": {
                             "monthFormatted": "February",
@@ -18065,9 +18065,9 @@
                 "name": "Split Tracker",
                 "shortDescription": "Keep track of shared costs with a group",
                 "startDate": {
-                    "string": "February 2026",
+                    "string": "February 27, 2026",
                     "timestamp": {
-                        "raw": 1769904000,
+                        "raw": 1772150400,
                         "formatted": "February 2026",
                         "components": {
                             "monthFormatted": "February",
