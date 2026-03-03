@@ -1,5 +1,9 @@
-echo Commit message?
-read COMMIT_MESSAGE
+if [ -n "$1" ]; then
+    COMMIT_MESSAGE="$1"
+else
+    echo Commit message?
+    read COMMIT_MESSAGE
+fi
 
 echo '\n# Updating cache...'
 curl http://localhost:8888/projects-site-generator/site/controllers/updateCache.php &> /dev/null
