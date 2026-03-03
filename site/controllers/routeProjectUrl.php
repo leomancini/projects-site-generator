@@ -3,6 +3,14 @@
 
     $urlComponents = explode('/', $url);
     
+    $projectDirectory = '../../projects/'.$urlComponents[0];
+    $projectManifestPath = $projectDirectory.'/manifest.json';
+
+    if (!is_dir($projectDirectory) || !file_exists($projectManifestPath)) {
+        header('Location: /');
+        exit;
+    }
+
     if (count($urlComponents) === 1) {
         $_GET['directoryId'] = $urlComponents[0];
 
