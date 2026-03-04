@@ -15313,6 +15313,45 @@
         },
         {
             "directory": {
+                "id": "postcard-viewer"
+            },
+            "manifest": {
+                "name": "Postcard Viewer",
+                "shortDescription": "Link to share a scanned copy of a postcard",
+                "startDate": {
+                    "string": "March 4, 2026",
+                    "timestamp": {
+                        "raw": 1772582400,
+                        "formatted": "March 2026",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "View Demo Postcard",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/postcard.leo.gd\/demo"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "video"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "demo.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "powerbook-and-network-drawings"
             },
             "manifest": {
