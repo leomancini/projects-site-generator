@@ -11632,6 +11632,47 @@
         },
         {
             "directory": {
+                "id": "market-tickers"
+            },
+            "manifest": {
+                "name": "Market Tickers",
+                "shortDescription": "Live dashboard showing prices and daily changes for US indices, forex, commodities, crypto, global markets, and bonds",
+                "startDate": {
+                    "string": "March 6, 2026",
+                    "timestamp": {
+                        "raw": 1772755200,
+                        "formatted": "March 2026",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/market-tickers.leo.gd\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/market-tickers"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": []
+        },
+        {
+            "directory": {
                 "id": "medium-format-film-frame"
             },
             "manifest": {
