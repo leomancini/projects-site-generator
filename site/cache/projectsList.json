@@ -3577,6 +3577,47 @@
         },
         {
             "directory": {
+                "id": "cloud-social-network"
+            },
+            "manifest": {
+                "name": "Cloud Social Network",
+                "shortDescription": "Web app with ability to add features from user input",
+                "startDate": {
+                    "string": "March 9, 2026",
+                    "timestamp": {
+                        "raw": 1773014400,
+                        "formatted": "March 2026",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/cloud.leo.gd"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/cloud"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": []
+        },
+        {
+            "directory": {
                 "id": "coffee-time-1-video"
             },
             "manifest": {
