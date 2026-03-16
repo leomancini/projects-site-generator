@@ -1613,16 +1613,16 @@
                 },
                 "links": [
                     {
+                        "type": "live-site",
+                        "label": "View Site",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/automatic-software.leo.gd"
+                    },
+                    {
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/automatic-software"
-                    },
-                    {
-                        "type": "live-site",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/automatic-software.leo.gd"
                     }
                 ],
                 "tags": [
