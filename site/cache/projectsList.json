@@ -6915,6 +6915,40 @@
         },
         {
             "directory": {
+                "id": "fcc-studio-discord-bot"
+            },
+            "manifest": {
+                "name": "FCC Studio Discord Bot",
+                "shortDescription": "Chat about projects, set reminders, store and recall memories",
+                "startDate": {
+                    "string": "March 14, 2026",
+                    "timestamp": {
+                        "raw": 1773446400,
+                        "formatted": "March 2026",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/discord-bot"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": []
+        },
+        {
+            "directory": {
                 "id": "fcc-studio-portfolio"
             },
             "manifest": {
