@@ -1614,7 +1614,7 @@
                 "links": [
                     {
                         "type": "live-site",
-                        "label": "View Site",
+                        "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/automatic-software.leo.gd"
                     },
