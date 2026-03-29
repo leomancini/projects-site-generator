@@ -6953,7 +6953,12 @@
                     "github"
                 ]
             },
-            "files": []
+            "files": {
+                "screenshots": {
+                    "2": "Group 1@2x.png",
+                    "3": "Group 2@2x.png"
+                }
+            }
         },
         {
             "directory": {
