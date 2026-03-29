@@ -106,7 +106,12 @@
     function formatForDisplay($inputText) {
         $outputText = nl2br($inputText);
         
-        // First handle code blocks
+        // First handle codeblocks (block-level code)
+        $outputText = preg_replace('~\[codeblock="(.*?)"\]~s', '<div class="customFormatting codeblock">$1</div>', $outputText);
+        $outputText = preg_replace('~(\s|<br\s*/?>)+(<div class="customFormatting codeblock">)~', '<br /><br />$2', $outputText);
+        $outputText = preg_replace('~(</div>)(\s|<br\s*/?>)+~', '$1<br />', $outputText);
+
+        // Then handle inline code
         $outputText = preg_replace('~\[code="(.*?)"\]~', '<span class="customFormatting code">$1</span>', $outputText);
         
         // Then handle links

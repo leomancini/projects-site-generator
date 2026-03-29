@@ -96,6 +96,28 @@
           color: @black;
         }
 
+        &.codeblock {
+          @media (prefers-color-scheme: dark) {
+            background: rgba(255, 255, 255, 0.25);
+          }
+
+          @media @mobile {
+            @media (prefers-color-scheme: dark) {
+              background: rgba(255, 255, 255, 0.15);
+            }
+          }
+
+          display: block;
+          background: rgba(0, 0, 0, 0.08);
+          padding: 10px 14px;
+          border-radius: 6px;
+          font-family: Monaco;
+          font-size: 13px;
+          margin: 0;
+          white-space: pre-wrap;
+          line-height: 1.5;
+        }
+
         &.code {
           @media (prefers-color-scheme: dark) {
             background: rgba(255, 255, 255, 0.25);

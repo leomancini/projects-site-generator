@@ -1632,6 +1632,7 @@
                 ]
             },
             "files": {
+                "3": "longDescription.txt",
                 "screenshots": {
                     "3": "0-demo@2x.mp4",
                     "4": "1-commits@2x.jpeg",
@@ -3622,6 +3623,7 @@
                 ]
             },
             "files": {
+                "2": "longDescription.txt",
                 "screenshots": {
                     "2": "Group 1@2x.png",
                     "3": "Group 2@2x.png",
