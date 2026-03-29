@@ -12994,6 +12994,56 @@
         },
         {
             "directory": {
+                "id": "nyc-restaurant-ratings"
+            },
+            "manifest": {
+                "name": "NYC Restaurant Ratings",
+                "shortDescription": "Find health grades and violations for restaurants",
+                "startDate": {
+                    "string": "March 28, 2026",
+                    "timestamp": {
+                        "raw": 1774656000,
+                        "formatted": "March 2026",
+                        "components": {
+                            "monthFormatted": "March",
+                            "monthNumber": 3,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/nycfood.leo.gd"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/nyc-restaurant-ratings"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "3": "Group 1@2x.png",
+                    "4": "Group 2@2x.png",
+                    "5": "Group 4@2x.png",
+                    "6": "Group 5@2x.png",
+                    "7": "Group 6@2x.png",
+                    "8": "Group 7@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "nyc-sky-colors-api"
             },
             "manifest": {
