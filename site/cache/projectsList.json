@@ -17677,6 +17677,54 @@
         },
         {
             "directory": {
+                "id": "simulated-mission-dashboard"
+            },
+            "manifest": {
+                "name": "Simulated Mission Dashboard",
+                "shortDescription": "Retro visualizations with synthetic telemetry data",
+                "startDate": {
+                    "string": "April 6, 2026",
+                    "timestamp": {
+                        "raw": 1775433600,
+                        "formatted": "April 2026",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/mission-dashboard.leo.gd\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/mission-dashboard"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "3": "1@2x.mp4",
+                    "4": "2@2x.mp4",
+                    "5": "3@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "sing-set-design"
             },
             "manifest": {
