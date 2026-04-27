@@ -22268,6 +22268,53 @@
                     "6": "5-logo-detail.png"
                 }
             }
+        },
+        {
+            "directory": {
+                "id": "zap"
+            },
+            "manifest": {
+                "name": "Zap",
+                "shortDescription": "Capture and share the current moment through data and image",
+                "startDate": {
+                    "string": "April 19, 2026",
+                    "timestamp": {
+                        "raw": 1776556800,
+                        "formatted": "April 2026",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/zap.fcc.lol"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/zap"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "0@2x.mp4",
+                    "3": "1@2x.png"
+                }
+            }
         }
     ]
 }
