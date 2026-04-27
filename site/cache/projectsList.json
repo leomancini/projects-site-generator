@@ -7011,6 +7011,12 @@
                         "label": "View Server Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/fcc-lol\/portfolio-api"
+                    },
+                    {
+                        "type": "mcp_server",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/portfolio-api.fcc.lol\/mcp"
                     }
                 ],
                 "tags": {
@@ -11098,6 +11104,12 @@
                         "label": "View Demo List 2",
                         "icon": "list",
                         "url": "https:\/\/lists.fcc.lol\/leo-mancini\/east-williamsburg-lunch"
+                    },
+                    {
+                        "type": "mcp_server",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/page-builder-server.fcc.lol\/mcp"
                     }
                 ],
                 "credits": [
@@ -11862,6 +11874,77 @@
             "files": {
                 "screenshots": {
                     "2": "0@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "mcp-servers-2026"
+            },
+            "manifest": {
+                "name": "Project MCP Servers",
+                "shortDescription": "Interact with various projects using LLM chat bots",
+                "startDate": {
+                    "string": "April 25, 2026",
+                    "timestamp": {
+                        "raw": 1777075200,
+                        "formatted": "April 2026",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "Personal Projects",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/projects-mcp"
+                    },
+                    {
+                        "type": "github",
+                        "label": "FCC Studio Projects",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/portfolio-api\/blob\/main\/server.js#L2241"
+                    },
+                    {
+                        "type": "github",
+                        "label": "Prediction Markets Research",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/prediction-markets-research-api\/blob\/main\/server.js#L409"
+                    },
+                    {
+                        "type": "github",
+                        "label": "NYC Restaurant Ratings",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/nyc-restaurant-ratings\/blob\/main\/server.js#L151"
+                    },
+                    {
+                        "type": "github",
+                        "label": "NYC Sky Colors",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/nyc-sky-colors-api\/blob\/main\/server.js#L1261"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "IMG_2315@2x.PNG",
+                    "3": "IMG_2316@2x.PNG",
+                    "4": "IMG_2317@2x.PNG",
+                    "5": "IMG_2319@2x.PNG",
+                    "6": "IMG_2320@2x.PNG",
+                    "7": "IMG_2321@2x.PNG",
+                    "8": "IMG_2323@2x.PNG",
+                    "9": "IMG_2325@2x.PNG",
+                    "10": "IMG_2326@2x.PNG"
                 }
             }
         },
@@ -13090,6 +13173,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/nyc-restaurant-ratings"
+                    },
+                    {
+                        "type": "mcp_server",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/nycfood.leo.gd\/mcp"
                     }
                 ],
                 "tags": [
@@ -13164,6 +13253,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/fcc-lol\/nyc-sky-colors-api"
+                    },
+                    {
+                        "type": "mcp_server",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/nyc-sky-colors.fcc.lol\/mcp"
                     }
                 ],
                 "tags": {
@@ -15704,7 +15799,7 @@
                 "id": "prediction-markets-research-api"
             },
             "manifest": {
-                "name": "Prediction Markets API",
+                "name": "Prediction Markets Research API",
                 "shortDescription": "Scraper for publicly-accessible prediction markets data",
                 "startDate": {
                     "string": "September 3, 2025",
@@ -15737,6 +15832,12 @@
                         "label": "View Random Event",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/prediction-markets-research-api.noshado.ws\/random"
+                    },
+                    {
+                        "type": "mcp_server",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/prediction-markets-research-api.noshado.ws\/mcp"
                     }
                 ],
                 "tags": [
@@ -15885,6 +15986,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/projects-site-generator"
+                    },
+                    {
+                        "type": "mcp_server",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/leomancini.net\/mcp"
                     }
                 ],
                 "tags": [
