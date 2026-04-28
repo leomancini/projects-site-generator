@@ -3642,9 +3642,9 @@
                 "name": "Cloud Social Network App Connections",
                 "shortDescription": "Share and view content from other apps in Cloud",
                 "startDate": {
-                    "string": "April 27, 2026",
+                    "string": "April 18, 2026",
                     "timestamp": {
-                        "raw": 1777248000,
+                        "raw": 1776470400,
                         "formatted": "April 2026",
                         "components": {
                             "monthFormatted": "April",
@@ -3654,7 +3654,23 @@
                         }
                     }
                 },
-                "tags": []
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Source for Zap",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/zap\/blob\/de78c604dd8fd213ac3cc83bbd4b2ce9a62d422e\/src\/App.jsx#L749"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Source for Mosaic",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/mosaic\/blob\/ad4b78e6a4adc6e00bccb5ddf57a6fb9af0de5ed\/src\/ChladniParticleGhost.jsx#L592"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
             },
             "files": {
                 "4": "longDescription.txt",
@@ -3669,6 +3685,50 @@
                     "5": "3@2x.png",
                     "6": "4@2x.png",
                     "7": "5@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "cloud-social-network-on-demand-games"
+            },
+            "manifest": {
+                "name": "Cloud Social Network On-Demand Games",
+                "shortDescription": "Create a game with a prompt for friends to play",
+                "startDate": {
+                    "string": "April 17, 2026",
+                    "timestamp": {
+                        "raw": 1776384000,
+                        "formatted": "April 2026",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/cloud\/blob\/main\/server.js#L896"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.png",
+                    "7": "6@2x.png"
                 }
             }
         },
