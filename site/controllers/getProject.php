@@ -83,6 +83,21 @@
         return $iconCode;
     }
 
+    function getUrlForLink($link, $projectName) {
+        global $config;
+
+        if ($config && isset($config['links']['urlTemplatesForType'][$link['type']])) {
+            $template = $config['links']['urlTemplatesForType'][$link['type']];
+            return str_replace(
+                ['{name}', '{url}'],
+                [rawurlencode($projectName), rawurlencode($link['url'])],
+                $template
+            );
+        }
+
+        return $link['url'];
+    }
+
     function getLabelForLink($link, $linkTypeMetadata) {
         global $config;
 

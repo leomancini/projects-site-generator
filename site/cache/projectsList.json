@@ -11897,41 +11897,7 @@
                         }
                     }
                 },
-                "links": [
-                    {
-                        "type": "github",
-                        "label": "Personal Projects",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/projects-mcp"
-                    },
-                    {
-                        "type": "github",
-                        "label": "FCC Studio Projects",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/fcc-lol\/portfolio-api\/blob\/main\/server.js#L2241"
-                    },
-                    {
-                        "type": "github",
-                        "label": "Prediction Markets Research",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/prediction-markets-research-api\/blob\/main\/server.js#L409"
-                    },
-                    {
-                        "type": "github",
-                        "label": "NYC Restaurant Ratings",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/leomancini\/nyc-restaurant-ratings\/blob\/main\/server.js#L151"
-                    },
-                    {
-                        "type": "github",
-                        "label": "NYC Sky Colors",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/fcc-lol\/nyc-sky-colors-api\/blob\/main\/server.js#L1261"
-                    }
-                ],
-                "tags": [
-                    "github"
-                ]
+                "tags": []
             },
             "files": {
                 "2": "longDescription.txt",

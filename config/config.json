@@ -41,6 +41,9 @@
             "storage": "View Storage",
             "document": "View Document",
             "gallery-sign": "View Gallery Sign"
+        },
+        "urlTemplatesForType": {
+            "mcp_server": "https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName={name}&connectorUrl={url}"
         }
     },
     "debug": false,

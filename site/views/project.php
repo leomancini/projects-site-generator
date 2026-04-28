@@ -109,7 +109,7 @@
                             }
                         ?>
                         <?php foreach($projectManifest['links'] as $link) { ?>
-                            <a href='<?php echo $link['url']; ?>' target='_blank' rel='noopener' class='link'>
+                            <a href='<?php echo getUrlForLink($link, $projectManifest['name']); ?>' target='_blank' rel='noopener' class='link'>
                                 <?php $projectLinkTypesMetadata[$link['type']]['index']++; ?>
                                 <span class='icon'><i class="material-icons"><?php echo getIconForLink($link); ?></i></span>
                                 <span class='label'><?php echo getLabelForLink($link, $projectLinkTypesMetadata[$link['type']]); ?></span>
