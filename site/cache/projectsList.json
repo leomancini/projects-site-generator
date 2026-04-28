@@ -3636,6 +3636,44 @@
         },
         {
             "directory": {
+                "id": "cloud-social-network-app-connections"
+            },
+            "manifest": {
+                "name": "Cloud Social Network App Connections",
+                "shortDescription": "Share and view content from other apps in Cloud",
+                "startDate": {
+                    "string": "April 27, 2026",
+                    "timestamp": {
+                        "raw": 1777248000,
+                        "formatted": "April 2026",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": []
+            },
+            "files": {
+                "4": "longDescription.txt",
+                "hidden": {
+                    "2": "IMG_2430@2x.PNG",
+                    "3": "IMG_2431@2x.PNG",
+                    "4": "IMG_2434@2x.PNG"
+                },
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png",
+                    "6": "4@2x.png",
+                    "7": "5@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "coffee-time-1-video"
             },
             "manifest": {
@@ -22279,8 +22317,8 @@
             },
             "files": {
                 "screenshots": {
-                    "2": "0@2x.mp4",
-                    "3": "1@2x.png"
+                    "3": "0@2x.mp4",
+                    "4": "1@2x.png"
                 }
             }
         }
