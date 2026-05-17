@@ -15812,10 +15812,17 @@
                         "label": "View Demo Postcard",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/postcard.leo.gd\/demo"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/postcard-viewer"
                     }
                 ],
                 "tags": [
                     "live-site",
+                    "github",
                     "video"
                 ]
             },
