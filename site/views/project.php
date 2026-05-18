@@ -177,23 +177,26 @@
                                     // Check if this is a YouTube video file
                                     else if (stringContains(strtolower($screenshotFileName), 'youtube')) {
                                         $youtubeUrl = trim($fileContents);
-                                        $embedUrl = convertYouTubeUrlToEmbed($youtubeUrl);
+                                        $autoplay = stringContains($screenshotFileName, '--autoplay');
+                                        $embedUrl = convertYouTubeUrlToEmbed($youtubeUrl, $autoplay);
                                         if ($embedUrl) {
                                             // Check for aspect ratio override in filename (e.g., youtube-1--aspect=9x16.txt)
                                             $aspectRatioStyle = '';
                                             if (stringContains($screenshotFileName, '--aspect=')) {
                                                 $aspectString = explode('--aspect=', $screenshotFileName)[1];
                                                 $aspectString = explode('.', $aspectString)[0];
-                                                
+                                                $aspectString = explode('--', $aspectString)[0];
+
                                                 if (strpos($aspectString, 'x') !== false) {
                                                     list($aspectWidth, $aspectHeight) = explode('x', $aspectString);
                                                     $paddingBottom = ($aspectHeight / $aspectWidth) * 100;
                                                     $aspectRatioStyle = "padding-bottom: {$paddingBottom}%; height: 0;";
                                                 }
                                             }
-                                            
+
                                             $styleContent = trim($sizeOverride . ' ' . $aspectRatioStyle);
-                                            echo "<div class='youtubeVideo" . ($imageClassesString ? " $imageClassesString" : "") . "'" . ($styleContent ? " style='$styleContent'" : "") . ">";
+                                            $autoplayClass = $autoplay ? ' autoplayCrop' : '';
+                                            echo "<div class='youtubeVideo" . ($imageClassesString ? " $imageClassesString" : "") . $autoplayClass . "'" . ($styleContent ? " style='$styleContent'" : "") . ">";
                                             echo "<iframe src='$embedUrl' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
                                             echo "</div>";
                                         }

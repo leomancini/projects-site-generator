@@ -370,6 +370,15 @@
         width: 100%;
         height: 100%;
       }
+
+      &.autoplayCrop {
+        overflow: hidden;
+
+        iframe {
+          top: -60px;
+          height: calc(100% + 120px);
+        }
+      }
     }
 
     audio {

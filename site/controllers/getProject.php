@@ -227,10 +227,10 @@
 
 
 
-    function convertYouTubeUrlToEmbed($url) {
+    function convertYouTubeUrlToEmbed($url, $autoplay = false) {
         // Handle different YouTube URL formats
         $videoId = '';
-        
+
         // Standard YouTube URL: https://www.youtube.com/watch?v=VIDEO_ID
         if (preg_match('/(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/', $url, $matches)) {
             $videoId = $matches[1];
@@ -245,7 +245,23 @@
         }
 
         if (!empty($videoId)) {
-            return "https://www.youtube.com/embed/" . $videoId;
+            $embed = "https://www.youtube.com/embed/" . $videoId;
+            if ($autoplay) {
+                $params = [
+                    'autoplay=1',
+                    'mute=1',
+                    'controls=0',
+                    'loop=1',
+                    'playlist=' . $videoId,
+                    'modestbranding=1',
+                    'rel=0',
+                    'playsinline=1',
+                    'iv_load_policy=3',
+                    'disablekb=1'
+                ];
+                $embed .= '?' . implode('&', $params);
+            }
+            return $embed;
         }
 
         return false;
