@@ -11100,6 +11100,50 @@
         },
         {
             "directory": {
+                "id": "lego-mosaic-frames"
+            },
+            "manifest": {
+                "name": "LEGO Mosaic Frames",
+                "shortDescription": "Custom  brick art made with made-to-fit frame",
+                "startDate": {
+                    "string": "June 2026",
+                    "timestamp": {
+                        "raw": 1780272000,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download Frame STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/lego-mosaic-frames\/downloads\/LEGO_Mosaic_Frame.stl"
+                    }
+                ],
+                "tags": [
+                    "lego",
+                    "3D"
+                ]
+            },
+            "files": {
+                "downloads": {
+                    "2": "LEGO_Mosaic_Frame.stl"
+                },
+                "screenshots": {
+                    "2": "1.jpeg",
+                    "3": "2.jpeg",
+                    "4": "3.jpeg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "life-goals"
             },
             "manifest": {
