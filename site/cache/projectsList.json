@@ -12214,6 +12214,49 @@
         },
         {
             "directory": {
+                "id": "metrocard-memorial-frame"
+            },
+            "manifest": {
+                "name": "MetroCard Memorial Frame",
+                "shortDescription": "Wall frame for displaying transit card",
+                "startDate": {
+                    "string": "June 10, 2026",
+                    "timestamp": {
+                        "raw": 1781049600,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/metrocard-memorial-frame\/downloads\/MetroCard_Memorial_Frame.stl"
+                    }
+                ],
+                "tags": [
+                    "3D"
+                ]
+            },
+            "files": {
+                "downloads": {
+                    "2": "MetroCard_Memorial_Frame.stl"
+                },
+                "screenshots": {
+                    "2": "1.jpeg",
+                    "3": "2.jpeg",
+                    "4": "3.jpeg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "metrodoc-test-040625"
             },
             "manifest": {
