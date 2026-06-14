@@ -7121,17 +7121,8 @@
                         }
                     }
                 },
-                "links": [
-                    {
-                        "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/github.com\/fcc-lol\/discord-bot"
-                    }
-                ],
                 "tags": [
-                    "fcc",
-                    "github"
+                    "fcc"
                 ]
             },
             "files": {
