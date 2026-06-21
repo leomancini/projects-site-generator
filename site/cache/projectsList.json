@@ -17031,6 +17031,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/static.fcc.lol\/nov-2025-gallery-show\/project-signs\/kiosk.pdf"
+                    },
+                    {
+                        "type": "mcp_server",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/kiosk-server.fcc.lol\/mcp\/KIOSK_API_KEY"
                     }
                 ],
                 "tags": {
@@ -18895,6 +18901,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/split-tracker"
+                    },
+                    {
+                        "type": "mcp_server",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/split.noshado.ws\/mcp"
                     }
                 ],
                 "tags": [
