@@ -482,6 +482,59 @@
         },
         {
             "directory": {
+                "id": "ai-pixel-art-frame"
+            },
+            "manifest": {
+                "name": "AI Pixel Art Frame",
+                "shortDescription": "Generate and display animations on a physical 32x32 LED pixel art frame",
+                "startDate": {
+                    "string": "June 18, 2026",
+                    "timestamp": {
+                        "raw": 1781740800,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "View Control App",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/ai-pixel-art-frame.leo.gd\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/ai-pixel-art-frame-server"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Firmware Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/ai-pixel-art-frame-firmware"
+                    },
+                    {
+                        "type": "mcp_server",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/ai-pixel-art-frame.leo.gd\/mcp"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": []
+        },
+        {
+            "directory": {
                 "id": "air-quality-sms-alerts"
             },
             "manifest": {
