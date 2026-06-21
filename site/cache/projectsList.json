@@ -3609,6 +3609,37 @@
         },
         {
             "directory": {
+                "id": "claude-chat-web-views"
+            },
+            "manifest": {
+                "name": "Claude Chat Web Views",
+                "shortDescription": "TODO: add short description",
+                "startDate": {
+                    "string": "June 2026",
+                    "timestamp": {
+                        "raw": 1780272000,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": []
+            },
+            "files": {
+                "screenshots": {
+                    "3": "1.png",
+                    "4": "2.png",
+                    "5": "3.png",
+                    "6": "4.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "clay-sculpture-set"
             },
             "manifest": {
