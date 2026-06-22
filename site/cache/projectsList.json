@@ -20367,7 +20367,7 @@
             },
             "manifest": {
                 "name": "Tai Ping Operating System",
-                "shortDescription": "Platform for interacting with continuously editable apps",
+                "shortDescription": "Platform for interacting with continuously-editable apps",
                 "startDate": {
                     "string": "June 20, 2026",
                     "timestamp": {
