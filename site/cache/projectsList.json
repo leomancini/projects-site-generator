@@ -20363,6 +20363,53 @@
         },
         {
             "directory": {
+                "id": "tai-ping-os"
+            },
+            "manifest": {
+                "name": "Tai Ping Operating System",
+                "shortDescription": "Platform for interacting with continuously editable apps",
+                "startDate": {
+                    "string": "June 20, 2026",
+                    "timestamp": {
+                        "raw": 1781913600,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/tai-ping-os.leo.gd\/?key=DEMO"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/tai-ping-os"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Android Wrapper Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/tai-ping-os-android-wrapper"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": []
+        },
+        {
+            "directory": {
                 "id": "taptation"
             },
             "manifest": {
