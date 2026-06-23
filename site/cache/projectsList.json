@@ -12476,6 +12476,37 @@
         },
         {
             "directory": {
+                "id": "minute-videos"
+            },
+            "manifest": {
+                "name": "Minute Videos",
+                "shortDescription": "Series of one-minute videos of daily life",
+                "startDate": {
+                    "string": "June 22, 2026",
+                    "timestamp": {
+                        "raw": 1782086400,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": [
+                    "video",
+                    "youtube"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "youtube-playlist-1--newest-first.txt"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "mom-business-card-series"
             },
             "manifest": {

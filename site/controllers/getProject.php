@@ -266,4 +266,70 @@
 
         return false;
     }
+
+    function extractYouTubePlaylistId($url) {
+        $url = trim($url);
+
+        // Playlist URL with a list parameter, e.g.
+        // https://www.youtube.com/playlist?list=PLAYLIST_ID or
+        // https://www.youtube.com/watch?v=VIDEO_ID&list=PLAYLIST_ID
+        if (preg_match('/[?&]list=([a-zA-Z0-9_-]+)/', $url, $matches)) {
+            return $matches[1];
+        }
+
+        // Bare playlist ID
+        if (preg_match('/^[a-zA-Z0-9_-]+$/', $url)) {
+            return $url;
+        }
+
+        return false;
+    }
+
+    function getYouTubePlaylistVideoIds($playlistId) {
+        $safeId = preg_replace('/[^a-zA-Z0-9_-]/', '', $playlistId);
+        $cacheFile = sys_get_temp_dir() . '/yt-playlist-' . $safeId . '.json';
+        $cacheTtl = 6 * 60 * 60; // 6 hours
+
+        // Serve fresh cache if available
+        if (file_exists($cacheFile) && (time() - filemtime($cacheFile) < $cacheTtl)) {
+            $cached = json_decode(file_get_contents($cacheFile), true);
+            if (is_array($cached) && count($cached) > 0) {
+                return $cached;
+            }
+        }
+
+        $context = stream_context_create([
+            'http' => [
+                'header' => "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36\r\n",
+                'timeout' => 10
+            ]
+        ]);
+
+        $html = @file_get_contents('https://www.youtube.com/playlist?list=' . $safeId, false, $context);
+
+        $videoIds = [];
+        if ($html !== false && preg_match_all('/"videoId":"([a-zA-Z0-9_-]{11})"/', $html, $matches)) {
+            // Preserve playlist order, drop duplicates
+            foreach ($matches[1] as $id) {
+                if (!in_array($id, $videoIds)) {
+                    $videoIds[] = $id;
+                }
+            }
+        }
+
+        if (count($videoIds) > 0) {
+            @file_put_contents($cacheFile, json_encode($videoIds));
+            return $videoIds;
+        }
+
+        // Fetch failed or returned nothing — fall back to stale cache if present
+        if (file_exists($cacheFile)) {
+            $cached = json_decode(file_get_contents($cacheFile), true);
+            if (is_array($cached)) {
+                return $cached;
+            }
+        }
+
+        return $videoIds;
+    }
 ?>

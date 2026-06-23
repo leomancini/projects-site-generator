@@ -174,6 +174,46 @@
                                             echo "<div class='syncedFile'><div class='syncedFileContent'>" . $parsedown->text($syncedContent) . "</div></div>";
                                         }
                                     }
+                                    // Check if this is a YouTube playlist file (must come before the single-video check)
+                                    else if (stringContains(strtolower($screenshotFileName), 'youtube-playlist')) {
+                                        $playlistId = extractYouTubePlaylistId(trim($fileContents));
+                                        if ($playlistId) {
+                                            $autoplay = stringContains($screenshotFileName, '--autoplay');
+
+                                            // Check for aspect ratio override in filename (applies to every video)
+                                            $aspectRatioStyle = '';
+                                            if (stringContains($screenshotFileName, '--aspect=')) {
+                                                $aspectString = explode('--aspect=', $screenshotFileName)[1];
+                                                $aspectString = explode('.', $aspectString)[0];
+                                                $aspectString = explode('--', $aspectString)[0];
+
+                                                if (strpos($aspectString, 'x') !== false) {
+                                                    list($aspectWidth, $aspectHeight) = explode('x', $aspectString);
+                                                    $paddingBottom = ($aspectHeight / $aspectWidth) * 100;
+                                                    $aspectRatioStyle = "padding-bottom: {$paddingBottom}%; height: 0;";
+                                                }
+                                            }
+
+                                            $videoIds = getYouTubePlaylistVideoIds($playlistId);
+
+                                            // Playlists scrape in their natural (oldest-first) order;
+                                            // --newest-first reverses that to show the latest video first
+                                            if (stringContains($screenshotFileName, '--newest-first')) {
+                                                $videoIds = array_reverse($videoIds);
+                                            }
+
+                                            foreach ($videoIds as $videoId) {
+                                                $embedUrl = convertYouTubeUrlToEmbed('https://www.youtube.com/watch?v=' . $videoId, $autoplay);
+                                                if ($embedUrl) {
+                                                    $styleContent = trim($sizeOverride . ' ' . $aspectRatioStyle);
+                                                    $autoplayClass = $autoplay ? ' autoplayCrop' : '';
+                                                    echo "<div class='youtubeVideo" . ($imageClassesString ? " $imageClassesString" : "") . $autoplayClass . "'" . ($styleContent ? " style='$styleContent'" : "") . ">";
+                                                    echo "<iframe src='$embedUrl' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+                                                    echo "</div>";
+                                                }
+                                            }
+                                        }
+                                    }
                                     // Check if this is a YouTube video file
                                     else if (stringContains(strtolower($screenshotFileName), 'youtube')) {
                                         $youtubeUrl = trim($fileContents);
