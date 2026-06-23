@@ -285,19 +285,7 @@
         return false;
     }
 
-    function getYouTubePlaylistVideoIds($playlistId) {
-        $safeId = preg_replace('/[^a-zA-Z0-9_-]/', '', $playlistId);
-        $cacheFile = sys_get_temp_dir() . '/yt-playlist-' . $safeId . '.json';
-        $cacheTtl = 6 * 60 * 60; // 6 hours
-
-        // Serve fresh cache if available
-        if (file_exists($cacheFile) && (time() - filemtime($cacheFile) < $cacheTtl)) {
-            $cached = json_decode(file_get_contents($cacheFile), true);
-            if (is_array($cached) && count($cached) > 0) {
-                return $cached;
-            }
-        }
-
+    function fetchYouTubePlaylistVideoIds($safeId, $cacheFile) {
         $context = stream_context_create([
             'http' => [
                 'header' => "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36\r\n",
@@ -317,19 +305,54 @@
             }
         }
 
+        // Only overwrite the cache on a successful fetch, so a transient
+        // failure never wipes a good cached list.
         if (count($videoIds) > 0) {
             @file_put_contents($cacheFile, json_encode($videoIds));
-            return $videoIds;
-        }
-
-        // Fetch failed or returned nothing — fall back to stale cache if present
-        if (file_exists($cacheFile)) {
-            $cached = json_decode(file_get_contents($cacheFile), true);
-            if (is_array($cached)) {
-                return $cached;
-            }
         }
 
         return $videoIds;
+    }
+
+    function getYouTubePlaylistVideoIds($playlistId) {
+        $safeId = preg_replace('/[^a-zA-Z0-9_-]/', '', $playlistId);
+        $cacheFile = sys_get_temp_dir() . '/yt-playlist-' . $safeId . '.json';
+        $cacheTtl = 6 * 60 * 60; // 6 hours
+
+        // Read whatever is cached, regardless of age
+        $cached = null;
+        if (file_exists($cacheFile)) {
+            $decoded = json_decode(file_get_contents($cacheFile), true);
+            if (is_array($decoded) && count($decoded) > 0) {
+                $cached = $decoded;
+            }
+        }
+
+        // Fresh cache: serve it directly
+        if ($cached !== null && (time() - filemtime($cacheFile) < $cacheTtl)) {
+            return $cached;
+        }
+
+        // Stale-while-revalidate: serve the stale list now, refresh in the
+        // background so no visitor ever waits on the scrape.
+        if ($cached !== null) {
+            // Bump mtime up front so concurrent requests don't all kick off a
+            // refresh (simple stampede guard).
+            @touch($cacheFile);
+
+            register_shutdown_function(function () use ($safeId, $cacheFile) {
+                // Flush the response to the client first (PHP-FPM) so the
+                // refresh runs after the page has already been delivered.
+                if (function_exists('fastcgi_finish_request')) {
+                    fastcgi_finish_request();
+                }
+                fetchYouTubePlaylistVideoIds($safeId, $cacheFile);
+            });
+
+            return $cached;
+        }
+
+        // Cold cache: nothing to serve, so fetch synchronously this once.
+        return fetchYouTubePlaylistVideoIds($safeId, $cacheFile);
     }
 ?>
