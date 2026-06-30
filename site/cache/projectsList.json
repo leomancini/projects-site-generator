@@ -3708,6 +3708,47 @@
         },
         {
             "directory": {
+                "id": "clock-tower"
+            },
+            "manifest": {
+                "name": "Clock Tower",
+                "shortDescription": "Vertical display of current time and weather overlaid on animations",
+                "startDate": {
+                    "string": "June 26, 2026",
+                    "timestamp": {
+                        "raw": 1782432000,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/clock-tower.fcc.lol\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/clock-tower"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": []
+        },
+        {
+            "directory": {
                 "id": "cloud-social-network"
             },
             "manifest": {
