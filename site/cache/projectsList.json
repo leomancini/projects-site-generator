@@ -9598,6 +9598,40 @@
         },
         {
             "directory": {
+                "id": "ibackpack"
+            },
+            "manifest": {
+                "name": "iBackpack",
+                "shortDescription": "Wearable visual reflection and data collection device",
+                "startDate": {
+                    "string": "April 22, 2026",
+                    "timestamp": {
+                        "raw": 1776816000,
+                        "formatted": "April 2026",
+                        "components": {
+                            "monthFormatted": "April",
+                            "monthNumber": 4,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/ibackpack"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": []
+        },
+        {
+            "directory": {
                 "id": "ichatgpt"
             },
             "manifest": {
