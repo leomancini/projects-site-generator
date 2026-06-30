@@ -20438,8 +20438,8 @@
                 "id": "tai-ping-os"
             },
             "manifest": {
-                "name": "Tai Ping Operating System",
-                "shortDescription": "Platform for interacting with continuously-editable apps",
+                "name": "Tai Ping",
+                "shortDescription": "Custom device with apps you can describe",
                 "startDate": {
                     "string": "June 20, 2026",
                     "timestamp": {
