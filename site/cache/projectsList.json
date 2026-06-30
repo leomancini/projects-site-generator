@@ -486,7 +486,7 @@
             },
             "manifest": {
                 "name": "AI Pixel Art Frame",
-                "shortDescription": "Generate and display animations on a physical 32x32 LED pixel art frame",
+                "shortDescription": "Generate and display animations on a physical LED pixel art frame",
                 "startDate": {
                     "string": "June 18, 2026",
                     "timestamp": {
@@ -22607,7 +22607,15 @@
                     "github"
                 ]
             },
-            "files": []
+            "files": {
+                "screenshots": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png",
+                    "6": "5.png"
+                }
+            }
         },
         {
             "directory": {
