@@ -20459,7 +20459,7 @@
         },
         {
             "directory": {
-                "id": "tai-ping-os"
+                "id": "tai-ping"
             },
             "manifest": {
                 "name": "Tai Ping \u592a\u5e73",
@@ -20500,13 +20500,13 @@
                         "type": "download",
                         "label": "Download STL File",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "\/projects\/tai-ping-os\/downloads\/Tai_Ping.stl"
+                        "url": "\/projects\/tai-ping\/downloads\/Tai_Ping.stl"
                     },
                     {
                         "type": "download",
                         "label": "Download Parts as STL Files",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "\/projects\/tai-ping-os\/downloads\/Tai_Ping_Parts.zip"
+                        "url": "\/projects\/tai-ping\/downloads\/Tai_Ping_Parts.zip"
                     }
                 ],
                 "tags": {
