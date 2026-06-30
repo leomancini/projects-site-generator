@@ -535,12 +535,25 @@
                 "tags": {
                     "0": "live-site",
                     "1": "github",
-                    "3": "3D"
+                    "3": "3D",
+                    "4": "video"
                 }
             },
             "files": {
                 "downloads": {
                     "3": "AI_Pixel_Art_Frame.stl"
+                },
+                "screenshots": {
+                    "3": "01.mp4",
+                    "4": "02.mp4",
+                    "5": "03@2x.jpeg",
+                    "6": "04@2x.jpeg",
+                    "7": "05@2x-compressed.mp4",
+                    "8": "06@2x.png",
+                    "9": "07@2x.png",
+                    "10": "08@2x.png",
+                    "11": "09@2x.png",
+                    "12": "10@2x.png"
                 }
             }
         },
