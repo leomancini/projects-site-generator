@@ -524,14 +524,25 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/ai-pixel-art-frame.leo.gd\/mcp"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/ai-pixel-art-frame\/downloads\/AI_Pixel_Art_Frame.stl"
                     }
                 ],
-                "tags": [
-                    "live-site",
-                    "github"
-                ]
+                "tags": {
+                    "0": "live-site",
+                    "1": "github",
+                    "3": "3D"
+                }
             },
-            "files": []
+            "files": {
+                "downloads": {
+                    "3": "AI_Pixel_Art_Frame.stl"
+                }
+            }
         },
         {
             "directory": {
@@ -22707,13 +22718,34 @@
                         "label": "View Android Wrapper Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/world-view-android-wrapper"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/world-view\/downloads\/World_View.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/world-view\/downloads\/World_View_Parts.zip"
                     }
                 ],
-                "tags": [
-                    "github"
-                ]
+                "tags": {
+                    "0": "github",
+                    "2": "3D"
+                }
             },
-            "files": []
+            "files": {
+                "downloads": {
+                    "2": "Back.stl",
+                    "3": "Front.stl",
+                    "4": "Power_Button.stl",
+                    "5": "World_View.stl",
+                    "6": "World_View_Parts.zip"
+                }
+            }
         },
         {
             "directory": {
