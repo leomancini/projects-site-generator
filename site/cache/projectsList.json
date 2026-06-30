@@ -9622,13 +9622,27 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/ibackpack"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/ibackpack\/downloads\/iBackpack_Parts.zip"
                     }
                 ],
                 "tags": [
-                    "github"
+                    "github",
+                    "3D"
                 ]
             },
-            "files": []
+            "files": {
+                "downloads": {
+                    "3": "Camera_Outer_Mount.stl",
+                    "4": "Display_Inner_Mount.stl",
+                    "5": "Display_Outer_Mount.stl",
+                    "6": "iBackpack_Parts.zip"
+                }
+            }
         },
         {
             "directory": {
