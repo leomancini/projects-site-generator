@@ -20438,7 +20438,7 @@
                 "id": "tai-ping-os"
             },
             "manifest": {
-                "name": "Tai Ping",
+                "name": "Tai Ping \u592a\u5e73",
                 "shortDescription": "Custom device with apps you can describe",
                 "startDate": {
                     "string": "June 20, 2026",
@@ -20471,14 +20471,41 @@
                         "label": "View Android Wrapper Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/tai-ping-os-android-wrapper"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/tai-ping-os\/downloads\/Tai_Ping.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/tai-ping-os\/downloads\/Tai_Ping_Parts.zip"
                     }
                 ],
-                "tags": [
-                    "live-site",
-                    "github"
-                ]
+                "tags": {
+                    "0": "live-site",
+                    "1": "github",
+                    "3": "3D"
+                }
             },
-            "files": []
+            "files": {
+                "downloads": {
+                    "2": "Back.stl",
+                    "3": "Front.stl",
+                    "4": "Power_Button.stl",
+                    "5": "Tai_Ping.stl",
+                    "6": "Tai_Ping_Parts.zip"
+                },
+                "screenshots": {
+                    "2": "0@2x.JPG",
+                    "3": "1@2x.jpeg",
+                    "4": "2@2x.jpeg",
+                    "5": "3@2x.jpeg"
+                }
+            }
         },
         {
             "directory": {
@@ -22647,6 +22674,46 @@
                     "2": "youtube.txt"
                 }
             }
+        },
+        {
+            "directory": {
+                "id": "world-view"
+            },
+            "manifest": {
+                "name": "World View",
+                "shortDescription": "Device for understanding the world in front of you",
+                "startDate": {
+                    "string": "June 27, 2026",
+                    "timestamp": {
+                        "raw": 1782518400,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/world-view"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Android Wrapper Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/world-view-android-wrapper"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": []
         },
         {
             "directory": {
