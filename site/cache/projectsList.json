@@ -22519,6 +22519,47 @@
         },
         {
             "directory": {
+                "id": "window-camera-snapshots-viewer"
+            },
+            "manifest": {
+                "name": "Window Camera Snapshots Viewer",
+                "shortDescription": "Browse images of intersection by hour or date",
+                "startDate": {
+                    "string": "June 5, 2026",
+                    "timestamp": {
+                        "raw": 1780617600,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/clairemont-window-camera.leo.gd\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/clairemont-window-camera"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": []
+        },
+        {
+            "directory": {
                 "id": "winter-concert-2010"
             },
             "manifest": {
