@@ -22652,6 +22652,12 @@
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/clairemont-window-camera"
+                    },
+                    {
+                        "type": "link",
+                        "label": "View Sample Image",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/clairemont-window-timelapse.s3.us-east-1.amazonaws.com\/2026-07-01-00-00.jpg"
                     }
                 ],
                 "tags": [
