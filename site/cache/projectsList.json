@@ -3686,6 +3686,109 @@
         },
         {
             "directory": {
+                "id": "claude-chat-widgets"
+            },
+            "manifest": {
+                "name": "Claude Chat Widgets",
+                "shortDescription": "Visual and interactive content when chatting with Claude",
+                "startDate": {
+                    "string": "July 2026",
+                    "timestamp": {
+                        "raw": 1782864000,
+                        "formatted": "July 2026",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": [
+                    "job",
+                    "full-time",
+                    "anthropic"
+                ],
+                "credits": [
+                    {
+                        "name": "Si Min Lee",
+                        "link": "https:\/\/www.leesimin.com\/"
+                    },
+                    {
+                        "name": "Khalil Cader",
+                        "link": "https:\/\/khalilcader.com"
+                    },
+                    {
+                        "name": "Alex Lama-Noujaim",
+                        "link": "https:\/\/www.lamanoujaim.com\/"
+                    },
+                    {
+                        "name": "Kim Bost",
+                        "link": "https:\/\/www.kimbost.com\/"
+                    },
+                    {
+                        "name": "Daniel Destefanis",
+                        "link": "https:\/\/www.danield.design\/"
+                    }
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "01@2x.png",
+                    "3": "02@2x.png",
+                    "4": "03@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "claude-web-views"
+            },
+            "manifest": {
+                "name": "Claude Web List Views",
+                "shortDescription": "Pages for managing chats, projects, and artifacts",
+                "startDate": {
+                    "string": "June 2026",
+                    "timestamp": {
+                        "raw": 1780272000,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": [
+                    "job",
+                    "full-time",
+                    "anthropic"
+                ],
+                "credits": [
+                    {
+                        "name": "Alex Lama-Noujaim",
+                        "link": "https:\/\/www.lamanoujaim.com\/"
+                    }
+                ]
+            },
+            "files": {
+                "hidden": {
+                    "2": "1.png",
+                    "3": "2.png",
+                    "4": "3.png",
+                    "5": "4.png"
+                },
+                "screenshots": {
+                    "3": "1@2x.png",
+                    "4": "2@2x.png",
+                    "5": "3@2x.png",
+                    "6": "4@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "clay-sculpture-set"
             },
             "manifest": {
@@ -20559,6 +20662,12 @@
                         "label": "Download Parts as STL Files",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/tai-ping\/downloads\/Tai_Ping_Parts.zip"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Alicia Zhang",
+                        "type": "collab"
                     }
                 ],
                 "tags": {
