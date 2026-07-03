@@ -194,13 +194,8 @@
                                                 }
                                             }
 
+                                            // Videos render in the playlist's own order
                                             $videoIds = getYouTubePlaylistVideoIds($playlistId);
-
-                                            // Playlists scrape in their natural (oldest-first) order;
-                                            // --newest-first reverses that to show the latest video first
-                                            if (stringContains($screenshotFileName, '--newest-first')) {
-                                                $videoIds = array_reverse($videoIds);
-                                            }
 
                                             foreach ($videoIds as $videoId) {
                                                 $embedUrl = convertYouTubeUrlToEmbed('https://www.youtube.com/watch?v=' . $videoId, $autoplay);
