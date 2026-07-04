@@ -12206,6 +12206,58 @@
         },
         {
             "directory": {
+                "id": "magic-camera"
+            },
+            "manifest": {
+                "name": "Magic Camera",
+                "shortDescription": "Reimagine the world around you with your voice",
+                "startDate": {
+                    "string": "July 4, 2026",
+                    "timestamp": {
+                        "raw": 1783123200,
+                        "formatted": "July 2026",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/magic-camera.leo.gd"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/magic-camera"
+                    }
+                ],
+                "tags": [
+                    "ai",
+                    "live-site",
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "3": "1@2x.mp4",
+                    "4": "2@2x.jpg",
+                    "5": "3@2x.jpg",
+                    "6": "4@2x.jpg",
+                    "7": "5@2x.jpg",
+                    "8": "6@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "make-happy-happen"
             },
             "manifest": {
