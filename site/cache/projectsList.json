@@ -23001,6 +23001,7 @@
                 }
             },
             "files": {
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "Back.stl",
                     "3": "Front.stl",
