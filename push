@@ -14,6 +14,7 @@ git add .
 git commit -m "$COMMIT_MESSAGE"
 
 echo '\n# Pushing site code to GitHub repository...'
+git remote set-url origin git@github.com:leomancini/projects-site-generator.git # Ensure origin always points to GitHub
 git push origin # Push site/ viewer code to GitHub
 
 echo '\n# Pushing site code to leomancini.net...'
