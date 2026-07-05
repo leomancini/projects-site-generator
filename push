@@ -14,7 +14,8 @@ git add .
 git commit -m "$COMMIT_MESSAGE"
 
 echo '\n# Pushing site code to GitHub repository...'
-git push git@github.com:leomancini/projects-site-generator.git # Push site/ viewer code to GitHub
+git remote set-url origin git@github.com:leomancini/projects-site-generator.git # Ensure origin always points to GitHub
+git push origin # Push site/ viewer code to GitHub
 
 echo '\n# Pushing site code to leomancini.net...'
 git push leo@208.97.141.254:/home/leo/domains/leomancini.net/site.git # Push site/ viewer code to leomancini.net
@@ -30,7 +31,8 @@ echo '\n# Committing project list changes...'
 git commit -m "$COMMIT_MESSAGE"
 
 echo '\n# Pushing project list changes to leomancini.net...'
-git push leo@208.97.141.254:/home/leo/domains/leomancini.net/projects.git # Push projects/ content to leomancini.net
+git remote set-url origin leo@208.97.141.254:/home/leo/domains/leomancini.net/projects.git # Ensure origin always points to leomancini.net
+git push origin # Push projects/ content to leomancini.net
 cd ../
 
 echo '\n### Done! ###'

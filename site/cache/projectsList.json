@@ -3868,12 +3868,28 @@
                         "url": "https:\/\/github.com\/fcc-lol\/clock-tower"
                     }
                 ],
+                "credits": [
+                    {
+                        "name": "Zach Temkin",
+                        "type": "visualizations",
+                        "link": "https:\/\/www.zach.coffee\/"
+                    }
+                ],
                 "tags": [
                     "live-site",
-                    "github"
+                    "github",
+                    "video"
                 ]
             },
-            "files": []
+            "files": {
+                "screenshots": {
+                    "2": "1@2x.mp4",
+                    "3": "2@2x.jpg",
+                    "4": "3@2x.jpg",
+                    "5": "4@2x.jpg",
+                    "6": "5@2x.jpg"
+                }
+            }
         },
         {
             "directory": {
@@ -15500,7 +15516,7 @@
                     {
                         "name": "Zach Temkin",
                         "link": "https:\/\/zach.coffee",
-                        "type": "visualizers"
+                        "type": "visualizations"
                     }
                 ],
                 "tags": [
@@ -22980,16 +22996,45 @@
                 ],
                 "tags": {
                     "0": "github",
-                    "2": "3D"
+                    "2": "3D",
+                    "4": "video"
                 }
             },
             "files": {
+                "3": "longDescription.txt",
                 "downloads": {
                     "2": "Back.stl",
                     "3": "Front.stl",
                     "4": "Power_Button.stl",
                     "5": "World_View.stl",
                     "6": "World_View_Parts.zip"
+                },
+                "screenshots": {
+                    "2": "00@2x.mp4",
+                    "3": "01@2x.jpg",
+                    "4": "02@2x.jpg",
+                    "5": "03@2x.jpg",
+                    "6": "04@2x.jpg",
+                    "7": "05@2x.jpg",
+                    "8": "06@2x.jpg",
+                    "9": "07@2x.jpg",
+                    "10": "08@2x.jpg",
+                    "11": "09@2x.jpg",
+                    "12": "10@2x.jpg",
+                    "13": "11@2x.jpg",
+                    "14": "12@2x.jpg",
+                    "15": "13@2x.jpg",
+                    "16": "14@2x.jpg",
+                    "17": "15@2x.jpg",
+                    "18": "16@2x.jpg",
+                    "19": "17@2x.jpg",
+                    "20": "18@2x.jpg",
+                    "21": "19@2x.jpg",
+                    "22": "20@2x.jpg",
+                    "23": "21@2x.jpg",
+                    "24": "22@2x.jpg",
+                    "25": "23@2x.jpg",
+                    "26": "24@2x.jpg"
                 }
             }
         },
