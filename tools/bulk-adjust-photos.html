@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bulk Adjust Photos</title>
+<style>
+  :root {
+    --bg: #16161a;
+    --panel: #1f1f26;
+    --line: #33333d;
+    --text: #e8e8ee;
+    --muted: #9a9aa8;
+    --accent: #5eb0ff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+  }
+  header h1 { font-size: 15px; font-weight: 600; margin-right: 8px; }
+  #fileSelect {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    color: var(--text);
+    padding: 5px 10px;
+    border-radius: 6px;
+    font: inherit;
+    font-size: 13px;
+    max-width: 260px;
+  }
+  .viewer {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+  }
+  .viewer img {
+    max-width: 96%;
+    max-height: 96%;
+    display: block;
+    transform-origin: center center;
+  }
+  .grid {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+      repeating-linear-gradient(to right, rgba(94,176,255,.35) 0 1px, transparent 1px 60px),
+      repeating-linear-gradient(to bottom, rgba(94,176,255,.35) 0 1px, transparent 1px 60px);
+    display: none;
+  }
+  .grid.on { display: block; }
+  .frame {
+    position: absolute;
+    pointer-events: none;
+    box-shadow: 0 0 0 9999px rgba(0,0,0,.55);
+    display: none;
+  }
+  .frame.on { display: block; pointer-events: auto; }
+  .frame.solid { box-shadow: 0 0 0 9999px #000; }
+  .empty {
+    color: var(--muted);
+    font-size: 18px;
+    border: 2px dashed var(--line);
+    padding: 48px 72px;
+    border-radius: 12px;
+    user-select: none;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 14px 20px;
+    border-top: 1px solid var(--line);
+    background: var(--panel);
+    flex-wrap: wrap;
+  }
+  .control { display: flex; align-items: center; gap: 10px; }
+  .control label { color: var(--muted); font-size: 13px; white-space: nowrap; width: 62px; text-align: right; }
+  .control input[type=range] { width: 160px; accent-color: var(--accent); }
+  .control input[type=number] {
+    width: 72px;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 4px 6px;
+    font: inherit;
+    text-align: right;
+  }
+  .buttons { display: flex; gap: 8px; margin-left: auto; align-items: center; }
+  #folderInput {
+    width: 220px;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 5px 8px;
+    font: inherit;
+    font-size: 13px;
+  }
+  .buttons button {
+    background: var(--bg);
+    border: 1px solid var(--line);
+    color: var(--text);
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 13px;
+  }
+  .buttons button.primary { background: var(--accent); border-color: var(--accent); color: #10131a; font-weight: 600; }
+  .readout { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+  .readout b { color: var(--text); font-weight: 600; }
+  .toast {
+    position: fixed;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--accent);
+    color: #10131a;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity .25s;
+    pointer-events: none;
+  }
+  .toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Bulk Adjust Photos</h1>
+    <select id="fileSelect"></select>
+    <div class="buttons" style="margin-left:auto">
+      <button id="gridBtn">Grid (G)</button>
+      <button id="frameBtn">Frame (F)</button>
+      <button id="maskBtn">Cropped: Fade (M)</button>
+      <button id="aspectBtn">Aspect: Locked (A)</button>
+      <button id="autoFitBtn">Auto Fit (C)</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </header>
+
+  <div class="viewer">
+    <div class="empty" id="empty">Drag photos here</div>
+    <img id="photo" alt="">
+    <div class="grid" id="grid"></div>
+    <div class="frame on" id="frame"></div>
+  </div>
+
+  <footer>
+    <div class="control">
+      <label for="rot">Rotate&deg;</label>
+      <input type="range" id="rot" min="-5" max="5" step="0.05" value="0">
+      <input type="number" id="rotNum" min="-5" max="5" step="0.05" value="0">
+    </div>
+    <div class="control">
+      <label for="skew">Skew X&deg;</label>
+      <input type="range" id="skew" min="-5" max="5" step="0.05" value="0">
+      <input type="number" id="skewNum" min="-5" max="5" step="0.05" value="0">
+    </div>
+    <div class="control">
+      <label for="skewY">Skew Y&deg;</label>
+      <input type="range" id="skewY" min="-5" max="5" step="0.05" value="0">
+      <input type="number" id="skewYNum" min="-5" max="5" step="0.05" value="0">
+    </div>
+    <div class="control">
+      <label for="perspV" title="Vertical perspective (keystone)">Persp &#8645;</label>
+      <input type="range" id="perspV" min="-10" max="10" step="0.1" value="0">
+      <input type="number" id="perspVNum" min="-10" max="10" step="0.1" value="0">
+    </div>
+    <div class="control">
+      <label for="perspH" title="Horizontal perspective (keystone)">Persp &#8644;</label>
+      <input type="range" id="perspH" min="-10" max="10" step="0.1" value="0">
+      <input type="number" id="perspHNum" min="-10" max="10" step="0.1" value="0">
+    </div>
+    <div class="readout" id="readout"></div>
+    <div class="buttons">
+      <input type="text" id="folderInput" placeholder="folder (auto)">
+      <button id="applyBtn" class="primary">Apply</button>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+<script>
+let IMAGES = [];
+let current = 0;
+let rot = parseFloat(localStorage.getItem("adjust.rot") || "0");
+let skew = parseFloat(localStorage.getItem("adjust.skew") || "0");
+let skewY = parseFloat(localStorage.getItem("adjust.skewY") || "0");
+let perspV = parseFloat(localStorage.getItem("adjust.perspV") || "0");
+let perspH = parseFloat(localStorage.getItem("adjust.perspH") || "0");
+
+const photo = document.getElementById("photo");
+const fileSelect = document.getElementById("fileSelect");
+const rotSlider = document.getElementById("rot");
+const rotNum = document.getElementById("rotNum");
+const skewSlider = document.getElementById("skew");
+const skewNum = document.getElementById("skewNum");
+const skewYSlider = document.getElementById("skewY");
+const skewYNum = document.getElementById("skewYNum");
+const perspVSlider = document.getElementById("perspV");
+const perspVNum = document.getElementById("perspVNum");
+const perspHSlider = document.getElementById("perspH");
+const perspHNum = document.getElementById("perspHNum");
+const readout = document.getElementById("readout");
+const grid = document.getElementById("grid");
+const frame = document.getElementById("frame");
+const toast = document.getElementById("toast");
+
+function buildTabs() {
+  fileSelect.innerHTML = "";
+  IMAGES.forEach((img, i) => {
+    const o = document.createElement("option");
+    o.value = i;
+    o.textContent = img.label;
+    fileSelect.appendChild(o);
+  });
+  const empty = !IMAGES.length;
+  fileSelect.style.display = empty ? "none" : "block";
+  document.getElementById("empty").style.display = empty ? "block" : "none";
+  photo.style.display = empty ? "none" : "block";
+  frame.style.visibility = empty ? "hidden" : "visible";
+}
+
+fileSelect.onchange = () => selectImage(+fileSelect.value);
+
+function selectImage(i) {
+  current = i;
+  photo.src = IMAGES[i].src;
+  fileSelect.value = i;
+}
+
+// Drag photos onto the page to load them instead of the default list
+document.addEventListener("dragover", e => e.preventDefault());
+document.addEventListener("drop", e => {
+  e.preventDefault();
+  const files = [...e.dataTransfer.files]
+    .filter(f => f.type.startsWith("image/"))
+    .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+  if (!files.length) return;
+  IMAGES.forEach(img => { if (img.blob) URL.revokeObjectURL(img.src); });
+  IMAGES = files.map(f => ({ src: URL.createObjectURL(f), label: f.name.replace(/\.\w+$/, ""), name: f.name, blob: true }));
+  buildTabs();
+  selectImage(0);
+});
+
+function apply() {
+  // CSS applies right-to-left: rotate, then skew, then perspective keystone.
+  // Perspective distance is fixed at 1.5x the displayed height so the effect
+  // is size-relative and reproducible at full resolution in ImageMagick.
+  const d = Math.max(1, photo.clientHeight * 1.5);
+  photo.style.transform =
+    `perspective(${d}px) rotateX(${perspV}deg) rotateY(${perspH}deg) ` +
+    `skew(${skew}deg, ${skewY}deg) rotate(${rot}deg)`;
+  rotSlider.value = rot; rotNum.value = rot;
+  skewSlider.value = skew; skewNum.value = skew;
+  skewYSlider.value = skewY; skewYNum.value = skewY;
+  perspVSlider.value = perspV; perspVNum.value = perspV;
+  perspHSlider.value = perspH; perspHNum.value = perspH;
+  updateFrame();
+  readout.innerHTML = `rot <b>${fmt(rot)}&deg;</b> &nbsp; skew <b>${fmt(skew)}/${fmt(skewY)}&deg;</b> ` +
+    `&nbsp; persp <b>${fmt(perspV)}/${fmt(perspH)}&deg;</b> ` +
+    `&nbsp; crop <b>${(cropW * 100).toFixed(1)}&times;${(cropH * 100).toFixed(1)}%</b> ` +
+    `@ <b>${fmt(cropX * 100)}/${fmt(cropY * 100)}%</b>${cropMode === "auto" ? " (auto)" : ""}`;
+  localStorage.setItem("adjust.rot", rot);
+  localStorage.setItem("adjust.skew", skew);
+  localStorage.setItem("adjust.skewY", skewY);
+  localStorage.setItem("adjust.perspV", perspV);
+  localStorage.setItem("adjust.perspH", perspH);
+}
+
+function fmt(v) { return (v > 0 ? "+" : "") + (+v).toFixed(2).replace(/\.?0+$/, "") || "0"; }
+
+// Crop state, all as fractions of the photo dimensions:
+// cropW/cropH = frame size, cropX/cropY = frame-center offset from the photo center.
+// "auto" mode fits the largest centered original-aspect rect inside the transformed quad;
+// any manual drag/resize switches to "manual".
+let cropMode = localStorage.getItem("adjust.cropMode") || "auto";
+let cropW = parseFloat(localStorage.getItem("adjust.cropW") || "1");
+let cropH = parseFloat(localStorage.getItem("adjust.cropH") || "1");
+let cropX = parseFloat(localStorage.getItem("adjust.cropX") || "0");
+let cropY = parseFloat(localStorage.getItem("adjust.cropY") || "0");
+let lockAspect = localStorage.getItem("adjust.lockAspect") !== "0";
+
+function updateFrame() {
+  const w = photo.offsetWidth, h = photo.offsetHeight;
+  if (!w || !h) return;
+  if (cropMode === "auto") {
+    // transformed corner positions (transform-origin is the center)
+    const m = new DOMMatrix(getComputedStyle(photo).transform);
+    const quad = [[-w/2,-h/2],[w/2,-h/2],[w/2,h/2],[-w/2,h/2]].map(([x,y]) => {
+      const p = m.transformPoint(new DOMPoint(x, y, 0, 1));
+      return { x: p.x / p.w, y: p.y / p.w };
+    });
+    const inside = (px, py) => {
+      for (let i = 0; i < 4; i++) {
+        const a = quad[i], b = quad[(i + 1) % 4];
+        if ((b.x - a.x) * (py - a.y) - (b.y - a.y) * (px - a.x) < -0.01) return false;
+      }
+      return true;
+    };
+    // largest centered rect at the original aspect that fits inside the quad
+    const fits = s => [[-1,-1],[1,-1],[1,1],[-1,1]].every(([sx,sy]) => inside(sx*s*w/2, sy*s*h/2));
+    let lo = 0, hi = 1;
+    for (let i = 0; i < 40; i++) {
+      const mid = (lo + hi) / 2;
+      fits(mid) ? lo = mid : hi = mid;
+    }
+    cropW = cropH = lo;
+    cropX = cropY = 0;
+  }
+  const cx = photo.offsetLeft + w / 2 + cropX * w;
+  const cy = photo.offsetTop + h / 2 + cropY * h;
+  frame.style.left = (cx - cropW * w / 2) + "px";
+  frame.style.top = (cy - cropH * h / 2) + "px";
+  frame.style.width = (cropW * w) + "px";
+  frame.style.height = (cropH * h) + "px";
+  localStorage.setItem("adjust.cropMode", cropMode);
+  localStorage.setItem("adjust.cropW", cropW);
+  localStorage.setItem("adjust.cropH", cropH);
+  localStorage.setItem("adjust.cropX", cropX);
+  localStorage.setItem("adjust.cropY", cropY);
+}
+
+function clampCrop() {
+  cropW = Math.max(0.05, Math.min(1, cropW));
+  cropH = Math.max(0.05, Math.min(1, cropH));
+  cropX = Math.max(-0.5 + cropW / 2, Math.min(0.5 - cropW / 2, cropX));
+  cropY = Math.max(-0.5 + cropH / 2, Math.min(0.5 - cropH / 2, cropY));
+}
+
+// Frame interaction: drag inside to reposition the crop over the photo,
+// drag edges/corners to resize.
+const EDGE = 14;
+let drag = null;
+
+function hitZone(e) {
+  const r = frame.getBoundingClientRect();
+  return {
+    l: e.clientX - r.left < EDGE,
+    r: r.right - e.clientX < EDGE,
+    t: e.clientY - r.top < EDGE,
+    b: r.bottom - e.clientY < EDGE,
+  };
+}
+
+function zoneCursor(z) {
+  if ((z.l && z.t) || (z.r && z.b)) return "nwse-resize";
+  if ((z.r && z.t) || (z.l && z.b)) return "nesw-resize";
+  if (z.l || z.r) return "ew-resize";
+  if (z.t || z.b) return "ns-resize";
+  return "move";
+}
+
+frame.addEventListener("pointermove", e => {
+  if (!drag) frame.style.cursor = zoneCursor(hitZone(e));
+});
+
+frame.addEventListener("pointerdown", e => {
+  e.preventDefault();
+  frame.setPointerCapture(e.pointerId);
+  cropMode = "manual";
+  drag = { z: hitZone(e), sx: e.clientX, sy: e.clientY, w0: cropW, h0: cropH, x0: cropX, y0: cropY };
+});
+
+frame.addEventListener("pointermove", e => {
+  if (!drag) return;
+  const pw = photo.offsetWidth, ph = photo.offsetHeight;
+  if (!pw || !ph) return;
+  const dx = (e.clientX - drag.sx) / pw, dy = (e.clientY - drag.sy) / ph;
+  const z = drag.z;
+  if (!z.l && !z.r && !z.t && !z.b) {
+    // move the crop over the photo
+    cropX = drag.x0 + dx;
+    cropY = drag.y0 + dy;
+  } else {
+    let w = drag.w0, h = drag.h0, x = drag.x0, y = drag.y0;
+    if (z.r) { w = drag.w0 + dx; x = drag.x0 + dx / 2; }
+    if (z.l) { w = drag.w0 - dx; x = drag.x0 + dx / 2; }
+    if (z.b) { h = drag.h0 + dy; y = drag.y0 + dy / 2; }
+    if (z.t) { h = drag.h0 - dy; y = drag.y0 + dy / 2; }
+    if (lockAspect) {
+      // fractions of the original dims: equal fractions = original aspect
+      const s = (z.l || z.r) && !(z.t || z.b) ? w : (z.t || z.b) && !(z.l || z.r) ? h
+        : Math.abs(w - drag.w0) > Math.abs(h - drag.h0) ? w : h;
+      if (!(z.l || z.r)) x = drag.x0;
+      if (!(z.t || z.b)) y = drag.y0;
+      w = h = s;
+    }
+    cropW = w; cropH = h; cropX = x; cropY = y;
+  }
+  clampCrop();
+  apply();
+});
+
+frame.addEventListener("pointerup", e => {
+  drag = null;
+  frame.releasePointerCapture(e.pointerId);
+});
+
+const aspectBtn = document.getElementById("aspectBtn");
+aspectBtn.textContent = lockAspect ? "Aspect: Locked (A)" : "Aspect: Free (A)";
+aspectBtn.onclick = toggleAspect;
+function toggleAspect() {
+  lockAspect = !lockAspect;
+  aspectBtn.textContent = lockAspect ? "Aspect: Locked (A)" : "Aspect: Free (A)";
+  localStorage.setItem("adjust.lockAspect", lockAspect ? "1" : "0");
+  if (lockAspect && cropMode === "manual") {
+    cropW = cropH = Math.min(cropW, cropH);
+    clampCrop();
+    apply();
+  }
+}
+
+const autoFitBtn = document.getElementById("autoFitBtn");
+autoFitBtn.onclick = autoFit;
+function autoFit() {
+  cropMode = "auto";
+  apply();
+}
+
+function setRot(v) { rot = clamp(v); apply(); }
+function setSkew(v) { skew = clamp(v); apply(); }
+function setSkewY(v) { skewY = clamp(v); apply(); }
+function setPerspV(v) { perspV = clampP(v); apply(); }
+function setPerspH(v) { perspH = clampP(v); apply(); }
+function clampP(v) { return Math.max(-10, Math.min(10, Math.round(v * 10) / 10)); }
+function clamp(v) { return Math.max(-5, Math.min(5, Math.round(v * 100) / 100)); }
+
+rotSlider.oninput = e => setRot(+e.target.value);
+rotNum.oninput = e => setRot(+e.target.value);
+skewSlider.oninput = e => setSkew(+e.target.value);
+skewNum.oninput = e => setSkew(+e.target.value);
+skewYSlider.oninput = e => setSkewY(+e.target.value);
+skewYNum.oninput = e => setSkewY(+e.target.value);
+perspVSlider.oninput = e => setPerspV(+e.target.value);
+perspVNum.oninput = e => setPerspV(+e.target.value);
+perspHSlider.oninput = e => setPerspH(+e.target.value);
+perspHNum.oninput = e => setPerspH(+e.target.value);
+
+document.getElementById("resetBtn").onclick = () => {
+  rot = 0; skew = 0; skewY = 0; perspV = 0; perspH = 0;
+  cropMode = "auto";
+  apply();
+};
+
+document.getElementById("gridBtn").onclick = toggleGrid;
+function toggleGrid() { grid.classList.toggle("on"); }
+
+document.getElementById("frameBtn").onclick = toggleFrame;
+function toggleFrame() { frame.classList.toggle("on"); }
+
+const maskBtn = document.getElementById("maskBtn");
+maskBtn.onclick = toggleMask;
+function toggleMask() {
+  const solid = frame.classList.toggle("solid");
+  maskBtn.textContent = solid ? "Cropped: Hidden (M)" : "Cropped: Fade (M)";
+}
+
+photo.onload = apply;
+window.onresize = apply;
+
+function valuesString() {
+  return `rotate ${fmt(rot)}, skew X ${fmt(skew)}, skew Y ${fmt(skewY)}, persp V ${fmt(perspV)}, persp H ${fmt(perspH)}, ` +
+    `crop w ${(cropW * 100).toFixed(1)}%, crop h ${(cropH * 100).toFixed(1)}%, crop x ${fmt(cropX * 100)}%, crop y ${fmt(cropY * 100)}%`;
+}
+
+let toastTimer = null;
+function showToast(msg, ms = 2500) {
+  toast.textContent = msg;
+  toast.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove("show"), ms);
+}
+
+document.getElementById("applyBtn").onclick = async () => {
+  if (!IMAGES.length || !IMAGES.every(img => img.name)) { showToast("Drop photos here first"); return; }
+  const base = location.protocol === "file:" ? "http://127.0.0.1:8787" : "";
+  showToast("Applying…", 60000);
+  try {
+    const res = await fetch(base + "/apply", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        values: valuesString(),
+        files: IMAGES.map(img => img.name),
+        dir: document.getElementById("folderInput").value.trim(),
+      }),
+    });
+    const out = await res.json();
+    if (out.error) { showToast(out.error, 6000); return; }
+    const failed = out.errors.length ? `, ${out.errors.length} failed` : "";
+    showToast(`${out.done.length} photo${out.done.length === 1 ? "" : "s"} → ${out.outDir}${failed}`, 6000);
+    if (out.errors.length) console.error(out.errors);
+  } catch {
+    showToast("Server not running — start it with: tools/apply-photo-adjustments.swift", 6000);
+  }
+};
+
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT" && e.target.type === "number") return;
+  const step = e.shiftKey ? 0.5 : 0.05;
+  if (e.key === "ArrowLeft")  { e.preventDefault(); setRot(rot - step); }
+  if (e.key === "ArrowRight") { e.preventDefault(); setRot(rot + step); }
+  if (e.key === "ArrowDown")  { e.preventDefault(); setSkew(skew - step); }
+  if (e.key === "ArrowUp")    { e.preventDefault(); setSkew(skew + step); }
+  if (e.key === "[") setSkewY(skewY - step);
+  if (e.key === "]") setSkewY(skewY + step);
+  if (e.key === "g" || e.key === "G") toggleGrid();
+  if (e.key === "f" || e.key === "F") toggleFrame();
+  if (e.key === "m" || e.key === "M") toggleMask();
+  if (e.key === "a" || e.key === "A") toggleAspect();
+  if (e.key === "c" || e.key === "C") autoFit();
+  if (e.key >= "1" && e.key <= String(IMAGES.length)) selectImage(+e.key - 1);
+});
+
+buildTabs();
+if (IMAGES.length) selectImage(0);
+apply();
+</script>
+</body>
+</html>
