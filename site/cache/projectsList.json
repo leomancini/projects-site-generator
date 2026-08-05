@@ -3785,6 +3785,55 @@
         },
         {
             "directory": {
+                "id": "claude-memory-system"
+            },
+            "manifest": {
+                "name": "Claude Memory System",
+                "shortDescription": "View, edit, and modify what Claude remembers about you",
+                "startDate": {
+                    "string": "August 2026",
+                    "timestamp": {
+                        "raw": 1785542400,
+                        "formatted": "August 2026",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": [
+                    "job",
+                    "full-time",
+                    "anthropic",
+                    "video"
+                ],
+                "credits": [
+                    {
+                        "name": "Kim Bost",
+                        "link": "https:\/\/www.kimbost.com\/"
+                    },
+                    {
+                        "name": "Chelsea Larsson",
+                        "link": "https:\/\/www.chelsealarsson.me\/"
+                    },
+                    {
+                        "name": "Jenna Garden",
+                        "link": "https:\/\/jenna.garden\/"
+                    }
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "01@2x.png",
+                    "3": "02@2x.png",
+                    "4": "03@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "claude-web-views"
             },
             "manifest": {
@@ -20841,7 +20890,7 @@
                 ]
             },
             "files": {
-                "3": "longDescription.txt",
+                "4": "longDescription.txt",
                 "downloads": {
                     "2": "Tai_Ping_Stand.stl"
                 },
