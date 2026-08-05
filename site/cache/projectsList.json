@@ -2063,6 +2063,47 @@
         },
         {
             "directory": {
+                "id": "birthday-chat-room"
+            },
+            "manifest": {
+                "name": "Birthday Chat Room",
+                "shortDescription": "Temporary space for chatting with friends and bots during a party",
+                "startDate": {
+                    "string": "July 31, 2026",
+                    "timestamp": {
+                        "raw": 1785456000,
+                        "formatted": "July 2026",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/birthday-2026"
+                    }
+                ],
+                "tags": [
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "00@2x.jpg",
+                    "3": "01@2x.jpg",
+                    "4": "02@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "blastr-tv"
             },
             "manifest": {
@@ -21455,7 +21496,8 @@
                     "6": "004@2x.png",
                     "7": "005@2x.png",
                     "8": "006@2x.png",
-                    "9": "007@2x.png"
+                    "9": "007@2x.png",
+                    "10": "Untitled.workflow"
                 }
             }
         },
