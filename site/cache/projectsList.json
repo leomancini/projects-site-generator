@@ -20809,6 +20809,48 @@
         },
         {
             "directory": {
+                "id": "tai-ping-stand"
+            },
+            "manifest": {
+                "name": "Tai Ping Stand",
+                "shortDescription": "Display stand for Tai Ping devices",
+                "startDate": {
+                    "string": "June 19, 2026",
+                    "timestamp": {
+                        "raw": 1781827200,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/tai-ping-stand\/downloads\/Tai_Ping_Stand.stl"
+                    }
+                ],
+                "tags": [
+                    "3D"
+                ]
+            },
+            "files": {
+                "downloads": {
+                    "2": "Tai_Ping_Stand.stl"
+                },
+                "screenshots": {
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "taptation"
             },
             "manifest": {
