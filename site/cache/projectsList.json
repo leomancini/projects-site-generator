@@ -3750,7 +3750,8 @@
                 "tags": [
                     "job",
                     "full-time",
-                    "anthropic"
+                    "anthropic",
+                    "video"
                 ],
                 "credits": [
                     {
@@ -3777,9 +3778,24 @@
             },
             "files": {
                 "screenshots": {
-                    "2": "01@2x.png",
-                    "3": "02@2x.png",
-                    "4": "03@2x.png"
+                    "3": "001-place-lists@2x.jpg",
+                    "4": "002-place-carousel@2x.jpg",
+                    "5": "003-itinerary-1@2x.jpg",
+                    "6": "003-itinerary-2@2x.jpg",
+                    "7": "003-itinerary-3@2x.jpg",
+                    "8": "004-tutorial-1@2x.jpg",
+                    "9": "004-tutorial-2@2x.mp4",
+                    "10": "004-tutorial-3@2x.jpg",
+                    "11": "004-tutorial-4@2x.jpg",
+                    "12": "005-recipe-1@2x.jpg",
+                    "13": "005-recipe-2@2x.jpg",
+                    "14": "006-product-hero@2x.jpg",
+                    "15": "007-product-carousel@2x.jpg",
+                    "16": "008-comparison-1@2x.jpg",
+                    "17": "008-comparison-2@2x.mp4",
+                    "18": "009-health-info-1@2x.jpg",
+                    "19": "009-health-info-2@2x.jpg",
+                    "20": "010-images@2x.jpg"
                 }
             }
         },
