@@ -4211,6 +4211,44 @@
         },
         {
             "directory": {
+                "id": "collage-maker"
+            },
+            "manifest": {
+                "name": "Collage Maker",
+                "shortDescription": "Make collages out of a set of input images",
+                "startDate": {
+                    "string": "August 2026",
+                    "timestamp": {
+                        "raw": 1785542400,
+                        "formatted": "August 2026",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/collage-maker"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "collage.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "color-swirl-test-paintings"
             },
             "manifest": {
