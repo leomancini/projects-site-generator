@@ -4217,9 +4217,9 @@
                 "name": "Collage Maker",
                 "shortDescription": "Make collages out of a set of input images",
                 "startDate": {
-                    "string": "August 2026",
+                    "string": "August 8, 2026",
                     "timestamp": {
-                        "raw": 1785542400,
+                        "raw": 1786147200,
                         "formatted": "August 2026",
                         "components": {
                             "monthFormatted": "August",
@@ -4243,7 +4243,7 @@
             },
             "files": {
                 "screenshots": {
-                    "2": "collage.jpg"
+                    "2": "sample@2x.jpg"
                 }
             }
         },
