@@ -4215,7 +4215,7 @@
             },
             "manifest": {
                 "name": "Collage Maker",
-                "shortDescription": "Make collages out of a set of input images",
+                "shortDescription": "Automatically make collages out of a set of input images",
                 "startDate": {
                     "string": "August 8, 2026",
                     "timestamp": {
