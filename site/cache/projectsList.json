@@ -10309,6 +10309,62 @@
         },
         {
             "directory": {
+                "id": "inner-sphere"
+            },
+            "manifest": {
+                "name": "Inner Sphere",
+                "shortDescription": "Wall-mounted video installation with magnifying globe",
+                "startDate": {
+                    "string": "August 9, 2026",
+                    "timestamp": {
+                        "raw": 1786233600,
+                        "formatted": "August 2026",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/inner-sphere-video-generator"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/inner-sphere\/downloads\/Inner_Sphere.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/inner-sphere\/downloads\/Inner_Sphere_Parts.zip"
+                    }
+                ],
+                "tags": [
+                    "github",
+                    "3D"
+                ]
+            },
+            "files": {
+                "downloads": {
+                    "2": "Face_Plate_Back.stl",
+                    "3": "Face_Plate_Front.stl",
+                    "4": "Inner_Sphere.stl",
+                    "5": "Inner_Sphere_Parts.zip",
+                    "6": "Wall_Plate.stl"
+                },
+                "screenshots": []
+            }
+        },
+        {
+            "directory": {
                 "id": "interactive-schedule-experiment"
             },
             "manifest": {
