@@ -482,6 +482,48 @@
         },
         {
             "directory": {
+                "id": "ai-photo-booth"
+            },
+            "manifest": {
+                "name": "AI Photo Booth",
+                "shortDescription": "Device for combining photos into a printed collage",
+                "startDate": {
+                    "string": "September 2026",
+                    "timestamp": {
+                        "raw": 1788220800,
+                        "formatted": "September 2026",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/ai-photo-booth-server"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Firmware Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/ai-photo-booth-firmware"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
                 "id": "ai-pixel-art-frame"
             },
             "manifest": {
