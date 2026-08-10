@@ -10330,7 +10330,7 @@
                 "links": [
                     {
                         "type": "github",
-                        "label": "DEFAULT_FOR_TYPE",
+                        "label": "View Video Generator Source",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/github.com\/leomancini\/inner-sphere-video-generator"
                     },
