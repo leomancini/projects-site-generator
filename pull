@@ -1,10 +1,10 @@
 echo '\n# Updating site code...'
 
-git pull leo@208.97.141.254:/home/leo/domains/leomancini.net/site.git
+git pull leo@root.noshado.ws:/home/leo/domains/leomancini.net/site.git
 
 echo '\n# Updating projects...'
 
 cd projects
-git pull leo@208.97.141.254:/home/leo/domains/leomancini.net/projects.git
+git pull leo@root.noshado.ws:/home/leo/domains/leomancini.net/projects.git
 
 echo '\n### Done! ###'

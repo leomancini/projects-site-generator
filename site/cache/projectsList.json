@@ -482,6 +482,48 @@
         },
         {
             "directory": {
+                "id": "ai-photo-booth"
+            },
+            "manifest": {
+                "name": "AI Photo Booth",
+                "shortDescription": "Device for combining photos into a printed collage",
+                "startDate": {
+                    "string": "September 2026",
+                    "timestamp": {
+                        "raw": 1788220800,
+                        "formatted": "September 2026",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Server Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/ai-photo-booth-server"
+                    },
+                    {
+                        "type": "github",
+                        "label": "View Firmware Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/ai-photo-booth-firmware"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt"
+            }
+        },
+        {
+            "directory": {
                 "id": "ai-pixel-art-frame"
             },
             "manifest": {
@@ -545,16 +587,17 @@
                 },
                 "screenshots": {
                     "2": "00@2x.jpeg",
-                    "3": "01.mp4",
+                    "3": "01@2x.jpeg",
                     "4": "02.mp4",
-                    "5": "03@2x.jpeg",
+                    "5": "03.mp4",
                     "6": "04@2x.jpeg",
-                    "7": "05@2x-compressed.mp4",
-                    "8": "06@2x.png",
+                    "7": "05@2x.jpeg",
+                    "8": "06@2x-compressed.mp4",
                     "9": "07@2x.png",
                     "10": "08@2x.png",
                     "11": "09@2x.png",
-                    "12": "10@2x.png"
+                    "12": "10@2x.png",
+                    "13": "11@2x.png"
                 }
             }
         },
@@ -2058,6 +2101,48 @@
                 "2": "longDescription.txt",
                 "screenshots": {
                     "2": "sample--code.txt"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "birthday-chat-room"
+            },
+            "manifest": {
+                "name": "Birthday Chat Room",
+                "shortDescription": "Temporary space for chatting with friends and bots during a party",
+                "startDate": {
+                    "string": "July 31, 2026",
+                    "timestamp": {
+                        "raw": 1785456000,
+                        "formatted": "July 2026",
+                        "components": {
+                            "monthFormatted": "July",
+                            "monthNumber": 7,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/birthday-2026"
+                    }
+                ],
+                "tags": [
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "2": "longDescription.txt",
+                "screenshots": {
+                    "2": "00@2x.jpg",
+                    "3": "01@2x.jpg",
+                    "4": "02@2x.mp4"
                 }
             }
         },
@@ -3708,7 +3793,8 @@
                 "tags": [
                     "job",
                     "full-time",
-                    "anthropic"
+                    "anthropic",
+                    "video"
                 ],
                 "credits": [
                     {
@@ -3735,9 +3821,103 @@
             },
             "files": {
                 "screenshots": {
+                    "2": "001-place-lists@2x.jpg",
+                    "3": "002-place-carousel@2x.jpg",
+                    "4": "003-itinerary-1@2x.jpg",
+                    "5": "003-itinerary-2@2x.jpg",
+                    "6": "003-itinerary-3@2x.jpg",
+                    "7": "004-tutorial-1@2x.jpg",
+                    "8": "004-tutorial-2@2x.mp4",
+                    "9": "004-tutorial-3@2x.jpg",
+                    "10": "004-tutorial-4@2x.jpg",
+                    "11": "005-recipe-1@2x.jpg",
+                    "12": "005-recipe-2@2x.jpg",
+                    "13": "006-product-hero@2x.jpg",
+                    "14": "007-product-carousel@2x.jpg",
+                    "15": "008-comparison-1@2x.jpg",
+                    "16": "008-comparison-2@2x.mp4",
+                    "17": "009-health-info-1@2x.jpg",
+                    "18": "009-health-info-2@2x.jpg",
+                    "19": "010-images@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "claude-memory-system"
+            },
+            "manifest": {
+                "name": "Claude Memory System",
+                "shortDescription": "View, edit, and modify what Claude remembers about you",
+                "startDate": {
+                    "string": "August 2026",
+                    "timestamp": {
+                        "raw": 1785542400,
+                        "formatted": "August 2026",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": [
+                    "job",
+                    "full-time",
+                    "anthropic",
+                    "video"
+                ],
+                "credits": [
+                    {
+                        "name": "Kim Bost",
+                        "link": "https:\/\/www.kimbost.com\/"
+                    },
+                    {
+                        "name": "Chelsea Larsson",
+                        "link": "https:\/\/www.chelsealarsson.me\/"
+                    },
+                    {
+                        "name": "Jenna Garden",
+                        "link": "https:\/\/jenna.garden\/"
+                    }
+                ]
+            },
+            "files": {
+                "screenshots": {
                     "2": "01@2x.png",
                     "3": "02@2x.png",
-                    "4": "03@2x.png"
+                    "4": "03@2x.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "claude-web-easter-egg"
+            },
+            "manifest": {
+                "name": "Claude Web Easter Egg",
+                "shortDescription": "A hidden easter egg in Claude's web interface",
+                "startDate": {
+                    "string": "June 9, 2026",
+                    "timestamp": {
+                        "raw": 1780963200,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": [
+                    "video"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "00@2x.mp4"
                 }
             }
         },
@@ -4099,6 +4279,44 @@
                 "2": "longDescription.txt",
                 "screenshots": {
                     "2": "video--play-audio.mp4"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "collage-maker"
+            },
+            "manifest": {
+                "name": "Collage Maker",
+                "shortDescription": "Automatically make collages out of a set of input images",
+                "startDate": {
+                    "string": "August 8, 2026",
+                    "timestamp": {
+                        "raw": 1786147200,
+                        "formatted": "August 2026",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/collage-maker"
+                    }
+                ],
+                "tags": [
+                    "github"
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "sample@2x.jpg"
                 }
             }
         },
@@ -10158,6 +10376,61 @@
             "files": {
                 "screenshots": {
                     "2": "1@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
+                "id": "inner-sphere"
+            },
+            "manifest": {
+                "name": "Inner Sphere",
+                "shortDescription": "Wall-mounted video installation with magnifying globe",
+                "startDate": {
+                    "string": "August 9, 2026",
+                    "timestamp": {
+                        "raw": 1786233600,
+                        "formatted": "August 2026",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "View Video Generator Source",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/inner-sphere-video-generator"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/inner-sphere\/downloads\/Inner_Sphere.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/inner-sphere\/downloads\/Inner_Sphere_Parts.zip"
+                    }
+                ],
+                "tags": [
+                    "github",
+                    "3D"
+                ]
+            },
+            "files": {
+                "downloads": {
+                    "2": "Face_Plate_Back.stl",
+                    "3": "Face_Plate_Front.stl",
+                    "4": "Inner_Sphere.stl",
+                    "5": "Inner_Sphere_Parts.zip",
+                    "6": "Wall_Plate.stl"
                 }
             }
         },
@@ -20768,6 +21041,49 @@
         },
         {
             "directory": {
+                "id": "tai-ping-stand"
+            },
+            "manifest": {
+                "name": "Tai Ping Stand",
+                "shortDescription": "Display stand for Tai Ping devices",
+                "startDate": {
+                    "string": "June 19, 2026",
+                    "timestamp": {
+                        "raw": 1781827200,
+                        "formatted": "June 2026",
+                        "components": {
+                            "monthFormatted": "June",
+                            "monthNumber": 6,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/tai-ping-stand\/downloads\/Tai_Ping_Stand.stl"
+                    }
+                ],
+                "tags": [
+                    "3D"
+                ]
+            },
+            "files": {
+                "3": "longDescription.txt",
+                "downloads": {
+                    "2": "Tai_Ping_Stand.stl"
+                },
+                "screenshots": {
+                    "2": "1@2x.jpg",
+                    "3": "2@2x.jpg"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "taptation"
             },
             "manifest": {
@@ -21455,7 +21771,8 @@
                     "5": "004@2x.png",
                     "6": "005@2x.png",
                     "7": "006@2x.png",
-                    "8": "007@2x.png"
+                    "8": "007@2x.png",
+                    "9": "Untitled.workflow"
                 }
             }
         },
