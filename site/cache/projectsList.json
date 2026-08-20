@@ -16975,6 +16975,14 @@
                         }
                     }
                 },
+                "links": [
+                    {
+                        "type": "link",
+                        "label": "Reception RSVP",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/partiful.com\/e\/BYU8XBibF6rX9J0XLzDx"
+                    }
+                ],
                 "credits": [
                     {
                         "name": "Yan Wang",
