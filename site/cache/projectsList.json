@@ -16979,7 +16979,7 @@
                     {
                         "type": "link",
                         "label": "View Event Info",
-                        "icon": "DEFAULT_FOR_TYPE",
+                        "icon": "calendar_today",
                         "url": "https:\/\/partiful.com\/e\/BYU8XBibF6rX9J0XLzDx"
                     }
                 ],
