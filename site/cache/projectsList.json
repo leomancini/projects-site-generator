@@ -16957,6 +16957,43 @@
         },
         {
             "directory": {
+                "id": "promo-materials-where-blossoms-end-the-mountains-begin"
+            },
+            "manifest": {
+                "name": "Promo Materials for Where Blossoms End, The Mountains Begin",
+                "shortDescription": "Poster and promo materials for gallery show",
+                "startDate": {
+                    "string": "August 8, 2026",
+                    "timestamp": {
+                        "raw": 1786147200,
+                        "formatted": "August 2026",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "credits": [
+                    {
+                        "name": "Yan Wang",
+                        "type": "artist"
+                    }
+                ],
+                "tags": []
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1-reception-poster.png",
+                    "3": "2-paintings-3up.png",
+                    "4": "3-artist-statement.png",
+                    "5": "4-artist-statement-cn.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "prop-65-detector"
             },
             "manifest": {
