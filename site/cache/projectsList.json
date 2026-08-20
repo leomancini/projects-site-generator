@@ -3897,7 +3897,7 @@
             },
             "manifest": {
                 "name": "Claude Web Easter Egg",
-                "shortDescription": "A hidden easter egg in Claude's web interface",
+                "shortDescription": "Click the logo eight times",
                 "startDate": {
                     "string": "June 9, 2026",
                     "timestamp": {
