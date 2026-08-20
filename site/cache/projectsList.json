@@ -3912,12 +3912,15 @@
                     }
                 },
                 "tags": [
+                    "job",
+                    "full-time",
+                    "anthropic",
                     "video"
                 ]
             },
             "files": {
                 "screenshots": {
-                    "2": "00@2x.mp4"
+                    "2": "00.mp4"
                 }
             }
         },
