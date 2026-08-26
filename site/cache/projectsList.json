@@ -3883,6 +3883,14 @@
                         }
                     }
                 },
+                "links": [
+                    {
+                        "type": "document",
+                        "label": "View Blog Post",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/claude.com\/blog\/claudes-memory-works-everywhere-and-you-decide-whats-in-it"
+                    }
+                ],
                 "tags": [
                     "job",
                     "full-time",
