@@ -12745,17 +12745,13 @@
             "files": {
                 "2": "longDescription.txt",
                 "screenshots": {
-                    "2": "001@2x.PNG",
-                    "3": "002@2x.PNG",
-                    "4": "003@2x.PNG",
-                    "5": "004@2x.PNG",
-                    "6": "005@2x.PNG",
-                    "7": "006@2x.PNG",
-                    "8": "007@2x.PNG",
-                    "9": "008@2x.PNG",
-                    "10": "009@2x.PNG",
-                    "11": "010@2x.PNG",
-                    "12": "011@2x.PNG"
+                    "2": "01-nyc-restaurant-ratings--code.txt",
+                    "3": "02-nyc-sky-colors--code.txt",
+                    "4": "03-prediction-markets--code.txt",
+                    "5": "04-lists-app--code.txt",
+                    "6": "05-projects-site-generator--code.txt",
+                    "7": "06-fcc-studio-portfolio--code.txt",
+                    "8": "07-kiosk-display--code.txt"
                 }
             }
         },
