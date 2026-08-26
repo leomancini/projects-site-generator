@@ -3816,6 +3816,14 @@
                     {
                         "name": "Daniel Destefanis",
                         "link": "https:\/\/www.danield.design\/"
+                    },
+                    {
+                        "name": "Chase McCoy",
+                        "link": "https:\/\/chsmc.org\/"
+                    },
+                    {
+                        "name": "Luke Taylor",
+                        "link": "https:\/\/github.com\/controversial"
                     }
                 ]
             },
@@ -3847,7 +3855,11 @@
                     "26": "011-quiz-6@2x.jpg",
                     "27": "011-quiz-7@2x.mp4",
                     "28": "011-quiz-8@2x.jpg",
-                    "29": "011-quiz-9@2x.jpg"
+                    "29": "011-quiz-9@2x.jpg",
+                    "30": "012-translation@2x.jpg",
+                    "31": "013-charts-1@2x.jpg",
+                    "32": "013-charts-2@2x.jpg",
+                    "33": "013-charts-3@2x.jpg"
                 }
             }
         },
