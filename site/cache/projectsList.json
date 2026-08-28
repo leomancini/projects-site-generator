@@ -3869,7 +3869,7 @@
             },
             "manifest": {
                 "name": "Claude Composer",
-                "shortDescription": "The message input for chat and Cowork on Claude web",
+                "shortDescription": "Message input layout and behavior on web",
                 "startDate": {
                     "string": "August 2026",
                     "timestamp": {
