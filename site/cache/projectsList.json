@@ -3865,6 +3865,62 @@
         },
         {
             "directory": {
+                "id": "claude-composer"
+            },
+            "manifest": {
+                "name": "Claude Composer",
+                "shortDescription": "The message input for chat and Cowork on Claude web",
+                "startDate": {
+                    "string": "August 2026",
+                    "timestamp": {
+                        "raw": 1785542400,
+                        "formatted": "August 2026",
+                        "components": {
+                            "monthFormatted": "August",
+                            "monthNumber": 8,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": [
+                    "job",
+                    "full-time",
+                    "anthropic"
+                ],
+                "credits": [
+                    {
+                        "name": "Alex Lama-Noujaim",
+                        "link": "https:\/\/www.lamanoujaim.com\/"
+                    },
+                    {
+                        "name": "Meaghan Choi",
+                        "link": "https:\/\/meaghanchoi.com\/"
+                    },
+                    {
+                        "name": "Peter Ng",
+                        "link": "https:\/\/peter.ng\/"
+                    },
+                    {
+                        "name": "Chase McCoy",
+                        "link": "https:\/\/chsmc.org\/"
+                    }
+                ]
+            },
+            "files": {
+                "screenshots": {
+                    "2": "1@2x.png",
+                    "3": "2@2x.png",
+                    "4": "3@2x.png",
+                    "5": "4@2x.png",
+                    "6": "5@2x.png",
+                    "7": "6@2x.png",
+                    "8": "7@2x.png"
+                }
+            }
+        },
+        {
+            "directory": {
                 "id": "claude-memory-system"
             },
             "manifest": {

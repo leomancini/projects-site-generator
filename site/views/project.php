@@ -75,11 +75,13 @@
                 <?php if(array_key_exists('credits', $projectManifest)) { ?>
                     <?php if(count($projectManifest['credits']) > 0) { ?>
                         <label>Credits:</label>
+                        <?php $creditIndex = 0; ?>
                         <?php foreach($projectManifest['credits'] as $credit) { ?>
+                            <?php $creditIndex++; $creditSeparator = $creditIndex < count($projectManifest['credits']) ? ',' : ''; ?>
                             <?php if($credit['link']) { ?>
-                                <a href='<?php echo htmlspecialchars($credit['link'], ENT_QUOTES, 'UTF-8'); ?>' target='_blank' rel='noopener' class='credit'><?php echo htmlspecialchars($credit['name'], ENT_QUOTES, 'UTF-8'); if($credit['type']) { echo " (".htmlspecialchars($credit['type'], ENT_QUOTES, 'UTF-8').")"; } ?></a>
+                                <a href='<?php echo htmlspecialchars($credit['link'], ENT_QUOTES, 'UTF-8'); ?>' target='_blank' rel='noopener' class='credit'><?php echo htmlspecialchars($credit['name'], ENT_QUOTES, 'UTF-8'); if($credit['type']) { echo " (".htmlspecialchars($credit['type'], ENT_QUOTES, 'UTF-8').")"; } ?></a><?php echo $creditSeparator; ?>
                             <?php } else { ?>
-                                <span class='credit'><?php echo htmlspecialchars($credit['name'], ENT_QUOTES, 'UTF-8'); if($credit['type']) { echo " (".htmlspecialchars($credit['type'], ENT_QUOTES, 'UTF-8').")"; } ?></span>
+                                <span class='credit'><?php echo htmlspecialchars($credit['name'], ENT_QUOTES, 'UTF-8'); if($credit['type']) { echo " (".htmlspecialchars($credit['type'], ENT_QUOTES, 'UTF-8').")"; } ?></span><?php echo $creditSeparator; ?>
                             <?php } ?>
                         <?php } ?>
                     <?php } ?>
