@@ -10,19 +10,35 @@
         $projectDirectoryContents = scandir($projectDirectory);
 
         $disallowedDirectories = ['.', '..', '.DS_Store', 'TEMPLATE', 'manifest.json'];
-        $projectFiles = array_diff($projectDirectoryContents, $disallowedDirectories);
+
+        // array_diff and unset preserve keys, which leaves gaps that json_encode
+        // would serialize as an object instead of an array
+        $projectFiles = array_values(array_diff($projectDirectoryContents, $disallowedDirectories));
 
         foreach($projectFiles as $projectFileKey => $projectFileName) {
             if(is_dir($projectDirectory.'/'.$projectFileName)) {
                 $projectSubDirectoryContents = scandir($projectDirectory.'/'.$projectFileName);
 
-                $projectSubDirectoryFiles = array_diff($projectSubDirectoryContents, $disallowedDirectories);
+                $projectSubDirectoryFiles = array_values(array_diff($projectSubDirectoryContents, $disallowedDirectories));
 
                 unset($projectFiles[$projectFileKey]);
 
                 $projectFiles[$projectFileName] = $projectSubDirectoryFiles;
             }
         }
+
+        // Removing the directory entries above leaves gaps in the numeric keys,
+        // so re-key the loose files while keeping the named directory entries
+        $looseFiles = [];
+        $namedFiles = [];
+        foreach($projectFiles as $projectFileKey => $projectFileValue) {
+            if(is_int($projectFileKey)) {
+                $looseFiles[] = $projectFileValue;
+            } else {
+                $namedFiles[$projectFileKey] = $projectFileValue;
+            }
+        }
+        $projectFiles = array_merge($looseFiles, $namedFiles);
 
         return $projectFiles;
     }
@@ -220,7 +236,9 @@
             }
         }
 
-        $tags = array_unique($tags);
+        // array_filter and array_unique preserve keys, which leaves gaps that
+        // json_encode would serialize as an object instead of an array
+        $tags = array_values(array_unique($tags));
 
         return $tags;
     }
