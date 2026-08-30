@@ -515,6 +515,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "github"
                 ]
             },
@@ -575,10 +576,11 @@
                     }
                 ],
                 "tags": {
-                    "0": "live-site",
-                    "1": "github",
-                    "3": "3D",
-                    "4": "video"
+                    "0": "ai",
+                    "1": "live-site",
+                    "2": "github",
+                    "4": "3D",
+                    "5": "video"
                 }
             },
             "files": {
@@ -1817,6 +1819,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "live-site",
                     "github",
                     "video"
@@ -2133,6 +2136,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "github",
                     "video"
                 ]
@@ -3794,6 +3798,7 @@
                     "job",
                     "full-time",
                     "anthropic",
+                    "ai",
                     "video"
                 ],
                 "credits": [
@@ -3888,7 +3893,8 @@
                 "tags": [
                     "job",
                     "full-time",
-                    "anthropic"
+                    "anthropic",
+                    "ai"
                 ],
                 "credits": [
                     {
@@ -3953,6 +3959,7 @@
                     "job",
                     "full-time",
                     "anthropic",
+                    "ai",
                     "video"
                 ],
                 "credits": [
@@ -4002,6 +4009,7 @@
                     "job",
                     "full-time",
                     "anthropic",
+                    "ai",
                     "video"
                 ]
             },
@@ -4034,7 +4042,8 @@
                 "tags": [
                     "job",
                     "full-time",
-                    "anthropic"
+                    "anthropic",
+                    "ai"
                 ],
                 "credits": [
                     {
@@ -4196,6 +4205,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "live-site",
                     "github"
                 ]
@@ -4295,6 +4305,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "github"
                 ]
             },
@@ -7668,7 +7679,8 @@
                     }
                 },
                 "tags": [
-                    "fcc"
+                    "fcc",
+                    "ai"
                 ]
             },
             "files": {
@@ -10059,6 +10071,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "github",
                     "3D"
                 ]
@@ -12309,6 +12322,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "live-site",
                     "github"
                 ]
@@ -12806,7 +12820,9 @@
                         }
                     }
                 },
-                "tags": []
+                "tags": [
+                    "ai"
+                ]
             },
             "files": {
                 "2": "longDescription.txt",
@@ -19658,6 +19674,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "live-site",
                     "github"
                 ]
@@ -21146,9 +21163,10 @@
                     }
                 ],
                 "tags": {
-                    "0": "live-site",
-                    "1": "github",
-                    "3": "3D"
+                    "0": "ai",
+                    "1": "live-site",
+                    "2": "github",
+                    "4": "3D"
                 }
             },
             "files": {
@@ -23445,9 +23463,10 @@
                     }
                 ],
                 "tags": {
-                    "0": "github",
-                    "2": "3D",
-                    "4": "video"
+                    "0": "ai",
+                    "1": "github",
+                    "3": "3D",
+                    "5": "video"
                 }
             },
             "files": {
@@ -23590,6 +23609,7 @@
                     }
                 ],
                 "tags": [
+                    "ai",
                     "live-site",
                     "github",
                     "video"
