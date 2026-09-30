@@ -3620,7 +3620,7 @@
                         "type": "live_site",
                         "label": "View Example List",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/city-tracker.noshado.ws\/leo"
+                        "url": "https:\/\/city-tracker.noshado.ws\/demo"
                     },
                     {
                         "type": "github",
@@ -8557,10 +8557,9 @@
                     "github"
                 ]
             },
-            "files": {
-                "0": "longDescription.txt",
-                "screenshots": []
-            }
+            "files": [
+                "longDescription.txt"
+            ]
         },
         {
             "directory": {
@@ -10536,8 +10535,7 @@
                     "Inner_Sphere.stl",
                     "Inner_Sphere_Parts.zip",
                     "Wall_Plate.stl"
-                ],
-                "screenshots": []
+                ]
             }
         },
         {
@@ -12052,9 +12050,10 @@
                     "github"
                 ]
             },
-            "files": [
-                "longDescription.txt"
-            ]
+            "files": {
+                "0": "longDescription.txt",
+                "screenshots": []
+            }
         },
         {
             "directory": {
@@ -17734,7 +17733,7 @@
                         "type": "live_site",
                         "label": "View Example List",
                         "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/region-tracker.noshado.ws\/user\/leo\/world"
+                        "url": "https:\/\/region-tracker.noshado.ws\/user\/demo\/world"
                     },
                     {
                         "type": "github",
