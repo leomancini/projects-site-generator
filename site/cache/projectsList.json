@@ -10810,12 +10810,6 @@
                         "label": "Download Parts as STL Files",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/ipod-tribute-machine\/downloads\/iPod_Tribute_Machine_Parts.zip"
-                    },
-                    {
-                        "type": "link",
-                        "label": "View Toolbox",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/www.toyosteel.jp\/en\/products\/t-150-b"
                     }
                 ],
                 "tags": [
@@ -10823,6 +10817,7 @@
                 ]
             },
             "files": {
+                "0": "longDescription.txt",
                 "downloads": [
                     "Back_Plate.stl",
                     "Bottom_Mount.stl",
