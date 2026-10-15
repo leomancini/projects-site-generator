@@ -10784,7 +10784,7 @@
             },
             "manifest": {
                 "name": "iPod Tribute Machine",
-                "shortDescription": "iPod in a toolbox connected to wireless headphones",
+                "shortDescription": "iPod in a toolbox with USB-C connected to wireless headphones",
                 "startDate": {
                     "string": "September 14, 2026",
                     "timestamp": {
