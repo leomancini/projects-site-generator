@@ -10798,9 +10798,33 @@
                         }
                     }
                 },
-                "tags": []
+                "links": [
+                    {
+                        "type": "download",
+                        "label": "Download STL File",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/ipod-tribute-machine\/downloads\/iPod_Tribute_Machine.stl"
+                    },
+                    {
+                        "type": "download",
+                        "label": "Download Parts as STL Files",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "\/projects\/ipod-tribute-machine\/downloads\/iPod_Tribute_Machine_Parts.zip"
+                    }
+                ],
+                "tags": [
+                    "3D"
+                ]
             },
             "files": {
+                "downloads": [
+                    "Back_Plate.stl",
+                    "Bottom_Mount.stl",
+                    "Front_Plate.stl",
+                    "iPod_Tribute_Machine_Parts.zip",
+                    "iPod_Tribute_Machine.stl",
+                    "Top_Mount.stl"
+                ],
                 "screenshots": [
                     "1@2x.jpeg",
                     "2@2x.jpeg",
