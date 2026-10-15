@@ -10780,6 +10780,36 @@
         },
         {
             "directory": {
+                "id": "ipod-tribute-machine"
+            },
+            "manifest": {
+                "name": "iPod Tribute Machine",
+                "shortDescription": "iPod nano mounted in a steel toolbox with USB-C charging",
+                "startDate": {
+                    "string": "September 14, 2026",
+                    "timestamp": {
+                        "raw": 1789344000,
+                        "formatted": "September 2026",
+                        "components": {
+                            "monthFormatted": "September",
+                            "monthNumber": 9,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": []
+            },
+            "files": {
+                "screenshots": [
+                    "1@2x.jpeg",
+                    "2@2x.jpeg",
+                    "3@2x.jpeg"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "ironica"
             },
             "manifest": {
