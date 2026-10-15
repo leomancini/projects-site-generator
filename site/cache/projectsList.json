@@ -373,8 +373,8 @@
             "files": {
                 "0": "longDescription.txt",
                 "downloads": [
-                    "AI_Art_Box.stl",
                     "AI_Art_Box_Parts.zip",
+                    "AI_Art_Box.stl",
                     "Case.stl",
                     "Front Frame.stl",
                     "Front Plate.xcs"
@@ -1449,6 +1449,7 @@
             "files": {
                 "0": "longDescription.txt",
                 "screenshots": [
+                    "bLu.jpg",
                     "Blue Waves.jpg",
                     "BlueY.jpg",
                     "Bullets.jpg",
@@ -1466,8 +1467,7 @@
                     "RGB.jpg",
                     "Sphere.jpg",
                     "Waves - Invert.jpg",
-                    "Waves.jpg",
-                    "bLu.jpg"
+                    "Waves.jpg"
                 ]
             }
         },
@@ -2987,8 +2987,8 @@
                     "Cartrdige.stl",
                     "Cartridge Bottom.stl",
                     "Cartridge Top.stl",
-                    "Cartridge_Machine.stl",
                     "Cartridge_Machine_Parts.zip",
+                    "Cartridge_Machine.stl",
                     "Case.stl"
                 ],
                 "screenshots": [
@@ -3054,9 +3054,9 @@
                     "Cartridge_Machine_Cartridge_Holder.stl"
                 ],
                 "screenshots": [
+                    "hidden",
                     "IMG_8861.jpeg",
-                    "IMG_8868.jpeg",
-                    "hidden"
+                    "IMG_8868.jpeg"
                 ]
             }
         },
@@ -3982,6 +3982,47 @@
                     "01@2x.png",
                     "02@2x.png",
                     "03@2x.mp4"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "claude-voting-information"
+            },
+            "manifest": {
+                "name": "Claude Voting Information",
+                "shortDescription": "Official state election info from Democracy Works in chat",
+                "startDate": {
+                    "string": "October 2026",
+                    "timestamp": {
+                        "raw": 1790812800,
+                        "formatted": "October 2026",
+                        "components": {
+                            "monthFormatted": "October",
+                            "monthNumber": 10,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "document",
+                        "label": "View Blog Post",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.anthropic.com\/news\/2026-us-midterms"
+                    }
+                ],
+                "tags": [
+                    "job",
+                    "full-time",
+                    "anthropic",
+                    "ai"
+                ]
+            },
+            "files": {
+                "screenshots": [
+                    "1@2x.png"
                 ]
             }
         },
@@ -5282,8 +5323,8 @@
                 "0": "longDescription.txt",
                 "downloads": [
                     "Bottom_Cover.stl",
-                    "Cyberdeck_25.stl",
                     "Cyberdeck_25_Parts.zip",
+                    "Cyberdeck_25.stl",
                     "Main_Case.stl",
                     "Side_Screw_Plug.stl"
                 ],
@@ -5719,8 +5760,8 @@
             },
             "files": {
                 "screenshots": [
-                    "Screen Shot 2020-04-04 at 6.56.25 PM.png",
-                    "readme.txt"
+                    "readme.txt",
+                    "Screen Shot 2020-04-04 at 6.56.25 PM.png"
                 ]
             }
         },
@@ -7943,6 +7984,12 @@
             "files": {
                 "0": "longDescription.txt",
                 "screenshots": [
+                    "conte1 copy.jpg",
+                    "conte2 copy.jpg",
+                    "conte3 copy.jpg",
+                    "conte4 copy.jpg",
+                    "figure 1.jpg",
+                    "figure_sketch.jpg",
                     "IMG_1506 copy.jpg",
                     "IMG_1507 copy.jpg",
                     "IMG_1572 copy.jpg",
@@ -7954,12 +8001,6 @@
                     "IMG_1582 copy.jpg",
                     "IMG_1584 copy.jpg",
                     "IMG_1589 copy.jpg",
-                    "conte1 copy.jpg",
-                    "conte2 copy.jpg",
-                    "conte3 copy.jpg",
-                    "conte4 copy.jpg",
-                    "figure 1.jpg",
-                    "figure_sketch.jpg",
                     "ink copy.jpg",
                     "legs copy.jpg"
                 ]
@@ -8557,9 +8598,10 @@
                     "github"
                 ]
             },
-            "files": [
-                "longDescription.txt"
-            ]
+            "files": {
+                "0": "longDescription.txt",
+                "screenshots": []
+            }
         },
         {
             "directory": {
@@ -8975,8 +9017,8 @@
                 "downloads": [
                     "Case \u2013 Back.stl",
                     "Case \u2013 Front.stl",
-                    "Handheld_Computer_Vision_Rig.stl",
                     "Handheld_Computer_Vision_Rig_Parts.zip",
+                    "Handheld_Computer_Vision_Rig.stl",
                     "Power Button.stl"
                 ],
                 "screenshots": [
@@ -9044,8 +9086,8 @@
             "files": {
                 "0": "longDescription.txt",
                 "downloads": [
-                    "Handheld_Computer_Vision_Rig_Wall_Mount.stl",
                     "Handheld_Computer_Vision_Rig_Wall_Mount_Parts.zip",
+                    "Handheld_Computer_Vision_Rig_Wall_Mount.stl",
                     "Mount \u2013 Bottom.stl",
                     "Mount \u2013 Top.stl"
                 ],
@@ -9733,8 +9775,8 @@
             "files": {
                 "screenshots": [
                     "Desktop@2x-hasMacDesktopShadow.png",
-                    "Mobile@2x.png",
-                    "hidden"
+                    "hidden",
+                    "Mobile@2x.png"
                 ]
             }
         },
@@ -10532,10 +10574,11 @@
                     "Alignment_Jig.stl",
                     "Face_Plate_Back.stl",
                     "Face_Plate_Front.stl",
-                    "Inner_Sphere.stl",
                     "Inner_Sphere_Parts.zip",
+                    "Inner_Sphere.stl",
                     "Wall_Plate.stl"
-                ]
+                ],
+                "screenshots": []
             }
         },
         {
@@ -11251,8 +11294,8 @@
                 "downloads": [
                     "Back Case.stl",
                     "Front Panel.stl",
-                    "JBOB_Just_a_Bunch_of_Buttons.stl",
-                    "JBOB_Just_a_Bunch_of_Buttons_Parts.zip"
+                    "JBOB_Just_a_Bunch_of_Buttons_Parts.zip",
+                    "JBOB_Just_a_Bunch_of_Buttons.stl"
                 ],
                 "screenshots": [
                     "1@2x.jpeg",
@@ -12050,10 +12093,9 @@
                     "github"
                 ]
             },
-            "files": {
-                "0": "longDescription.txt",
-                "screenshots": []
-            }
+            "files": [
+                "longDescription.txt"
+            ]
         },
         {
             "directory": {
@@ -16134,8 +16176,8 @@
                     "Button.stl",
                     "Enclosure.stl",
                     "PCB_Schematic.pdf",
-                    "Play_Machine_Mini.stl",
-                    "Play_Machine_Mini_Parts.zip"
+                    "Play_Machine_Mini_Parts.zip",
+                    "Play_Machine_Mini.stl"
                 ],
                 "screenshots": [
                     "0@2x.jpeg",
@@ -17153,9 +17195,9 @@
             "files": {
                 "0": "longDescription.txt",
                 "screenshots": [
+                    "hidden",
                     "Screenshot@2x.png",
-                    "Video Demo@2x.mp4",
-                    "hidden"
+                    "Video Demo@2x.mp4"
                 ]
             }
         },
@@ -19168,8 +19210,8 @@
                 "downloads": [
                     "Back Case.stl",
                     "Front Plate.stl",
-                    "Somethin_Meter.stl",
-                    "Somethin_Meter_Parts.zip"
+                    "Somethin_Meter_Parts.zip",
+                    "Somethin_Meter.stl"
                 ],
                 "screenshots": [
                     "0@2x.jpeg",
@@ -21175,8 +21217,8 @@
                     "Back.stl",
                     "Front.stl",
                     "Power_Button.stl",
-                    "Tai_Ping.stl",
-                    "Tai_Ping_Parts.zip"
+                    "Tai_Ping_Parts.zip",
+                    "Tai_Ping.stl"
                 ],
                 "screenshots": [
                     "1@2x.jpg",
@@ -22327,8 +22369,8 @@
                     "Travel_Guide.origami"
                 ],
                 "screenshots": [
-                    "Travel Guide@2x.mp4",
-                    "screenshots@2x.jpeg"
+                    "screenshots@2x.jpeg",
+                    "Travel Guide@2x.mp4"
                 ]
             }
         },
@@ -23475,8 +23517,8 @@
                     "Back.stl",
                     "Front.stl",
                     "Power_Button.stl",
-                    "World_View.stl",
-                    "World_View_Parts.zip"
+                    "World_View_Parts.zip",
+                    "World_View.stl"
                 ],
                 "screenshots": [
                     "00@2x.mp4",
