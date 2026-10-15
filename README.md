@@ -12,3 +12,5 @@
 <br>
 
 `To push changes to GitHub & leomancini.net, run ./push from top level directory`
+
+`./push` first rebuilds `site/cache/projectsList.json` by running `tools/update-cache`, which uses the PHP CLI (`brew install php`). No local web server is needed. If the cache build fails, nothing is pushed.

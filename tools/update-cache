@@ -1,0 +1,22 @@
+#!/bin/sh
+# Rebuilds site/cache/projectsList.json using the PHP CLI.
+# Runs the same code the site uses (site/controllers/updateCache.php),
+# so no local web server (MAMP) is needed.
+set -e
+
+cd "$(dirname "$0")/../site/controllers"
+
+if ! command -v php >/dev/null 2>&1; then
+    echo "php is not installed or not on PATH (try: brew install php)" >&2
+    exit 1
+fi
+
+php -d display_errors=stderr updateCache.php
+
+CACHE_FILE="../cache/projectsList.json"
+if ! php -r 'exit(json_decode(file_get_contents($argv[1])) === null ? 1 : 0);' "$CACHE_FILE"; then
+    echo "Cache file is not valid JSON: $CACHE_FILE" >&2
+    exit 1
+fi
+
+echo "Wrote $(php -r 'echo count(json_decode(file_get_contents($argv[1]), true)["projects"]);' "$CACHE_FILE") projects to $CACHE_FILE"

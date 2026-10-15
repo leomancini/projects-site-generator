@@ -6,7 +6,10 @@ else
 fi
 
 echo '\n# Updating cache...'
-curl http://localhost:8888/projects-site-generator/site/controllers/updateCache.php &> /dev/null
+if ! ./tools/update-cache; then
+    echo '\n!!! Cache update failed. Nothing was pushed. !!!'
+    exit 1
+fi
 echo '\n# Cache updated!'
 
 echo '\n# Committing site code changes...'

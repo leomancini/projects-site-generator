@@ -260,6 +260,12 @@
         return $projectsList;
     }
 
+    // When included from the CLI (tools/update-cache), only the functions above
+    // are needed; the HTTP response below would print the whole list to stdout.
+    if (php_sapi_name() === 'cli') {
+        return;
+    }
+
     if (($_SERVER['SERVER_NAME'] !== 'localhost' && $_SERVER['SERVER_NAME'] !== 'macserver.local') || $config['useCacheFileOnLocalhost']) {
         $cacheFile = '..'.$config['cacheFile'];
         if (file_exists($cacheFile)) {
