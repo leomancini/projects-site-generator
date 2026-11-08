@@ -5,6 +5,12 @@ else
     read COMMIT_MESSAGE
 fi
 
+echo '\n# Compressing new PNG screenshots (lossless)...'
+if ! ./tools/compress-screenshots; then
+    echo '\n!!! PNG compression failed. Nothing was pushed. !!!'
+    exit 1
+fi
+
 echo '\n# Updating cache...'
 if ! ./tools/update-cache; then
     echo '\n!!! Cache update failed. Nothing was pushed. !!!'
