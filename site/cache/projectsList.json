@@ -3962,7 +3962,10 @@
                     "03@2x.png",
                     "04@2x.png",
                     "05@2x.png",
-                    "06@2x.png"
+                    "06@2x.png",
+                    "07@2x.png",
+                    "08@2x.png",
+                    "09@2x.png"
                 ]
             }
         },
@@ -4021,6 +4024,64 @@
                     "01@2x.png",
                     "02@2x.png",
                     "03@2x.mp4"
+                ]
+            }
+        },
+        {
+            "directory": {
+                "id": "claude-personal-finance"
+            },
+            "manifest": {
+                "name": "Claude Personal Finance",
+                "shortDescription": "Understand your finances with Claude",
+                "startDate": {
+                    "string": "November 5, 2026",
+                    "timestamp": {
+                        "raw": 1793836800,
+                        "formatted": "November 2026",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "video",
+                        "label": "Watch Launch Video",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.youtube.com\/watch?v=UTubvRLX2j4"
+                    },
+                    {
+                        "type": "document",
+                        "label": "View Blog Post",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/claude.com\/resources\/articles\/introducing-personal-finance-in-claude"
+                    },
+                    {
+                        "type": "twitter",
+                        "label": "View Announcement Post",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/x.com\/claudeai\/status\/2118403114890137895"
+                    }
+                ],
+                "tags": [
+                    "job",
+                    "full-time",
+                    "anthropic",
+                    "ai"
+                ]
+            },
+            "files": {
+                "0": "longDescription.txt",
+                "screenshots": [
+                    "01@2x.png",
+                    "02@2x.png",
+                    "03@2x.png",
+                    "04@2x.png",
+                    "05@2x.png"
                 ]
             }
         },
