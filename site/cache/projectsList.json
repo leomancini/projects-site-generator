@@ -4062,13 +4062,13 @@
                     },
                     {
                         "type": "twitter",
-                        "label": "View Announcement Post",
+                        "label": "View X Post",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/x.com\/claudeai\/status\/2118403114890137895"
                     },
                     {
                         "type": "link",
-                        "label": "View Post on LinkedIn",
+                        "label": "View LinkedIn Post",
                         "icon": "article",
                         "url": "https:\/\/www.linkedin.com\/feed\/update\/urn:li:ugcPost:7524168653332783105\/"
                     }
