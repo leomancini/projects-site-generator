@@ -3929,6 +3929,45 @@
         },
         {
             "directory": {
+                "id": "claude-live-election-results"
+            },
+            "manifest": {
+                "name": "Claude Live Election Results",
+                "shortDescription": "Realtime results from The Associated Press in chat",
+                "startDate": {
+                    "string": "November 3, 2026",
+                    "timestamp": {
+                        "raw": 1793664000,
+                        "formatted": "November 2026",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": [
+                    "job",
+                    "full-time",
+                    "anthropic",
+                    "ai"
+                ]
+            },
+            "files": {
+                "0": "longDescription.txt",
+                "screenshots": [
+                    "01@2x.png",
+                    "02@2x.png",
+                    "03@2x.png",
+                    "04@2x.png",
+                    "05@2x.png",
+                    "06@2x.png"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "claude-memory-system"
             },
             "manifest": {
@@ -4021,8 +4060,12 @@
                 ]
             },
             "files": {
+                "0": "longDescription.txt",
                 "screenshots": [
-                    "1@2x.png"
+                    "1@2x.png",
+                    "2@2x.png",
+                    "3@2x.png",
+                    "4@2x.png"
                 ]
             }
         },
