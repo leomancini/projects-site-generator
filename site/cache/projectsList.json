@@ -522,6 +522,7 @@
             "files": {
                 "0": "longDescription.txt",
                 "screenshots": [
+                    "0@2x.jpg",
                     "1@2x.jpg",
                     "2@2x.jpg",
                     "3@2x.jpg"
@@ -5463,7 +5464,6 @@
                     "0@2x.jpeg",
                     "1-video.mp4",
                     "2@2x.jpeg",
-                    "3@2x.jpeg",
                     "4@2x.jpeg",
                     "5-video.mp4"
                 ]
@@ -7686,7 +7686,8 @@
                 "screenshots": [
                     "1@2x.jpg",
                     "2@2x.jpg",
-                    "3@2x.jpg"
+                    "3@2x.jpg",
+                    "4@2x.jpg"
                 ]
             }
         },
@@ -11107,6 +11108,8 @@
                 "screenshots": [
                     "0-1@2x.jpeg",
                     "0-2-video.mp4",
+                    "0-3@2x.jpeg",
+                    "0-4@2x.jpeg",
                     "1@2x.jpeg",
                     "2@2x.jpeg",
                     "3@2x.jpeg"
