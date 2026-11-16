@@ -7626,7 +7626,7 @@
                 "links": [
                     {
                         "type": "video",
-                        "label": "DEFAULT_FOR_TYPE",
+                        "label": "Watch on YouTube",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/www.youtube.com\/watch?v=GYAsovrxh4Q"
                     },
