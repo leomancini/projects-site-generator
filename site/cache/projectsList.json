@@ -7660,6 +7660,38 @@
         },
         {
             "directory": {
+                "id": "fcc-friends-and-family-show-panel"
+            },
+            "manifest": {
+                "name": "FCC Friends and Family Show Panel",
+                "shortDescription": "Wall-mounted display of interactive devices for a gallery show",
+                "startDate": {
+                    "string": "November 14, 2026",
+                    "timestamp": {
+                        "raw": 1794614400,
+                        "formatted": "November 2026",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": [
+                    "fcc"
+                ]
+            },
+            "files": {
+                "screenshots": [
+                    "1@2x.jpg",
+                    "2@2x.jpg",
+                    "3@2x.jpg"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "fcc-gallery-show-nov-2025"
             },
             "manifest": {
