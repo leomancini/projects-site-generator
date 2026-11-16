@@ -7626,7 +7626,7 @@
                 "links": [
                     {
                         "type": "video",
-                        "label": "Watch on YouTube",
+                        "label": "Watch Timelapse",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/www.youtube.com\/watch?v=GYAsovrxh4Q"
                     },
