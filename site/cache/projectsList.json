@@ -7605,6 +7605,55 @@
         },
         {
             "directory": {
+                "id": "fcc-friends-and-family-show-analysis"
+            },
+            "manifest": {
+                "name": "FCC Friends and Family Show Analysis",
+                "shortDescription": "Gallery show occupancy as observed by a fixed stream camera",
+                "startDate": {
+                    "string": "November 15, 2026",
+                    "timestamp": {
+                        "raw": 1794700800,
+                        "formatted": "November 2026",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "other",
+                        "label": "View PDF",
+                        "icon": "description",
+                        "url": "\/projects\/fcc-friends-and-family-show-analysis\/downloads\/FCC_Friends_and_Family_Show_Analysis.pdf"
+                    }
+                ],
+                "tags": [
+                    "fcc"
+                ]
+            },
+            "files": {
+                "downloads": [
+                    "FCC_Friends_and_Family_Show_Analysis.pdf"
+                ],
+                "screenshots": [
+                    "1@2x.png",
+                    "2@2x.png",
+                    "3@2x.png",
+                    "4@2x.png",
+                    "5@2x.png",
+                    "6@2x.png",
+                    "7-sample-1.jpg",
+                    "7-sample-2.jpg",
+                    "7-sample-3.jpg"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "fcc-gallery-show-nov-2025"
             },
             "manifest": {

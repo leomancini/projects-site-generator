@@ -111,6 +111,13 @@
             );
         }
 
+        // Links to files inside projects/ are written root-absolute in manifests
+        // ("/projects/..."). Return them relative to the project page instead, so
+        // they also resolve when the site is served from a subdirectory (localhost).
+        if (strpos($link['url'], '/projects/') === 0) {
+            return substr($link['url'], 1);
+        }
+
         return $link['url'];
     }
 

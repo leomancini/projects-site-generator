@@ -33,6 +33,9 @@ echo '\n# Auto-tagging projects...'
 node tools/auto-tag.js
 
 echo '\n# Syncing projects to leomancini.net...'
-./tools/sync-projects push # Mirror projects/ content to leomancini.net (rsync, no git)
+if ! ./tools/sync-projects push; then # Mirror projects/ content to leomancini.net (rsync, no git)
+    echo '\n!!! Projects sync failed. Run ./tools/sync-projects push to retry. !!!'
+    exit 1
+fi
 
 echo '\n### Done! ###'

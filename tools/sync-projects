@@ -2,25 +2,51 @@
 # Syncs projects/ with leomancini.net over rsync. The projects folder is not a
 # git repo: media is too heavy for git, so the server copy is a plain mirror.
 #
-#   tools/sync-projects push [--dry-run]   local -> server, deletes files removed locally
-#   tools/sync-projects pull [--dry-run]   server -> local, never deletes or overwrites newer local files
+#   tools/sync-projects push [--dry-run]         small files, then large files
+#   tools/sync-projects push-small [--dry-run]   files up to 10 MB; deletes files removed locally
+#   tools/sync-projects push-large [--dry-run]   files over 10 MB only
+#   tools/sync-projects pull [--dry-run]         server -> local, never deletes or overwrites newer local files
+#
+# The server's disk stalls the whole machine under sustained I/O, so every run
+# is paced and makes a single attempt. There is deliberately no retry: if a run
+# fails or the connection drops, stop and look at the server before trying again.
 set -e
 
 cd "$(dirname "$0")/.."
 
 REMOTE="leo@root.noshado.ws:/home/leo/domains/leomancini.net/html/projects/"
 LOCAL="projects/"
+LARGE="10m"       # files above this size go in their own run, after the small ones
+BWLIMIT="500"     # KB/s; the setting that matters most for the server's disk
 
 DIRECTION="$1"
 [ $# -gt 0 ] && shift
 
-# Times are preserved so unchanged files are skipped; owner, group and
-# permissions are left to the server (files there belong to the web group).
-set -- -rltz --omit-dir-times \
-    --exclude=.DS_Store --exclude=.git --exclude=.claude "$@"
+# -rlt            times are preserved so unchanged files are skipped; owner, group
+#                 and permissions are left to the server (web group owns the files)
+# --whole-file    no delta transfer, so the server never reads its existing copy
+# no -z           media is already compressed
+# --partial       an interrupted large file resumes instead of starting over
+# --timeout=60    give up on a stalled connection instead of hanging
+# --rsync-path    lowest CPU and disk priority on the server (helps only a little)
+set -- -rlt --omit-dir-times --whole-file --partial --timeout=60 \
+    --bwlimit="$BWLIMIT" --rsync-path="nice -n 19 ionice -c 3 rsync" \
+    --exclude=.DS_Store --exclude=.git --exclude=.claude --itemize-changes "$@"
+
+push_small() {
+    echo "# Projects: files up to $LARGE (and deletions)..."
+    rsync "$@" --delete --max-size="$LARGE" "$LOCAL" "$REMOTE"
+}
+
+push_large() {
+    echo "# Projects: files over $LARGE..."
+    rsync "$@" --min-size="$LARGE" "$LOCAL" "$REMOTE"
+}
 
 case "$DIRECTION" in
-    push) rsync "$@" --delete --itemize-changes "$LOCAL" "$REMOTE" ;;
-    pull) rsync "$@" --update --itemize-changes "$REMOTE" "$LOCAL" ;;
-    *) echo "Usage: $0 push|pull [--dry-run]" >&2; exit 1 ;;
+    push) push_small "$@"; push_large "$@" ;;
+    push-small) push_small "$@" ;;
+    push-large) push_large "$@" ;;
+    pull) rsync "$@" --update "$REMOTE" "$LOCAL" ;;
+    *) echo "Usage: $0 push|push-small|push-large|pull [--dry-run]" >&2; exit 1 ;;
 esac
