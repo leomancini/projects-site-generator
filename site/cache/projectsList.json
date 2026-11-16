@@ -7625,6 +7625,12 @@
                 },
                 "links": [
                     {
+                        "type": "video",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.youtube.com\/watch?v=GYAsovrxh4Q"
+                    },
+                    {
                         "type": "other",
                         "label": "View PDF",
                         "icon": "description",
@@ -7632,9 +7638,7 @@
                     }
                 ],
                 "tags": [
-                    "fcc",
-                    "video",
-                    "youtube"
+                    "fcc"
                 ]
             },
             "files": {
@@ -7642,7 +7646,6 @@
                     "FCC_Friends_and_Family_Show_Analysis.pdf"
                 ],
                 "screenshots": [
-                    "0-youtube.txt",
                     "1@2x.png",
                     "2@2x.png",
                     "3@2x.png",
