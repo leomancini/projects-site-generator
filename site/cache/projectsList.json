@@ -7632,7 +7632,9 @@
                     }
                 ],
                 "tags": [
-                    "fcc"
+                    "fcc",
+                    "video",
+                    "youtube"
                 ]
             },
             "files": {
@@ -7640,6 +7642,7 @@
                     "FCC_Friends_and_Family_Show_Analysis.pdf"
                 ],
                 "screenshots": [
+                    "0-youtube.txt",
                     "1@2x.png",
                     "2@2x.png",
                     "3@2x.png",
