@@ -6,8 +6,9 @@
 
 #### projects/
 * Contains project metadata, text content, and media
-* Separate git repo that is ignored by the parent site/ git repo
-* Should only be pushed to leomancini.net
+* Not a git repo (media is too heavy for git) and ignored by the parent site/ git repo
+* Synced to leomancini.net with rsync via `tools/sync-projects` (`./push` and `./pull` call it)
+* `./push` mirrors the folder, so files deleted locally are deleted on the server; `./pull` never deletes or overwrites newer local files
 
 <br>
 

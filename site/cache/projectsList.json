@@ -519,9 +519,14 @@
                     "github"
                 ]
             },
-            "files": [
-                "longDescription.txt"
-            ]
+            "files": {
+                "0": "longDescription.txt",
+                "screenshots": [
+                    "1@2x.jpg",
+                    "2@2x.jpg",
+                    "3@2x.jpg"
+                ]
+            }
         },
         {
             "directory": {
@@ -5458,7 +5463,9 @@
                     "0@2x.jpeg",
                     "1-video.mp4",
                     "2@2x.jpeg",
-                    "3@2x.jpeg"
+                    "3@2x.jpeg",
+                    "4@2x.jpeg",
+                    "5-video.mp4"
                 ]
             }
         },
@@ -9159,7 +9166,8 @@
                     "02-sketch-001@2x.png",
                     "02-sketch-002@2x.png",
                     "02-sketch-003@2x.png",
-                    "02-sketch-004@2x.png"
+                    "02-sketch-004@2x.png",
+                    "03-photo-001@2x.jpeg"
                 ]
             }
         },
@@ -10240,10 +10248,12 @@
                 "tags": [
                     "ai",
                     "github",
-                    "3D"
+                    "3D",
+                    "video"
                 ]
             },
             "files": {
+                "0": "longDescription.txt",
                 "downloads": [
                     "Camera_Outer_Mount.stl",
                     "Display_Inner_Mount.stl",
@@ -10251,8 +10261,12 @@
                     "iBackpack_Parts.zip"
                 ],
                 "screenshots": [
+                    "0-photo-1@2x.jpg",
+                    "0-photo-2@2x.jpg",
+                    "0-photo-3@2x.jpg",
+                    "0-video.mp4",
                     "admin-1@2x.jpg",
-                    "admin-2@2x.jpg"
+                    "app@2x.png"
                 ]
             }
         },
@@ -10605,6 +10619,47 @@
         },
         {
             "directory": {
+                "id": "infinite-pixel-machine"
+            },
+            "manifest": {
+                "name": "Infinite Pixel Machine",
+                "shortDescription": "Device that generates an infinite loop of pixel art",
+                "startDate": {
+                    "string": "November 9, 2026",
+                    "timestamp": {
+                        "raw": 1794182400,
+                        "formatted": "November 2026",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/infinite-pixel-machine"
+                    }
+                ],
+                "tags": [
+                    "github",
+                    "video"
+                ]
+            },
+            "files": {
+                "0": "longDescription.txt",
+                "screenshots": [
+                    "0-video.mp4",
+                    "1@2x.jpg"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "infrared-controller"
             },
             "manifest": {
@@ -10692,7 +10747,8 @@
                 ],
                 "tags": [
                     "github",
-                    "3D"
+                    "3D",
+                    "video"
                 ]
             },
             "files": {
@@ -10704,7 +10760,11 @@
                     "Inner_Sphere.stl",
                     "Wall_Plate.stl"
                 ],
-                "screenshots": []
+                "screenshots": [
+                    "0-video.mp4",
+                    "1@2x.jpg",
+                    "2@2x.jpg"
+                ]
             }
         },
         {
@@ -10939,7 +10999,8 @@
                     }
                 ],
                 "tags": [
-                    "3D"
+                    "3D",
+                    "video"
                 ]
             },
             "files": {
@@ -10953,6 +11014,8 @@
                     "Top_Mount.stl"
                 ],
                 "screenshots": [
+                    "0-1@2x.jpeg",
+                    "0-2-video.mp4",
                     "1@2x.jpeg",
                     "2@2x.jpeg",
                     "3@2x.jpeg"
@@ -21409,7 +21472,12 @@
                     "5@2x.jpg",
                     "6@2x.jpg",
                     "7@2x.jpg",
-                    "8@2x.jpg"
+                    "8@2x.jpg",
+                    "9-1@2x.jpg",
+                    "9-2@2x.jpg",
+                    "9-3@2x.jpg",
+                    "9-4@2x.jpg",
+                    "9-5@2x.jpg"
                 ]
             }
         },
@@ -22895,6 +22963,35 @@
         },
         {
             "directory": {
+                "id": "visual-journal-2026"
+            },
+            "manifest": {
+                "name": "Visual Journal 2026",
+                "shortDescription": "Notebook of collected ephemera from throughout the year",
+                "startDate": {
+                    "string": "December 2026",
+                    "timestamp": {
+                        "raw": 1796083200,
+                        "formatted": "December 2026",
+                        "components": {
+                            "monthFormatted": "December",
+                            "monthNumber": 12,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "tags": []
+            },
+            "files": {
+                "screenshots": [
+                    "1@2x.jpg",
+                    "2@2x.jpg"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "visualizations-of-sound-effects"
             },
             "manifest": {
@@ -23726,7 +23823,12 @@
                     "21@2x.jpg",
                     "22@2x.jpg",
                     "23@2x.jpg",
-                    "24@2x.jpg"
+                    "24@2x.jpg",
+                    "25@2x.jpg",
+                    "26@2x.jpg",
+                    "27@2x.jpg",
+                    "28@2x.jpg",
+                    "29@2x.jpg"
                 ]
             }
         },

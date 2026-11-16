@@ -1,2 +1,6 @@
 .DS_Store
 projects/
+
+projects-commit-log.txt
+tools/.compress-stamp
+tools/.compress-stamp.next

@@ -1,27 +1,39 @@
 #!/bin/sh
-# Losslessly compresses PNG screenshots that are new or changed in the projects repo.
-# Runs oxipng on staged, unstaged, and untracked *.png files under */screenshots/,
-# so already-committed images are never re-processed. Pixels are never altered.
+# Losslessly compresses PNG screenshots that are new or changed since the last run.
+# Runs oxipng on */screenshots/*.png files modified after tools/.compress-stamp,
+# so already-compressed images are never re-processed. Pixels are never altered.
 set -e
 
-cd "$(dirname "$0")/../projects"
+cd "$(dirname "$0")/.."
+
+STAMP="tools/.compress-stamp"
+NEXT_STAMP="tools/.compress-stamp.next"
 
 if ! command -v oxipng >/dev/null 2>&1; then
     echo "oxipng is not installed or not on PATH (try: brew install oxipng); skipping PNG compression" >&2
     exit 0
 fi
 
-FILES=$( {
-    git diff --cached --name-only --diff-filter=AM -- '*/screenshots/*.png'
-    git ls-files -m -o --exclude-standard -- '*/screenshots/*.png'
-} | sort -u )
-
-if [ -z "$FILES" ]; then
-    echo "No new or changed PNG screenshots to compress."
+# Without a stamp there is no way to tell what is new, so start tracking from now.
+if [ ! -f "$STAMP" ]; then
+    touch "$STAMP"
+    echo "No compression stamp found; created one. PNGs added from now on will be compressed."
     exit 0
 fi
 
-echo "$FILES" | while IFS= read -r f; do
-    [ -f "$f" ] || continue # skip files deleted from the working tree
-    oxipng -o max --strip safe "$f"
-done
+touch "$NEXT_STAMP"
+
+FILES=$(find projects -path '*/screenshots/*.png' -newer "$STAMP" | sort)
+
+if [ -z "$FILES" ]; then
+    echo "No new or changed PNG screenshots to compress."
+else
+    echo "$FILES" | while IFS= read -r f; do
+        [ -f "$f" ] || continue
+        oxipng -o max --strip safe "$f"
+        # oxipng rewrites the file; keep it older than the next stamp
+        touch -r "$NEXT_STAMP" "$f"
+    done
+fi
+
+mv "$NEXT_STAMP" "$STAMP"

@@ -4,7 +4,6 @@ git pull leo@root.noshado.ws:/home/leo/domains/leomancini.net/site.git
 
 echo '\n# Updating projects...'
 
-cd projects
-git pull leo@root.noshado.ws:/home/leo/domains/leomancini.net/projects.git
+./tools/sync-projects pull # Fetch projects/ content from leomancini.net (rsync, no git)
 
 echo '\n### Done! ###'

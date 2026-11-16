@@ -29,19 +29,10 @@ git push origin # Push site/ viewer code to GitHub
 echo '\n# Pushing site code to leomancini.net...'
 git push leo@root.noshado.ws:/home/leo/domains/leomancini.net/site.git # Push site/ viewer code to leomancini.net
 
-cd projects
-
 echo '\n# Auto-tagging projects...'
-node ../tools/auto-tag.js
+node tools/auto-tag.js
 
-git add .
-
-echo '\n# Committing project list changes...'
-git commit -m "$COMMIT_MESSAGE"
-
-echo '\n# Pushing project list changes to leomancini.net...'
-git remote set-url origin leo@root.noshado.ws:/home/leo/domains/leomancini.net/projects.git # Ensure origin always points to leomancini.net
-git push origin # Push projects/ content to leomancini.net
-cd ../
+echo '\n# Syncing projects to leomancini.net...'
+./tools/sync-projects push # Mirror projects/ content to leomancini.net (rsync, no git)
 
 echo '\n### Done! ###'
