@@ -514,6 +514,12 @@
                         "url": "https:\/\/github.com\/leomancini\/ai-photo-booth-firmware"
                     }
                 ],
+                "credits": [
+                    {
+                        "name": "Alicia Zhang",
+                        "type": "idea"
+                    }
+                ],
                 "tags": [
                     "ai",
                     "github"
@@ -11088,6 +11094,12 @@
                         "label": "Download Parts as STL Files",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "\/projects\/ipod-tribute-machine\/downloads\/iPod_Tribute_Machine_Parts.zip"
+                    }
+                ],
+                "credits": [
+                    {
+                        "name": "Alicia Zhang",
+                        "type": "headphones"
                     }
                 ],
                 "tags": [
