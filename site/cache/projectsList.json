@@ -7625,16 +7625,16 @@
                 },
                 "links": [
                     {
-                        "type": "video",
-                        "label": "Watch Timelapse",
-                        "icon": "DEFAULT_FOR_TYPE",
-                        "url": "https:\/\/www.youtube.com\/watch?v=GYAsovrxh4Q"
-                    },
-                    {
                         "type": "other",
                         "label": "View PDF",
                         "icon": "description",
                         "url": "\/projects\/fcc-friends-and-family-show-analysis\/downloads\/FCC_Friends_and_Family_Show_Analysis.pdf"
+                    },
+                    {
+                        "type": "video",
+                        "label": "Watch Timelapse",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/www.youtube.com\/watch?v=GYAsovrxh4Q"
                     }
                 ],
                 "tags": [
