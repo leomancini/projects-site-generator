@@ -10744,6 +10744,12 @@
                 },
                 "links": [
                     {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/infinite-pixel-machine.leo.gd\/?key=DEMO"
+                    },
+                    {
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
@@ -10751,6 +10757,7 @@
                     }
                 ],
                 "tags": [
+                    "live-site",
                     "github",
                     "video"
                 ]
