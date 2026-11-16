@@ -7631,10 +7631,22 @@
                 },
                 "links": [
                     {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/static.fcc.lol\/nov-2026-gallery-show\/analysis\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/fcc-friends-and-family-show-analysis"
+                    },
+                    {
                         "type": "other",
                         "label": "View PDF",
                         "icon": "description",
-                        "url": "\/projects\/fcc-friends-and-family-show-analysis\/downloads\/FCC_Friends_and_Family_Show_Analysis.pdf"
+                        "url": "https:\/\/static.fcc.lol\/nov-2026-gallery-show\/analysis\/report.pdf"
                     },
                     {
                         "type": "video",
@@ -7644,13 +7656,12 @@
                     }
                 ],
                 "tags": [
-                    "fcc"
+                    "fcc",
+                    "live-site",
+                    "github"
                 ]
             },
             "files": {
-                "downloads": [
-                    "FCC_Friends_and_Family_Show_Analysis.pdf"
-                ],
                 "screenshots": [
                     "1@2x.png",
                     "2@2x.png",
