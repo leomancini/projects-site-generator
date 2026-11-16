@@ -10654,7 +10654,11 @@
                 "0": "longDescription.txt",
                 "screenshots": [
                     "0-video.mp4",
-                    "1@2x.jpg"
+                    "1@2x.jpg",
+                    "2@2x.png",
+                    "3@2x.png",
+                    "4@2x.png",
+                    "5@2x.png"
                 ]
             }
         },
@@ -18236,10 +18240,7 @@
                 ]
             },
             "files": {
-                "0": "IMG_9197.mov",
-                "1": "IMG_9198.mov",
-                "2": "IMG_9199.mov",
-                "3": "longDescription.txt",
+                "0": "longDescription.txt",
                 "screenshots": [
                     "001@2x.jpeg",
                     "002@2x.jpeg",
