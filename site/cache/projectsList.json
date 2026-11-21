@@ -22746,6 +22746,48 @@
         },
         {
             "directory": {
+                "id": "travel-report-builder"
+            },
+            "manifest": {
+                "name": "Travel Report Builder",
+                "shortDescription": "Mac app that curates the best photos from a trip into a guide using a local vision model",
+                "startDate": {
+                    "string": "November 20, 2026",
+                    "timestamp": {
+                        "raw": 1795132800,
+                        "formatted": "November 2026",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/auto-trip-report"
+                    }
+                ],
+                "tags": [
+                    "ai",
+                    "github"
+                ]
+            },
+            "files": {
+                "0": "longDescription.txt",
+                "screenshots": [
+                    "1@2x.png",
+                    "2@2x.png",
+                    "3@2x.png"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "treasure-map"
             },
             "manifest": {
