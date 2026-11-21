@@ -22749,7 +22749,7 @@
                 "id": "travel-report-builder"
             },
             "manifest": {
-                "name": "Travel Report Builder",
+                "name": "Travel Report App",
                 "shortDescription": "Mac app that curates trip photos using local vision model",
                 "startDate": {
                     "string": "November 21, 2026",
