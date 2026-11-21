@@ -17533,6 +17533,12 @@
                 },
                 "links": [
                     {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/prompt-party.fcc.lol"
+                    },
+                    {
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
@@ -17541,6 +17547,7 @@
                 ],
                 "tags": [
                     "ai",
+                    "live-site",
                     "github"
                 ]
             },
