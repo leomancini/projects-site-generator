@@ -22752,9 +22752,9 @@
                 "name": "Travel Report Builder",
                 "shortDescription": "Mac app that curates the best photos from a trip into a guide using a local vision model",
                 "startDate": {
-                    "string": "November 20, 2026",
+                    "string": "November 21, 2026",
                     "timestamp": {
-                        "raw": 1795132800,
+                        "raw": 1795219200,
                         "formatted": "November 2026",
                         "components": {
                             "monthFormatted": "November",
