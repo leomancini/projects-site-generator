@@ -17513,6 +17513,52 @@
         },
         {
             "directory": {
+                "id": "prompt-party"
+            },
+            "manifest": {
+                "name": "Prompt Party",
+                "shortDescription": "Party games prompted into existence on a shared TV and phones",
+                "startDate": {
+                    "string": "November 19, 2026",
+                    "timestamp": {
+                        "raw": 1795046400,
+                        "formatted": "November 2026",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/prompt-party"
+                    }
+                ],
+                "tags": [
+                    "ai",
+                    "github"
+                ]
+            },
+            "files": {
+                "0": "longDescription.txt",
+                "screenshots": [
+                    "1@2x.png",
+                    "2@2x.png",
+                    "3@2x.png",
+                    "4@2x.png",
+                    "5@2x.png",
+                    "6@2x.png",
+                    "7@2x.png"
+                ]
+            }
+        },
+        {
+            "directory": {
                 "id": "prop-65-detector"
             },
             "manifest": {
