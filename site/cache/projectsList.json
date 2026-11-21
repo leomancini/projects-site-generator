@@ -22750,7 +22750,7 @@
             },
             "manifest": {
                 "name": "Travel Report Builder",
-                "shortDescription": "Mac app that curates trip photos into a guide using local AI",
+                "shortDescription": "Mac app that curates trip photos using a local vision model",
                 "startDate": {
                     "string": "November 21, 2026",
                     "timestamp": {
