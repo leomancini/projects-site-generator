@@ -342,7 +342,7 @@
     function getYouTubePlaylistVideoIds($playlistId) {
         $safeId = preg_replace('/[^a-zA-Z0-9_-]/', '', $playlistId);
         $cacheFile = sys_get_temp_dir() . '/yt-playlist-' . $safeId . '.json';
-        $cacheTtl = 6 * 60 * 60; // 6 hours
+        $cacheTtl = 15 * 60; // 15 minutes
 
         // Read whatever is cached, regardless of age
         $cached = null;
