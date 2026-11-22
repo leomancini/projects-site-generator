@@ -310,38 +310,81 @@
         return false;
     }
 
-    function fetchYouTubePlaylistVideoIds($safeId, $cacheFile) {
+    // Pulls the videos (ID and title, in playlist order) out of a playlist
+    // page's HTML. Titles come from the page's embedded JSON; if that can't be
+    // read, falls back to bare IDs with no titles.
+    function parseYouTubePlaylistHtml($html) {
+        $videos = [];
+        $seen = [];
+
+        if (preg_match('/var ytInitialData = (\{.*?\});<\/script>/s', $html, $matches)) {
+            $data = json_decode($matches[1], true);
+
+            if (is_array($data)) {
+                $walk = function ($node) use (&$walk, &$videos, &$seen) {
+                    if (!is_array($node)) {
+                        return;
+                    }
+
+                    if (isset($node['lockupViewModel']['contentId'])) {
+                        $lockup = $node['lockupViewModel'];
+                        $id = $lockup['contentId'];
+                        $title = $lockup['metadata']['lockupMetadataViewModel']['title']['content'] ?? null;
+
+                        if (preg_match('/^[a-zA-Z0-9_-]{11}$/', $id) && !isset($seen[$id])) {
+                            $seen[$id] = true;
+                            $videos[] = ['id' => $id, 'title' => is_string($title) ? $title : null];
+                        }
+
+                        return;
+                    }
+
+                    foreach ($node as $child) {
+                        $walk($child);
+                    }
+                };
+
+                $walk($data);
+            }
+        }
+
+        if (count($videos) === 0 && preg_match_all('/"videoId":"([a-zA-Z0-9_-]{11})"/', $html, $matches)) {
+            // Preserve playlist order, drop duplicates
+            foreach ($matches[1] as $id) {
+                if (!isset($seen[$id])) {
+                    $seen[$id] = true;
+                    $videos[] = ['id' => $id, 'title' => null];
+                }
+            }
+        }
+
+        return $videos;
+    }
+
+    function fetchYouTubePlaylistVideos($safeId, $cacheFile) {
         $context = stream_context_create([
             'http' => [
-                'header' => "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36\r\n",
+                'header' => "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36\r\nAccept-Language: en-US\r\n",
                 'timeout' => 10
             ]
         ]);
 
         $html = @file_get_contents('https://www.youtube.com/playlist?list=' . $safeId, false, $context);
 
-        $videoIds = [];
-        if ($html !== false && preg_match_all('/"videoId":"([a-zA-Z0-9_-]{11})"/', $html, $matches)) {
-            // Preserve playlist order, drop duplicates
-            foreach ($matches[1] as $id) {
-                if (!in_array($id, $videoIds)) {
-                    $videoIds[] = $id;
-                }
-            }
-        }
+        $videos = $html !== false ? parseYouTubePlaylistHtml($html) : [];
 
         // Only overwrite the cache on a successful fetch, so a transient
         // failure never wipes a good cached list.
-        if (count($videoIds) > 0) {
-            @file_put_contents($cacheFile, json_encode($videoIds));
+        if (count($videos) > 0) {
+            @file_put_contents($cacheFile, json_encode($videos));
         }
 
-        return $videoIds;
+        return $videos;
     }
 
-    function getYouTubePlaylistVideoIds($playlistId) {
+    function getYouTubePlaylistVideos($playlistId) {
         $safeId = preg_replace('/[^a-zA-Z0-9_-]/', '', $playlistId);
-        $cacheFile = sys_get_temp_dir() . '/yt-playlist-' . $safeId . '.json';
+        $cacheFile = sys_get_temp_dir() . '/yt-playlist-v2-' . $safeId . '.json';
         $cacheTtl = 15 * 60; // 15 minutes
 
         // Read whatever is cached, regardless of age
@@ -371,13 +414,47 @@
                 if (function_exists('fastcgi_finish_request')) {
                     fastcgi_finish_request();
                 }
-                fetchYouTubePlaylistVideoIds($safeId, $cacheFile);
+                fetchYouTubePlaylistVideos($safeId, $cacheFile);
             });
 
             return $cached;
         }
 
         // Cold cache: nothing to serve, so fetch synchronously this once.
-        return fetchYouTubePlaylistVideoIds($safeId, $cacheFile);
+        return fetchYouTubePlaylistVideos($safeId, $cacheFile);
+    }
+
+    // Sorts playlist videos by the date in their titles (e.g. "June 22, 2026"),
+    // latest first. If any title isn't a readable date, the playlist's own
+    // order is kept untouched rather than guessing.
+    function sortYouTubePlaylistVideosNewestFirst($videos) {
+        $dated = [];
+
+        foreach ($videos as $index => $video) {
+            $timestamp = !empty($video['title']) ? strtotime($video['title']) : false;
+
+            if ($timestamp === false) {
+                return $videos;
+            }
+
+            $dated[] = ['timestamp' => $timestamp, 'index' => $index, 'video' => $video];
+        }
+
+        usort($dated, function ($a, $b) {
+            // Same date: keep playlist order
+            return ($b['timestamp'] <=> $a['timestamp']) ?: ($a['index'] <=> $b['index']);
+        });
+
+        return array_column($dated, 'video');
+    }
+
+    function getYouTubePlaylistVideoIds($playlistId, $newestFirst = false) {
+        $videos = getYouTubePlaylistVideos($playlistId);
+
+        if ($newestFirst) {
+            $videos = sortYouTubePlaylistVideosNewestFirst($videos);
+        }
+
+        return array_column($videos, 'id');
     }
 ?>

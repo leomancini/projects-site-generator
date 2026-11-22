@@ -196,8 +196,10 @@
                                                 }
                                             }
 
-                                            // Videos render in the playlist's own order
-                                            $videoIds = getYouTubePlaylistVideoIds($playlistId);
+                                            // Videos render in the playlist's own order, unless
+                                            // --newest-first sorts them by the date in their titles
+                                            $newestFirst = stringContains($screenshotFileName, '--newest-first');
+                                            $videoIds = getYouTubePlaylistVideoIds($playlistId, $newestFirst);
 
                                             foreach ($videoIds as $videoId) {
                                                 $embedUrl = convertYouTubeUrlToEmbed('https://www.youtube.com/watch?v=' . $videoId, $autoplay);
