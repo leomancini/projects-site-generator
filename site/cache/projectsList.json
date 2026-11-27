@@ -4452,6 +4452,12 @@
                         "url": "https:\/\/clock-tower.fcc.lol\/"
                     },
                     {
+                        "type": "link",
+                        "label": "View Gallery",
+                        "icon": "photo_library",
+                        "url": "https:\/\/clock-tower.fcc.lol\/gallery"
+                    },
+                    {
                         "type": "github",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
