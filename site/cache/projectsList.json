@@ -2488,6 +2488,49 @@
         },
         {
             "directory": {
+                "id": "building-simulator"
+            },
+            "manifest": {
+                "name": "Building Simulator",
+                "shortDescription": "Pixel art building where tenants go about their day",
+                "startDate": {
+                    "string": "November 26, 2026",
+                    "timestamp": {
+                        "raw": 1795651200,
+                        "formatted": "November 2026",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/building-simulator.leo.gd"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/building-simulator"
+                    }
+                ],
+                "tags": [
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": [
+                "longDescription.txt"
+            ]
+        },
+        {
+            "directory": {
                 "id": "bus-countdown-clock"
             },
             "manifest": {
@@ -4380,6 +4423,51 @@
                     "5@2x.jpg"
                 ]
             }
+        },
+        {
+            "directory": {
+                "id": "clock-tower-2"
+            },
+            "manifest": {
+                "name": "Clock Tower 2.0",
+                "shortDescription": "Vertical display of current time and weather over AI-generated backdrops",
+                "startDate": {
+                    "string": "November 25, 2026",
+                    "timestamp": {
+                        "raw": 1795564800,
+                        "formatted": "November 2026",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/clock-tower.fcc.lol\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/fcc-lol\/clock-tower"
+                    }
+                ],
+                "tags": [
+                    "ai",
+                    "fcc",
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": [
+                "longDescription.txt"
+            ]
         },
         {
             "directory": {
@@ -16017,6 +16105,51 @@
         },
         {
             "directory": {
+                "id": "pixel-city-3"
+            },
+            "manifest": {
+                "name": "Pixel City 3.0",
+                "shortDescription": "Choose-your-path game exploring a fictional city",
+                "startDate": {
+                    "string": "November 26, 2026",
+                    "timestamp": {
+                        "raw": 1795651200,
+                        "formatted": "November 2026",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/pixel-city-3.leo.gd\/"
+                    },
+                    {
+                        "type": "github",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/github.com\/leomancini\/pixel-city-3"
+                    }
+                ],
+                "tags": [
+                    "pixel-city",
+                    "ai",
+                    "live-site",
+                    "github"
+                ]
+            },
+            "files": [
+                "longDescription.txt"
+            ]
+        },
+        {
+            "directory": {
                 "id": "pixel-map-generator"
             },
             "manifest": {
@@ -16199,6 +16332,42 @@
                     "Plastic Wave 20.jpg"
                 ]
             }
+        },
+        {
+            "directory": {
+                "id": "plate-builder"
+            },
+            "manifest": {
+                "name": "Plate Builder",
+                "shortDescription": "Arrange a pixel art meal on a plate",
+                "startDate": {
+                    "string": "November 26, 2026",
+                    "timestamp": {
+                        "raw": 1795651200,
+                        "formatted": "November 2026",
+                        "components": {
+                            "monthFormatted": "November",
+                            "monthNumber": 11,
+                            "yearFormatted": "2026",
+                            "yearNumber": 2026
+                        }
+                    }
+                },
+                "links": [
+                    {
+                        "type": "live_site",
+                        "label": "DEFAULT_FOR_TYPE",
+                        "icon": "DEFAULT_FOR_TYPE",
+                        "url": "https:\/\/claude.ai\/artifact\/Vwkq8W4r697SoxUwWD4GKY"
+                    }
+                ],
+                "tags": [
+                    "live-site"
+                ]
+            },
+            "files": [
+                "longDescription.txt"
+            ]
         },
         {
             "directory": {
