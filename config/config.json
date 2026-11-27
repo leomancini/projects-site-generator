@@ -20,7 +20,8 @@
             "3d_model": "view_in_ar",
             "storage": "folder_open",
             "document": "description",
-            "gallery-sign": "article"
+            "gallery-sign": "article",
+            "artifact": "auto_awesome"
         },
         "defaultLabelsForType": {
             "github": "View Source",
@@ -40,7 +41,8 @@
             "3d_model": "View 3D Model",
             "storage": "View Storage",
             "document": "View Document",
-            "gallery-sign": "View Gallery Sign"
+            "gallery-sign": "View Gallery Sign",
+            "artifact": "View Artifact"
         },
         "urlTemplatesForType": {
             "mcp_server": "https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName={name}&connectorUrl={url}"

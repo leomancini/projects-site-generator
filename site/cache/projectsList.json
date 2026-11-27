@@ -16355,15 +16355,13 @@
                 },
                 "links": [
                     {
-                        "type": "live_site",
+                        "type": "artifact",
                         "label": "DEFAULT_FOR_TYPE",
                         "icon": "DEFAULT_FOR_TYPE",
                         "url": "https:\/\/claude.ai\/artifact\/Vwkq8W4r697SoxUwWD4GKY"
                     }
                 ],
-                "tags": [
-                    "live-site"
-                ]
+                "tags": []
             },
             "files": [
                 "longDescription.txt"
